@@ -1,10 +1,10 @@
 {
-  "version": "1.0.1",
-  "timestamp": "2025-04-02T13:31:40.584Z",
+  "version": "1.0.2",
+  "timestamp": "2025-04-02T13:32:40.584Z",
   "quests": [
     {
       "id": 1,
-      "questName": "Kitchen Safety & Testing",
+      "questName": "Kitchen Safety & Cleaning",
       "rank": "Home Cook",
       "type": "Training",
       "primaryFocus": "Management",
