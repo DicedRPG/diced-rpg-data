@@ -1,4 +1,4 @@
-// Generated on 2025-04-02T10:59:12.044Z
+// Generated on 2025-04-02T11:00:12.044Z
 // Total quests: 29
 const QUEST_TYPE_COLORS = {
     "Training": "#64D949",
@@ -92,7 +92,7 @@ const QUEST_TYPE_COLORS = {
     {
       "level": 9,
       "hours": 9,
-      "startAt": 46
+      "startAt": 
     }
   ];
   
@@ -100,7 +100,7 @@ const QUEST_TYPE_COLORS = {
   const QUEST_DATA = [
     {
       "id": 1,
-      "questName": "Kitchen Safety & Cleaning",
+      "questName": "Kitchen Safety & Testing",
       "rank": "Home Cook",
       "type": "Training",
       "primaryFocus": "Management",
@@ -1652,8 +1652,8 @@ const QUEST_TYPE_COLORS = {
       "secondaryHours": 1,
       "diceRequired": true,
       "description": "Build flavor profiles and textures while learning proper sandwich construction techniques.",
-      "stageId": 2,
-      "stageName": "Full Meal Preparation",
+      "stageId": 1,
+      "stageName": "Kitchen Fundamentals",
       "learningObjectives": [
         "Learn optimal ingredient layering and sandwich construction",
         "Develop knife skills for consistent cutting and preparation",
