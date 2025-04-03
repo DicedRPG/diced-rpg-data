@@ -1,6 +1,6 @@
 {
-  "version": "1.0.2",
-  "timestamp": "2025-04-02T13:32:40.584Z",
+  "version": "1.0.3",
+  "timestamp": "2025-04-03T10:32:40.584Z",
   "quests": [
     {
       "id": 1,
@@ -1495,11 +1495,6 @@
         {
           "title": "Dice Roll Mechanics",
           "steps": [
-            "Roll for Soup Base Style (d6): 1-Clear broth-based, 2-Creamy (dairy or non-dairy), 3-Tomato-based, 4-Bean or lentil foundation, 5-Pureed vegetable, 6-Stew-like (thick with chunky components)",
-            "Roll for Primary Protein (d6): 1-Chicken, 2-Beef or pork, 3-Seafood (fish, shrimp), 4-Beans or legumes, 5-Tofu or plant-based protein, 6-Multiple protein combination",
-            "Roll for Flavor Direction (d6): 1-Classic European (French, Italian), 2-Asian (choose specific cuisine), 3-Latin American, 4-Mediterranean, 5-American regional (New England, Southern, etc.), 6-Seasonal harvest focus",
-            "Roll for Special Addition (d6): 1-Grain or pasta component, 2-Herb or spice accent (unique flavor boost), 3-Creamy finish (yogurt, coconut milk, cream), 4-Crunchy topping (croutons, seeds, nuts), 5-Fresh herb or microgreen garnish, 6-Acidic finish (citrus, vinegar, pickled element)",
-            "Prepare your hearty soup based on your rolls, following the techniques described in the content sections",
             "Roll for Egg Preparation Technique (d6): 1-Sunny-side up, 2-Over easy, 3-Scrambled, 4-Poached, 5-Omelette, 6-Eggs Benedict",
             "Roll for Toast Preparation (d6): 1-Regular toast with butter, 2-Avocado toast, 3-Cheese toast, 4-Cinnamon sugar toast, 5-Garlic herb toast, 6-French toast",
             "Roll for Side Dish (d6): 1-Fresh fruit, 2-Yogurt with honey, 3-Roasted potatoes, 4-Bacon or breakfast meat, 5-Sautéed vegetables, 6-Overnight oats",
