@@ -3,6 +3,2320 @@
   "timestamp": "2025-04-06T10:34:40.584Z",
   "quests": [
     {
+        "id": 200,
+        "questName": "Refrigerator Organization",
+        "rank": "Home Cook",
+        "type": "Training",
+        "primaryFocus": "Management",
+        "secondaryFocus": "Ingredients",
+        "primaryHours": 1,
+        "secondaryHours": 0.5,
+        "diceRequired": false,
+        "description": "Create a strategic organization system for your refrigerator to maximize food freshness and minimize waste",
+        "stageId": 1,
+        "stageName": "Kitchen Fundamentals",
+        "learningObjectives": [
+            "Understand optimal refrigerator temperature zones",
+            "Learn proper food storage to maximize freshness",
+            "Develop a strategic organization system",
+            "Practice proper food labeling techniques",
+            "Create a routine for monitoring expiration dates"
+        ],
+        "equipmentNeeded": [
+            "Cleaning supplies",
+            "Food storage containers (clear preferred)",
+            "Masking tape or labels",
+            "Marker",
+            "Refrigerator thermometer (optional)",
+            "Shelf liners (optional)"
+        ],
+        "contentSections": [
+            {
+                "title": "Refrigerator Temperature Zones",
+                "subsections": [
+                    {
+                        "subtitle": "Understanding Your Refrigerator",
+                        "content": "Learn the temperature variation within your refrigerator: upper shelves (35-38°F), middle shelves (38-40°F), lower shelves (40-42°F), door (warmest area). Identify the coldest and warmest areas of your specific refrigerator model."
+                    },
+                    {
+                        "subtitle": "Strategic Food Placement",
+                        "content": "Place items according to ideal storage temperature: Upper shelves: leftovers, drinks, ready-to-eat foods. Middle shelves: dairy, eggs, cooked meats. Lower shelves/drawers: raw meat, poultry, fish (in containers to prevent dripping). Crisper drawers: fruits and vegetables (potentially separated). Door: condiments, juice, butter."
+                    }
+                ]
+            },
+            {
+                "title": "Food Storage Best Practices",
+                "subsections": [
+                    {
+                        "subtitle": "Container Strategies",
+                        "content": "Use clear containers to easily see contents. Store leftovers in right-sized containers to minimize air exposure. Consider specialized produce storage containers for extending vegetable life. Label all containers with contents and date."
+                    },
+                    {
+                        "subtitle": "Maintenance System",
+                        "content": "Implement a 'first in, first out' (FIFO) system. Establish a weekly quick-check routine for approaching expiration dates. Create a designated 'eat soon' area for items nearing expiration."
+                    }
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Refrigerator Reset",
+                "steps": [
+                    "Empty your entire refrigerator",
+                    "Clean all surfaces thoroughly",
+                    "Check expiration dates and discard expired items",
+                    "Group similar items together",
+                    "Return items to appropriate temperature zones",
+                    "Label containers with contents and dates",
+                    "Create a log of items that need to be used soon"
+                ]
+            }
+        ],
+        "completionChecklist": [
+            "Emptied and cleaned refrigerator thoroughly",
+            "Discarded expired or questionable items",
+            "Implemented zone-based organization system",
+            "Properly labeled containers and leftovers",
+            "Created 'use soon' designation for approaching-expiration items",
+            "Documented refrigerator organization system for maintenance"
+        ],
+        "tipsForSuccess": [
+            "Designate specific areas for specific types of food",
+            "Use clear containers whenever possible",
+            "Label everything with both contents and date",
+            "Perform quick maintenance checks before grocery shopping",
+            "Adjust your system based on your specific eating habits",
+            "Don't overfill - air circulation is important for proper cooling"
+        ]
+    },
+    {
+        "id": 201,
+        "questName": "Pantry Staples Inventory",
+        "rank": "Home Cook",
+        "type": "Training",
+        "primaryFocus": "Management",
+        "secondaryFocus": "Ingredients",
+        "primaryHours": 1,
+        "secondaryHours": 0.5,
+        "diceRequired": false,
+        "description": "Create a well-organized pantry inventory and learn which staple ingredients to keep stocked",
+        "stageId": 1,
+        "stageName": "Kitchen Fundamentals",
+        "learningObjectives": [
+            "Identify essential pantry staples for your cooking style",
+            "Learn proper storage methods for dry goods",
+            "Create an inventory tracking system",
+            "Understand shelf life of different pantry items",
+            "Develop a restock routine"
+        ],
+        "equipmentNeeded": [
+            "Storage containers (airtight preferred)",
+            "Labels and marker",
+            "Notebook or digital inventory system",
+            "Shelf liner (optional)",
+            "Step stool (if needed for high shelves)",
+            "Cleaning supplies"
+        ],
+        "contentSections": [
+            {
+                "title": "Pantry Essentials",
+                "subsections": [
+                    {
+                        "subtitle": "Cooking Basics",
+                        "content": "Identify core ingredients based on your cooking preferences: Grains (rice, pasta, oats, quinoa), Canned goods (beans, tomatoes, tuna, broth), Cooking oils (olive, vegetable), Vinegars (white, balsamic, rice), Dried herbs and spices, Baking essentials (flour, sugar, baking powder/soda), Nuts and seeds."
+                    },
+                    {
+                        "subtitle": "Custom Considerations",
+                        "content": "Adjust your staples based on: Cuisine preferences (Asian, Mediterranean, etc.), Dietary needs (gluten-free, vegan, etc.), Cooking frequency, Household size, Storage limitations."
+                    }
+                ]
+            },
+            {
+                "title": "Storage and Organization",
+                "subsections": [
+                    {
+                        "subtitle": "Optimal Storage Methods",
+                        "content": "Transfer dry goods to airtight containers. Store oils and vinegars away from heat and light. Keep spices in cool, dark places. Store onions, potatoes, and garlic in cool, dry, dark places (not refrigerated) but separate from each other."
+                    },
+                    {
+                        "subtitle": "Organization Systems",
+                        "content": "Arrange items by use frequency (frequent-use at eye level). Group similar items together (baking, breakfast, snacks, etc.). Consider zones based on meal types. Use risers or bins to maximize vertical space."
+                    }
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Pantry Inventory and Organization",
+                "steps": [
+                    "Empty each pantry shelf one at a time",
+                    "Check all expiration dates and discard expired items",
+                    "Clean shelves thoroughly",
+                    "Group similar items together",
+                    "Transfer appropriate items to storage containers",
+                    "Label all containers with contents and date",
+                    "Return items in organized groupings",
+                    "Create inventory list of essential items",
+                    "Note items that need replenishing"
+                ]
+            }
+        ],
+        "completionChecklist": [
+            "Cleaned and organized pantry space",
+            "Grouped similar items together",
+            "Transferred appropriate items to airtight containers",
+            "Properly labeled containers with contents and dates",
+            "Created inventory of current pantry staples",
+            "Identified items to restock",
+            "Established zones based on usage patterns"
+        ],
+        "tipsForSuccess": [
+            "Start with one shelf or section at a time",
+            "Prioritize staples that match your actual cooking habits",
+            "Keep a running shopping list near the pantry",
+            "Use transparent containers when possible",
+            "Store heavy items at lower levels",
+            "Rotate stock by placing newer items behind older ones",
+            "Check pantry inventory before meal planning"
+        ]
+    },
+    {
+        "id": 202,
+        "questName": "Cross-Contamination Prevention",
+        "rank": "Home Cook",
+        "type": "Training",
+        "primaryFocus": "Management",
+        "secondaryFocus": "Technique",
+        "primaryHours": 0.5,
+        "secondaryHours": 0.5,
+        "diceRequired": false,
+        "description": "Learn critical food safety techniques to prevent cross-contamination while preparing a simple mixed salad",
+        "stageId": 1,
+        "stageName": "Kitchen Fundamentals",
+        "learningObjectives": [
+            "Understand sources of cross-contamination",
+            "Master proper handwashing technique",
+            "Learn safe food handling procedures",
+            "Develop cutting board and knife management strategies",
+            "Practice safe food storage methods"
+        ],
+        "equipmentNeeded": [
+            "Multiple cutting boards (or one that's thoroughly cleaned between uses)",
+            "Knife",
+            "Hand soap",
+            "Paper towels or clean kitchen towels",
+            "Food storage containers",
+            "Ingredients for a mixed salad",
+            "Cleaning supplies (sanitizer, dish soap)"
+        ],
+        "contentSections": [
+            {
+                "title": "Cross-Contamination Fundamentals",
+                "subsections": [
+                    {
+                        "subtitle": "Contamination Sources",
+                        "content": "Identify common cross-contamination vectors: Raw meat, poultry, and seafood, Unwashed produce, Dirty hands and utensils, Countertops and cutting surfaces, Kitchen cloths and sponges. Learn the difference between cleaning (removing visible debris) and sanitizing (killing pathogens)."
+                    },
+                    {
+                        "subtitle": "Proper Handwashing",
+                        "content": "Master the 20-second handwashing technique: Wet hands with clean water, Apply soap, Lather all surfaces including between fingers and under nails, Scrub for 20 seconds, Rinse thoroughly, Dry with clean towel. Know critical handwashing moments: Before starting food prep, After handling raw meat, After touching face, hair, phone, etc., After handling waste, Between different food types."
+                    }
+                ]
+            },
+            {
+                "title": "Safe Food Handling",
+                "subsections": [
+                    {
+                        "subtitle": "Workspace Management",
+                        "content": "Designate specific areas for: Raw meat preparation, Produce washing and prep, Ready-to-eat food assembly. Clean and sanitize surfaces between different food types. Maintain separate cutting boards for raw meat and other foods."
+                    },
+                    {
+                        "subtitle": "Food Preparation Order",
+                        "content": "Prepare foods in this order to minimize contamination risk: Ready-to-eat foods first, Fruits and vegetables second, Raw meats last. Create a flow pattern in your workspace that moves from 'clean' to 'dirty' tasks without backtracking."
+                    }
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Safe Salad Assembly",
+                "steps": [
+                    "Sanitize all workspace surfaces",
+                    "Wash hands thoroughly using proper technique",
+                    "Properly wash and prepare vegetables for salad",
+                    "If adding protein (like grilled chicken), prepare it separately with designated utensils",
+                    "Clean knife and cutting board between different ingredients",
+                    "Properly store leftover ingredients",
+                    "Clean and sanitize all surfaces after completion"
+                ]
+            }
+        ],
+        "completionChecklist": [
+            "Demonstrated proper handwashing technique",
+            "Maintained separate tools for different food types",
+            "Cleaned and sanitized surfaces between tasks",
+            "Prepared ingredients in the proper order",
+            "Stored leftovers safely",
+            "Created a finished salad without cross-contamination"
+        ],
+        "tipsForSuccess": [
+            "Consider color-coded cutting boards for different food types",
+            "Clean as you go to prevent contamination spread",
+            "When in doubt, wash hands again",
+            "Be especially careful with raw meats and poultry",
+            "Pay attention to frequently touched items like refrigerator handles, spice containers, and faucets",
+            "Use tongs or utensils instead of hands when possible"
+        ]
+    },
+    {
+        "id": 203,
+        "questName": "Perfect Toast Preparation",
+        "rank": "Home Cook",
+        "type": "Training",
+        "primaryFocus": "Technique",
+        "secondaryFocus": "Management",
+        "primaryHours": 0.5,
+        "secondaryHours": 0.5,
+        "diceRequired": false,
+        "description": "Master the seemingly simple but truly foundational skill of making perfect toast with toppings",
+        "stageId": 1,
+        "stageName": "Kitchen Fundamentals",
+        "learningObjectives": [
+            "Understand different bread types and their toasting properties",
+            "Learn heat management for ideal toasting",
+            "Master timing for different toast preferences",
+            "Practice complementary flavor pairings for toppings",
+            "Develop efficient preparation sequence"
+        ],
+        "equipmentNeeded": [
+            "Toaster or toaster oven",
+            "Butter knife or spreader",
+            "Cutting board",
+            "Various bread types (if exploring differences)",
+            "Selection of toppings (butter, jam, nut butters, avocado, etc.)",
+            "Plate for serving"
+        ],
+        "contentSections": [
+            {
+                "title": "Toast Fundamentals",
+                "subsections": [
+                    {
+                        "subtitle": "Bread Selection",
+                        "content": "Understand how different breads respond to toasting: White bread (quick toasting, light result), Whole grain (requires longer toasting, nuttier flavor), Sourdough (develops complex flavors when toasted), Rye (can become dry if over-toasted), Gluten-free (often needs lower heat, longer time). Consider thickness and moisture content when setting toaster level."
+                    },
+                    {
+                        "subtitle": "Toasting Technique",
+                        "content": "Adjust toaster settings based on: Bread type and thickness, Desired doneness (light, medium, dark), Appliance quirks (some toasters run hot). Learn visual cues for perfect doneness: Light golden (softer texture), Medium golden brown (balanced crisp and chew), Dark brown (maximum crispness, slight bitterness)."
+                    }
+                ]
+            },
+            {
+                "title": "Topping Application",
+                "subsections": [
+                    {
+                        "subtitle": "Timing Considerations",
+                        "content": "Apply butter immediately after toasting for maximum melt. Allow slight cooling before applying delicate toppings. Consider temperature contrasts (warm toast with cool avocado). Understand how toppings affect toast texture over time."
+                    },
+                    {
+                        "subtitle": "Building Flavors",
+                        "content": "Master classic combinations: Butter and jam, Avocado with salt and red pepper flakes, Nut butter and honey, Cream cheese and cucumber, Olive oil, garlic, and tomato. Learn to balance flavor intensities (sweet, savory, acidic). Apply spread evenly to edges for consistent flavor."
+                    }
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Perfect Toast Creation",
+                "steps": [
+                    "Select appropriate bread for desired result",
+                    "Adjust toaster setting based on bread type",
+                    "Prepare toppings while bread is toasting",
+                    "Toast bread to desired doneness",
+                    "Apply toppings in proper sequence",
+                    "Cut if desired (diagonal for presentation, straight for practicality)",
+                    "Serve immediately for optimal texture and temperature"
+                ]
+            }
+        ],
+        "completionChecklist": [
+            "Selected appropriate bread for toasting",
+            "Achieved desired level of toastiness",
+            "Applied toppings with proper timing",
+            "Created balanced flavor profile",
+            "Maintained optimal temperature for serving",
+            "Executed efficient preparation sequence"
+        ],
+        "tipsForSuccess": [
+            "Set toaster one level lower than you think for first attempt",
+            "Different bread types need different toaster settings",
+            "Apply butter while toast is hot, other toppings after slight cooling",
+            "Consider texture contrasts in your toppings",
+            "Slice multi-grain breads slightly thicker for better structure",
+            "For avocado toast, toast the bread more firmly for structural support"
+        ]
+    },
+    {
+        "id": 204,
+        "questName": "Perfect Boiled Egg",
+        "rank": "Home Cook",
+        "type": "Training",
+        "primaryFocus": "Technique",
+        "secondaryFocus": "Management",
+        "primaryHours": 0.5,
+        "secondaryHours": 0.5,
+        "diceRequired": false,
+        "description": "Master precise timing and temperature control to achieve perfectly boiled eggs with ideal yolk consistency",
+        "stageId": 2,
+        "stageName": "Knife Skills & Heat Control",
+        "learningObjectives": [
+            "Understand egg cooking science",
+            "Master timing for different yolk consistencies",
+            "Learn proper temperature control",
+            "Develop a reliable egg preparation process",
+            "Practice efficient peeling techniques"
+        ],
+        "equipmentNeeded": [
+            "Saucepan with lid",
+            "Timer or stopwatch",
+            "Slotted spoon",
+            "Bowl for ice bath",
+            "Eggs (at room temperature is ideal)",
+            "Salt (optional for cooking water)"
+        ],
+        "contentSections": [
+            {
+                "title": "Egg Cooking Science",
+                "subsections": [
+                    {
+                        "subtitle": "Egg Structure and Behavior",
+                        "content": "Understand egg composition and cooking changes: Egg whites begin to set at 180°F, Egg yolks begin to set at 158°F, Starting temperature affects cooking time (cold vs. room temperature), Egg age affects ease of peeling (older eggs peel more easily). Learn how cooking time progressively changes yolk consistency from liquid to jammy to fully set."
+                    },
+                    {
+                        "subtitle": "Cooking Method Options",
+                        "content": "Master different approaches with their pros and cons: Cold start method (eggs in cold water, then heat), Hot start method (add eggs to already boiling water), Steaming method (steam above water), Baking method (oven-baked eggs). Understand how each method affects timing and results."
+                    }
+                ]
+            },
+            {
+                "title": "Perfect Timing",
+                "subsections": [
+                    {
+                        "subtitle": "Yolk Consistency Guide",
+                        "content": "For hot start method timing: Soft-boiled (runny yolk): 6 minutes, Medium-boiled (jammy yolk): 8 minutes, Hard-boiled (fully set yolk): 10-12 minutes. For cold start method: Begin timing when water reaches a boil, then reduce heat to simmer. Adjust times based on egg size (add 1 minute for extra large eggs)."
+                    },
+                    {
+                        "subtitle": "Temperature Control",
+                        "content": "Maintain gentle simmer rather than rolling boil. Adjust heat as needed to maintain consistent temperature. Use a lid to help maintain temperature. Immediate ice bath stops cooking process for precise doneness."
+                    }
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Controlled Egg Boiling Test",
+                "steps": [
+                    "Bring water to a gentle boil (add pinch of salt if desired)",
+                    "Carefully lower eggs into water using slotted spoon",
+                    "Start timer immediately",
+                    "Maintain gentle simmer by adjusting heat",
+                    "Prepare ice bath during cooking",
+                    "Remove eggs at precisely planned time",
+                    "Transfer immediately to ice bath for 1 minute",
+                    "Peel eggs while still warm for easiest results",
+                    "Cut eggs in half to assess results"
+                ]
+            }
+        ],
+        "completionChecklist": [
+            "Maintained proper water temperature",
+            "Timed cooking process precisely",
+            "Stopped cooking with ice bath at correct moment",
+            "Achieved desired yolk consistency",
+            "Successfully peeled eggs with minimal damage",
+            "Created eggs with appropriate doneness for intended use"
+        ],
+        "tipsForSuccess": [
+            "Room temperature eggs are less likely to crack",
+            "Add a splash of vinegar to help whites coagulate if eggs crack",
+            "Use a timer rather than guessing",
+            "Older eggs (7-10 days old) are easier to peel than very fresh eggs",
+            "Peel under running water for easier shell removal",
+            "Start peeling from the wider end where the air pocket is located"
+        ]
+    },
+    {
+        "id": 205,
+        "questName": "One-Ingredient Banana Ice Cream",
+        "rank": "Home Cook",
+        "type": "Training",
+        "primaryFocus": "Technique",
+        "secondaryFocus": "Ingredients",
+        "primaryHours": 0.5,
+        "secondaryHours": 0.5,
+        "diceRequired": false,
+        "description": "Create a simple frozen dessert using only bananas while learning food processor techniques",
+        "stageId": 2,
+        "stageName": "Knife Skills & Heat Control",
+        "learningObjectives": [
+            "Understand the science of frozen fruit textures",
+            "Learn proper food processor techniques",
+            "Practice optimal ingredient preparation",
+            "Develop timing skills for perfect consistency",
+            "Create variations with optional additional ingredients"
+        ],
+        "equipmentNeeded": [
+            "Food processor or powerful blender",
+            "Spatula",
+            "Knife and cutting board",
+            "Freezer-safe container",
+            "Freezer paper or plastic wrap",
+            "Ripe bananas (spotty skin for sweetness)"
+        ],
+        "contentSections": [
+            {
+                "title": "Frozen Dessert Science",
+                "subsections": [
+                    {
+                        "subtitle": "Banana Structure",
+                        "content": "Understand why bananas create creamy texture when processed: High pectin content provides structure, Natural sugars affect freezing point and sweetness, Starch content transforms when frozen and processed. Learn how ripeness affects flavor outcome (more ripe = sweeter result)."
+                    },
+                    {
+                        "subtitle": "Freezing Method",
+                        "content": "Master proper banana preparation for optimal results: Peel before freezing for convenience, Cut into 1/2-inch coins for even freezing and easier processing, Arrange in single layer initially to prevent clumping, Freeze minimum 4 hours until solid. Store properly to prevent freezer burn and odor absorption."
+                    }
+                ]
+            },
+            {
+                "title": "Processing Technique",
+                "subsections": [
+                    {
+                        "subtitle": "Equipment Management",
+                        "content": "Learn efficient food processor techniques: Pulse initially to break down frozen chunks, Scrape sides frequently for even processing, Process in short bursts to prevent overheating, Recognize visual cues for different stages (crumbly, clumpy, smooth). Understand the difference between under-processed (icy) and over-processed (melted)."
+                    },
+                    {
+                        "subtitle": "Consistency Management",
+                        "content": "Achieve desired texture through proper technique: Process until smooth but still frozen, Watch for creamy transformation point, Adjust processing time based on room temperature and quantity. Learn to judge when the mixture needs brief freezing before final serving."
+                    }
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Banana Ice Cream Creation",
+                "steps": [
+                    "Prepare and freeze banana pieces at least 4 hours ahead",
+                    "Add frozen banana pieces to food processor",
+                    "Pulse several times to initially break down chunks",
+                    "Process in 30-second intervals, scraping sides between each",
+                    "Continue until mixture transforms from crumbly to creamy",
+                    "Taste and adjust if adding optional ingredients (vanilla, cinnamon, cocoa)",
+                    "Serve immediately for soft-serve consistency",
+                    "Or freeze for 30 minutes for firmer texture"
+                ]
+            }
+        ],
+        "completionChecklist": [
+            "Properly prepared and frozen bananas",
+            "Effectively used food processor technique",
+            "Achieved smooth, creamy texture",
+            "Scraped sides as needed for even processing",
+            "Recognized optimal processing endpoint",
+            "Created dessert with appealing taste and texture"
+        ],
+        "tipsForSuccess": [
+            "Use very ripe bananas with brown spots for sweetest result",
+            "Don't over-process or you'll lose the frozen texture",
+            "Let frozen bananas sit at room temperature for 5 minutes if they're too hard to process",
+            "Add mix-ins (chocolate chips, nuts) at the very end, just until incorporated",
+            "For added richness, try adding 1-2 tablespoons nut butter",
+            "Clean food processor immediately to prevent sticky residue"
+        ]
+    },
+    {
+        "id": 206,
+        "questName": "Simple Vinaigrette",
+        "rank": "Home Cook",
+        "type": "Training",
+        "primaryFocus": "Flavor",
+        "secondaryFocus": "Technique",
+        "primaryHours": 0.5,
+        "secondaryHours": 0.5,
+        "diceRequired": false,
+        "description": "Master the foundation of salad preparation by creating a perfectly balanced vinaigrette",
+        "stageId": 3,
+        "stageName": "Flavor Development",
+        "learningObjectives": [
+            "Understand emulsion science",
+            "Learn classic vinaigrette ratios",
+            "Develop flavor balancing skills",
+            "Master vinaigrette mixing techniques",
+            "Create variations for different applications"
+        ],
+        "equipmentNeeded": [
+            "Small bowl or jar with lid",
+            "Whisk",
+            "Measuring spoons",
+            "Measuring cups",
+            "Fine grater or microplane (for garlic/shallot)",
+            "Tasting spoons",
+            "Quality oil and vinegar"
+        ],
+        "contentSections": [
+            {
+                "title": "Vinaigrette Science",
+                "subsections": [
+                    {
+                        "subtitle": "Emulsion Basics",
+                        "content": "Understand the science of vinaigrettes: Oil and vinegar naturally separate (immiscible liquids), Emulsifiers (mustard, egg yolk, honey) help bind ingredients, Temporary emulsions require agitation before serving, Stable emulsions incorporate stronger emulsifiers. Learn why vigorous whisking or shaking creates temporary suspension of oil droplets."
+                    },
+                    {
+                        "subtitle": "Classic Ratios",
+                        "content": "Learn foundational vinaigrette formulas: Traditional French: 3 parts oil to 1 part acid, Modern/lighter: 2 parts oil to 1 part acid, Stable/creamy: Add 1 teaspoon mustard or honey per cup of dressing. Understand how ratio affects body, coating ability, and flavor intensity."
+                    }
+                ]
+            },
+            {
+                "title": "Flavor Building",
+                "subsections": [
+                    {
+                        "subtitle": "Ingredient Selection",
+                        "content": "Choose quality components for best results: Oils: Extra virgin olive, avocado, walnut, sesame, Acids: Wine vinegars, citrus juices, sherry vinegar, Emulsifiers: Dijon mustard, honey, mayonnaise, Aromatics: Shallots, garlic, herbs, spices. Learn flavor profiles of different oils and vinegars."
+                    },
+                    {
+                        "subtitle": "Balancing Elements",
+                        "content": "Develop perfect balance through adjustments: Salt enhances all flavors and is essential, Sweeteners (honey, sugar) tame excessive acidity, Umami elements (mustard, miso) add depth, Herbs and spices customize the profile. Taste and adjust progressively for balanced result."
+                    }
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Basic Vinaigrette Creation",
+                "steps": [
+                    "Select oil and acid based on intended use",
+                    "Measure ingredients using 3:1 oil-to-acid ratio",
+                    "Add small amount of emulsifier (mustard or honey)",
+                    "Add minced shallot or garlic if desired",
+                    "Add salt and pepper",
+                    "Whisk vigorously until temporary emulsion forms",
+                    "Taste and adjust seasoning",
+                    "Try on salad greens to assess coating and flavor"
+                ]
+            }
+        ],
+        "completionChecklist": [
+            "Created properly emulsified vinaigrette",
+            "Achieved balanced flavor profile",
+            "Properly seasoned with salt and other elements",
+            "Successfully coated salad leaves when tested",
+            "Understood how to adjust to taste preferences",
+            "Created a visually appealing dressing"
+        ],
+        "tipsForSuccess": [
+            "Always add salt (preferably dissolve in vinegar first)",
+            "Let shallot or garlic sit in vinegar for 5-10 minutes to mellow",
+            "Room temperature ingredients emulsify better than cold",
+            "Store any leftover dressing in refrigerator, bring to room temperature and re-shake before using",
+            "For creamy vinaigrette, add more emulsifier",
+            "Try different vinegars to expand your flavor repertoire"
+        ]
+    },
+    {
+        "id": 207,
+        "questName": "Perfectly Fluffy Rice",
+        "rank": "Home Cook",
+        "type": "Training",
+        "primaryFocus": "Technique",
+        "secondaryFocus": "Management",
+        "primaryHours": 0.5,
+        "secondaryHours": 0.5,
+        "diceRequired": false,
+        "description": "Master the fundamental technique of cooking perfectly fluffy rice using the absorption method",
+        "stageId": 3,
+        "stageName": "Flavor Development",
+        "learningObjectives": [
+            "Understand different rice varieties and their characteristics",
+            "Learn proper rice-to-water ratios",
+            "Master temperature and timing control",
+            "Develop perfect rice texture assessment skills",
+            "Practice proper resting technique"
+        ],
+        "equipmentNeeded": [
+            "Medium saucepan with tight-fitting lid",
+            "Measuring cups",
+            "Fork or rice paddle",
+            "Fine mesh strainer",
+            "Timer",
+            "Rice (preferably long-grain white for first attempt)"
+        ],
+        "contentSections": [
+            {
+                "title": "Rice Fundamentals",
+                "subsections": [
+                    {
+                        "subtitle": "Rice Varieties",
+                        "content": "Understand how different rice types affect cooking: Long-grain (light, fluffy, separate grains), Medium-grain (slightly stickier, plumper), Short-grain (stickiest, used for sushi and risotto), Brown rice (longer cooking time, nuttier flavor), Basmati/Jasmine (aromatic varieties with specific techniques). Learn which varieties suit different dishes."
+                    },
+                    {
+                        "subtitle": "Preparation Methods",
+                        "content": "Master different approaches to rice preparation: Rinsing removes excess starch for fluffier results, Soaking shortens cooking time and improves texture, Toasting adds nutty flavor before adding liquid, Salt should be added to cooking water, not after. Understand how each step affects final texture."
+                    }
+                ]
+            },
+            {
+                "title": "Cooking Technique",
+                "subsections": [
+                    {
+                        "subtitle": "Water Ratios",
+                        "content": "Learn appropriate water-to-rice ratios: Long-grain white: 1:2 (1 cup rice to 2 cups water), Basmati/Jasmine: 1:1.5, Brown rice: 1:2.5, Short-grain: 1:1.25. Understand how pot size, lid tightness, and stove character might require adjustments."
+                    },
+                    {
+                        "subtitle": "Temperature Control",
+                        "content": "Master proper heat management for perfect rice: High heat to bring to boil, Immediate reduction to lowest possible simmer, Maintain consistent low heat without lifting lid, Complete heat removal for final resting period. Learn visual and auditory cues for monitoring without looking."
+                    }
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Perfect Rice Preparation",
+                "steps": [
+                    "Measure rice and rinse until water runs relatively clear",
+                    "Add rice and precise water measure to saucepan",
+                    "Add pinch of salt (and optional aromatics like bay leaf)",
+                    "Bring to full boil over high heat, uncovered",
+                    "Immediately reduce to lowest possible simmer and cover",
+                    "Set timer based on rice variety (typically 15-18 minutes for white rice)",
+                    "Do not lift lid during cooking",
+                    "Remove from heat when timer expires, keep covered",
+                    "Let rest 10 minutes off heat, still covered",
+                    "Fluff with fork and serve"
+                ]
+            }
+        ],
+        "completionChecklist": [
+            "Rice properly rinsed before cooking",
+            "Accurate water ratio used",
+            "Properly managed heat transitions",
+            "Avoided lid removal during cooking",
+            "Allowed proper resting period",
+            "Achieved fluffy texture with separate grains",
+            "Rice neither crunchy nor mushy"
+        ],
+        "tipsForSuccess": [
+            "Use the right pot: heavy-bottomed with tight-fitting lid",
+            "Never stir rice during cooking (creates gumminess)",
+            "Listen for changes in sound to monitor cooking without looking",
+            "The resting period is critical - don't skip it",
+            "If rice isn't quite done, add 2 tablespoons water and cook 2-3 minutes longer",
+            "For extra flavor, replace some water with broth or add aromatics"
+        ]
+    },
+    {
+        "id": 208,
+        "questName": "Simple Green Salad",
+        "rank": "Home Cook",
+        "type": "Training",
+        "primaryFocus": "Ingredients",
+        "secondaryFocus": "Technique",
+        "primaryHours": 0.5,
+        "secondaryHours": 0.5,
+        "diceRequired": false,
+        "description": "Master the art of creating a perfectly dressed green salad with balanced flavors and textures",
+        "stageId": 3,
+        "stageName": "Flavor Development",
+        "learningObjectives": [
+            "Learn proper salad green selection and preparation",
+            "Master washing and drying techniques",
+            "Develop proper dressing application skills",
+            "Understand flavor and texture balancing",
+            "Practice appropriate salad serving timing"
+        ],
+        "equipmentNeeded": [
+            "Salad spinner or clean kitchen towels",
+            "Large mixing bowl",
+            "Salad serving bowl",
+            "Salad tongs or servers",
+            "Sharp knife and cutting board",
+            "Small bowl or jar for dressing"
+        ],
+        "contentSections": [
+            {
+                "title": "Salad Green Fundamentals",
+                "subsections": [
+                    {
+                        "subtitle": "Green Selection",
+                        "content": "Understand different salad green characteristics: Tender greens (butter, spring mix) for delicate salads, Crunchy greens (romaine, iceberg) for structural integrity, Bitter greens (arugula, radicchio) for flavor complexity, Sturdy greens (kale, cabbage) for make-ahead salads. Learn to identify freshness indicators and proper storage methods."
+                    },
+                    {
+                        "subtitle": "Preparation Technique",
+                        "content": "Master proper preparation methods: Tear delicate greens rather than cutting, Remove tough stems from kale and chard, Cut hearty greens into bite-sized pieces, Wash thoroughly in cold water, Dry completely to allow dressing adhesion. Understand how green preparation affects texture and presentation."
+                    }
+                ]
+            },
+            {
+                "title": "Salad Assembly",
+                "subsections": [
+                    {
+                        "subtitle": "Component Balancing",
+                        "content": "Develop balanced salad composition: Establish proper greens-to-components ratio, Layer ingredients based on weight and texture, Add accent ingredients judiciously (cheese, nuts, dried fruit), Consider color variety for visual appeal. Learn proper portion size for role in meal."
+                    },
+                    {
+                        "subtitle": "Dressing Application",
+                        "content": "Master dressing techniques for optimal results: Use minimal dressing to coat rather than drench, Start with less dressing (can always add more), Dress immediately before serving for optimal texture, Toss from bottom up to distribute evenly, Season with salt and pepper after dressing. Understand how different greens require different amounts of dressing."
+                    }
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Perfect Green Salad Creation",
+                "steps": [
+                    "Select appropriate greens based on intended role",
+                    "Prepare greens by washing thoroughly",
+                    "Dry greens completely using spinner or towels",
+                    "Prepare simple vinaigrette (3:1 oil to vinegar ratio)",
+                    "Place dry greens in large mixing bowl",
+                    "Add small amount of dressing and toss gently",
+                    "Taste and adjust dressing amount",
+                    "Add any additional components (nuts, cheese)",
+                    "Season with salt and freshly ground pepper",
+                    "Transfer to serving bowl and serve immediately"
+                ]
+            }
+        ],
+        "completionChecklist": [
+            "Properly washed and thoroughly dried greens",
+            "Created balanced, well-seasoned dressing",
+            "Applied appropriate amount of dressing",
+            "Achieved even dressing distribution",
+            "Balanced flavors and textures",
+            "Maintained green integrity without wilting",
+            "Properly seasoned finished salad"
+        ],
+        "tipsForSuccess": [
+            "Dry greens thoroughly - water repels dressing",
+            "Dress in a bowl larger than you think you need for proper tossing",
+            "Add delicate herbs after dressing to preserve their appearance",
+            "Season generously - cold foods need more seasoning",
+            "Use clean hands for gentle, effective tossing",
+            "For make-ahead salads, keep components separate until serving"
+        ]
+    },
+    {
+        "id": 209,
+        "questName": "Basic Vegetable Sauté",
+        "rank": "Home Cook",
+        "type": "Training",
+        "primaryFocus": "Technique",
+        "secondaryFocus": "Ingredients",
+        "primaryHours": 0.5,
+        "secondaryHours": 0.5,
+        "diceRequired": false,
+        "description": "Master the fundamental technique of properly sautéing vegetables to enhance flavor while maintaining texture",
+        "stageId": 3,
+        "stageName": "Flavor Development",
+        "learningObjectives": [
+            "Understand proper heat management for sautéing",
+            "Learn correct cutting techniques for even cooking",
+            "Master vegetable cooking order based on density",
+            "Develop flavor building through proper seasoning timing",
+            "Practice perfect doneness assessment"
+        ],
+        "equipmentNeeded": [
+            "Large skillet or sauté pan",
+            "Chef's knife and cutting board",
+            "Wooden spoon or heat-resistant spatula",
+            "Tongs (optional)",
+            "Timer",
+            "Assorted vegetables of different densities",
+            "Oil with high smoke point (vegetable, avocado)"
+        ],
+        "contentSections": [
+            {
+                "title": "Sauté Fundamentals",
+                "subsections": [
+                    {
+                        "subtitle": "Heat Management",
+                        "content": "Understand proper temperature for different results: Higher heat (medium-high) for browning and caramelization, Medium heat for most vegetable cooking, lower heat for delicate items or longer cooking. Learn visual cues for proper pan temperature (oil shimmer, water droplet dance). Understand the importance of preheating before adding food."
+                    },
+                    {
+                        "subtitle": "Cutting Technique",
+                        "content": "Master size and shape considerations for even cooking: Cut pieces to uniform size for consistent doneness, Smaller cuts cook faster, larger cuts maintain more moisture, Diagonal cuts (bias) increase surface area for browning, Consider how cut shapes affect final texture and presentation. Learn density-based size adjustments (denser vegetables cut smaller)."
+                    }
+                ]
+            },
+            {
+                "title": "Cooking Process",
+                "subsections": [
+                    {
+                        "subtitle": "Strategic Sequencing",
+                        "content": "Learn proper vegetable addition sequence: Start with aromatics (onions, garlic), Add vegetables in order of cooking time (longest first), Dense vegetables (carrots, potatoes): 8-12 minutes, Medium-density (bell peppers, zucchini): 4-6 minutes, Quick-cooking (leafy greens, tomatoes): 1-2 minutes. Understand how to maintain consistent heat by not overcrowding the pan."
+                    },
+                    {
+                        "subtitle": "Flavor Development",
+                        "content": "Build flavor through proper technique: Season with salt at the beginning to draw out moisture, Add ground spices early to bloom in oil, Add dried herbs midway through cooking, Finish with fresh herbs, acid (lemon juice, vinegar), and final seasoning. Learn when to cover (to steam) versus maintain uncovered for maximum browning."
+                    }
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Mixed Vegetable Sauté",
+                "steps": [
+                    "Select 3-4 vegetables of varying densities",
+                    "Cut all vegetables to appropriate, uniform sizes",
+                    "Preheat pan over medium-high heat",
+                    "Add appropriate high-heat oil",
+                    "Add aromatics (onion, garlic) and cook until fragrant",
+                    "Add vegetables in proper sequence based on density",
+                    "Season with salt and any desired dried herbs/spices",
+                    "Maintain proper heat without overcrowding",
+                    "Test for doneness (tender but still slightly crisp)",
+                    "Finish with acid and/or fresh herbs",
+                    "Serve immediately"
+                ]
+            }
+        ],
+        "completionChecklist": [
+            "Properly preheated pan before adding ingredients",
+            "Cut vegetables uniformly for even cooking",
+            "Added ingredients in appropriate sequence",
+            "Maintained proper heat throughout cooking",
+            "Avoided overcrowding the pan",
+            "Seasoned appropriately throughout process",
+            "Achieved proper doneness (tender-crisp, not mushy)",
+            "Developed good color and flavor"
+        ],
+        "tipsForSuccess": [
+            "Prep all vegetables before heating the pan",
+            "Pat vegetables dry before adding to prevent steaming",
+            "Don't move vegetables too frequently - allow browning",
+            "Listen for the proper sizzle sound - adjust heat accordingly",
+            "If vegetables are browning too quickly, lower heat slightly",
+            "Don't be afraid of heat - proper browning develops flavor",
+            "Cook in batches if necessary rather than overcrowding"
+        ]
+    },
+    {
+        "id": 210,
+        "questName": "Herb Infused Olive Oil",
+        "rank": "Home Cook",
+        "type": "Training",
+        "primaryFocus": "Flavor",
+        "secondaryFocus": "Ingredients",
+        "primaryHours": 0.5,
+        "secondaryHours": 0.5,
+        "diceRequired": false,
+        "description": "Create a simple but elegant flavor enhancer by infusing olive oil with herbs and aromatics",
+        "stageId": 3,
+        "stageName": "Flavor Development",
+        "learningObjectives": [
+            "Learn flavor extraction techniques",
+            "Understand oil infusion safety",
+            "Master herb selection and preparation",
+            "Develop proper heating and cooling procedures",
+            "Practice flavor balancing"
+        ],
+        "equipmentNeeded": [
+            "Small saucepan",
+            "Thermometer (optional but helpful)",
+            "Fine mesh strainer",
+            "Funnel",
+            "Clean glass bottle with tight seal",
+            "Fresh herbs of choice",
+            "Quality olive oil",
+            "Cutting board and knife"
+        ],
+        "contentSections": [
+            {
+                "title": "Infusion Fundamentals",
+                "subsections": [
+                    {
+                        "subtitle": "Flavor Extraction Science",
+                        "content": "Understand the principles of infusion: Fat-soluble flavor compounds dissolve in oil, Heat accelerates extraction process, Different herbs release flavor at different rates, Fresh versus dried herbs produce different results. Learn why gentle heat maintains oil quality while extracting flavor."
+                    },
+                    {
+                        "subtitle": "Safety Considerations",
+                        "content": "Master critical safety procedures for oil infusions: Moisture is the enemy (can lead to mold/bacteria growth), Herbs must be completely dry before infusing, Temperature control prevents oil degradation (never exceed 200°F), Proper storage extends shelf life (cool, dark location), Watch for signs of spoilage. Understand why commercial infusions include preservatives."
+                    }
+                ]
+            },
+            {
+                "title": "Flavor Development",
+                "subsections": [
+                    {
+                        "subtitle": "Ingredient Selection",
+                        "content": "Choose appropriate components for infused oils: Hardy herbs work best (rosemary, thyme, sage), Complementary aromatics add complexity (garlic, citrus zest, peppercorns), Start with high-quality base oil, Consider flavor intensity balance between oil and infusions. Learn classic combinations versus experimental approaches."
+                    },
+                    {
+                        "subtitle": "Technique Options",
+                        "content": "Master different infusion methods: Cold infusion (safer but slower, 1-2 weeks), Heat infusion (faster but requires precision, 30-60 minutes), Combined approach (brief heat followed by steeping). Understand how each method affects flavor profile and shelf stability."
+                    }
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Herb Oil Creation",
+                "steps": [
+                    "Thoroughly wash and completely dry fresh herbs",
+                    "Gently crush herbs to release oils",
+                    "Warm olive oil in saucepan to 180°F (warm but not hot)",
+                    "Add prepared herbs and any additional aromatics",
+                    "Maintain low heat (170-190°F) for 30 minutes, stirring occasionally",
+                    "Remove from heat and allow to cool to room temperature",
+                    "Strain through fine mesh strainer",
+                    "Pour into clean, dry bottle using funnel",
+                    "Seal and label with date and ingredients",
+                    "Store in refrigerator for maximum shelf life"
+                ]
+            }
+        ],
+        "completionChecklist": [
+            "Properly prepared herbs (clean and completely dry)",
+            "Maintained safe temperature range during infusion",
+            "Achieved clear, well-flavored oil after straining",
+            "Created balanced flavor profile",
+            "Properly stored final product",
+            "Labeled with date and contents",
+            "Successfully used in a dish to enhance flavor"
+        ],
+        "tipsForSuccess": [
+            "Ensure herbs are 100% dry to prevent spoilage",
+            "Use a thermometer for precise temperature control",
+            "Don't be tempted to add too many different herbs - simplicity often works best",
+            "For garlic-infused oil, use immediately or refrigerate to prevent botulism risk",
+            "Consider freezing herb oil in ice cube trays for longer storage",
+            "Use darker bottles to protect oil from light degradation",
+            "Try finishing pasta, vegetables, or soups with your infused oil"
+        ]
+    },
+    {
+        "id": 400,
+        "questName": "Quick Pickled Vegetables",
+        "rank": "Home Cook",
+        "type": "Side",
+        "primaryFocus": "Flavor",
+        "secondaryFocus": "Technique",
+        "primaryHours": 0.75,
+        "secondaryHours": 0.5,
+        "diceRequired": false,
+        "description": "Create vibrant, tangy quick pickles that can elevate any meal while learning basic preservation techniques",
+        "stageId": 3,
+        "stageName": "Flavor Development",
+        "learningObjectives": [
+            "Understand basic pickling chemistry",
+            "Master proper vegetable preparation for pickling",
+            "Learn to balance acidic, sweet, and aromatic flavors",
+            "Practice safe food handling for pickled products",
+            "Develop versatile garnishes for multiple meals"
+        ],
+        "equipmentNeeded": [
+            "Sharp knife and cutting board",
+            "Measuring cups and spoons",
+            "Small saucepan",
+            "Heat-proof jar or container with lid",
+            "Vegetable peeler (optional)",
+            "Mandoline (optional but helpful)",
+            "Tongs or slotted spoon"
+        ],
+        "contentSections": [
+            {
+                "title": "Pickling Science",
+                "subsections": [
+                    {
+                        "subtitle": "Preservation Basics",
+                        "content": "Understand how pickling preserves vegetables: Acid inhibits bacterial growth and alters texture. Vinegar (acetic acid) provides main preservative quality. Salt draws out moisture and improves flavor. Sugar balances acidity and aids preservation. Heat accelerates flavor infusion process. Quick pickles (refrigerator pickles) differ from fermented or canned pickles in preparation method and storage requirements."
+                    },
+                    {
+                        "subtitle": "Vegetable Selection",
+                        "content": "Choose appropriate vegetables for quick pickling: Cucumber: Classic option, stays relatively crisp. Radishes: Quick to absorb flavor, vibrant color. Carrots: Maintain excellent texture, need slightly longer pickling time. Onions: Become mild and flavorful when pickled. Cabbage: Creates tangy slaw-like pickle. Cauliflower/broccoli: Absorb flavor well in floret form. Bell peppers: Maintain good color and texture. Consider vegetable density and water content when determining cutting method and pickling time."
+                    }
+                ]
+            },
+            {
+                "title": "Flavor Development",
+                "subsections": [
+                    {
+                        "subtitle": "Brine Composition",
+                        "content": "Create balanced pickling liquid: Basic ratio: 1 part vinegar to 1 part water for quick pickles. Vinegar options: White, apple cider, rice, white wine vinegar. Salt: Use kosher or sea salt (without anti-caking agents). Sweeteners: Granulated sugar, honey, or maple syrup to balance acidity. Adjust ratios based on desired flavor intensity and vegetable type. Always heat brine to dissolve salt/sugar and extract flavor from spices."
+                    },
+                    {
+                        "subtitle": "Aromatics and Spices",
+                        "content": "Customize pickles with flavor additions: Basic pickling spices: Mustard seeds, peppercorns, dill seed, coriander. Fresh herbs: Dill, bay leaf, thyme, rosemary. Aromatics: Garlic, ginger, shallots. Heat elements: Red pepper flakes, sliced chili, horseradish. Sweet additions: Cinnamon stick, star anise, cloves. Consider regional flavor profiles (dill for Eastern European, turmeric for Indian, etc.). Toast seeds and spices lightly to enhance flavor before adding to brine."
+                    }
+                ]
+            },
+            {
+                "title": "Technical Process",
+                "subsections": [
+                    {
+                        "subtitle": "Vegetable Preparation",
+                        "content": "Prepare vegetables for optimal pickling: Cut consistently for even pickling (thin slices, spears, matchsticks). Increase surface area for faster flavor absorption. Remove excess moisture with salt if needed (cucumber). Blanch harder vegetables briefly for better brine absorption. Pack vegetables tightly but not crushed. Layer aromatics between vegetables for even flavor distribution."
+                    },
+                    {
+                        "subtitle": "Pickling Process",
+                        "content": "Execute proper pickling technique: Heat brine to dissolve salt/sugar and extract flavor from spices. Pour hot brine over prepared vegetables (for faster pickling) or cool brine first (for crisper texture). Ensure vegetables are fully submerged. Cover and cool to room temperature before refrigerating. Refrigerate minimum 1 hour before serving, ideally 24 hours for full flavor development. Quick pickles last approximately 2 weeks in refrigerator."
+                    }
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Quick Pickle Creation",
+                "steps": [
+                    "Select 1-2 vegetables appropriate for quick pickling",
+                    "Wash vegetables thoroughly",
+                    "Cut vegetables into consistent sizes and shapes",
+                    "Prepare aromatic elements (slice garlic, prepare fresh herbs)",
+                    "Measure vinegar, water, salt, and sugar for brine",
+                    "Combine brine ingredients in saucepan",
+                    "Heat brine until salt and sugar dissolve completely",
+                    "Add spices to brine and simmer briefly",
+                    "Pack vegetables and aromatics in clean jar",
+                    "Pour hot brine over vegetables, ensuring full coverage",
+                    "Cover and cool to room temperature",
+                    "Refrigerate for at least 1 hour before serving"
+                ]
+            }
+        ],
+        "completionChecklist": [
+            "Vegetables cut to consistent size",
+            "Brine properly seasoned and balanced",
+            "Vegetables fully submerged in brine",
+            "Pickles cooled properly before refrigeration",
+            "Pickles allowed sufficient time to develop flavor",
+            "Final product appropriately tangy and flavorful",
+            "Storage container properly sealed"
+        ],
+        "tipsForSuccess": [
+            "For crispier pickles, prepare vegetables just before pickling",
+            "Use fresh, high-quality vegetables for best results",
+            "Don't reuse pickling brine multiple times (food safety)",
+            "Label containers with date and contents",
+            "Taste test after 1 hour, but full flavor develops overnight",
+            "Experiment with a small batch before scaling up",
+            "Consider color combinations for visual appeal"
+        ]
+    },
+    {
+        "id": 401,
+        "questName": "Perfect Roasted Vegetables",
+        "rank": "Home Cook",
+        "type": "Side",
+        "primaryFocus": "Technique",
+        "secondaryFocus": "Flavor",
+        "primaryHours": 0.75,
+        "secondaryHours": 0.5,
+        "diceRequired": false,
+        "description": "Master the technique of roasting vegetables to caramelized perfection with minimal effort and maximum flavor",
+        "stageId": 3,
+        "stageName": "Flavor Development",
+        "learningObjectives": [
+            "Understand optimal roasting temperatures and times for different vegetables",
+            "Learn proper cutting techniques for even cooking",
+            "Master the balance of oil, salt, and seasonings",
+            "Develop caramelization without burning",
+            "Create versatile side dishes that complement various main courses"
+        ],
+        "equipmentNeeded": [
+            "Baking sheet or roasting pan",
+            "Parchment paper or aluminum foil (optional)",
+            "Sharp knife and cutting board",
+            "Measuring spoons",
+            "Large mixing bowl",
+            "Spatula or tongs",
+            "Vegetable peeler (optional)",
+            "Oven mitts"
+        ],
+        "contentSections": [
+            {
+                "title": "Roasting Science",
+                "subsections": [
+                    {
+                        "subtitle": "Maillard Reaction",
+                        "content": "Understand the chemistry of caramelization: Maillard reaction occurs when heat transforms proteins and sugars. Caramelization of natural sugars creates complex flavors. Dry heat environment (oven) facilitates proper browning. Temperature control prevents burning while ensuring reaction. Water content affects browning rate (drier = faster browning). Learn visual cues for perfect roasting stage."
+                    },
+                    {
+                        "subtitle": "Vegetable Properties",
+                        "content": "Select vegetables based on composition and cooking properties: High-sugar vegetables (carrots, parsnips, onions): Caramelize easily. Dense vegetables (potatoes, beets, winter squash): Require longer cooking time. High-moisture vegetables (zucchini, tomatoes, mushrooms): Release water during cooking. Delicate vegetables (asparagus, green beans): Cook quickly at higher heat. Consider starch content, fiber structure, and moisture content when grouping vegetables for even cooking."
+                    }
+                ]
+            },
+            {
+                "title": "Preparation Technique",
+                "subsections": [
+                    {
+                        "subtitle": "Cutting Strategy",
+                        "content": "Prepare vegetables for optimal roasting: Cut to uniform size for even cooking. Adjust size based on density (denser vegetables cut smaller). Increase surface area for maximum browning. Consider final texture goal when cutting (chunks, wedges, slices). Leave small vegetables whole when appropriate. Create flat surfaces against baking sheet for better caramelization. Cut to accommodate cooking timing groupings."
+                    },
+                    {
+                        "subtitle": "Oil Application",
+                        "content": "Master proper oil usage for crisp, not soggy, results: Use enough oil to coat lightly but thoroughly. Toss vegetables in bowl with oil rather than drizzling on sheet. Consider oil smoke point when selecting type. Match oil flavor to vegetable profile. Add oil in stages for mixed vegetable roasting. Traditional options: olive, avocado, grapeseed oil. Ensure even oil distribution for consistent browning. Oil amount: approximately 1-2 tablespoons per pound of vegetables."
+                    }
+                ]
+            },
+            {
+                "title": "Roasting Process",
+                "subsections": [
+                    {
+                        "subtitle": "Temperature Selection",
+                        "content": "Choose appropriate temperature for different vegetables: High heat (425-450°F): Quick cooking, maximum browning, good for firm vegetables. Medium-high heat (400°F): Balanced cooking and browning, most versatile. Medium heat (375°F): Longer cooking for dense vegetables, less browning. Consider sugar content when selecting temperature (higher sugar = lower temperature to prevent burning). Adjust based on oven accuracy and evenness of heating."
+                    },
+                    {
+                        "subtitle": "Timing and Turning",
+                        "content": "Develop perfect timing for roasted vegetables: Harder vegetables (potatoes, carrots, beets): 30-45 minutes. Medium-density (broccoli, cauliflower, Brussels sprouts): 20-30 minutes. Tender vegetables (zucchini, bell peppers): 15-20 minutes. Turn or stir halfway through cooking for even browning. Watch for visual cues (golden edges, slight softening). Test with fork or knife for interior doneness. Finish with brief broiling if needed for extra color."
+                    }
+                ]
+            },
+            {
+                "title": "Flavor Development",
+                "subsections": [
+                    {
+                        "subtitle": "Seasoning Strategy",
+                        "content": "Create layers of flavor through strategic seasoning: Season with salt before roasting to draw out moisture. Add hardy herbs (rosemary, thyme) before roasting. Add ground spices midway through cooking to prevent burning. Finish with fresh herbs, citrus zest, or vinegar after roasting. Consider complementary flavor profiles (Mediterranean, Asian, Middle Eastern). Salt quantity: approximately ¼-½ teaspoon kosher salt per pound of vegetables."
+                    },
+                    {
+                        "subtitle": "Finishing Touches",
+                        "content": "Elevate roasted vegetables with final additions: Drizzle with finishing oil for richness. Add acid (lemon juice, vinegar) for brightness. Sprinkle with toasted nuts or seeds for texture. Add fresh herbs for color and aroma. Include grated cheese for richness (parmesan, pecorino). Consider honey or maple syrup drizzle for sweet-savory balance. Apply finishing salt for texture and flavor burst."
+                    }
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Roasted Vegetable Creation",
+                "steps": [
+                    "Preheat oven to 400-425°F",
+                    "Select 2-3 complementary vegetables with similar cooking times",
+                    "Wash and dry vegetables thoroughly",
+                    "Cut vegetables into consistent, appropriately-sized pieces",
+                    "Toss vegetables with oil in mixing bowl until evenly coated",
+                    "Add salt and any pre-roasting herbs or spices",
+                    "Arrange in single layer on baking sheet with space between pieces",
+                    "Roast until vegetables are tender and caramelized (20-40 minutes, depending on type)",
+                    "Turn vegetables halfway through cooking time",
+                    "Test for doneness with fork or knife",
+                    "Add any finishing seasonings or garnishes",
+                    "Serve immediately for optimal texture and flavor"
+                ]
+            }
+        ],
+        "completionChecklist": [
+            "Vegetables cut to consistent size for even cooking",
+            "Proper oil amount used (coated but not soggy)",
+            "Vegetables arranged in single layer with adequate spacing",
+            "Caramelization achieved without burning",
+            "Interior texture cooked appropriately (tender but not mushy)",
+            "Seasoning balanced and complementary",
+            "Final dish visually appealing with good color development"
+        ],
+        "tipsForSuccess": [
+            "Don't overcrowd the pan - use multiple sheets if necessary",
+            "Fully preheat oven before adding vegetables",
+            "Dry vegetables thoroughly before oiling to promote browning",
+            "Position rack in upper third of oven for better browning",
+            "Use parchment paper for easier cleanup (but slightly less browning)",
+            "For mixed vegetables with different cooking times, add in stages or use separate pans",
+            "Let vegetables come to room temperature before roasting if possible"
+        ]
+    },
+    {
+        "id": 402,
+        "questName": "Essential Garlic Bread",
+        "rank": "Home Cook",
+        "type": "Side",
+        "primaryFocus": "Flavor",
+        "secondaryFocus": "Technique",
+        "primaryHours": 0.5,
+        "secondaryHours": 0.25,
+        "diceRequired": false,
+        "description": "Create irresistible garlic bread with the perfect balance of buttery richness, garlic intensity, and textural contrast",
+        "stageId": 3,
+        "stageName": "Flavor Development",
+        "learningObjectives": [
+            "Master compound butter preparation with balanced flavors",
+            "Learn to control garlic intensity through different preparation methods",
+            "Develop proper bread selection and preparation techniques",
+            "Understand optimal broiling or baking methods for texture control",
+            "Create a versatile side that complements multiple cuisines"
+        ],
+        "equipmentNeeded": [
+            "Oven or toaster oven with broiler function",
+            "Baking sheet",
+            "Sharp knife and cutting board",
+            "Small mixing bowl",
+            "Spatula or butter knife",
+            "Garlic press (optional)",
+            "Aluminum foil (optional)",
+            "Pastry brush (optional)"
+        ],
+        "contentSections": [
+            {
+                "title": "Garlic Preparation",
+                "subsections": [
+                    {
+                        "subtitle": "Intensity Control",
+                        "content": "Manage garlic flavor intensity through preparation method: Raw minced: Most pungent, sharp flavor. Pressed: Strong flavor with more extracted oils. Microplaned: Intense flavor that distributes evenly. Roasted: Sweet, mellow, caramelized notes. Garlic powder: Mild, even distribution with no texture. Understand allicin development (compound that creates sharpness) when cells are damaged. Control intensity by preparation timing (longer sit = stronger flavor)."
+                    },
+                    {
+                        "subtitle": "Garlic Butter Creation",
+                        "content": "Build perfect garlic compound butter: Use softened (not melted) butter for proper incorporation. Balance garlic-to-butter ratio (start with 1-2 cloves per 4 tablespoons). Add salt to enhance flavors and control bitterness. Include herbs for complexity (parsley, chives, oregano). Consider additions: grated parmesan, red pepper flakes, lemon zest. Mix thoroughly for even distribution. Prepare ahead to allow flavors to meld if possible."
+                    }
+                ]
+            },
+            {
+                "title": "Bread Selection",
+                "subsections": [
+                    {
+                        "subtitle": "Bread Varieties",
+                        "content": "Select appropriate bread for different garlic bread styles: French or Italian baguette: Traditional choice with good crust-to-crumb ratio. Ciabatta: Airy interior absorbs butter well, develops crisp exterior. Sourdough: Tangy flavor complements garlic, excellent texture when toasted. Rustic country bread: Substantial option with character. Consider freshness (day-old bread works well), crust thickness, and interior structure. Match bread shape to desired presentation (whole loaf, slices, or boat style)."
+                    },
+                    {
+                        "subtitle": "Cutting Technique",
+                        "content": "Prepare bread with appropriate cutting method: Horizontal slice (boat method): Maximizes topping surface, good for serving crowds. Vertical slices: Traditional presentation, more crust-to-crumb exposure. Partial slice (accordion): Allows butter to melt between slices while maintaining loaf integrity. Cut thickness affects final texture (thinner = crisper). Consider final serving method when selecting cutting approach."
+                    }
+                ]
+            },
+            {
+                "title": "Cooking Technique",
+                "subsections": [
+                    {
+                        "subtitle": "Butter Application",
+                        "content": "Apply compound butter effectively: Spread evenly on cut surfaces for consistent flavor. For accordion-style: Open slices partially to apply between cuts. Consider texture goal when determining butter quantity. Create slight butter pooling for moisture retention. Soft butter for easier spreading. Room temperature butter absorbs into bread better than cold. Allow butter to set briefly before cooking if time permits."
+                    },
+                    {
+                        "subtitle": "Cooking Methods",
+                        "content": "Select appropriate cooking technique for desired result: Broiler method: Quick, creates crisp exterior while maintaining soft interior. Oven baking: More even cooking, better for thicker bread. Foil-wrapped: Steamy, soft results with maximum moisture retention. Open-faced: Maximum browning and crisping. Combined: Wrapped then unwrapped for balanced texture. Position rack 6-8 inches from broiler. Watch constantly during broiling to prevent burning. Bake at 375-400°F for conventional method."
+                    }
+                ]
+            },
+            {
+                "title": "Serving Considerations",
+                "subsections": [
+                    {
+                        "subtitle": "Timing Strategy",
+                        "content": "Optimize garlic bread service: Prepare close to serving time for best temperature and texture. Hold briefly in warm oven (200°F) if needed. Consider partial make-ahead: prepare compound butter and apply to bread, refrigerate, then bake when needed. Cut into appropriate serving sizes based on meal context. Serve immediately for optimal texture and aroma."
+                    },
+                    {
+                        "subtitle": "Presentation Options",
+                        "content": "Elevate presentation for different contexts: Traditional basket with cloth liner for casual service. Decorative cutting patterns for visual appeal. Garnish with fresh herbs after baking for color. Serve with additional compound butter on side for extra richness. Consider accompaniments: marinara dipping sauce, olive oil, or balsamic. Slice fully before serving for easier guest access."
+                    }
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Garlic Bread Creation",
+                "steps": [
+                    "Preheat oven to 375°F or set broiler to medium-high",
+                    "Select appropriate bread and cut according to desired style",
+                    "Soften butter to room temperature",
+                    "Prepare garlic using chosen method (mince, press, or microplane)",
+                    "Combine butter, garlic, salt, and any herbs in small bowl",
+                    "Mix thoroughly until ingredients are evenly distributed",
+                    "Apply compound butter generously to cut bread surfaces",
+                    "For foil method: wrap in foil, bake 10-15 minutes, then open foil and broil 2-3 minutes",
+                    "For open method: place on baking sheet, bake 10 minutes or broil 2-4 minutes until golden",
+                    "Watch carefully to prevent burning, especially under broiler",
+                    "Remove when edges are golden and butter is fully melted",
+                    "Allow to cool slightly, slice if needed, and serve immediately"
+                ]
+            }
+        ],
+        "completionChecklist": [
+            "Garlic butter properly mixed with even distribution",
+            "Bread cut appropriately for selected style",
+            "Butter applied evenly to all surfaces",
+            "Edges golden brown with appropriate color development",
+            "Interior texture balanced (soft with some crispness)",
+            "Garlic flavor present but not overwhelming",
+            "Served at appropriate temperature"
+        ],
+        "tipsForSuccess": [
+            "For milder garlic flavor, cook the minced garlic briefly in butter before spreading",
+            "Don't skip the salt - it's crucial for bringing out the garlic flavor",
+            "Position rack in upper third of oven for better browning",
+            "Never walk away from bread under the broiler - it can burn in seconds",
+            "Day-old bread often works better than super-fresh for garlic bread",
+            "For make-ahead, prepare compound butter and refrigerate up to 3 days",
+            "Partially freeze the loaf for easier slicing if making accordion-style"
+        ]
+    },
+    {
+        "id": 403,
+        "questName": "Simple Rice Pilaf",
+        "rank": "Home Cook",
+        "type": "Side",
+        "primaryFocus": "Technique",
+        "secondaryFocus": "Flavor",
+        "primaryHours": 0.75,
+        "secondaryHours": 0.5,
+        "diceRequired": false,
+        "description": "Elevate basic rice into a flavorful pilaf with perfectly cooked grains and aromatic additions",
+        "stageId": 3,
+        "stageName": "Flavor Development",
+        "learningObjectives": [
+            "Master the pilaf method for flavorful, separate rice grains",
+            "Learn proper aromatics and seasoning for rice",
+            "Develop perfect liquid ratio and absorption technique",
+            "Practice toasting grains for enhanced flavor",
+            "Create a versatile base side dish that pairs with multiple cuisines"
+        ],
+        "equipmentNeeded": [
+            "Medium saucepan with tight-fitting lid",
+            "Measuring cups and spoons",
+            "Wooden spoon or heat-resistant spatula",
+            "Fine mesh strainer (optional for rinsing)",
+            "Sharp knife and cutting board",
+            "Fork for fluffing",
+            "Timer"
+        ],
+        "contentSections": [
+            {
+                "title": "Rice Fundamentals",
+                "subsections": [
+                    {
+                        "subtitle": "Rice Selection",
+                        "content": "Choose appropriate rice varieties for pilaf: Long-grain white rice: Traditional choice, maintains separation. Basmati: Aromatic option with excellent texture. Jasmine: Slightly stickier but fragrant. Brown rice: Nuttier flavor, requires longer cooking time and more liquid. Understand starch content differences and their effect on final texture. Consider grain size, aroma, and cooking properties when selecting. Rinse rice (except for enriched American varieties) to remove excess starch for fluffier results."
+                    },
+                    {
+                        "subtitle": "The Pilaf Method",
+                        "content": "Understand what distinguishes pilaf from regular rice: Toasting rice in fat before adding liquid. Building flavor base with aromatics. Using broth rather than water for cooking liquid. Precise control of liquid ratio for separate grains. Addition of vegetables, herbs or other flavorings. Proper resting time after cooking. The technique creates separate, fluffy grains with developed flavor, distinct from basic steamed rice."
+                    }
+                ]
+            },
+            {
+                "title": "Flavor Development",
+                "subsections": [
+                    {
+                        "subtitle": "Aromatic Foundation",
+                        "content": "Create flavorful base for pilaf: Traditional aromatics: onion, carrot, celery (mirepoix). Alternative aromatics: shallots, leeks, garlic, ginger. Cook aromatics until soft but not browned (unless deeper flavor desired). Dice aromatics finely for even distribution. Consider regional flavor profiles: Mediterranean (garlic, herbs), Indian (ginger, spices), Middle Eastern (cinnamon, nuts). Add dried spices to aromatics to bloom flavor in fat. Essential step for differentiation from basic rice."
+                    },
+                    {
+                        "subtitle": "Grains and Toast",
+                        "content": "Master grain preparation for optimal pilaf: Properly measure rice for consistent results. Toast rice in fat until aromatic and slightly translucent at edges. Listen for subtle crackling sound during toasting. Maintain consistent movement to prevent scorching. Toasting develops nutty flavor and helps grains remain separate. Consider alternative grains: orzo, quinoa, bulgur (adjust liquid and cooking time accordingly). Understanding when rice is properly toasted is critical to outcome."
+                    }
+                ]
+            },
+            {
+                "title": "Cooking Technique",
+                "subsections": [
+                    {
+                        "subtitle": "Liquid Ratios",
+                        "content": "Achieve perfect texture through proper liquid management: Standard pilaf ratio: 1 part rice to 1.5-2 parts liquid (less than standard rice). White rice: typically 1:1.75 ratio. Brown rice: typically 1:2.25 ratio. Adjust based on specific rice variety and desired texture. Use broth for flavor enhancement (chicken, vegetable, beef). Consider adding acidic components (wine, lemon) for flavor, accounting for their liquid content. Simmer gently to prevent boiling over."
+                    },
+                    {
+                        "subtitle": "Temperature Control",
+                        "content": "Master heat management for perfect pilaf: Bring liquid to full boil initially. Immediately reduce to lowest possible simmer. Maintain tight-fitting lid throughout cooking. Avoid lifting lid during cooking (releases steam and affects cooking). Look for visual clues of doneness (steam holes, no bubbling sound). Create final steam step: remove from heat, keep covered, rest 5-10 minutes. Develop visual and auditory awareness of cooking stages."
+                    }
+                ]
+            },
+            {
+                "title": "Finishing Techniques",
+                "subsections": [
+                    {
+                        "subtitle": "Texture Perfection",
+                        "content": "Create ideal pilaf texture with proper finishing: Fluff with fork rather than spoon to maintain grain separation. Gently separate grains rather than stirring. Allow brief uncovered rest to release excess moisture. Assess texture and troubleshoot if needed: If too firm, add small amount of hot liquid and rest covered. If too wet, leave uncovered for brief period. Learn visual cues for perfectly cooked pilaf (separate grains, tender but firm)."
+                    },
+                    {
+                        "subtitle": "Flavor Enhancements",
+                        "content": "Elevate pilaf with finishing touches: Add toasted nuts (almonds, pine nuts, pistachios) for texture contrast. Incorporate dried fruit (raisins, cranberries, apricots) for sweet notes. Mix in fresh herbs after cooking (parsley, mint, dill). Add additional fat (butter, olive oil) for richness. Finish with acid (lemon juice, vinegar) for brightness. Consider garnishes: citrus zest, additional herbs, fried shallots. Balance flavors to complement main dish."
+                    }
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Basic Rice Pilaf Creation",
+                "steps": [
+                    "Finely dice aromatic vegetables (onion, carrot, celery)",
+                    "Measure rice and rinse if needed",
+                    "Heat fat (butter, oil, or combination) in saucepan over medium heat",
+                    "Add aromatics and cook until softened (3-5 minutes)",
+                    "Add any dried herbs or spices and cook briefly to bloom flavors",
+                    "Add rice and toast, stirring frequently, until edges become translucent (2-3 minutes)",
+                    "Add hot broth or liquid all at once, stir once, and bring to boil",
+                    "Reduce heat to lowest setting, cover tightly, and cook undisturbed according to rice type (15-20 minutes for white rice)",
+                    "Remove from heat and let stand, covered, for 5-10 minutes",
+                    "Fluff gently with fork, incorporating any finishing ingredients",
+                    "Adjust seasoning if needed",
+                    "Transfer to serving dish and add any final garnishes"
+                ]
+            }
+        ],
+        "completionChecklist": [
+            "Aromatics properly softened without browning (unless intentional)",
+            "Rice properly toasted before adding liquid",
+            "Appropriate liquid ratio used for rice type",
+            "Grains cooked through but maintained separation",
+            "Pilaf allowed to rest covered after cooking",
+            "Final texture fluffy with separate grains",
+            "Flavor balanced and complementary",
+            "Any additions incorporated properly"
+        ],
+        "tipsForSuccess": [
+            "Use pot with heavy bottom to prevent hot spots and scorching",
+            "Ensure lid fits tightly - use foil under lid if necessary",
+            "Heat broth separately while preparing aromatics for more even cooking",
+            "Listen for changes in sound to monitor cooking without lifting lid",
+            "Different rice varieties have different liquid requirements - adjust accordingly",
+            "For brown rice pilaf, increase liquid and cooking time by about 50%",
+            "For visual appeal, use colorful additions (red pepper, green herbs, etc.)"
+        ]
+    },
+    {
+        "id": 404,
+        "questName": "Simple Pan Sauce",
+        "rank": "Home Cook",
+        "type": "Side",
+        "primaryFocus": "Flavor",
+        "secondaryFocus": "Technique",
+        "primaryHours": 0.5,
+        "secondaryHours": 0.25,
+        "diceRequired": false,
+        "description": "Transform pan drippings into a flavorful sauce that elevates any protein while practicing fundamental sauce techniques",
+        "stageId": 3,
+        "stageName": "Flavor Development",
+        "learningObjectives": [
+            "Master the technique of developing fond (flavorful brown bits)",
+            "Learn proper deglazing methods for maximum flavor extraction",
+            "Develop sauce consistency control through reduction and thickening",
+            "Practice flavor balancing techniques",
+            "Create a quick, complementary component to enhance protein dishes"
+        ],
+        "equipmentNeeded": [
+            "Skillet or sauté pan (preferably not non-stick)",
+            "Wooden spoon or heat-resistant silicone spatula",
+            "Whisk",
+            "Measuring cups and spoons",
+            "Small bowl for slurry (if using)",
+            "Strainer (optional)",
+            "Already-cooked protein for pan drippings"
+        ],
+        "contentSections": [
+            {
+                "title": "Sauce Foundation",
+                "subsections": [
+                    {
+                        "subtitle": "Fond Development",
+                        "content": "Master the creation of flavorful fond (brown bits): Fond consists of caramelized proteins left after cooking meat or vegetables. Use proper pan type (stainless steel or cast iron, not non-stick). Ensure adequate but not excessive heat during protein cooking. Watch for golden-brown color development without burning. Learn distinction between fond (flavor) and burned bits (bitter). Don't remove all fond when cooking protein - leave some for sauce development. Manage fat level in pan after cooking - remove excess but keep some for flavor."
+                    },
+                    {
+                        "subtitle": "Aromatic Enhancement",
+                        "content": "Develop flavor base with aromatics: Add finely minced aromatics to pan after removing protein. Common options: shallots, garlic, onions, mushrooms. Cook until softened but not burned (lower heat if needed). Match aromatics to cuisine style and protein type. Understand quick cooking nature of minced aromatics in hot pan. Optional: add dried herbs or spices at this stage for blooming. Aromatics should sizzle but not burn during this phase."
+                    }
+                ]
+            },
+            {
+                "title": "Sauce Development",
+                "subsections": [
+                    {
+                        "subtitle": "Deglazing Technique",
+                        "content": "Master proper deglazing for flavor extraction: Choose appropriate liquid based on flavor profile: Wine (red or white), stock/broth, vinegar, citrus juice. Add liquid to hot pan all at once for steam reaction. Immediately scrape pan with wooden spoon or spatula to release fond. Look for bubbling reaction and color change as fond dissolves. Listen for sizzle to subside as deglazing progresses. Ensure all browned bits are incorporated into liquid. Deglazing both cleans pan and captures concentrated flavor."
+                    },
+                    {
+                        "subtitle": "Reduction Method",
+                        "content": "Control sauce consistency through proper reduction: Simmer deglazing liquid to evaporate water content. Maintain gentle bubble rather than rapid boil. Understand visual cues for thickening (sauce coats back of spoon). Watch for change in bubbling pattern as sauce concentrates. Consider pan size in relation to volume (wider pan = faster reduction). Turn or swirl pan for even reduction. Anticipate final additions when determining reduction endpoint. Reduction concentrates flavor while thickening sauce."
+                    }
+                ]
+            },
+            {
+                "title": "Sauce Finishing",
+                "subsections": [
+                    {
+                        "subtitle": "Thickening Options",
+                        "content": "Choose appropriate thickening method based on desired result: Reduction alone: Lightest body, pure flavor, longest process. Beurre manié (butter+flour paste): Medium body, added richness. Cornstarch slurry: Clean texture, glossy appearance, no flavor addition. Cream or dairy: Adds richness and body along with flavor. Mounting with butter (monter au beurre): Adds shine and richness without flour. Add thickeners gradually and allow full cooking time to avoid raw flour taste. Always whisk thoroughly when adding thickeners to prevent lumps."
+                    },
+                    {
+                        "subtitle": "Flavor Balancing",
+                        "content": "Refine sauce through proper finishing techniques: Taste and adjust seasonings (salt, pepper). Consider acid balance (lemon juice, wine, vinegar) to brighten. Add richness if needed (cold butter, cream) off heat. Incorporate fresh herbs at end to maintain color and flavor. Strain if smoother texture desired (especially for cream sauces). Adjust consistency with additional liquid if too thick. Understand relationship between salt, acid, and richness for balanced sauce. Return protein to pan briefly to coat with sauce if desired."
+                    }
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Basic Pan Sauce Creation",
+                "steps": [
+                    "Cook protein in skillet, developing good fond, then remove protein",
+                    "Assess fat level in pan - remove excess leaving 1-2 teaspoons",
+                    "Add finely minced aromatics (shallot, garlic) to pan",
+                    "Cook aromatics until softened, 1-2 minutes",
+                    "Add deglazing liquid (wine, broth, or combination)",
+                    "Scrape pan thoroughly to incorporate fond into liquid",
+                    "Bring to simmer and reduce by about half",
+                    "Optional: Add thickening agent (butter, slurry, or cream)",
+                    "Simmer until desired consistency is reached",
+                    "Taste and adjust seasoning (salt, pepper, acid)",
+                    "Finish with cold butter and/or fresh herbs if desired",
+                    "Strain if preferred for smoother texture",
+                    "Serve immediately with protein"
+                ]
+            }
+        ],
+        "completionChecklist": [
+            "Fond properly developed without burning",
+            "Aromatics cooked until softened but not burned",
+            "Deglazing liquid fully incorporated fond",
+            "Sauce reduced to appropriate consistency",
+            "Thickening agent (if used) properly incorporated without lumps",
+            "Final sauce coats the back of a spoon",
+            "Sauce balanced in flavor (salt, acid, richness)",
+            "Served at appropriate temperature with protein"
+        ],
+        "tipsForSuccess": [
+            "Don't use non-stick pans for pan sauces - they prevent fond development",
+            "Have all ingredients measured and ready before starting sauce",
+            "If sauce over-reduces, add a splash of stock or water to adjust",
+            "When mounting with butter, use cold butter and whisk constantly off heat",
+            "For wine deglazers, allow alcohol to cook off before tasting/adjusting",
+            "Add herbs at the very end to maintain fresh flavor and color",
+            "Make sauce immediately after cooking protein while pan is still hot"
+        ]
+    },
+    {
+        "id": 300,
+        "questName": "Complete Breakfast Challenge",
+        "rank": "Home Cook",
+        "type": "Main",
+        "primaryFocus": "Technique",
+        "secondaryFocus": "Management",
+        "primaryHours": 1.5,
+        "secondaryHours": 1,
+        "diceRequired": true,
+        "description": "Create a complete breakfast with eggs, toast, and fruit while mastering timing and coordination",
+        "stageId": 2,
+        "stageName": "Knife Skills & Heat Control",
+        "learningObjectives": [
+            "Master multi-component cooking timing",
+            "Develop protein cookery skills with eggs",
+            "Learn to balance flavors across various food components",
+            "Practice efficient workflow management",
+            "Create a nutritionally balanced morning meal"
+        ],
+        "equipmentNeeded": [
+            "Skillet or non-stick pan",
+            "Toaster or oven",
+            "Small saucepan (if preparing oatmeal or sauce)",
+            "Cutting board and knife",
+            "Spatula",
+            "Measuring cups and spoons",
+            "Mixing bowl",
+            "Timer"
+        ],
+        "contentSections": [
+            {
+                "title": "Breakfast Component Mastery",
+                "subsections": [
+                    {
+                        "subtitle": "Egg Preparations",
+                        "content": "Perfect your egg cooking technique based on your dice roll: Sunny-side up: Cook in butter until whites are set but yolk remains runny. Over-easy: Flip briefly to set top of whites while keeping yolk runny. Scrambled: Whisk eggs with salt, cook slowly over medium-low heat, stirring frequently for creamy texture. Poached: Create gentle simmer, add splash of vinegar, create whirlpool, and cook for 3-4 minutes. Omelette: Cook eggs until almost set, add fillings, fold over carefully."
+                    },
+                    {
+                        "subtitle": "Toast & Carbohydrate Components",
+                        "content": "Master toast and other carbohydrate preparations: Classic toast: Select appropriate bread, toast to golden brown, butter immediately. Avocado toast: Mash ripe avocado with lemon juice, spread on toast, top with salt and red pepper flakes. English muffin: Split with fork for texture, toast until golden. Oatmeal: Achieve perfect creamy consistency and customize with toppings. Breakfast potatoes: Dice, season, and pan-fry until golden and crisp."
+                    },
+                    {
+                        "subtitle": "Fruit Preparations",
+                        "content": "Elevate simple fruit preparations: Fresh fruit cup: Select complementary seasonal fruits, cut uniformly, add citrus to prevent browning. Yogurt parfait: Layer yogurt with fruit and granola for texture contrast. Smoothie: Blend frozen and fresh fruits for optimal consistency. Grilled or sautéed fruit: Enhance natural sweetness with brief cooking. Fruit sauce: Create simple compote or coulis from berries or stone fruits."
+                    }
+                ]
+            },
+            {
+                "title": "Timing and Assembly",
+                "subsections": [
+                    {
+                        "subtitle": "Critical Timing",
+                        "content": "Develop precise timing for a cohesive breakfast: Identify longest-cooking component and start first. Prepare all ingredients before cooking begins. Use backward timing from desired serving moment. Keep toast warm in low oven if completed early. Cook eggs last for optimal temperature and texture."
+                    },
+                    {
+                        "subtitle": "Plating Strategy",
+                        "content": "Create visually appealing breakfast presentations: Arrange components with thought to color and height variation. Use appropriate portion sizes for balanced plate. Consider temperature contrast and placement. Add fresh herb garnish for professional appearance. Pre-warm plates for temperature maintenance."
+                    }
+                ]
+            }
+        ],
+        "miniObjectives": [
+            {
+                "title": "Protein Component Mastery",
+                "tasks": [
+                    "Determine egg style from dice roll",
+                    "Prepare eggs or alternate protein to correct doneness",
+                    "Season properly at appropriate stage"
+                ]
+            },
+            {
+                "title": "Carbohydrate Component Mastery",
+                "tasks": [
+                    "Select appropriate bread or carb variation from dice roll",
+                    "Toast or prepare to ideal doneness",
+                    "Apply toppings or accompaniments appropriately"
+                ]
+            },
+            {
+                "title": "Fruit/Vegetable Component Mastery",
+                "tasks": [
+                    "Prepare fruit or vegetable component from dice roll",
+                    "Cut uniformly and prepare appropriately",
+                    "Season or enhance as needed"
+                ]
+            },
+            {
+                "title": "Workflow Management",
+                "tasks": [
+                    "Create logical preparation sequence",
+                    "Maintain clean workspace during preparation",
+                    "Coordinate timing for all components to finish together"
+                ]
+            },
+            {
+                "title": "Final Assembly & Presentation",
+                "tasks": [
+                    "Arrange components attractively on plate",
+                    "Add any final garnishes or seasonings",
+                    "Serve at optimal temperature"
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Dice Roll Mechanics",
+                "steps": [
+                    "Roll for Egg Preparation (d6): 1-Sunny-side up, 2-Over easy, 3-Scrambled, 4-Poached, 5-Omelette, 6-Soft-boiled",
+                    "Roll for Carbohydrate Component (d6): 1-Classic toast, 2-Avocado toast, 3-English muffin, 4-Oatmeal, 5-Breakfast potatoes, 6-Pancake or waffle",
+                    "Roll for Fruit/Vegetable Component (d6): 1-Fresh fruit cup, 2-Yogurt parfait, 3-Sautéed vegetables, 4-Smoothie, 5-Grilled or sautéed fruit, 6-Tomato or fruit salsa",
+                    "Roll for Special Addition (d6): 1-Fresh herb garnish, 2-Spice blend or interesting seasoning, 3-Special sauce or condiment, 4-Cheese component, 5-Nut or seed topping, 6-Pickled element"
+                ]
+            }
+        ],
+        "questFlow": "First, assess your dice rolls and create a cooking plan. Begin with any component that requires longer cooking (potatoes, oatmeal). While that cooks, prepare your fruit component. Toast bread or prepare other carbohydrates. Cook eggs last for optimal temperature. Plate all components and add any final seasonings or garnishes.",
+        "completionChecklist": [
+            "Protein component cooked to proper doneness",
+            "Carbohydrate component properly prepared",
+            "Fruit/vegetable element appropriately prepped and seasoned",
+            "All components finished at approximately the same time",
+            "Breakfast visually appealing on the plate",
+            "Flavors balanced across all components",
+            "Proper temperature maintained for serving",
+            "Workflow managed efficiently throughout process"
+        ],
+        "tipsForSuccess": [
+            "Read through all dice rolls before starting to create a logical workflow",
+            "Prepare all ingredients before cooking anything",
+            "Use the oven to keep components warm if they finish early",
+            "Focus on proper seasoning for each component",
+            "Don't rush eggs - they should be cooked last in most cases",
+            "Consider how flavors will work together across components",
+            "Clean as you go to maintain an efficient workspace"
+        ]
+    },
+    {
+        "id": 301,
+        "questName": "Classic Soup & Sandwich Combo",
+        "rank": "Home Cook",
+        "type": "Main",
+        "primaryFocus": "Technique",
+        "secondaryFocus": "Flavor",
+        "primaryHours": 2,
+        "secondaryHours": 1,
+        "diceRequired": true,
+        "description": "Create the ultimate comfort food pairing with a harmonious soup and sandwich combination",
+        "stageId": 3,
+        "stageName": "Flavor Development",
+        "learningObjectives": [
+            "Master basic soup preparation techniques",
+            "Develop flavor building skills for broths and stocks",
+            "Learn proper sandwich construction for optimal texture and stability",
+            "Practice multiple-component timing management",
+            "Create complementary flavor profiles across two distinct dishes"
+        ],
+        "equipmentNeeded": [
+            "Medium pot for soup",
+            "Cutting board and knife",
+            "Vegetable peeler",
+            "Ladle",
+            "Blender or immersion blender (for certain soups)",
+            "Measuring cups and spoons",
+            "Wooden spoon or spatula",
+            "Toaster (for sandwich bread)",
+            "Mixing bowls"
+        ],
+        "contentSections": [
+            {
+                "title": "Soup Fundamentals",
+                "subsections": [
+                    {
+                        "subtitle": "Flavor Foundation",
+                        "content": "Develop flavorful soup bases with proper technique: Create aromatic base with mirepoix (onions, carrots, celery). Build flavor with proper sautéing of vegetables. Bloom spices and dried herbs in fat for maximum extraction. Layer ingredients based on cooking time requirements. Enhance with proper seasoning throughout cooking process."
+                    },
+                    {
+                        "subtitle": "Soup Variations",
+                        "content": "Master different soup styles based on your dice roll: Clear broth: Focus on clean flavors and proper clarification. Pureed soup: Achieve silky texture through proper blending technique. Chunky vegetable: Balance liquid-to-solid ratio. Creamy soup: Create proper roux or use alternative thickening methods. Bean or lentil: Manage cooking times for proper doneness. Learn finishing techniques for each soup type."
+                    }
+                ]
+            },
+            {
+                "title": "Sandwich Construction",
+                "subsections": [
+                    {
+                        "subtitle": "Architecture Principles",
+                        "content": "Build optimal sandwiches with these techniques: Select appropriate bread that complements fillings. Apply spreads to both bread slices as moisture barrier. Layer ingredients strategically to prevent sogginess. Place slippery ingredients (tomatoes, sliced meats) between grippy ones (cheese, lettuce). Season each layer independently. Cut properly for stability and ease of eating."
+                    },
+                    {
+                        "subtitle": "Sandwich Variations",
+                        "content": "Master different sandwich styles based on your dice roll: Grilled cheese: Achieve optimal cheese melting and bread toasting. Deli meat: Layer meats for texture and fold for volume. Open-faced: Build stable layers that work visually. Vegetable-focused: Manage moisture and ensure proper seasoning. Hot sandwich: Maintain temperature and texture during assembly. Understand how different cooking methods affect final texture."
+                    }
+                ]
+            },
+            {
+                "title": "Pairing Harmony",
+                "subsections": [
+                    {
+                        "subtitle": "Flavor Balancing",
+                        "content": "Create complementary soup and sandwich combinations: Balance rich soup with lighter sandwich or vice versa. Consider textural contrasts (creamy soup with crunchy sandwich). Develop flavor bridges with shared ingredients or seasonings. Understand how temperature affects overall experience. Create visual coherence through complementary colors or garnishes."
+                    },
+                    {
+                        "subtitle": "Timing Strategy",
+                        "content": "Coordinate preparation for optimal serving temperature: Start with soup base while preparing sandwich components. Finish sandwich assembly close to serving time. Hold soup at proper temperature while completing sandwich. Develop strategies for reheating if needed. Serve with appropriate portioning for balanced meal."
+                    }
+                ]
+            }
+        ],
+        "miniObjectives": [
+            {
+                "title": "Soup Base Creation",
+                "tasks": [
+                    "Select soup style based on dice roll",
+                    "Create proper aromatic base",
+                    "Develop flavorful broth or stock"
+                ]
+            },
+            {
+                "title": "Soup Component Preparation",
+                "tasks": [
+                    "Prepare all vegetables with proper cutting technique",
+                    "Cook components in proper sequence",
+                    "Adjust consistency as needed (puree, thicken, etc.)"
+                ]
+            },
+            {
+                "title": "Sandwich Component Preparation",
+                "tasks": [
+                    "Select sandwich style based on dice roll",
+                    "Prepare all fillings appropriately",
+                    "Toast or prepare bread as needed"
+                ]
+            },
+            {
+                "title": "Sandwich Assembly",
+                "tasks": [
+                    "Apply spreads and condiments correctly",
+                    "Layer ingredients for optimal structure",
+                    "Cut appropriately for final presentation"
+                ]
+            },
+            {
+                "title": "Final Coordination & Presentation",
+                "tasks": [
+                    "Time completion of both components",
+                    "Garnish soup appropriately",
+                    "Plate both items attractively",
+                    "Serve at optimal temperature"
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Dice Roll Mechanics",
+                "steps": [
+                    "Roll for Soup Style (d6): 1-Clear vegetable or chicken broth soup, 2-Pureed vegetable (squash, tomato, etc.), 3-Chunky vegetable or minestrone, 4-Creamy soup (potato, mushroom, etc.), 5-Bean or lentil soup, 6-Broth-based with noodles or grain",
+                    "Roll for Sandwich Type (d6): 1-Grilled cheese variation, 2-Deli meat sandwich, 3-Open-faced melt, 4-Vegetable-focused sandwich, 5-Hot sandwich (e.g., panini), 6-Classic clubhouse or BLT-style",
+                    "Roll for Flavor Direction (d6): 1-Classic American, 2-Mediterranean, 3-Asian-inspired, 4-Southwest/Mexican, 5-European (French, Italian), 6-Seasonal/harvest theme",
+                    "Roll for Special Addition (d6): 1-Herb garnish or oil, 2-Pickled element, 3-Crunchy topping (croutons, seeds), 4-Special cheese component, 5-Unique condiment or sauce, 6-Side salad accompaniment"
+                ]
+            }
+        ],
+        "questFlow": "Begin by assessing your dice rolls to determine your soup and sandwich types. Start soup preparation first by creating an aromatic base and adding liquid. While soup simmers, prepare all sandwich components. Adjust soup seasonings as it develops flavor. Complete sandwich assembly just before serving. Garnish soup, perform final quality check, and serve both components together.",
+        "completionChecklist": [
+            "Soup properly seasoned with developed flavor",
+            "Soup achieved appropriate consistency",
+            "Sandwich constructed with logical layering",
+            "Sandwich maintains integrity when cut",
+            "Both items complement each other in flavor",
+            "Both served at appropriate temperature",
+            "Garnishes added appropriately",
+            "Presentation shows attention to detail"
+        ],
+        "tipsForSuccess": [
+            "Don't rush soup development - allowing time for flavors to meld is crucial",
+            "Taste and adjust seasonings multiple times during cooking",
+            "Cut sandwich ingredients to appropriate thickness for balanced bites",
+            "Consider dunking compatibility if that's desired",
+            "Don't overcrowd your soup with too many ingredients",
+            "Apply spreads all the way to the edges of bread for consistent flavor",
+            "Most soups benefit from resting time before serving"
+        ]
+    },
+    {
+        "id": 302,
+        "questName": "Protein and Two Sides Dinner",
+        "rank": "Home Cook",
+        "type": "Main",
+        "primaryFocus": "Technique",
+        "secondaryFocus": "Management",
+        "primaryHours": 2,
+        "secondaryHours": 1,
+        "diceRequired": true,
+        "description": "Create a balanced dinner plate with properly cooked protein and two complementary side dishes",
+        "stageId": 3,
+        "stageName": "Flavor Development",
+        "learningObjectives": [
+            "Master protein cooking techniques for proper doneness",
+            "Learn to prepare multiple sides with coordinated timing",
+            "Develop complementary flavor profiles across three components",
+            "Practice efficient workflow management",
+            "Create a nutritionally balanced plate"
+        ],
+        "equipmentNeeded": [
+            "Skillet, roasting pan, or appropriate cooking vessel for protein",
+            "Two additional cooking vessels for sides (pots, pans, baking sheets)",
+            "Cutting board and knife",
+            "Measuring cups and spoons",
+            "Mixing bowls",
+            "Instant-read thermometer (for proteins)",
+            "Tongs and spatula",
+            "Serving platters or plates"
+        ],
+        "contentSections": [
+            {
+                "title": "Protein Techniques",
+                "subsections": [
+                    {
+                        "subtitle": "Cooking Methods",
+                        "content": "Master appropriate cooking techniques based on protein type: Chicken: Achieve 165°F internal temperature with juicy interior. Beef: Cook to appropriate doneness (rare to well-done) based on cut. Fish: Cook just until opaque and flaky, avoid overcooking. Pork: Reach 145°F with slight pink center. Tofu/tempeh: Achieve proper browning and internal texture. Bean/legume protein: Proper moisture level and seasoning penetration."
+                    },
+                    {
+                        "subtitle": "Flavor Development",
+                        "content": "Enhance protein with proper technique: Apply appropriate dry rubs or marinades based on cooking method. Create proper sear for maximum flavor development. Develop complementary sauce or glaze if appropriate. Rest proteins properly before slicing. Layer seasoning at multiple stages for depth of flavor."
+                    }
+                ]
+            },
+            {
+                "title": "Side Dish Mastery",
+                "subsections": [
+                    {
+                        "subtitle": "Starch Component",
+                        "content": "Prepare perfect starch sides based on dice roll: Rice: Achieve proper texture based on variety (fluffy, sticky, etc.). Potatoes: Master roasting, mashing, or other preparation methods. Grains: Cook to appropriate tenderness while maintaining structure. Pasta: Achieve al dente texture with complementary sauce. Bread: Select or prepare appropriate variety as accompaniment."
+                    },
+                    {
+                        "subtitle": "Vegetable Component",
+                        "content": "Prepare perfectly cooked vegetable sides based on dice roll: Roasted vegetables: Achieve caramelization while maintaining texture. Steamed vegetables: Preserve vibrant color and slight bite. Sautéed greens: Wilt properly without becoming soggy. Raw preparations: Ensure proper cutting technique and dressing. Vegetable medley: Cook various components to appropriate doneness."
+                    }
+                ]
+            },
+            {
+                "title": "Plate Composition",
+                "subsections": [
+                    {
+                        "subtitle": "Timing Coordination",
+                        "content": "Develop strategic timing for cohesive meal: Create timeline working backward from serving moment. Understand holding capabilities of different components. Use oven to maintain temperature for completed items. Coordinate cooking methods across available equipment. Manage workspace for multiple simultaneous preparations."
+                    },
+                    {
+                        "subtitle": "Plating Strategy",
+                        "content": "Create visually appealing dinner plates: Apply restaurant-style plating techniques. Consider color, texture, and height variation. Position protein and sides for optimal presentation. Add sauce or garnish appropriately. Control portion sizes for balanced presentation."
+                    }
+                ]
+            }
+        ],
+        "miniObjectives": [
+            {
+                "title": "Protein Preparation",
+                "tasks": [
+                    "Select protein cooking method based on dice roll",
+                    "Season appropriately with salt, spices, or marinade",
+                    "Cook to proper doneness using appropriate technique",
+                    "Rest protein properly before slicing or serving"
+                ]
+            },
+            {
+                "title": "Starch Side Preparation",
+                "tasks": [
+                    "Select starch component based on dice roll",
+                    "Prepare with proper technique for optimal texture",
+                    "Season appropriately throughout cooking process",
+                    "Finish with appropriate garnish or final seasoning"
+                ]
+            },
+            {
+                "title": "Vegetable Side Preparation",
+                "tasks": [
+                    "Select vegetable component based on dice roll",
+                    "Wash and cut vegetables with proper technique",
+                    "Cook using appropriate method for chosen vegetable",
+                    "Season properly and finish with appropriate garnish"
+                ]
+            },
+            {
+                "title": "Sauce or Flavor Enhancement",
+                "tasks": [
+                    "Prepare appropriate sauce or condiment based on dice roll",
+                    "Balance flavors within sauce (salt, acid, etc.)",
+                    "Finish and hold sauce at proper temperature",
+                    "Apply sauce appropriately to plate components"
+                ]
+            },
+            {
+                "title": "Time Management & Plating",
+                "tasks": [
+                    "Create logical timeline for all components",
+                    "Execute cooking process with efficient workflow",
+                    "Ensure all components complete at appropriate times",
+                    "Plate attractively with attention to presentation"
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Dice Roll Mechanics",
+                "steps": [
+                    "Roll for Protein Type (d6): 1-Chicken (breast, thigh, or whole), 2-Beef (steak, roast, or ground), 3-Pork (chop, tenderloin, or roast), 4-Fish or seafood, 5-Tofu, tempeh, or plant-based protein, 6-Bean, lentil, or legume-based protein",
+                    "Roll for Protein Cooking Method (d6): 1-Pan-seared or sautéed, 2-Roasted or baked, 3-Grilled or broiled, 4-Braised or slow-cooked, 5-Poached or steamed, 6-Stir-fried or quick-cooked",
+                    "Roll for Starch Side (d6): 1-Rice preparation, 2-Potato preparation, 3-Other grain (quinoa, farro, etc.), 4-Pasta or noodle dish, 5-Bread accompaniment, 6-Starchy vegetable (sweet potato, corn, etc.)",
+                    "Roll for Vegetable Side (d6): 1-Roasted vegetable preparation, 2-Steamed vegetable, 3-Sautéed greens or vegetable, 4-Raw vegetable preparation (salad), 5-Vegetable medley, 6-Vegetable with sauce or special preparation",
+                    "Roll for Flavor Profile (d6): 1-Classic American, 2-Mediterranean, 3-Asian-inspired, 4-Latin American, 5-European (French, Italian, etc.), 6-Middle Eastern or North African"
+                ]
+            }
+        ],
+        "questFlow": "Begin by assessing your dice rolls and planning your meal. Start with any lengthy preparations, particularly for protein or sides requiring longer cooking. Coordinate cooking vessels and available heat sources for maximum efficiency. Prepare components in order of cooking time, managing temperature of completed items while finishing others. Apply final seasonings and sauces, then plate all components together.",
+        "completionChecklist": [
+            "Protein cooked to proper doneness and temperature",
+            "Starch side properly cooked with appropriate texture",
+            "Vegetable side properly cooked and seasoned",
+            "All components properly seasoned and flavorful",
+            "All components complete at approximately the same time",
+            "Plate presentation shows attention to detail",
+            "Flavors complement each other across components",
+            "Portions balanced appropriately on plate"
+        ],
+        "tipsForSuccess": [
+            "Use all your senses when cooking protein - visual cues, touch, smell",
+            "A meat thermometer is your best friend for proper doneness",
+            "Don't forget to let protein rest before cutting",
+            "Season each component individually and thoroughly",
+            "Plan your cooking timeline before turning on any heat",
+            "Use the oven to keep components warm if they finish early",
+            "Clean as you go to maintain an efficient workspace"
+        ]
+    },
+    {
+        "id": 303,
+        "questName": "Pasta Night Feast",
+        "rank": "Home Cook",
+        "type": "Main",
+        "primaryFocus": "Technique",
+        "secondaryFocus": "Flavor",
+        "primaryHours": 2,
+        "secondaryHours": 1,
+        "diceRequired": true,
+        "description": "Create a complete pasta dinner with perfectly cooked pasta, flavorful sauce, appropriate protein, and complementary sides",
+        "stageId": 4,
+        "stageName": "Basic Sides & Components",
+        "learningObjectives": [
+            "Master pasta cooking techniques for perfect al dente texture",
+            "Develop sauce-building skills with balanced flavors",
+            "Learn proper sauce-to-pasta ratios and combinations",
+            "Practice multiple-component timing management",
+            "Create a cohesive Italian-inspired meal experience"
+        ],
+        "equipmentNeeded": [
+            "Large pot for pasta",
+            "Colander or strainer",
+            "Large skillet or saucepan for sauce",
+            "Additional pan for protein (if separate from sauce)",
+            "Cutting board and knife",
+            "Grater for cheese",
+            "Wooden spoon or tongs",
+            "Measuring cups and spoons",
+            "Serving bowls"
+        ],
+        "contentSections": [
+            {
+                "title": "Pasta Perfection",
+                "subsections": [
+                    {
+                        "subtitle": "Pasta Selection",
+                        "content": "Choose appropriate pasta shapes for different sauces: Long, thin pasta (spaghetti, linguine): Pair with oil-based or light tomato sauces. Short, tubular pasta (penne, rigatoni): Ideal for chunky sauces or baked dishes. Shaped pasta (farfalle, fusilli): Works with most sauces, especially creamy or vegetable-based. Filled pasta (ravioli, tortellini): Serve with light sauces to showcase filling. Learn proper cooking times for different pasta types and shapes."
+                    },
+                    {
+                        "subtitle": "Cooking Technique",
+                        "content": "Master perfect pasta cooking method: Use abundant water (4-6 quarts per pound of pasta). Salt water generously (1-2 tablespoons per pot). Bring to rolling boil before adding pasta. Stir immediately after adding to prevent sticking. Time carefully, testing 1-2 minutes before package time suggests. Reserve pasta water before draining. Never rinse pasta (except for cold pasta salad). Finish cooking pasta in the sauce for optimal flavor absorption."
+                    }
+                ]
+            },
+            {
+                "title": "Sauce Development",
+                "subsections": [
+                    {
+                        "subtitle": "Sauce Foundations",
+                        "content": "Build flavorful pasta sauces based on dice roll: Tomato-based: Develop depth through proper sautéing of aromatics and simmering time. Cream-based: Create silky texture without curdling or breaking. Oil-based: Balance flavors and emulsify properly. Pesto: Maintain bright color and fresh flavor. Meat-based (ragù): Build layers of flavor through proper browning and simmering. Learn proper consistency adjustment techniques using pasta water."
+                    },
+                    {
+                        "subtitle": "Flavor Layering",
+                        "content": "Develop complex sauce flavors with proper technique: Build aromatic foundation (onion, garlic, etc.) with proper sautéing. Add herbs at appropriate times (woody herbs early, delicate herbs late). Balance acidity with sweetness as needed. Use umami boosters (parmesan rinds, anchovy, mushrooms) for depth. Finish with fresh elements (herbs, cheese, olive oil) for brightness."
+                    }
+                ]
+            },
+            {
+                "title": "Complete Meal Components",
+                "subsections": [
+                    {
+                        "subtitle": "Protein Integration",
+                        "content": "Incorporate protein elements based on dice roll: Integrated into sauce (ground meat, sausage): Cook thoroughly before adding sauce components. Served separately (chicken, fish): Cook to proper doneness and slice appropriately. Added at end (seafood): Avoid overcooking delicate proteins. Plant-based (beans, lentils): Ensure proper texture and seasoning. Learn proper protein portioning and presentation."
+                    },
+                    {
+                        "subtitle": "Side Dishes & Accompaniments",
+                        "content": "Complete the pasta dinner experience with complementary sides: Simple green salad: Light dressing to counterbalance pasta richness. Garlic bread or focaccia: Provide textural contrast. Antipasto components: Add variety of flavors and textures. Roasted or sautéed vegetables: Add nutritional balance. Learn proper timing of side dish preparation within overall meal workflow."
+                    }
+                ]
+            }
+        ],
+        "miniObjectives": [
+            {
+                "title": "Pasta Selection & Preparation",
+                "tasks": [
+                    "Select pasta shape based on dice roll",
+                    "Cook pasta properly to al dente texture",
+                    "Reserve pasta water for sauce adjustments",
+                    "Time pasta completion to coincide with sauce"
+                ]
+            },
+            {
+                "title": "Sauce Development",
+                "tasks": [
+                    "Select sauce style based on dice roll",
+                    "Build proper aromatic foundation",
+                    "Develop flavor through appropriate cooking technique",
+                    "Adjust consistency and seasoning"
+                ]
+            },
+            {
+                "title": "Protein Component",
+                "tasks": [
+                    "Select protein based on dice roll",
+                    "Prepare protein with appropriate cooking method",
+                    "Integrate with pasta or prepare separately as appropriate",
+                    "Ensure proper doneness and seasoning"
+                ]
+            },
+            {
+                "title": "Side Dish Preparation",
+                "tasks": [
+                    "Select complementary side dish based on dice roll",
+                    "Prepare side dish with appropriate technique",
+                    "Time completion to coincide with pasta",
+                    "Season and finish appropriately"
+                ]
+            },
+            {
+                "title": "Final Assembly & Presentation",
+                "tasks": [
+                    "Combine pasta and sauce with proper technique",
+                    "Add final toppings (cheese, herbs, olive oil)",
+                    "Plate pasta and sides attractively",
+                    "Serve at optimal temperature"
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Dice Roll Mechanics",
+                "steps": [
+                    "Roll for Pasta Type (d6): 1-Long, thin pasta (spaghetti, linguine, fettuccine), 2-Short, tubular pasta (penne, rigatoni, ziti), 3-Shaped pasta (farfalle, fusilli, orecchiette), 4-Filled pasta (ravioli, tortellini), 5-Strand pasta (tagliatelle, pappardelle), 6-Specialty pasta (gnocchi, orzo, etc.)",
+                    "Roll for Sauce Style (d6): 1-Classic tomato (marinara, pomodoro), 2-Cream-based (alfredo, carbonara), 3-Oil-based (aglio e olio, cacio e pepe), 4-Pesto or herb-based, 5-Meat sauce (bolognese, ragù), 6-Vegetable-forward sauce",
+                    "Roll for Protein Addition (d6): 1-Ground meat (beef, pork, etc.), 2-Poultry (chicken, turkey), 3-Seafood (shrimp, scallops, etc.), 4-Sausage (Italian, etc.), 5-Plant-based protein (beans, lentils, tofu), 6-No additional protein (vegetarian)",
+                    "Roll for Side Dish (d6): 1-Simple green salad, 2-Garlic bread or focaccia, 3-Antipasto platter, 4-Roasted or sautéed vegetables, 5-Bruschetta or crostini, 6-Soup (minestrone, etc.)",
+                    "Roll for Special Addition (d6): 1-Fine cheese finishing (parmesan, pecorino), 2-Herb garnish (basil, parsley), 3-Toasted nuts or breadcrumbs, 4-Flavored oil drizzle, 5-Vegetable garnish or addition, 6-Specialty ingredient (truffle, capers, olives, etc.)"
+                ]
+            }
+        ],
+        "questFlow": "Begin by assessing your dice rolls to determine your pasta dinner components. Start by preparing any long-cooking sauce elements (like a slow-simmered tomato sauce). Prepare your side dish components next. Bring pasta water to boil while finishing your sauce. Cook the pasta to al dente, reserving some pasta water. Combine pasta and sauce, adding pasta water as needed for consistency. Complete sides, then plate and serve everything together.",
+        "completionChecklist": [
+            "Pasta cooked to proper al dente texture",
+            "Sauce properly developed with balanced flavors",
+            "Pasta and sauce combined with correct technique",
+            "Protein (if applicable) cooked to proper doneness",
+            "Side dish properly prepared and seasoned",
+            "All meal components timed to finish together",
+            "Final dish garnished appropriately",
+            "Meal presents a cohesive flavor profile"
+        ],
+        "tipsForSuccess": [
+            "Salt pasta water generously - it's your main opportunity to season the pasta itself",
+            "Always reserve pasta water - it's crucial for adjusting sauce consistency",
+            "Cook pasta 1-2 minutes less than package directions for perfect al dente",
+            "Taste and adjust sauce seasonings multiple times during cooking",
+            "Don't add oil to pasta water - it's unnecessary and prevents sauce adhesion",
+            "Warm serving bowls for best temperature maintenance",
+            "Let cream come to room temperature before adding to hot sauces to prevent curdling"
+        ]
+    },
+    {
+        "id": 304,
+        "questName": "Special Occasion Dinner",
+        "rank": "Home Cook",
+        "type": "Main",
+        "primaryFocus": "Technique",
+        "secondaryFocus": "Management",
+        "primaryHours": 3,
+        "secondaryHours": 1.5,
+        "diceRequired": true,
+        "description": "Create an elevated multi-course dinner featuring an appetizer, main course with sides, and cohesive presentation",
+        "stageId": 4,
+        "stageName": "Basic Sides & Components",
+        "learningObjectives": [
+            "Master advanced menu planning and multi-course coordination",
+            "Develop elevated cooking techniques for special occasions",
+            "Learn complex flavor pairing across multiple dishes",
+            "Practice precise timing management for coursed meal service",
+            "Create professional-level plating and presentation"
+        ],
+        "equipmentNeeded": [
+            "Multiple cooking vessels (pots, pans, baking dishes)",
+            "Multiple cutting boards and knives",
+            "Fine strainer or sieve",
+            "Instant-read thermometer",
+            "Various mixing bowls",
+            "Tongs, spatulas, and serving utensils",
+            "Measuring cups and spoons",
+            "Blender or food processor (if needed)",
+            "Appropriate serving dishes",
+            "Presentation tools (squeeze bottles, small spoons, etc.)"
+        ],
+        "contentSections": [
+            {
+                "title": "Menu Development",
+                "subsections": [
+                    {
+                        "subtitle": "Course Planning",
+                        "content": "Design a cohesive multi-course experience: Appetizer: Stimulate appetite without overwhelming palate. Main course: Showcase central protein with complementary sides. Optional: Intermezzo (palate cleanser between courses). Consider progression of flavors, textures, and portion sizes. Balance rich and light elements across courses. Create thematic consistency while maintaining interest."
+                    },
+                    {
+                        "subtitle": "Advanced Preparation Strategy",
+                        "content": "Develop strategic planning for complex meal execution: Identify make-ahead components that improve with resting. Create detailed timeline working backward from serving time. Understand which components can hold and which need last-minute preparation. Plan for limited cooking equipment and workspace. Prepare organization systems for efficient execution. Consider temperature management for each component."
+                    }
+                ]
+            },
+            {
+                "title": "Elevated Techniques",
+                "subsections": [
+                    {
+                        "subtitle": "Appetizer Execution",
+                        "content": "Master refined appetizer preparation based on dice roll: Hot appetizer: Control temperature timing and maintain texture. Cold appetizer: Balance flavors and presentation elements. Soup course: Achieve proper consistency and temperature. Salad course: Create composed presentation with balanced elements. Small bite: Develop precise assembly and portioning. Learn proper portioning to begin meal without overwhelming."
+                    },
+                    {
+                        "subtitle": "Main Course Mastery",
+                        "content": "Develop advanced main course techniques based on dice roll: Premium protein (steak, rack, whole fish): Achieve perfect doneness and presentation. Multi-component plate: Coordinate multiple elements with precise timing. Composed dish (risotto, paella): Develop proper texture and integration of components. Elevated comfort food: Refine familiar dishes with advanced technique. Vegetable-forward entrée: Create satisfying main using produce as focus. Learn temperature maintenance for service timing."
+                    }
+                ]
+            },
+            {
+                "title": "Professional Presentation",
+                "subsections": [
+                    {
+                        "subtitle": "Plating Techniques",
+                        "content": "Create restaurant-quality presentation: Apply height, texture, and color principles for visual appeal. Use negative space effectively on the plate. Create focal points through placement and garnish. Apply sauce with proper technique (pooling, drizzling, dots). Maintain clean plate edges. Consider plate size and color for optimal presentation."
+                    },
+                    {
+                        "subtitle": "Service Coordination",
+                        "content": "Manage coursed service for optimal experience: Prepare serving vessels appropriately (warmed or chilled). Coordinate course timing for smooth progression. Prepare holding areas for completed components. Plan efficient transition between courses. Create contingency plans for timing issues. Consider table setting and ambience elements."
+                    }
+                ]
+            }
+        ],
+        "miniObjectives": [
+            {
+                "title": "Menu Planning",
+                "tasks": [
+                    "Determine appetizer and main course based on dice rolls",
+                    "Create cohesive menu with complementary flavors",
+                    "Develop preparation timeline for all components",
+                    "Organize ingredients and equipment needs"
+                ]
+            },
+            {
+                "title": "Appetizer Preparation",
+                "tasks": [
+                    "Prepare appetizer components with appropriate technique",
+                    "Focus on presentation and visual appeal",
+                    "Time completion to serve as first course",
+                    "Plate appetizer with professional appearance"
+                ]
+            },
+            {
+                "title": "Main Course Protein",
+                "tasks": [
+                    "Select appropriate cooking method based on protein",
+                    "Cook protein to precise temperature or doneness",
+                    "Rest appropriately before serving",
+                    "Apply final seasoning or sauce as needed"
+                ]
+            },
+            {
+                "title": "Side Dish Execution",
+                "tasks": [
+                    "Prepare side dishes with coordinated timing",
+                    "Execute proper cooking techniques for each",
+                    "Season each component independently",
+                    "Finish with appropriate garnishes or final touches"
+                ]
+            },
+            {
+                "title": "Final Plating & Service",
+                "tasks": [
+                    "Plate main course with professional technique",
+                    "Apply sauces and garnishes appropriately",
+                    "Ensure all components are proper temperature",
+                    "Coordinate service timing between courses"
+                ]
+            }
+        ],
+        "practicalExercises": [
+            {
+                "title": "Dice Roll Mechanics",
+                "steps": [
+                    "Roll for Appetizer Style (d6): 1-Hot appetizer (crostini, stuffed mushrooms, etc.), 2-Cold appetizer (charcuterie, tartare, etc.), 3-Soup course, 4-Composed salad, 5-Small bite or amuse bouche, 6-Seafood starter",
+                    "Roll for Main Course Protein (d6): 1-Premium beef (steak, roast), 2-Poultry (duck, chicken, etc.), 3-Seafood (whole fish, scallops, etc.), 4-Lamb or pork, 5-Game meat or exotic protein, 6-Vegetable-forward main",
+                    "Roll for Cooking Method (d6): 1-Roasted or baked, 2-Pan-seared with sauce, 3-Braised or slow-cooked, 4-Grilled or broiled, 5-Poached or sous vide, 6-Composed dish method (risotto, paella, etc.)",
+                    "Roll for Side Dish Style (d6): 1-Starch and vegetable pairing, 2-Two complementary vegetables, 3-Grain-based dish, 4-Composed side (gratin, terrine, etc.), 5-Creative interpretation of classic side, 6-Seasonal vegetable medley",
+                    "Roll for Presentation Focus (d6): 1-Architectural/height-focused plating, 2-Sauce artistry, 3-Color-focused presentation, 4-Rustic elegance (family style), 5-Modern minimalist plating, 6-Classic composition with modern touches"
+                ]
+            }
+        ],
+        "questFlow": "Begin by reviewing your dice rolls and creating a detailed timeline. Start with any long-cooking components for the main dish. Prepare as many appetizer components ahead as possible. Cook protein for main course with appropriate resting time. Prepare side dishes while protein cooks or rests. Complete appetizer plating and serve. Finish main course components and plate according to your presentation style. Focus on timing, temperature, and visual appeal throughout.",
+        "completionChecklist": [
+            "Appetizer successfully prepared and plated",
+            "Main course protein cooked to proper doneness",
+            "Side dishes properly executed and seasoned",
+            "All components served at appropriate temperature",
+            "Professional-level plating achieved",
+            "Courses properly timed and transitioned",
+            "Cohesive flavor profiles across courses",
+            "Visual presentation shows attention to detail"
+        ],
+        "tipsForSuccess": [
+            "Create a detailed timeline and refer to it frequently",
+            "Prepare mise en place for each course separately",
+            "Use all available cooking equipment strategically",
+            "Have plates and serving vessels ready and appropriate temperature",
+            "Focus on cleanliness and organization throughout cooking",
+            "Take photos of plating reference if needed",
+            "Less is often more with plating - maintain clean visual lines",
+            "Taste everything before serving"
+        ]
+    },
+    {
         "id": 103,
         "questName": "Cookbook Expedition: Personal Collection",
         "rank": "Home Cook",
