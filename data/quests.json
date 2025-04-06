@@ -1,6 +1,6 @@
 {
-  "version": "2.0.1",
-  "timestamp": "2025-04-06T11:34:40.584Z",
+  "version": "2.0.2",
+  "timestamp": "2025-04-06T12:34:40.584Z",
   "quests": [
     {
         "id": 200,
@@ -1587,8 +1587,11 @@
         "secondaryHours": 1,
         "diceRequired": true,
         "description": "Create a complete breakfast with eggs, toast, and fruit while mastering timing and coordination",
-        "stageId": 2,
-        "stageName": "Knife Skills & Heat Control",
+        "stageId": 1,
+        "stageName": "Kitchen Fundamentals",
+        "milestone": true,
+        "unlocksStage": 2,
+        "unlockMessage": "Stage 2: Knife Skills is now available!",
         "learningObjectives": [
             "Master multi-component cooking timing",
             "Develop protein cookery skills with eggs",
