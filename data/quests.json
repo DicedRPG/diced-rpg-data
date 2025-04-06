@@ -90,7 +90,7 @@
         ]
     },
     {
-        "id": 201,
+        "id": 2,
         "questName": "Pantry Staples Inventory",
         "rank": "Home Cook",
         "type": "Training",
@@ -181,7 +181,7 @@
         ]
     },
     {
-        "id": 202,
+        "id": 3,
         "questName": "Cross-Contamination Prevention",
         "rank": "Home Cook",
         "type": "Training",
@@ -269,7 +269,7 @@
         ]
     },
     {
-        "id": 203,
+        "id": 4,
         "questName": "Perfect Toast Preparation",
         "rank": "Home Cook",
         "type": "Training",
@@ -356,7 +356,7 @@
         ]
     },
     {
-        "id": 204,
+        "id": 5,
         "questName": "Perfect Boiled Egg",
         "rank": "Home Cook",
         "type": "Training",
@@ -993,7 +993,7 @@
         ]
     },
     {
-        "id": 400,
+        "id": 50,
         "questName": "Quick Pickled Vegetables",
         "rank": "Home Cook",
         "type": "Side",
@@ -1101,7 +1101,7 @@
         ]
     },
     {
-        "id": 401,
+        "id": 51,
         "questName": "Perfect Roasted Vegetables",
         "rank": "Home Cook",
         "type": "Side",
@@ -1111,8 +1111,8 @@
         "secondaryHours": 0.5,
         "diceRequired": false,
         "description": "Master the technique of roasting vegetables to caramelized perfection with minimal effort and maximum flavor",
-        "stageId": 3,
-        "stageName": "Flavor Development",
+        "stageId": 1,
+        "stageName": "Kitchen Fundamentals",
         "learningObjectives": [
             "Understand optimal roasting temperatures and times for different vegetables",
             "Learn proper cutting techniques for even cooking",
@@ -1223,7 +1223,7 @@
         ]
     },
     {
-        "id": 402,
+        "id": 52,
         "questName": "Essential Garlic Bread",
         "rank": "Home Cook",
         "type": "Side",
@@ -1345,7 +1345,7 @@
         ]
     },
     {
-        "id": 403,
+        "id": 53,
         "questName": "Simple Rice Pilaf",
         "rank": "Home Cook",
         "type": "Side",
@@ -1467,7 +1467,7 @@
         ]
     },
     {
-        "id": 404,
+        "id": 54,
         "questName": "Simple Pan Sauce",
         "rank": "Home Cook",
         "type": "Side",
@@ -1577,7 +1577,7 @@
         ]
     },
     {
-        "id": 300,
+        "id": 75,
         "questName": "Complete Breakfast Challenge",
         "rank": "Home Cook",
         "type": "Main",
@@ -1716,7 +1716,7 @@
         ]
     },
     {
-        "id": 301,
+        "id": 76,
         "questName": "Classic Soup & Sandwich Combo",
         "rank": "Home Cook",
         "type": "Main",
@@ -1863,7 +1863,7 @@
         ]
     },
     {
-        "id": 302,
+        "id": 77,
         "questName": "Protein and Two Sides Dinner",
         "rank": "Home Cook",
         "type": "Main",
@@ -2014,7 +2014,7 @@
         ]
     },
     {
-        "id": 303,
+        "id": 78,
         "questName": "Pasta Night Feast",
         "rank": "Home Cook",
         "type": "Main",
@@ -2166,7 +2166,7 @@
         ]
     },
     {
-        "id": 304,
+        "id": 79,
         "questName": "Special Occasion Dinner",
         "rank": "Home Cook",
         "type": "Main",
@@ -2320,7 +2320,7 @@
         ]
     },
     {
-        "id": 103,
+        "id": 100,
         "questName": "Cookbook Expedition: Personal Collection",
         "rank": "Home Cook",
         "type": "Explore",
@@ -2445,7 +2445,7 @@
         ]
     },
     {
-        "id": 105,
+        "id": 101,
         "questName": "Ingredient Safari: Market Exploration",
         "rank": "Home Cook",
         "type": "Explore",
@@ -2596,7 +2596,7 @@
         ]
     },
     {
-        "id": 107,
+        "id": 102,
         "questName": "Meal Planning Strategy",
         "rank": "Home Cook",
         "type": "Explore",
@@ -2747,7 +2747,7 @@
         ]
     },
     {
-        "id": 108,
+        "id": 103,
         "questName": "Kitchen Arsenal: Equipment Mastery",
         "rank": "Home Cook",
         "type": "Explore",
@@ -2897,7 +2897,7 @@
         ]
     },
     {
-        "id": 109,
+        "id": 104,
         "questName": "Food Science Laboratory",
         "rank": "Home Cook",
         "type": "Explore",
