@@ -1,5 +1,5 @@
 {
-  "version": "2.0.4",
+  "version": "2.0.5",
   "timestamp": "2025-04-06T12:36:40.584Z",
   "quests": [
     {
@@ -983,7 +983,7 @@
             "Successfully used in a dish to enhance flavor"
         ],
         "tipsForSuccess": [
-            "Ensure herbs are 100% dry to prevent spoilage",
+            "Ensure herbs are % dry to prevent spoilage",
             "Use a thermometer for precise temperature control",
             "Don't be tempted to add too many different herbs - simplicity often works best",
             "For garlic-infused oil, use immediately or refrigerate to prevent botulism risk",
