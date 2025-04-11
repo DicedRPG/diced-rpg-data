@@ -445,7 +445,7 @@
         ]
     },
     {
-        "id": 205,
+        "id": 6,
         "questName": "One-Ingredient Banana Ice Cream",
         "rank": "Home Cook",
         "type": "Training",
@@ -533,7 +533,7 @@
         ]
     },
     {
-        "id": 206,
+        "id": 7,
         "questName": "Simple Vinaigrette",
         "rank": "Home Cook",
         "type": "Training",
@@ -622,7 +622,7 @@
         ]
     },
     {
-        "id": 207,
+        "id": 8,
         "questName": "Perfectly Fluffy Rice",
         "rank": "Home Cook",
         "type": "Training",
@@ -713,7 +713,7 @@
         ]
     },
     {
-        "id": 208,
+        "id": 9,
         "questName": "Simple Green Salad",
         "rank": "Home Cook",
         "type": "Training",
@@ -804,7 +804,7 @@
         ]
     },
     {
-        "id": 209,
+        "id": 10,
         "questName": "Basic Vegetable Sauté",
         "rank": "Home Cook",
         "type": "Training",
@@ -899,7 +899,7 @@
         ]
     },
     {
-        "id": 210,
+        "id": 11,
         "questName": "Herb Infused Olive Oil",
         "rank": "Home Cook",
         "type": "Training",
