@@ -161,6 +161,124 @@
     "unlocks": ["M1-1"]
   },
   {
+    "id": "T1-6",
+    "title": "Measuring Mastery",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 15,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0,
+      "flavor": 0,
+      "management": 0.4
+    },
+    "materials": [
+      "Measuring cups",
+      "Measuring spoons",
+      "Various ingredients (flour, sugar, rice, water)"
+    ],
+    "objectives": [
+      "Learn proper measuring techniques for dry and wet ingredients",
+      "Understand volume vs. weight measurements",
+      "Practice consistent measuring for recipe accuracy"
+    ],
+    "instructions": [
+      "Set up measuring tools and ingredients on a clean counter",
+      "Practice measuring dry ingredients by spooning into the cup, then leveling with a knife",
+      "Practice measuring wet ingredients at eye level in a liquid measuring cup",
+      "Compare measurements across different tools to understand consistency",
+      "Practice converting between common measurements (tbsp to tsp, cups to oz)"
+    ],
+    "learningFocus": "Consistent measurement techniques for recipe success",
+    "techniquesLearned": ["measurement-basics", "conversion-skills"],
+    "category": "Kitchen Management",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
+    "id": "T1-7",
+    "title": "Pantry Organization",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0,
+      "ingredients": 0.3,
+      "flavor": 0,
+      "management": 0.6
+    },
+    "materials": [
+      "Pantry items",
+      "Storage containers",
+      "Labels"
+    ],
+    "objectives": [
+      "Organize pantry staples for efficient cooking",
+      "Learn proper storage for common ingredients",
+      "Create an inventory system"
+    ],
+    "instructions": [
+      "Remove items from your pantry space",
+      "Group similar items together (grains, canned goods, spices, etc.)",
+      "Check expiration dates and discard expired items",
+      "Transfer items to appropriate containers for freshness",
+      "Label containers with contents and date",
+      "Arrange items by frequency of use for easy access",
+      "Create a basic inventory list of staples"
+    ],
+    "learningFocus": "Kitchen management and ingredient preservation",
+    "techniquesLearned": ["storage-basics", "inventory-management"],
+    "category": "Kitchen Management",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
+    "id": "T1-8",
+    "title": "Vegetable Cleaning",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 20,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.4,
+      "flavor": 0,
+      "management": 0
+    },
+    "materials": [
+      "Assorted vegetables",
+      "Colander",
+      "Vegetable brush",
+      "Cutting board"
+    ],
+    "objectives": [
+      "Learn proper cleaning techniques for different vegetables",
+      "Understand which parts are edible and which should be discarded",
+      "Practice efficient preparation"
+    ],
+    "instructions": [
+      "Sort vegetables by type (root, leafy, fruit vegetables)",
+      "For leafy greens: remove damaged outer leaves, soak in cold water, drain thoroughly",
+      "For root vegetables: scrub with vegetable brush under running water",
+      "For delicate items like berries: gentle rinse and pat dry",
+      "Practice removing stems, seeds, and other inedible parts",
+      "Store cleaned vegetables properly for future use"
+    ],
+    "learningFocus": "Proper vegetable preparation and food safety",
+    "techniquesLearned": ["vegetable-cleaning", "produce-preparation"],
+    "category": "Ingredient Knowledge",
+    "prerequisites": [],
+    "unlocks": []
+  },  
+  {
     "id": "M1-1",
     "title": "One-Pan Scramble",
     "type": "main",
@@ -204,6 +322,95 @@
     "unlocks": ["M2-1"]
   },
   {
+    "id": "M1-4",
+    "title": "Breakfast Toast Variations",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 25,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.2,
+      "flavor": 0.4,
+      "management": 0
+    },
+    "materials": [
+      "Bread",
+      "Eggs",
+      "Various toppings (avocado, cheese, tomato, etc.)",
+      "Seasonings"
+    ],
+    "objectives": [
+      "Create multiple variations of topped toast",
+      "Balance flavors and textures",
+      "Practice multi-element timing"
+    ],
+    "instructions": [
+      "Toast bread to perfection (using skills from Perfect Toast quest)",
+      "Prepare 2-3 different toppings:",
+      "- Mashed avocado with salt and lemon",
+      "- Egg (fried or scrambled using Egg Essentials skills)",
+      "- Cheese (melted under broiler or microwave)",
+      "Layer components in proper order for best results",
+      "Season each variation appropriately",
+      "Arrange for appealing presentation",
+      "Taste and evaluate each variation"
+    ],
+    "learningFocus": "Component combination and flavor layering",
+    "techniquesLearned": ["component-assembly", "flavor-balancing"],
+    "category": "Flavor Building",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
+    "id": "M1-5",
+    "title": "Pantry Pasta",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0,
+      "flavor": 0.3,
+      "management": 0.4
+    },
+    "materials": [
+      "Pasta",
+      "Olive oil",
+      "Garlic",
+      "Red pepper flakes",
+      "Parmesan cheese",
+      "Pantry items"
+    ],
+    "objectives": [
+      "Create a complete meal using primarily pantry staples",
+      "Practice pasta cooking technique",
+      "Build a simple but flavorful sauce"
+    ],
+    "instructions": [
+      "Bring large pot of water to boil (apply proper salt amount)",
+      "Cook pasta according to package directions (testing for doneness)",
+      "While pasta cooks, prepare simple sauce using:",
+      "- Heat olive oil in pan",
+      "- Add minced garlic and red pepper flakes",
+      "- Cook until fragrant but not brown",
+      "Reserve some pasta water before draining",
+      "Combine pasta with sauce, adding pasta water as needed",
+      "Finish with grated cheese and any fresh herbs available",
+      "Adjust seasoning to taste"
+    ],
+    "learningFocus": "Basic sauce building and pasta cooking technique",
+    "techniquesLearned": ["pasta-cooking", "simple-sauce-building"],
+    "category": "Heat Management",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
     "id": "E1-1",
     "title": "Market Expedition",
     "type": "explore",
@@ -242,6 +449,217 @@
     "category": "Ingredient Knowledge",
     "prerequisites": [],
     "unlocks": ["E2-1"]
+  },
+  {
+    "id": "E1-3",
+    "title": "Taste Testing Experiment",
+    "type": "explore",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0,
+      "ingredients": 0,
+      "flavor": 0.8,
+      "management": 0
+    },
+    "materials": [
+      "Small samples of foods with different taste profiles",
+      "Notebook",
+      "Water"
+    ],
+    "objectives": [
+      "Identify the five basic tastes",
+      "Understand how tastes interact",
+      "Develop taste memory and vocabulary"
+    ],
+    "instructions": [
+      "Gather small samples representing the five basic tastes:",
+      "- Sweet (sugar, honey)",
+      "- Salty (salt, soy sauce)",
+      "- Sour (lemon, vinegar)",
+      "- Bitter (coffee, dark chocolate)",
+      "- Umami (parmesan, mushrooms, tomato)",
+      "Taste each sample individually, noting sensations and intensity",
+      "Cleanse palate with water between samples",
+      "Try combining tastes in pairs to observe interactions",
+      "Write down descriptions and reactions for future reference",
+      "Identify which tastes you're most sensitive to"
+    ],
+    "learningFocus": "Flavor identification and sensory development",
+    "techniquesLearned": ["taste-identification", "flavor-memory"],
+    "category": "Flavor Building",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
+    "id": "E1-4",
+    "title": "Kitchen Equipment Survey",
+    "type": "explore",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 40,
+    "attributeRewards": {
+      "technique": 0,
+      "ingredients": 0,
+      "flavor": 0,
+      "management": 0.8
+    },
+    "materials": [
+      "All kitchen equipment",
+      "Notebook",
+      "Cleaning supplies"
+    ],
+    "objectives": [
+      "Create a complete inventory of kitchen equipment",
+      "Learn proper cleaning and maintenance",
+      "Identify gaps in essential tools"
+    ],
+    "instructions": [
+      "Remove all cooking tools and equipment from storage",
+      "Group items by function (cutting, cooking, measuring, etc.)",
+      "Clean each item properly according to its material",
+      "Note condition and functionality of each item",
+      "Create an inventory list with care instructions",
+      "Identify missing essential tools for future acquisition",
+      "Organize items for optimal workflow when returned to storage"
+    ],
+    "learningFocus": "Kitchen equipment knowledge and organization",
+    "techniquesLearned": ["equipment-knowledge", "kitchen-organization"],
+    "category": "Kitchen Management",
+    "prerequisites": [],
+    "unlocks": []
+  }
+  {
+    "id": "S1-5",
+    "title": "Perfect Toast",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 15,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0,
+      "flavor": 0,
+      "management": 0.2
+    },
+    "materials": [
+      "Bread",
+      "Toaster or pan",
+      "Butter or spreads"
+    ],
+    "objectives": [
+      "Master proper toasting technique using different methods",
+      "Learn to monitor doneness",
+      "Apply toppings at the right time"
+    ],
+    "instructions": [
+      "Slice bread evenly for consistent toasting",
+      "Try multiple toasting methods if available (toaster, pan, oven)",
+      "Monitor the toasting process - looking for golden brown color",
+      "Test different settings/times for your preferred level of doneness",
+      "Apply butter immediately after toasting for best melting",
+      "Try various simple toppings (jam, nut butter, avocado)"
+    ],
+    "learningFocus": "Heat monitoring and timing",
+    "techniquesLearned": ["toasting-basics", "doneness-monitoring"],
+    "category": "Heat Management",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
+    "id": "S1-6",
+    "title": "Basic Herb Preparation",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 15,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0,
+      "flavor": 0.4,
+      "management": 0
+    },
+    "materials": [
+      "Fresh herbs (parsley, cilantro, or basil)",
+      "Knife",
+      "Cutting board",
+      "Storage containers"
+    ],
+    "objectives": [
+      "Learn to clean and dry herbs properly",
+      "Practice basic herb cutting techniques",
+      "Understand herb storage for maximum freshness"
+    ],
+    "instructions": [
+      "Remove herbs from packaging and inspect for quality",
+      "Rinse herbs under cold water and shake off excess moisture",
+      "Pat dry completely with paper towels or use a salad spinner",
+      "For leafy herbs, pick leaves from tough stems",
+      "Practice basic cutting techniques (rough chop vs. fine mince)",
+      "Store properly in paper towel and container or herb keeper",
+      "Freeze a portion with a simple method (ice cube tray with oil)"
+    ],
+    "learningFocus": "Herb preparation and flavor enhancement",
+    "techniquesLearned": ["herb-preparation", "flavor-preservation"],
+    "category": "Flavor Building",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
+    "id": "S1-7",
+    "title": "Boiled Eggs Mastery",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 20,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0,
+      "flavor": 0,
+      "management": 0.3
+    },
+    "materials": [
+      "Eggs",
+      "Pot",
+      "Water",
+      "Timer",
+      "Bowl of ice water"
+    ],
+    "objectives": [
+      "Perfect the timing for different egg consistencies",
+      "Learn the ice bath technique",
+      "Practice easy peeling methods"
+    ],
+    "instructions": [
+      "Place eggs in a single layer in a pot",
+      "Cover with cold water by 1 inch",
+      "Bring to a rolling boil",
+      "Remove from heat, cover, and let stand for varying times:",
+      "- 4 minutes for very soft boiled",
+      "- 6 minutes for soft boiled",
+      "- 9 minutes for medium",
+      "- 12 minutes for hard boiled",
+      "Prepare ice bath while eggs cook",
+      "Transfer eggs immediately to ice bath after cooking time",
+      "Let cool for 5 minutes before peeling",
+      "Practice gentle tapping and peeling technique"
+    ],
+    "learningFocus": "Precision timing and temperature control",
+    "techniquesLearned": ["egg-cooking", "timing-precision"],
+    "category": "Heat Management",
+    "prerequisites": [],
+    "unlocks": []
   },
   {
     "id": "T2-1",
