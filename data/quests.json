@@ -4740,5 +4740,3331 @@
     "category": "Knife Skills",
     "prerequisites": ["T4-1", "T4-6"],
     "unlocks": ["T5-6", "S5-1"]
-  }
+  },
+
+    {
+      "id": "T5-2",
+      "title": "Oven Management",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 35,
+      "attributeRewards": {
+        "technique": 0.5
+      },
+        "materials": [
+        "Main and side dish components",
+        "Various cooking vessels",
+        "Timing tools and schedule",
+        "Plating equipment",
+        "Garnishes"
+      ],
+      "objectives": [
+        "Create complete dinner with multiple techniques",
+        "Practice timing coordination",
+        "Learn elegant plating for multiple components"
+      ],
+      "instructions": [
+        "Plan complete dinner with protein, sides, and sauce",
+        "Create detailed execution timeline",
+        "Prepare mise en place for all components",
+        "Utilize different cooking methods for variety:",
+        "- Choose appropriate techniques for each component",
+        "- Coordinate different cooking vessels",
+        "- Manage oven and stovetop space efficiently",
+        "Time components for simultaneous completion",
+        "Apply proper sauce finishing techniques",
+        "Plate components with attention to:",
+        "- Visual balance",
+        "- Proper temperature",
+        "- Sauce application",
+        "- Garnish placement",
+        "Evaluate execution timing and note improvements",
+        "Document successful techniques for future reference"
+      ],
+      "learningFocus": "Complete dinner execution with multiple techniques",
+      "techniquesLearned": ["timing-mastery", "menu-execution", "multi-component-plating"],
+      "category": "Multiple",
+      "prerequisites": ["T5-8", "T5-9", "S5-4"],
+      "unlocks": ["M6-4"]
+    },
+    {
+      "id": "M5-5",
+      "title": "International Cuisine Exploration",
+      "type": "main",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 75,
+      "attributeRewards": {
+        "technique": 0.4
+      },
+        "materials": [
+        "Authentic ingredients for chosen cuisine",
+        "Required cooking equipment",
+        "Recipe references",
+        "Serving and plating elements",
+        "Traditional garnishes"
+      ],
+      "objectives": [
+        "Create authentic dish from chosen cuisine",
+        "Learn traditional techniques",
+        "Understand cultural flavor principles"
+      ],
+      "instructions": [
+        "Research authentic cuisine from specific region or country",
+        "Select traditional dish that highlights unique techniques",
+        "Source authentic ingredients",
+        "Learn key flavor principles of the cuisine:",
+        "- Characteristic spice blends",
+        "- Traditional flavor combinations",
+        "- Authentic cooking methods",
+        "- Cultural serving practices",
+        "Practice authentic preparation techniques",
+        "Pay attention to proper cooking methods and timing",
+        "Apply traditional garnishing and plating",
+        "Serve with authentic accompaniments",
+        "Document techniques for future application",
+        "Compare to familiar cooking methods and note differences"
+      ],
+      "learningFocus": "Cultural cooking techniques and flavor principles",
+      "techniquesLearned": ["cultural-techniques", "traditional-methods", "authentic-flavoring"],
+      "category": "Multiple",
+      "prerequisites": ["T5-9", "T5-10"],
+      "unlocks": ["M6-5"]
+    },
+    {
+      "id": "E5-1",
+      "title": "Plating Workshop",
+      "type": "explore",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 50,
+      "attributeRewards": {
+        "technique": 0.3,
+        "ingredients": 0,
+        "flavor": 0.1,
+        "management": 0.6
+      },
+      "materials": [
+        "Various plating components",
+        "Selection of plates and serving vessels",
+        "Saucing tools",
+        "Garnishing elements",
+        "Camera for documentation"
+      ],
+      "objectives": [
+        "Practice advanced plating techniques",
+        "Learn visual composition principles",
+        "Develop personal plating style"
+      ],
+      "instructions": [
+        "Research current plating trends and techniques",
+        "Study plating fundamentals:",
+        "- Balance and focal points",
+        "- Negative space utilization",
+        "- Color and texture contrast",
+        "- Height and dimension",
+        "- Portion sizing and placement",
+        "Practice multiple plating styles with the same components:",
+        "- Rustic/casual presentation",
+        "- Modern/minimalist arrangement",
+        "- Classic/formal composition",
+        "- Artistic/avant-garde presentation",
+        "Experiment with different plate shapes and colors",
+        "Practice sauce application techniques:",
+        "- Dots and smears",
+        "- Pools and drizzles",
+        "- Foam and gel applications",
+        "Document successful techniques photographically",
+        "Develop personal plating guidelines"
+      ],
+      "learningFocus": "Advanced food presentation techniques",
+      "techniquesLearned": ["composition-principles", "plating-styles", "sauce-application"],
+      "category": "Kitchen Management",
+      "prerequisites": ["E4-1"],
+      "unlocks": ["E6-1"]
+    },
+    {
+      "id": "E5-2",
+      "title": "Kitchen Literature",
+      "type": "explore",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 45,
+      "attributeRewards": {
+        "technique": 0.2,
+        "ingredients": 0.3,
+        "flavor": 0.3,
+        "management": 0.2
+      },
+      "materials": [
+        "Culinary books or articles",
+        "Note-taking materials",
+        "Ingredients for testing concepts",
+        "Basic cooking equipment",
+        "Documentation system"
+      ],
+      "objectives": [
+        "Explore culinary writing and apply learning",
+        "Develop deeper understanding of techniques",
+        "Connect theory with practical application"
+      ],
+      "instructions": [
+        "Select quality culinary literature:",
+        "- Technique-focused cookbook",
+        "- Food science reference",
+        "- Chef memoir or food essay",
+        "- Historical food text",
+        "Read with active engagement:",
+        "- Take detailed notes on techniques and concepts",
+        "- Mark passages that provide new insights",
+        "- Note questions that arise during reading",
+        "Select key concepts to test practically",
+        "Apply theoretical knowledge to actual cooking:",
+        "- Test described techniques",
+        "- Attempt to replicate methods",
+        "- Compare results to text descriptions",
+        "Document differences between theory and practice",
+        "Reflect on how reading enhances practical skills",
+        "Incorporate successful concepts into cooking repertoire"
+      ],
+      "learningFocus": "Connecting culinary theory with practice",
+      "techniquesLearned": ["culinary-theory", "concept-application", "technique-analysis"],
+      "category": "Multiple",
+      "prerequisites": ["E4-2"],
+      "unlocks": ["E6-2"]
+    },
+    {
+      "id": "E5-3",
+      "title": "Budget Cooking Challenge",
+      "type": "explore",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 60,
+      "attributeRewards": {
+        "technique": 0.2,
+        "ingredients": 0.4,
+        "flavor": 0.2,
+        "management": 0.6
+      },
+      "materials": [
+        "Limited budget for ingredients",
+        "Pantry staples",
+        "Basic cooking equipment",
+        "Cost tracking system",
+        "Menu planning materials"
+      ],
+      "objectives": [
+        "Create impressive meals with limited budget",
+        "Learn cost-effective cooking techniques",
+        "Practice resourceful ingredient utilization"
+      ],
+      "instructions": [
+        "Set specific budget constraint (e.g., $5 per serving)",
+        "Plan complete meal within budget:",
+        "- Research cost-effective protein options",
+        "- Identify seasonal produce for value",
+        "- Consider pantry staples as budget stretchers",
+        "- Calculate exact cost per serving",
+        "Shop strategically:",
+        "- Compare prices across sources",
+        "- Consider bulk purchasing",
+        "- Evaluate cost vs. quantity tradeoffs",
+        "Apply budget-conscious cooking techniques:",
+        "- Stretching premium ingredients",
+        "- Flavor-building with inexpensive components",
+        "- Utilizing 'humble' ingredients effectively",
+        "- Zero-waste approach to maximize value",
+        "Create meal that appears more expensive than actual cost",
+        "Document cost-saving techniques for future use",
+        "Compare quality and satisfaction to higher-cost meals"
+      ],
+      "learningFocus": "Value-conscious cooking without compromising quality",
+      "techniquesLearned": ["budget-cooking", "ingredient-stretching", "value-maximization"],
+      "category": "Kitchen Management",
+      "prerequisites": ["E4-3"],
+      "unlocks": ["E6-3"]
+    },
+    {
+      "id": "C5-1",
+      "title": "Home Cook Level 5 Challenge",
+      "type": "challenge",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 90,
+      "attributeRewards": {
+        "technique": 0.8,
+        "ingredients": 0.8,
+        "flavor": 0.8,
+        "management": 0.8
+      },
+      "materials": [
+        "Multiple components for complete meal",
+        "Various cooking vessels",
+        "Multiple timing elements",
+        "Plating equipment",
+        "Garnishing elements"
+      ],
+      "objectives": [
+        "Create complete meal with timing, presentation, and technique mastery",
+        "Apply multiple cooking methods",
+        "Demonstrate organized execution"
+      ],
+      "instructions": [
+        "Plan sophisticated multi-course meal:",
+        "- Appetizer or small starter",
+        "- Main course with protein focus",
+        "- Two complementary side dishes",
+        "- Sauce or condiment component",
+        "Create detailed preparation timeline",
+        "Execute complete mise en place",
+        "Apply at least four distinct cooking techniques",
+        "Demonstrate sauce preparation and finishing",
+        "Time all components for optimal serving temperature",
+        "Plate with attention to composition and detail",
+        "Apply proper garnishing techniques",
+        "Document execution process",
+        "Evaluate results for technique, timing, and presentation",
+        "Identify areas for refinement in future cooking"
+      ],
+      "learningFocus": "Comprehensive application of Home Cook level 5 skills",
+      "techniquesLearned": ["integrated-cooking", "precision-execution", "multi-course-coordination"],
+      "category": "Multiple",
+      "prerequisites": ["T5-10"],
+      "unlocks": []
+    },
+    {
+      "id": "T6-1",
+      "title": "Brunoise Cutting",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 30,
+      "attributeRewards": {
+        "technique": 0.8,
+        "ingredients": 0.1,
+        "flavor": 0,
+        "management": 0.1
+      },
+      "materials": [
+        "Various firm vegetables",
+        "Sharp chef's knife",
+        "Cutting board",
+        "Ruler or measuring tool",
+        "Container for cut vegetables"
+      ],
+      "objectives": [
+        "Master tiny dice cutting technique",
+        "Practice extreme precision",
+        "Develop professional-level knife skills"
+      ],
+      "instructions": [
+        "Study brunoise technique specifications (1/8-inch or 3mm cubes)",
+        "Select appropriate vegetables for practice:",
+        "- Carrots",
+        "- Celery",
+        "- Turnips",
+        "- Bell peppers",
+        "Follow precise brunoise process:",
+        "- Create perfect rectangular shape first",
+        "- Slice into even 1/8-inch planks",
+        "- Stack planks and cut into 1/8-inch sticks (julienne)",
+        "- Cross-cut julienne into 1/8-inch cubes",
+        "Focus on consistency across all pieces",
+        "Practice increasing speed while maintaining precision",
+        "Compare results to professional standard",
+        "Understand applications for brunoise in refined cooking",
+        "Practice knife maintenance for optimal performance"
+      ],
+      "learningFocus": "Professional-level precision cutting",
+      "techniquesLearned": ["brunoise", "precision-knife-control", "high-level-consistency"],
+      "category": "Knife Skills",
+      "prerequisites": ["T5-1", "T5-6"],
+      "unlocks": ["T6-6", "S6-1"]
+    },
+    {
+      "id": "T6-2",
+      "title": "Braising Technique",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 60,
+      "attributeRewards": {
+        "technique": 0.6,
+        "ingredients": 0.2,
+        "flavor": 0.4,
+        "management": 0.1
+      },
+      "materials": [
+        "Braising protein (tough cut of meat or hearty vegetables)",
+        "Aromatic vegetables",
+        "Braising liquid components",
+        "Heavy pot with tight-fitting lid",
+        "Herbs and seasonings"
+      ],
+      "objectives": [
+        "Learn combination wet-dry heat cooking method",
+        "Master flavor development techniques",
+        "Practice low-and-slow cooking precision"
+      ],
+      "instructions": [
+        "Select appropriate item for braising:",
+        "- Tough meat cut with connective tissue",
+        "- Hearty root vegetables",
+        "- Sturdy greens or cabbage",
+        "Prepare item properly:",
+        "- Dry thoroughly",
+        "- Season generously",
+        "- Cut to appropriate size if needed",
+        "Apply initial browning technique:",
+        "- Heat pan adequately before adding fat",
+        "- Brown in batches to prevent overcrowding",
+        "- Develop deep color without burning",
+        "Create flavor base:",
+        "- Sauté aromatics in same pot",
+        "- Deglaze to capture fond",
+        "- Add appropriate liquid (stock, wine, etc.)",
+        "- Incorporate herbs and seasonings",
+        "Braise with proper technique:",
+        "- Return protein to pot",
+        "- Liquid should partially cover (not submerge)",
+        "- Cover tightly",
+        "- Cook at bare simmer, not boil",
+        "- Test for doneness appropriately",
+        "Finish braising liquid into sauce",
+        "Serve with appropriate accompaniments"
+      ],
+      "learningFocus": "Combination cooking method for flavor development",
+      "techniquesLearned": ["braising", "fond-development", "low-slow-cooking"],
+      "category": "Heat Management",
+      "prerequisites": ["T5-2", "T5-7"],
+      "unlocks": ["T6-7", "S6-2"]
+    },
+    {
+      "id": "T6-3",
+      "title": "Compound Sauce Creation",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 50,
+      "attributeRewards": {
+        "technique": 0.5,
+        "ingredients": 0.1,
+        "flavor": 0.6,
+        "management": 0.1
+      },
+      "materials": [
+        "Base sauce ingredients",
+        "Secondary flavor components",
+        "Cooking vessels",
+        "Strainer and other sauce tools",
+        "Various thickening agents"
+      ],
+      "objectives": [
+        "Create complex multi-component sauces",
+        "Learn classical sauce theory",
+        "Practice advanced sauce techniques"
+      ],
+      "instructions": [
+        "Study sauce building principles:",
+        "- Mother sauce concepts",
+        "- Secondary and small sauces",
+        "- Contemporary sauce approaches",
+        "Select sauce style to create:",
+        "- Classical derivative sauce",
+        "- Multi-component modern sauce",
+        "- Layered-flavor contemporary sauce",
+        "Master base sauce techniques:",
+        "- Roux-based thickening",
+        "- Reduction method",
+        "- Emulsion stabilization",
+        "Apply secondary flavor development:",
+        "- Infusion methods",
+        "- Reduction of secondary components",
+        "- Incorporating prepared elements",
+        "Learn finishing techniques:",
+        "- Straining for refined texture",
+        "- Monte au beurre for shine and richness",
+        "- Final seasoning adjustment",
+        "Practice proper sauce consistency",
+        "Understand appropriate applications"
+      ],
+      "learningFocus": "Complex sauce creation and refinement",
+      "techniquesLearned": ["compound-sauce", "sauce-derivatives", "flavor-layering"],
+      "category": "Flavor Building",
+      "prerequisites": ["T5-5", "T5-8"],
+      "unlocks": ["T6-8", "S6-3"]
+    },
+    {
+      "id": "T6-4",
+      "title": "Time Management for Multiple Dishes",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 45,
+      "attributeRewards": {
+        "technique": 0.2,
+        "ingredients": 0,
+        "flavor": 0.1,
+        "management": 0.9
+      },
+      "materials": [
+        "Multiple recipe components",
+        "Timing tools",
+        "Planning materials",
+        "Various cooking vessels",
+        "Food holding equipment"
+      ],
+      "objectives": [
+        "Master cooking multiple components with different timings",
+        "Learn professional timing techniques",
+        "Practice workflow optimization"
+      ],
+      "instructions": [
+        "Select multi-component meal with varied timing requirements",
+        "Create comprehensive timing chart:",
+        "- Backward planning from serving time",
+        "- Identifying critical path items",
+        "- Accounting for resting periods",
+        "- Planning holding stages for completed items",
+        "Organize mise en place by cooking phase",
+        "Practice timing management techniques:",
+        "- Par-cooking and finishing",
+        "- Proper holding methods",
+        "- Temperature maintenance",
+        "- Equipment scheduling",
+        "Implement professional workflow strategies:",
+        "- Station organization",
+        "- Task batching",
+        "- Clean-as-you-go approach",
+        "- Communication and coordination",
+        "Execute complete meal with synchronized timing",
+        "Evaluate timing accuracy and workflow efficiency",
+        "Document successful strategies for future application"
+      ],
+      "learningFocus": "Professional-level timing management",
+      "techniquesLearned": ["multi-item-timing", "backward-planning", "workflow-optimization"],
+      "category": "Kitchen Management",
+      "prerequisites": ["T5-4", "T5-9"],
+      "unlocks": ["T6-9", "S6-4"]
+    },
+    {
+      "id": "T6-5",
+      "title": "Advanced Spice Blending",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 40,
+      "attributeRewards": {
+        "technique": 0.2,
+        "ingredients": 0.3,
+        "flavor": 0.7,
+        "management": 0
+      },
+      "materials": [
+        "Variety of whole spices",
+        "Toasting pan",
+        "Grinding tools",
+        "Measuring equipment",
+        "Storage containers"
+      ],
+      "objectives": [
+        "Create balanced spice blends for different applications",
+        "Learn spice flavor profiles and combinations",
+        "Practice proper spice preparation techniques"
+      ],
+      "instructions": [
+        "Study spice categorization and properties:",
+        "- Warm spices (cinnamon, clove, etc.)",
+        "- Pungent spices (black pepper, chili, etc.)",
+        "- Aromatic seeds (cumin, coriander, etc.)",
+        "- Herb-adjacent spices (dried herbs, etc.)",
+        "Learn traditional spice blend compositions:",
+        "- Garam masala",
+        "- Chinese five spice",
+        "- Ras el hanout",
+        "- Berbere",
+        "- Other cultural blends",
+        "Practice proper spice preparation:",
+        "- Toasting for flavor development",
+        "- Appropriate grinding techniques",
+        "- Combining in balanced ratios",
+        "Create custom blends for different applications:",
+        "- Meat and protein blends",
+        "- Vegetable-focused blends",
+        "- Sweet-application blends",
+        "- All-purpose house blends",
+        "Test blends in actual cooking applications",
+        "Adjust ratios based on results",
+        "Create proper storage system with clear labeling"
+      ],
+      "learningFocus": "Custom spice blend creation and application",
+      "techniquesLearned": ["spice-blending", "flavor-balancing", "custom-blend-creation"],
+      "category": "Flavor Building",
+      "prerequisites": ["T5-5", "T5-10"],
+      "unlocks": ["T6-10", "M6-1"]
+    },
+    {
+      "id": "T6-6",
+      "title": "Protein Fabrication",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 45,
+      "attributeRewards": {
+        "technique": 0.7,
+        "ingredients": 0.5,
+        "flavor": 0,
+        "management": 0.1
+      },
+      "materials": [
+        "Whole protein (chicken, fish, or other manageable protein)",
+        "Appropriate knives",
+        "Cutting board",
+        "Storage containers",
+        "Butcher's twine if needed"
+      ],
+      "objectives": [
+        "Learn basic butchery and protein preparation",
+        "Understand cuts and their applications",
+        "Practice efficient utilization"
+      ],
+      "instructions": [
+        "Study protein anatomy and cutting guides",
+        "Select appropriate protein for fabrication practice:",
+        "- Whole chicken for poultry practice",
+        "- Whole fish for seafood practice",
+        "- Larger cut of meat for portioning practice",
+        "Prepare workspace properly:",
+        "- Sanitize all surfaces",
+        "- Arrange tools appropriately",
+        "- Set up organization system for parts",
+        "Follow proper fabrication sequence:",
+        "- Position protein correctly",
+        "- Identify anatomical landmarks",
+        "- Make cuts in logical order",
+        "- Separate usable portions from trim",
+        "Practice specific techniques:",
+        "- Breaking down whole chicken into parts",
+        "- Filleting and portioning fish",
+        "- Portioning larger cuts",
+        "- Trussing or tying if applicable",
+        "Organize and properly store all portions",
+        "Plan utilization of trim and off-cuts",
+        "Create stock from bones and scraps"
+      ],
+      "learningFocus": "Basic fabrication and butchery techniques",
+      "techniquesLearned": ["protein-fabrication", "butchery-basics", "trim-utilization"],
+      "category": "Knife Skills",
+      "prerequisites": ["T6-1"],
+      "unlocks": ["M6-2", "M6-3"]
+    },
+    {
+      "id": "T6-7",
+      "title": "Moist Heat Methods",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 55,
+      "attributeRewards": {
+        "technique": 0.6,
+        "ingredients": 0.2,
+        "flavor": 0.3,
+        "management": 0
+      },
+      "materials": [
+        "Various ingredients suitable for moist heat",
+        "Multiple cooking vessels",
+        "Steamer equipment",
+        "Thermometer",
+        "Timer"
+      ],
+      "objectives": [
+        "Compare various moist-heat cooking techniques",
+        "Understand optimal applications",
+        "Master temperature control"
+      ],
+      "instructions": [
+        "Study moist heat cooking principles:",
+        "- Water transference of heat",
+        "- Temperature limitations (max 212°F/100°C at sea level)",
+        "- Flavor dilution vs. concentration",
+        "Practice multiple moist heat methods:",
+        "- Simmering (180-200°F)",
+        "- Poaching (160-180°F)",
+        "- Steaming (212°F with indirect contact)",
+        "- Braising (combination method with moist component)",
+        "- Sous vide (if equipment available)",
+        "Compare results on similar ingredients:",
+        "- Texture differences",
+        "- Flavor retention",
+        "- Color preservation",
+        "- Nutrient retention",
+        "Learn appropriate applications for each method",
+        "Practice temperature control for each technique",
+        "Document optimal methods for different ingredients",
+        "Develop decision framework for method selection"
+      ],
+      "learningFocus": "Comprehensive understanding of moist heat cooking",
+      "techniquesLearned": ["moist-heat-mastery", "temperature-control", "method-selection"],
+      "category": "Heat Management",
+      "prerequisites": ["T6-2"],
+      "unlocks": ["M6-3", "M6-4"]
+    },
+    {
+      "id": "T6-8",
+      "title": "Food Pairing Theory",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 45,
+      "attributeRewards": {
+        "technique": 0.1,
+        "ingredients": 0.3,
+        "flavor": 0.8,
+        "management": 0
+      },
+      "materials": [
+        "Various ingredients for pairing experiments",
+        "Reference materials",
+        "Tasting tools",
+        "Documentation system",
+        "Small cooking vessels"
+      ],
+      "objectives": [
+        "Develop advanced understanding of flavor combinations",
+        "Learn scientific pairing principles",
+        "Create unique flavor combinations"
+      ],
+      "instructions": [
+        "Study flavor pairing theory:",
+        "- Complementary flavor compounds",
+        "- Contrasting flavor elements",
+        "- Cultural pairing traditions",
+        "- Modern pairing approaches",
+        "Research established pairing principles:",
+        "- Like-with-like (shared compounds)",
+        "- Complementary pairings",
+        "- Bridge ingredients",
+        "- Contrast and balance",
+        "Test classical and unusual pairings:",
+        "- Create tasting combinations",
+        "- Evaluate results systematically",
+        "- Document successful pairings",
+        "Develop personal pairing framework:",
+        "- Identify personal preferences",
+        "- Create reference system for successful combinations",
+        "- Note surprising discoveries",
+        "Apply theory to practical cooking:",
+        "- Create dishes based on theoretical pairings",
+        "- Evaluate results in complete preparation",
+        "- Refine based on practical outcomes"
+      ],
+      "learningFocus": "Advanced flavor pairing principles",
+      "techniquesLearned": ["flavor-pairing-theory", "compound-identification", "combination-creation"],
+      "category": "Flavor Building",
+      "prerequisites": ["T6-3"],
+      "unlocks": ["M6-4", "M6-5"]
+    },
+    {
+      "id": "T6-9",
+      "title": "Kitchen Organization Systems",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 60,
+      "attributeRewards": {
+        "technique": 0,
+        "ingredients": 0.1,
+        "flavor": 0,
+        "management": 1.0
+      },
+      "materials": [
+        "Kitchen space and equipment",
+        "Organization tools and containers",
+        "Labeling system",
+        "Documentation materials",
+        "Cleaning supplies"
+      ],
+      "objectives": [
+        "Create comprehensive organization system",
+        "Develop professional workflow layout",
+        "Implement efficiency processes"
+      ],
+      "instructions": [
+        "Conduct thorough kitchen audit:",
+        "- Inventory all equipment and tools",
+        "- Evaluate current storage systems",
+        "- Identify inefficiencies and pain points",
+        "- Assess cleaning and maintenance needs",
+        "Design optimized kitchen organization:",
+        "- Create functional zones (prep, cooking, plating)",
+        "- Establish workflow patterns",
+        "- Set up primary and secondary storage",
+        "- Develop ergonomic arrangements",
+        "Implement organization systems:",
+        "- First-in-first-out (FIFO) for perishables",
+        "- Frequency-based arrangement for tools",
+        "- Task-based grouping for equipment",
+        "- Dedicated stations for regular activities",
+        "Establish maintenance routines:",
+        "- Tool care and sharpening",
+        "- Equipment cleaning schedule",
+        "- Regular organizational review",
+        "- Restocking protocols",
+        "Create documentation system:",
+        "- Pantry inventory management",
+        "- Equipment maintenance records",
+        "- Preferred supplier information",
+        "- Personal recipe adaptations"
+      ],
+      "learningFocus": "Professional-level kitchen organization",
+      "techniquesLearned": ["organization-systems", "workflow-design", "efficiency-protocols"],
+      "category": "Kitchen Management",
+      "prerequisites": ["T6-4"],
+      "unlocks": ["M6-5", "C6-1"]
+    },
+    {
+      "id": "T6-10",
+      "title": "Menu Development",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 50,
+      "attributeRewards": {
+        "technique": 0.1,
+        "ingredients": 0.2,
+        "flavor": 0.3,
+        "management": 0.6
+      },
+      "materials": [
+        "Menu planning resources",
+        "Recipe collection",
+        "Planning documentation",
+        "Seasonal availability guides",
+        "Reference materials"
+      ],
+      "objectives": [
+        "Learn principles of menu planning and balance",
+        "Develop cohesive multi-course menus",
+        "Practice menu writing and description"
+      ],
+      "instructions": [
+        "Study menu development principles:",
+        "- Balance of flavors, textures, and colors",
+        "- Progression of courses",
+        "- Portion sizing and cumulative effect",
+        "- Ingredient continuity and variation",
+        "- Seasonal and thematic coherence",
+        "Learn various menu formats:",
+        "- Fixed multi-course (prix fixe)",
+        "- Tasting menu progression",
+        "- Family-style service",
+        "- Buffet or stations format",
+        "Create several themed menu concepts:",
+        "- Seasonal celebration",
+        "- Regional or cultural focus",
+        "- Ingredient-centered",
+        "- Special occasion menu",
+        "Develop detailed descriptions:",
+        "- Evocative dish naming",
+        "- Concise yet informative descriptions",
+        "- Highlighting key techniques or ingredients",
+        "- Communicating preparation methods",
+        "Consider practical execution aspects:",
+        "- Preparation timing and logistics",
+        "- Equipment and space requirements",
+        "- Make-ahead components",
+        "- Serving sequence and style"
+      ],
+      "learningFocus": "Professional menu planning and development",
+      "techniquesLearned": ["menu-planning", "course-progression", "menu-writing"],
+      "category": "Kitchen Management",
+      "prerequisites": ["T6-5"],
+      "unlocks": ["C6-1"]
+    },
+    {
+      "id": "S6-1",
+      "title": "Festive Side Dishes",
+      "type": "side",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 55,
+      "attributeRewards": {
+        "technique": 0.4,
+        "ingredients": 0.3,
+        "flavor": 0.5,
+        "management": 0.1
+      },
+      "materials": [
+        "Seasonal and specialty ingredients",
+        "Appropriate cookware",
+        "Special equipment if needed",
+        "Garnishing elements",
+        "Serving dishes"
+      ],
+      "objectives": [
+        "Create special occasion accompaniments",
+        "Learn elevated preparation techniques",
+        "Practice visual presentation"
+      ],
+      "instructions": [
+        "Research traditional festive side dishes from various cultures",
+        "Select dishes that feature special techniques or ingredients:",
+        "- Gratins or complex casseroles",
+        "- Multi-component vegetable preparations",
+        "- Specialty grain or starch dishes",
+        "- Heritage or traditional recipes",
+        "Apply elevated preparation methods:",
+        "- Layering for visual appeal",
+        "- Multi-stage cooking processes",
+        "- Component preparation and assembly",
+        "- Advanced garnishing techniques",
+        "Focus on flavor development:",
+        "- Building depth through multiple elements",
+        "- Balancing rich and bright notes",
+        "- Creating textural contrasts",
+        "- Incorporating aromatic components",
+        "Practice proper timing for special occasion service",
+        "Plate with attention to festive presentation",
+        "Consider make-ahead possibilities for complex dishes"
+      ],
+      "learningFocus": "Elevated side dish preparation for special occasions",
+      "techniquesLearned": ["festive-preparation", "side-dish-elevation", "occasion-cooking"],
+      "category": "Multiple",
+      "prerequisites": ["T6-1"],
+      "unlocks": ["M6-1"]
+    },
+    {
+      "id": "S6-2",
+      "title": "Concentrated Flavor Components",
+      "type": "side",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 50,
+      "attributeRewards": {
+        "technique": 0.3,
+        "ingredients": 0.2,
+        "flavor": 0.7,
+        "management": 0
+      },
+      "materials": [
+        "Various ingredients for flavor extraction",
+        "Reduction vessels",
+        "Straining equipment",
+        "Storage containers",
+        "Preserving agents if needed"
+      ],
+      "objectives": [
+        "Make flavor-intense additions for cooking",
+        "Learn concentration techniques",
+        "Practice preservation methods"
+      ],
+      "instructions": [
+        "Create several concentrated flavor components:",
+        "- Intensely flavored oils or vinegars",
+        "- Reduced sauces or glazes",
+        "- Fruit or vegetable concentrates",
+        "- Flavor pastes or purées",
+        "Learn extraction techniques:",
+        "- Heat infusion methods",
+        "- Cold extraction processes",
+        "- Maceration for flavor development",
+        "- Reduction for concentration",
+        "Master preservation approaches:",
+        "- Salt preservation",
+        "- Sugar preservation",
+        "- Acid preservation",
+        "- Oil suspension",
+        "Focus on potent flavor development:",
+        "- Optimal ingredient selection",
+        "- Proper timing for extraction",
+        "- Balancing concentration and freshness",
+        "- Incorporating aromatic elements",
+        "Practice proper storage methods",
+        "Learn appropriate application amounts",
+        "Document successful ratios and techniques"
+      ],
+      "learningFocus": "Creating powerful flavor boosters for cooking",
+      "techniquesLearned": ["flavor-concentration", "extraction-methods", "flavor-preservation"],
+      "category": "Flavor Building",
+      "prerequisites": ["T6-2"],
+      "unlocks": ["M6-2"]
+    },
+    {
+      "id": "S6-3",
+      "title": "Advanced Vegetable Preparations",
+      "type": "side",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 60,
+      "attributeRewards": {
+        "technique": 0.5,
+        "ingredients": 0.4,
+        "flavor": 0.3,
+        "management": 0
+      },
+      "materials": [
+        "Various vegetables",
+        "Specialty tools if available",
+        "Multiple cooking vessels",
+        "Flavor enhancers",
+        "Plating equipment"
+      ],
+      "objectives": [
+        "Master complex vegetable cooking techniques",
+        "Learn specialty preparation methods",
+        "Practice refined presentations"
+      ],
+      "instructions": [
+        "Select several challenging vegetable preparations:",
+        "- Turned or tourne vegetables",
+        "- Vegetable terrines or timbales",
+        "- Complex stuffed vegetables",
+        "- Multi-cooking method preparations",
+        "- Vegetable soufflés or mousses",
+        "Apply advanced cutting and shaping techniques:",
+        "- Precise brunoise or macedoine",
+        "- Turning for classical shapes",
+        "- Specialty cuts for specific vegetables",
+        "- Decorative techniques for presentation",
+        "Master specialized cooking methods:",
+        "- Combination cooking techniques",
+        "- Temperature progression methods",
+        "- Extraction and concentration",
+        "- Proper doneness for optimal texture",
+        "Focus on flavor enhancement:",
+        "- Creating depth through multiple methods",
+        "- Applying complementary seasonings",
+        "- Balancing richness and brightness",
+        "- Developing umami in vegetable preparations",
+        "Create refined presentation for each preparation"
+      ],
+      "learningFocus": "Elevated vegetable preparations with refined techniques",
+      "techniquesLearned": ["vegetable-refinement", "specialty-preparations", "vegetable-technique"],
+      "category": "Multiple",
+      "prerequisites": ["T6-3"],
+      "unlocks": ["M6-3"]
+    },
+    {
+      "id": "S6-4",
+      "title": "Creative Starch Dishes",
+      "type": "side",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 55,
+      "attributeRewards": {
+        "technique": 0.4,
+        "ingredients": 0.3,
+        "flavor": 0.4,
+        "management": 0.1
+      },
+      "materials": [
+        "Various starch ingredients",
+        "Flavor enhancers",
+        "Appropriate cookware",
+        "Specialty tools if needed",
+        "Plating equipment"
+      ],
+      "objectives": [
+        "Create interesting variations on starch preparation",
+        "Learn specialty starch cooking methods",
+        "Practice texture and flavor development"
+      ],
+      "instructions": [
+        "Select diverse starch preparations:",
+        "- Potato specialty dishes (duchess, dauphinoise, etc.)",
+        "- Risotto or specialty rice preparations",
+        "- Polenta or grain variations",
+        "- Gnocchi or dumpling preparations",
+        "- Root vegetable specialties",
+        "Apply appropriate cooking methods for each starch type:",
+        "- Proper liquid ratios for absorption",
+        "- Temperature control for specific results",
+        "- Resting periods for texture development",
+        "- Finishing techniques for optimal results",
+        "Focus on texture development:",
+        "- Creating crisp exteriors with creamy interiors",
+        "- Achieving proper starch gelatinization",
+        "- Developing proper consistency",
+        "- Balancing different textural elements",
+        "Enhance flavor profiles:",
+        "- Incorporation of aromatics and herbs",
+        "- Addition of complementary ingredients",
+        "- Proper seasoning throughout cooking",
+        "- Finishing touches for flavor enhancement",
+        "Plate with attention to presentation and temperature"
+      ],
+      "learningFocus": "Advanced starch preparation techniques",
+      "techniquesLearned": ["starch-specialties", "texture-development", "starch-flavor-enhancement"],
+      "category": "Multiple",
+      "prerequisites": ["T6-4"],
+      "unlocks": ["M6-4"]
+    },
+    {
+      "id": "M6-1",
+      "title": "One-Pot Wonder",
+      "type": "main",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 70,
+      "attributeRewards": {
+        "technique": 0.5,
+        "ingredients": 0.4,
+        "flavor": 0.6,
+        "management": 0.3
+      },
+      "materials": [
+        "Large cooking vessel with lid",
+        "Complete meal ingredients",
+        "Flavor building components",
+        "Finishing elements",
+        "Serving equipment"
+      ],
+      "objectives": [
+        "Create a complete meal in a single pot with layered flavors",
+        "Master efficient cooking method",
+        "Practice flavor development techniques"
+      ],
+      "instructions": [
+        "Select appropriate one-pot preparation:",
+        "- Braise or stew",
+        "- Pilaf-style preparation",
+        "- Layered casserole",
+        "- Dutch oven specialty",
+        "- Soup or stew with multiple components",
+        "Apply proper preparation sequence:",
+        "- Develop fond with initial cooking",
+        "- Add ingredients in optimal order",
+        "- Layer flavors throughout cooking process",
+        "- Manage moisture levels appropriately",
+        "- Add final components at proper time",
+        "Create depth and complexity of flavor:",
+        "- Build aromatics foundation",
+        "- Develop umami through proper technique",
+        "- Layer acidic and bright notes",
+        "- Incorporate herbs at optimal times",
+        "- Apply finishing touches for complexity",
+        "Manage cooking environment:",
+        "- Control temperature precisely",
+        "- Adjust moisture as needed",
+        "- Test components for proper doneness",
+        "Finish and serve with appropriate garnishes"
+      ],
+      "learningFocus": "Complete meal creation in single vessel",
+      "techniquesLearned": ["one-pot-cooking", "flavor-layering", "efficient-meal-creation"],
+      "category": "Multiple",
+      "prerequisites": ["T6-5", "S6-1"],
+      "unlocks": ["M7-1"]
+    },
+    {
+      "id": "M6-2",
+      "title": "Advanced Vegetarian Main",
+      "type": "main",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 75,
+      "attributeRewards": {
+        "technique": 0.5,
+        "ingredients": 0.5,
+        "flavor": 0.5,
+        "management": 0.3
+      },
+      "materials": [
+        "Plant-based protein components",
+        "Complementary vegetables",
+        "Flavor-building ingredients",
+        "Multiple cooking vessels",
+        "Plating components"
+      ],
+      "objectives": [
+        "Create complex plant-based centerpiece dish",
+        "Learn protein alternative techniques",
+        "Practice flavor depth development"
+      ],
+      "instructions": [
+        "Select sophisticated vegetarian main focus:",
+        "- Plant protein centerpiece (tofu, tempeh, legumes)",
+        "- Composite vegetable preparation",
+        "- Grain-based main with multiple components",
+        "- Traditional vegetarian specialty",
+        "Apply multiple cooking techniques:",
+        "- Develop textures through proper methods",
+        "- Layer complementary cooking approaches",
+        "- Create contrasting elements within dish",
+        "- Apply precision to each component",
+        "Focus on umami and satisfaction development:",
+        "- Incorporate fermented elements",
+        "- Apply mushroom or other umami-rich components",
+        "- Create satisfying mouthfeel through fats and textures",
+        "- Balance flavor profiles for completeness",
+        "Build visual impact:",
+        "- Create height and dimension",
+        "- Incorporate color diversity",
+        "- Apply proper plating techniques",
+        "- Add appropriate garnishes",
+        "Ensure complete nutritional balance",
+        "Serve with complementary sauce if appropriate"
+      ],
+      "learningFocus": "Creating satisfying plant-based centerpiece dishes",
+      "techniquesLearned": ["vegetarian-mains", "plant-protein-cooking", "umami-development"],
+      "category": "Multiple",
+      "prerequisites": ["T6-6", "S6-2"],
+      "unlocks": ["M7-2"]
+    },
+    {
+      "id": "M6-3",
+      "title": "Heritage Recipe Adaptation",
+      "type": "main",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 65,
+      "attributeRewards": {
+        "technique": 0.4,
+        "ingredients": 0.3,
+        "flavor": 0.6,
+        "management": 0.3
+      },
+      "materials": [
+        "Traditional recipe ingredients",
+        "Modern adaptations if needed",
+        "Appropriate cookware",
+        "Reference materials",
+        "Serving elements"
+      ],
+      "objectives": [
+        "Modernize traditional recipe with personal touches",
+        "Learn cultural cooking techniques",
+        "Practice respectful adaptation"
+      ],
+      "instructions": [
+        "Research authentic heritage recipe:",
+        "- Cultural or family tradition",
+        "- Regional specialty",
+        "- Historical preparation",
+        "- Classic technique example",
+        "Understand traditional preparation method:",
+        "- Original techniques and equipment",
+        "- Traditional ingredient purposes",
+        "- Cultural cooking approach",
+        "- Authentic presentation",
+        "Plan thoughtful adaptations:",
+        "- Modern ingredient substitutions",
+        "- Contemporary technique applications",
+        "- Equipment adaptations",
+        "- Personal flavor preferences",
+        "- Presentation updates",
+        "Maintain essence of original dish:",
+        "- Preserve key flavor profiles",
+        "- Honor cooking method fundamentals",
+        "- Respect cultural significance",
+        "- Acknowledge traditional context",
+        "Execute with precision and care",
+        "Document both traditional approach and adaptations",
+        "Evaluate success of modifications"
+      ],
+      "learningFocus": "Respectful modernization of traditional recipes",
+      "techniquesLearned": ["recipe-adaptation", "tradition-modernization", "heritage-cooking"],
+      "category": "Multiple",
+      "prerequisites": ["T6-6", "T6-7", "S6-3"],
+      "unlocks": ["M7-3"]
+    },
+    {
+      "id": "M6-4",
+      "title": "Multi-Course Light Meal",
+      "type": "main",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 80,
+      "attributeRewards": {
+        "technique": 0.5,
+        "ingredients": 0.3,
+        "flavor": 0.4,
+        "management": 0.6
+      },
+      "materials": [
+        "Ingredients for multiple courses",
+        "Various cooking equipment",
+        "Plating materials",
+        "Timing tools",
+        "Serving vessels"
+      ],
+      "objectives": [
+        "Create elegant progression of smaller courses",
+        "Learn portion control techniques",
+        "Practice course timing and flow"
+      ],
+      "instructions": [
+        "Design multi-course light meal (3-5 courses):",
+        "- Opening bite or amuse bouche",
+        "- Small starter course",
+        "- Light main component",
+        "- Optional intermezzo or palate cleanser",
+        "- Small sweet finish",
+        "Focus on progression principles:",
+        "- Flavor build and complementary transitions",
+        "- Texture variety throughout courses",
+        "- Increasing then decreasing intensity",
+        "- Visual flow and plating harmony",
+        "Manage portion sizing carefully:",
+        "- Small but satisfying portions",
+        "- Balanced nutritional elements",
+        "- Appropriate serving vessels for each course",
+        "- Cumulative satisfaction calculation",
+        "Create detailed execution timeline:",
+        "- Mise en place organization",
+        "- Component preparation sequence",
+        "- Final cooking and plating timing",
+        "- Service logistics and pacing",
+        "Execute with precision and attention to detail",
+        "Evaluate flow and pacing of courses",
+        "Document successful elements for future reference"
+      ],
+      "learningFocus": "Creating elegant multi-course light meal experience",
+      "techniquesLearned": ["course-progression", "portion-control", "service-pacing"],
+      "category": "Multiple",
+      "prerequisites": ["T6-7", "T6-8", "S6-4"],
+      "unlocks": ["M7-4"]
+    },
+    {
+      "id": "M6-5",
+      "title": "Cohesive Themed Dinner",
+      "type": "main",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 90,
+      "attributeRewards": {
+        "technique": 0.4,
+        "ingredients": 0.4,
+        "flavor": 0.5,
+        "management": 0.6
+      },
+      "materials": [
+        "Theme-appropriate ingredients",
+        "Multiple cooking vessels",
+        "Serving platters and dishes",
+        "Garnishing elements",
+        "Planning materials"
+      ],
+      "objectives": [
+        "Develop and execute thematically connected meal",
+        "Create cohesive dining experience",
+        "Practice comprehensive planning"
+      ],
+      "instructions": [
+        "Select compelling theme concept:",
+        "- Seasonal celebration",
+        "- Regional cuisine focus",
+        "- Ingredient spotlight",
+        "- Cooking method theme",
+        "- Color or sensory theme",
+        "- Historical or cultural concept",
+        "Develop thematically unified menu:",
+        "- Create multiple courses that reflect theme",
+        "- Ensure balance despite thematic constraints",
+        "- Incorporate visual elements that support theme",
+        "- Consider beverage pairings if desired",
+        "Create detailed preparation plan:",
+        "- Timeline for advance preparation",
+        "- Day-of execution schedule",
+        "- Equipment and space allocation",
+        "- Service logistics and sequencing",
+        "Prepare components with theme consistency:",
+        "- Apply techniques appropriate to theme",
+        "- Maintain flavor profiles that support concept",
+        "- Create visual presentations that reflect theme",
+        "- Incorporate thematic elements throughout experience",
+        "Execute complete themed meal",
+        "Evaluate thematic success and impact",
+        "Document approach for future themed events"
+      ],
+      "learningFocus": "Creating cohesive thematic dining experience",
+      "techniquesLearned": ["theme-development", "concept-execution", "experiential-dining"],
+      "category": "Multiple",
+      "prerequisites": ["T6-8", "T6-9"],
+      "unlocks": ["M7-5"]
+    },
+    {
+      "id": "E6-1",
+      "title": "Advanced Ingredient Sourcing",
+      "type": "explore",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 60,
+      "attributeRewards": {
+        "technique": 0,
+        "ingredients": 0.9,
+        "flavor": 0.2,
+        "management": 0.3
+      },
+      "materials": [
+        "Research materials",
+        "Transportation",
+        "Budget for purchases",
+        "Notebook or documentation system",
+        "Storage containers"
+      ],
+      "objectives": [
+        "Discover specialty suppliers and ingredients",
+        "Learn high-quality ingredient selection",
+        "Practice relationship building with suppliers"
+      ],
+      "instructions": [
+        "Research specialty ingredient sources in your area:",
+        "- Farmers markets and farm stands",
+        "- Ethnic and specialty markets",
+        "- Local producers and artisans",
+        "- Specialty butchers and fishmongers",
+        "- Direct-from-farm options",
+        "Visit multiple sources to compare offerings:",
+        "- Evaluate quality and freshness indicators",
+        "- Compare pricing and value",
+        "- Assess variety and specialty options",
+        "- Evaluate sustainability and production methods",
+        "Develop sourcing relationships:",
+        "- Engage with producers and vendors",
+        "- Ask about ordering and availability options",
+        "- Learn about seasonality and specialty items",
+        "- Inquire about less common items",
+        "Create personalized sourcing guide:",
+        "- Document best sources by ingredient type",
+        "- Note seasonal availability",
+        "- Record pricing and value observations",
+        "- Map sourcing route for efficiency",
+        "Purchase several specialty items to explore in cooking"
+      ],
+      "learningFocus": "High-quality ingredient sourcing strategies",
+      "techniquesLearned": ["specialty-sourcing", "quality-assessment", "supplier-relationships"],
+      "category": "Ingredient Knowledge",
+      "prerequisites": ["E5-1"],
+      "unlocks": ["E7-1"]
+    },
+    {
+      "id": "E6-2",
+      "title": "Cooking Method Comparison",
+      "type": "explore",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 70,
+      "attributeRewards": {
+        "technique": 0.7,
+        "ingredients": 0.2,
+        "flavor": 0.3,
+        "management": 0.1
+      },
+      "materials": [
+        "Multiple portions of same ingredient",
+        "Various cooking vessels",
+        "Timing tools",
+        "Documentation materials",
+        "Evaluation setup"
+      ],
+      "objectives": [
+        "Test same dish with multiple methods",
+        "Learn optimal technique selection",
+        "Practice systematic evaluation"
+      ],
+      "instructions": [
+        "Select dish or ingredient for comparison testing:",
+        "- Protein that can be cooked various ways",
+        "- Vegetable with multiple preparation options",
+        "- Starch that can be prepared differently",
+        "- Sauce made with alternative methods",
+        "Plan systematic comparison approach:",
+        "- Identify 3-5 distinct cooking methods",
+        "- Create controlled variables (timing, seasoning, etc.)",
+        "- Develop evaluation criteria",
+        "- Prepare documentation system",
+        "- Create testing schedule",
+        "Execute multiple preparation methods:",
+        "- Prepare identical portions using different techniques",
+        "- Control variables carefully",
+        "- Document process for each method",
+        "- Note observations during cooking",
+        "Conduct blind evaluation if possible:",
+        "- Assess appearance, texture, flavor, etc.",
+        "- Rate each preparation on multiple criteria",
+        "- Note strengths and weaknesses of each method",
+        "- Identify optimal applications for each technique",
+        "Document findings in detail for future reference",
+        "Analyze which method best suits different applications"
+      ],
+      "learningFocus": "Understanding cooking method impact through comparison",
+      "techniquesLearned": ["method-comparison", "controlled-testing", "technique-analysis"],
+      "category": "Technique",
+      "prerequisites": ["E5-2"],
+      "unlocks": ["E7-2"]
+    },
+    {
+      "id": "E6-3",
+      "title": "Food Science Basics",
+      "type": "explore",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 55,
+      "attributeRewards": {
+        "technique": 0.4,
+        "ingredients": 0.3,
+        "flavor": 0.4,
+        "management": 0.1
+      },
+      "materials": [
+        "Food science reference materials",
+        "Testing ingredients",
+        "Measurement tools",
+        "Documentation system",
+        "Basic cooking equipment"
+      ],
+      "objectives": [
+        "Explore fundamental culinary science principles",
+        "Learn scientific basis for cooking techniques",
+        "Practice evidence-based cooking approach"
+      ],
+      "instructions": [
+        "Study key food science concepts:",
+        "- Protein denaturation and coagulation",
+        "- Emulsification principles",
+        "- Gluten development",
+        "- Maillard reaction",
+        "- Enzymatic browning",
+        "- Caramelization",
+        "- Gelatinization of starches",
+        "Select 3-4 concepts for practical exploration:",
+        "- Design simple experiments to observe principles",
+        "- Create control samples for comparison",
+        "- Develop observation framework",
+        "- Prepare testing environment",
+        "Conduct structured experimentation:",
+        "- Execute experiments with careful documentation",
+        "- Record observations at different stages",
+        "- Note variables and their effects",
+        "- Compare results across samples",
+        "Connect scientific principles to practical applications:",
+        "- Identify cooking techniques based on science",
+        "- Note how understanding improves technique",
+        "- Develop science-based troubleshooting approaches",
+        "- Recognize principles in existing recipes",
+        "Document learnings for future cooking application"
+      ],
+      "learningFocus": "Understanding scientific principles of cooking",
+      "techniquesLearned": ["food-science-application", "controlled-experimentation", "evidence-based-cooking"],
+      "category": "Multiple",
+      "prerequisites": ["E5-3"],
+      "unlocks": ["E7-3"]
+    },
+    {
+      "id": "C6-1",
+      "title": "Home Cook Level 6 Challenge",
+      "type": "challenge",
+      "rank": {
+        "title": "Home Cook",
+        "level": 6
+      },
+      "timeRequired": 100,
+      "attributeRewards": {
+        "technique": 0.8,
+        "ingredients": 0.8,
+        "flavor": 0.8,
+        "management": 0.8
+      },
+      "materials": [
+        "Complete multi-course ingredients",
+        "Multiple cooking vessels",
+        "Plating and presentation components",
+        "Timing tools",
+        "Menu planning materials"
+      ],
+      "objectives": [
+        "Create impressive multi-course meal with advanced techniques",
+        "Demonstrate timing and coordination mastery",
+        "Apply sophisticated flavor development"
+      ],
+      "instructions": [
+        "Plan sophisticated three-course meal:",
+        "- Appetizer or starter course",
+        "- Main course with multiple components",
+        "- Dessert or sweet finish",
+        "Incorporate diverse techniques throughout menu:",
+        "- Apply at least five distinct cooking methods",
+        "- Demonstrate various knife skills",
+        "- Include sauce or emulsion component",
+        "- Showcase ingredient transformation techniques",
+        "Create detailed execution plan:",
+        "- Comprehensive timeline with all preparation steps",
+        "- Equipment and space allocation",
+        "- Critical path identification",
+        "- Contingency planning",
+        "Execute with professional-level organization:",
+        "- Complete mise en place before cooking",
+        "- Maintain clean and organized workspace",
+        "- Manage multiple components simultaneously",
+        "- Coordinate timing for optimal service temperature",
+        "Present each course with attention to detail:",
+        "- Apply appropriate plating techniques",
+        "- Create visual harmony across courses",
+        "- Use garnishes effectively",
+        "- Consider serviceware selection",
+        "Evaluate results for technique, flavor, and execution"
+      ],
+      "learningFocus": "Comprehensive application of Level 6 home cook skills",
+      "techniquesLearned": ["multi-course-execution", "advanced-timing-management", "menu-coherence"],
+      "category": "Multiple",
+      "prerequisites": ["T6-9", "T6-10"],
+      "unlocks": []
+    },
+    {
+      "id": "T5-2",
+      "title": "Oven Management",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 35,
+      "attributeRewards": {
+        "technique": 0.5,
+        "ingredients": 0,
+        "flavor": 0.1,
+        "management": 0.5
+      },
+      "materials": [
+        "Oven thermometer",
+        "Various baking dishes",
+        "Ingredients for testing",
+        "Timer",
+        "Oven mitts"
+      ],
+      "objectives": [
+        "Learn oven temperature management",
+        "Understand heat zones and circulation",
+        "Practice multi-item oven coordination"
+      ],
+      "instructions": [
+        "Verify oven temperature accuracy with thermometer",
+        "Learn about oven hot spots and circulation patterns",
+        "Practice using different rack positions appropriately",
+        "Understand various cookware effects on cooking:",
+        "- Dark vs. light pans",
+        "- Glass vs. metal containers",
+        "- Covered vs. uncovered dishes",
+        "Practice rotating items for even cooking",
+        "Learn to adjust cooking times based on multiple items in oven",
+        "Understand convection vs. conventional settings if available",
+        "Practice managing oven temperature for different dishes",
+        "Learn to coordinate items with different temperature requirements",
+        "Create an oven management plan for a multi-dish meal"
+      ],
+      "learningFocus": "Advanced oven utilization for optimal cooking results",
+      "techniquesLearned": ["oven-temperature-management", "heat-zone-utilization", "multi-item-baking"],
+      "category": "Heat Management",
+      "prerequisites": ["T4-7"],
+      "unlocks": ["T5-7", "S5-2"]
+    },
+    {
+      "id": "T5-3",
+      "title": "Poaching Techniques",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 40,
+      "attributeRewards": {
+        "technique": 0.6,
+        "ingredients": 0.1,
+        "flavor": 0.3,
+        "management": 0.1
+      },
+      "materials": [
+        "Proteins suitable for poaching (fish, chicken, eggs)",
+        "Large shallow pan with lid",
+        "Poaching liquid ingredients",
+        "Thermometer",
+        "Timer",
+        "Slotted spoon"
+      ],
+      "objectives": [
+        "Master gentle poaching for delicate proteins",
+        "Learn flavored poaching liquid creation",
+        "Practice temperature control"
+      ],
+      "instructions": [
+        "Prepare appropriate poaching liquid:",
+        "- Court bouillon for fish (water, aromatics, acid, herbs)",
+        "- Flavored broth for chicken",
+        "- Plain water with vinegar for eggs",
+        "Heat liquid to proper temperature (just below simmer, 160-180°F)",
+        "Prepare protein appropriately for poaching",
+        "Gently add protein to liquid",
+        "Maintain temperature carefully (no boiling)",
+        "Cover or partially cover as appropriate",
+        "Calculate timing based on protein type and thickness",
+        "Test for doneness without breaking or damaging protein",
+        "Remove carefully with slotted spoon",
+        "Learn finishing techniques for poached items",
+        "Practice sauce pairings for poached proteins"
+      ],
+      "learningFocus": "Gentle moist-heat cooking for delicate proteins",
+      "techniquesLearned": ["poaching", "court-bouillon", "temperature-monitoring"],
+      "category": "Heat Management",
+      "prerequisites": ["T4-2", "T4-7"],
+      "unlocks": ["T5-8", "S5-3"]
+    },
+    {
+      "id": "T5-4",
+      "title": "Meal Planning for the Week",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 45,
+      "attributeRewards": {
+        "technique": 0,
+        "ingredients": 0.3,
+        "flavor": 0.1,
+        "management": 0.8
+      },
+      "materials": [
+        "Calendar or meal planning template",
+        "Recipe resources",
+        "Grocery list template",
+        "Food inventory list",
+        "Budget planning materials"
+      ],
+      "objectives": [
+        "Develop comprehensive meal planning skills",
+        "Learn efficient shopping strategies",
+        "Practice budget-conscious planning"
+      ],
+      "instructions": [
+        "Inventory current food supplies",
+        "Plan complete week of meals considering:",
+        "- Balanced nutrition",
+        "- Variety of flavors and ingredients",
+        "- Efficient use of ingredients across meals",
+        "- Appropriate portions and leftovers",
+        "- Time availability for each day",
+        "Create detailed shopping list organized by store section",
+        "Develop budget for week's meals",
+        "Plan preparation strategies:",
+        "- Components that can be prepared ahead",
+        "- Meals that can be batch-cooked",
+        "- Quick meals for busy days",
+        "Schedule specific prep times in calendar",
+        "Create contingency plans for unexpected changes",
+        "Document plan for future reference and improvement"
+      ],
+      "learningFocus": "Comprehensive meal planning for efficiency and variety",
+      "techniquesLearned": ["weekly-meal-planning", "grocery-optimization", "prep-scheduling"],
+      "category": "Kitchen Management",
+      "prerequisites": ["T4-4", "T4-9"],
+      "unlocks": ["T5-9", "S5-4"]
+    },
+    {
+      "id": "T5-5",
+      "title": "Flavor Balancing",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 30,
+      "attributeRewards": {
+        "technique": 0.1,
+        "ingredients": 0.1,
+        "flavor": 0.8,
+        "management": 0
+      },
+      "materials": [
+        "Various prepared dishes for adjustment",
+        "Selection of balancing ingredients",
+        "Small bowls for testing",
+        "Tasting spoons",
+        "Notebook"
+      ],
+      "objectives": [
+        "Learn to adjust and balance flavors in dishes",
+        "Understand flavor correction techniques",
+        "Develop palate sensitivity"
+      ],
+      "instructions": [
+        "Prepare several dishes or components with different flavor profiles",
+        "Learn to identify flavor imbalances:",
+        "- Too salty, sweet, sour, bitter, or flat",
+        "- One-dimensional or monotonous flavors",
+        "- Lack of depth or complexity",
+        "Practice adjustment techniques:",
+        "- Acid (vinegar, citrus) to brighten and cut richness",
+        "- Salt to enhance and balance sweetness",
+        "- Sweetness to temper acidity or heat",
+        "- Fat to smooth harsh flavors",
+        "- Umami to add depth",
+        "- Fresh herbs to add complexity",
+        "Test adjustments in small amounts before adding to entire dish",
+        "Document successful adjustment ratios",
+        "Learn to taste throughout cooking process",
+        "Develop intuition for preventative seasoning"
+      ],
+      "learningFocus": "Real-time flavor adjustment and balancing",
+      "techniquesLearned": ["flavor-correction", "taste-adjustment", "palate-development"],
+      "category": "Flavor Building",
+      "prerequisites": ["T4-5", "T4-10"],
+      "unlocks": ["T5-10", "M5-1"]
+    },
+    {
+      "id": "T5-6",
+      "title": "Advanced Vegetable Cutting",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 35,
+      "attributeRewards": {
+        "technique": 0.8,
+        "ingredients": 0.2,
+        "flavor": 0,
+        "management": 0.1
+      },
+      "materials": [
+        "Variety of vegetables",
+        "Sharp knives (chef's, paring)",
+        "Cutting board",
+        "Ruler or measuring tool",
+        "Reference materials for cuts"
+      ],
+      "objectives": [
+        "Master more complex vegetable cutting techniques",
+        "Learn decorative cuts",
+        "Practice precision and consistency"
+      ],
+      "instructions": [
+        "Study classical vegetable cutting techniques:",
+        "- Brunoise (tiny 1/8-inch dice)",
+        "- Paysanne (thin square or diamond shapes)",
+        "- Tourné (football-shaped seven-sided cuts)",
+        "- Lozenge (diamond-shaped cuts)",
+        "Practice technique fundamentals:",
+        "- Create perfectly flat surfaces before cutting",
+        "- Maintain consistent angle and pressure",
+        "- Develop rhythm for efficient cutting",
+        "- Focus on uniformity of size",
+        "Learn simple decorative cuts:",
+        "- Diagonal bias cuts",
+        "- Accordion cuts",
+        "- Simple vegetable flowers",
+        "- Radish roses or similar garnishes",
+        "Perfect knife control for delicate operations",
+        "Practice increasing speed while maintaining precision"
+      ],
+      "learningFocus": "Advanced precision cutting techniques",
+      "techniquesLearned": ["brunoise-cutting", "decorative-cuts", "tourne-technique"],
+      "category": "Knife Skills",
+      "prerequisites": ["T5-1"],
+      "unlocks": ["M5-1", "M5-2"]
+    },
+    {
+      "id": "T5-7",
+      "title": "Dry Heat Cooking Methods",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 50,
+      "attributeRewards": {
+        "technique": 0.6,
+        "ingredients": 0.2,
+        "flavor": 0.3,
+        "management": 0
+      },
+      "materials": [
+        "Various proteins and vegetables",
+        "Different cooking vessels",
+        "Oil or fat for cooking",
+        "Seasonings",
+        "Thermometer"
+      ],
+      "objectives": [
+        "Compare and contrast various dry-heat techniques",
+        "Understand appropriate applications",
+        "Master temperature management"
+      ],
+      "instructions": [
+        "Practice multiple dry-heat cooking methods:",
+        "- Roasting (even, surrounding heat)",
+        "- Broiling (direct heat from above)",
+        "- Grilling (direct heat from below)",
+        "- Sautéing (quick cooking in shallow fat)",
+        "- Searing (very high heat to develop crust)",
+        "- Stir-frying (quick high-heat tossing)",
+        "Apply each method to appropriate ingredients",
+        "Compare results of different methods on similar ingredients",
+        "Learn key techniques for each method:",
+        "- Proper pan preheating",
+        "- Food positioning and spacing",
+        "- Heat adjustment timing",
+        "- Movement techniques",
+        "- Doneness determination",
+        "Document optimal methods for different ingredients",
+        "Learn when to combine multiple dry-heat methods"
+      ],
+      "learningFocus": "Comprehensive understanding of dry heat applications",
+      "techniquesLearned": ["dry-heat-mastery", "method-selection", "heat-management"],
+      "category": "Heat Management",
+      "prerequisites": ["T5-2"],
+      "unlocks": ["M5-2", "M5-3"]
+    },
+    {
+      "id": "T5-8",
+      "title": "Sauce Refinement",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 45,
+      "attributeRewards": {
+        "technique": 0.5,
+        "ingredients": 0.3,
+        "flavor": 0.4,
+        "management": 0.5
+      },
+      "materials": [
+        "Various sauce bases",
+        "Fine-mesh strainer",
+        "Whisk and spoons",
+        "Small saucepan",
+        "Flavor enhancers and finishers"
+      ],
+      "objectives": [
+        "Learn to perfect sauce consistency and flavor",
+        "Master finishing techniques",
+        "Practice advanced sauce adjustments"
+      ],
+      "instructions": [
+        "Prepare basic sauce base (velouté, pan sauce, tomato, etc.)",
+        "Practice refining techniques:",
+        "- Straining for silky texture",
+        "- Reducing for intensified flavor",
+        "- Enriching with butter or cream",
+        "- Mounting with cold butter for sheen",
+        "- Adding acid for brightness",
+        "Learn visual and textural cues for proper consistency:",
+        "- Nappe test (coating the back of a spoon)",
+        "- Flow characteristics",
+        "- Thickness appropriate for application",
+        "Apply advanced flavor adjustments:",
+        "- Balance with small amounts of honey or vinegar",
+        "- Add depth with soy, mushroom powder, or anchovy",
+        "- Brighten with citrus zest or fresh herbs",
+        "Perfect emulsion techniques for stable sauces",
+        "Practice proper cooling and reheating methods"
+      ],
+      "learningFocus": "Elevating sauces to restaurant quality",
+      "techniquesLearned": ["sauce-refinement", "nappe-test", "sauce-mounting"],
+      "category": "Flavor Building",
+      "prerequisites": ["T5-3"],
+      "unlocks": ["M5-3", "M5-4"]
+    },
+    {
+      "id": "T5-9",
+      "title": "Kitchen Efficiency Systems",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 40,
+      "attributeRewards": {
+        "technique": 0,
+        "ingredients": 0.1,
+        "flavor": 0,
+        "management": 0.9
+      },
+      "materials": [
+        "Kitchen space and equipment",
+        "Organizational tools",
+        "Timers",
+        "Meal planning materials",
+        "Documentation system"
+      ],
+      "objectives": [
+        "Create systems for workflow optimization",
+        "Develop standard operating procedures",
+        "Practice professional efficiency"
+      ],
+      "instructions": [
+        "Analyze kitchen workflow and identify bottlenecks",
+        "Optimize kitchen layout for efficiency:",
+        "- Create dedicated stations for specific tasks",
+        "- Place frequently used items in accessible locations",
+        "- Arrange tools and equipment logically",
+        "Develop standard preparation procedures:",
+        "- Create consistent mise en place system",
+        "- Establish equipment setup protocols",
+        "- Develop cleanup routines",
+        "Practice multi-tasking strategies:",
+        "- Utilize 'meanwhile' moments during cooking",
+        "- Group similar tasks together",
+        "- Plan efficient task sequences",
+        "Create documentation systems:",
+        "- Recipe modifications and improvements",
+        "- Preparation timelines",
+        "- Equipment settings for specific dishes",
+        "Test systems through practical cooking application",
+        "Refine based on results"
+      ],
+      "learningFocus": "Professional-level kitchen systems and efficiency",
+      "techniquesLearned": ["workflow-optimization", "kitchen-systems", "efficiency-documentation"],
+      "category": "Kitchen Management",
+      "prerequisites": ["T5-4"],
+      "unlocks": ["M5-4", "M5-5"]
+    },
+    {
+      "id": "T5-10",
+      "title": "Dairy and Cheese Applications",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 40,
+      "attributeRewards": {
+        "technique": 0.3,
+        "ingredients": 0.3,
+        "flavor": 0.4,
+        "management": 0
+      },
+      "materials": [
+        "Various dairy products",
+        "Different cheese types",
+        "Cooking vessels",
+        "Temperature control tools",
+        "Accompaniments for tasting"
+      ],
+      "objectives": [
+        "Learn to work with various dairy products",
+        "Understand temperature effects on dairy",
+        "Master cheese cooking applications"
+      ],
+      "instructions": [
+        "Learn characteristics of different dairy products:",
+        "- Fat content and cooking properties",
+        "- Cultured vs. fresh products",
+        "- Stabilizer effects in commercial products",
+        "Practice temperature control with dairy:",
+        "- Gentle heating to prevent curdling",
+        "- Tempering techniques for adding to hot liquids",
+        "- Proper reduction methods",
+        "Master cheese applications:",
+        "- Melting properties of different cheeses",
+        "- Creating smooth cheese sauces",
+        "- Preventing oiliness or graininess",
+        "- Proper incorporation into dishes",
+        "Learn flavor enhancement with dairy:",
+        "- Enrichment without heaviness",
+        "- Balancing dairy richness",
+        "- Complementary flavor pairings",
+        "Practice proper storage techniques"
+      ],
+      "learningFocus": "Advanced dairy and cheese cooking techniques",
+      "techniquesLearned": ["dairy-cookery", "cheese-applications", "dairy-temperature-control"],
+      "category": "Ingredient Knowledge",
+      "prerequisites": ["T5-5"],
+      "unlocks": ["M5-5", "C5-1"]
+    },
+    {
+      "id": "S5-1",
+      "title": "Compound Butter Variations",
+      "type": "side",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 30,
+      "attributeRewards": {
+        "technique": 0.2,
+        "ingredients": 0.1,
+        "flavor": 0.6,
+        "management": 0.1
+      },
+      "materials": [
+        "Unsalted butter at room temperature",
+        "Various flavor ingredients",
+        "Mixing bowl and tools",
+        "Parchment paper or containers",
+        "Labels"
+      ],
+      "objectives": [
+        "Create flavored butters for enhancing dishes",
+        "Learn flavor pairing principles",
+        "Practice storage techniques"
+      ],
+      "instructions": [
+        "Allow butter to soften to room temperature",
+        "Prepare flavor ingredients based on compound butter style:",
+        "- Herb butter: finely chop fresh herbs",
+        "- Citrus butter: zest and juice preparation",
+        "- Spiced butter: toast and grind spices",
+        "- Umami butter: prepare mushroom duxelles or other umami elements",
+        "Thoroughly mix flavoring ingredients into butter",
+        "Taste and adjust seasonings",
+        "Shape compound butter for storage:",
+        "- Roll into log using parchment paper",
+        "- Form into individual portions",
+        "- Fill silicone molds for decorative shapes",
+        "Chill until firm",
+        "Wrap properly for storage",
+        "Label with contents and date",
+        "Learn appropriate applications for different butter types"
+      ],
+      "learningFocus": "Flavor-infused butter preparation for enhancing dishes",
+      "techniquesLearned": ["compound-butter-creation", "butter-flavoring", "butter-storage"],
+      "category": "Flavor Building",
+      "prerequisites": ["T5-1"],
+      "unlocks": ["M5-1"]
+    },
+    {
+      "id": "S5-2",
+      "title": "Homemade Condiments",
+      "type": "side",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 45,
+      "attributeRewards": {
+        "technique": 0.3,
+        "ingredients": 0.2,
+        "flavor": 0.5,
+        "management": 0.1
+      },
+      "materials": [
+        "Base ingredients for condiments",
+        "Flavoring components",
+        "Cooking vessels",
+        "Blender or food processor",
+        "Storage containers"
+      ],
+      "objectives": [
+        "Learn to make basic condiments from scratch",
+        "Understand flavor development",
+        "Practice preservation techniques"
+      ],
+      "instructions": [
+        "Select several condiments to prepare:",
+        "- Mayonnaise or aioli",
+        "- Mustard (prepared or whole grain)",
+        "- Ketchup or tomato chutney",
+        "- Hot sauce or chili oil",
+        "- Flavored vinegar",
+        "Learn fundamental techniques for each type:",
+        "- Emulsification for mayonnaise",
+        "- Fermentation basics for some mustards",
+        "- Reduction and concentration for tomato-based condiments",
+        "- Infusion for oils and vinegars",
+        "Create variations with different flavorings",
+        "Understand food safety for homemade condiments",
+        "Learn proper storage methods and shelf life",
+        "Create labels with ingredients and date",
+        "Test condiments with appropriate foods"
+      ],
+      "learningFocus": "Creating custom condiments for flavor enhancement",
+      "techniquesLearned": ["condiment-making", "emulsification", "flavor-preservation"],
+      "category": "Flavor Building",
+      "prerequisites": ["T5-2"],
+      "unlocks": ["M5-2"]
+    },
+    {
+      "id": "S5-3",
+      "title": "Advanced Grain Preparation",
+      "type": "side",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 50,
+      "attributeRewards": {
+        "technique": 0.3,
+        "ingredients": 0.5,
+        "flavor": 0.2,
+        "management": 0.1
+      },
+      "materials": [
+        "Various grain types",
+        "Cooking vessels",
+        "Flavor enhancers",
+        "Measuring tools",
+        "Storage containers"
+      ],
+      "objectives": [
+        "Master cooking various grain types",
+        "Learn flavor enhancement methods",
+        "Practice perfect texture development"
+      ],
+      "instructions": [
+        "Select diverse grain types:",
+        "- Farro or emmer",
+        "- Quinoa",
+        "- Wild rice blend",
+        "- Barley",
+        "- Other ancient or specialty grains",
+        "Learn proper preparation methods:",
+        "- Soaking requirements",
+        "- Rinsing techniques",
+        "- Toasting for enhanced flavor",
+        "Master cooking techniques:",
+        "- Absorption method",
+        "- Pasta method (excess water)",
+        "- Pilaf method (sautéing before cooking)",
+        "- Pressure cooking or special equipment methods",
+        "Practice flavor enhancement:",
+        "- Cooking in stock instead of water",
+        "- Adding aromatics during cooking",
+        "- Finishing with herbs or compound butter",
+        "Learn storage and reheating methods",
+        "Create grain bowl combinations"
+      ],
+      "learningFocus": "Expanding grain repertoire with perfect preparation",
+      "techniquesLearned": ["grain-mastery", "cooking-method-selection", "grain-flavor-enhancement"],
+      "category": "Ingredient Knowledge",
+      "prerequisites": ["T5-3"],
+      "unlocks": ["M5-3"]
+    },
+    {
+      "id": "S5-4",
+      "title": "Simple Baking Project",
+      "type": "side",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 60,
+      "attributeRewards": {
+        "technique": 0.4,
+        "ingredients": 0.2,
+        "flavor": 0.3,
+        "management": 0.2
+      },
+      "materials": [
+        "Baking ingredients",
+        "Measuring tools",
+        "Mixing bowls",
+        "Baking pans",
+        "Oven"
+      ],
+      "objectives": [
+        "Learn basic baking principles",
+        "Understand measurement precision",
+        "Practice timing and technique"
+      ],
+      "instructions": [
+        "Select an introductory baking project:",
+        "- Quick bread (banana, zucchini, etc.)",
+        "- Simple cookies",
+        "- Basic muffins or scones",
+        "- Simple cake",
+        "Learn precise measuring techniques:",
+        "- Weighing ingredients when possible",
+        "- Proper measuring of dry ingredients",
+        "- Careful liquid measurement",
+        "Understand key baking principles:",
+        "- Mixing methods (creaming, folding, cutting in)",
+        "- Leavening action",
+        "- Gluten development",
+        "- Proper pan preparation",
+        "Practice timing and doneness testing",
+        "Learn cooling and storage techniques",
+        "Evaluate results and document observations"
+      ],
+      "learningFocus": "Basic baking principles and techniques",
+      "techniquesLearned": ["baking-basics", "measurement-precision", "mixing-methods"],
+      "category": "Technique",
+      "prerequisites": ["T5-4"],
+      "unlocks": ["M5-4"]
+    },
+    {
+      "id": "M5-1",
+      "title": "Composed Vegetable Plate",
+      "type": "main",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 60,
+      "attributeRewards": {
+        "technique": 0.5,
+        "ingredients": 0.4,
+        "flavor": 0.4,
+        "management": 0.3
+      },
+      "materials": [
+        "Variety of seasonal vegetables",
+        "Flavor enhancers (herbs, compound butter, etc.)",
+        "Various cooking vessels",
+        "Plating equipment",
+        "Garnishes"
+      ],
+      "objectives": [
+        "Create elegantly plated vegetable-focused dish",
+        "Apply multiple cooking techniques",
+        "Practice artistic presentation"
+      ],
+      "instructions": [
+        "Select complementary seasonal vegetables",
+        "Plan plate composition with balance in mind:",
+        "- Color diversity",
+        "- Textural contrasts",
+        "- Flavor harmonies",
+        "- Height and visual interest",
+        "Apply different cooking techniques to various vegetables:",
+        "- Roasting for caramelization",
+        "- Blanching for color preservation",
+        "- Puréeing for creamy elements",
+        "- Raw preparation for texture contrast",
+        "Create flavorful enhancement components:",
+        "- Herb oils or vinaigrettes",
+        "- Compound butter for finishing",
+        "- Crisps or tuiles for texture",
+        "- Flavorful purées or sauces",
+        "Apply precise cutting techniques for presentation",
+        "Plate with artistic arrangement",
+        "Garnish appropriately",
+        "Serve at proper temperature"
+      ],
+      "learningFocus": "Elevated vegetable-centered presentation",
+      "techniquesLearned": ["vegetable-composition", "plating-design", "technique-variety"],
+      "category": "Multiple",
+      "prerequisites": ["T5-5", "T5-6", "S5-1"],
+      "unlocks": ["M6-1"]
+    },
+    {
+      "id": "M5-2",
+      "title": "Two-Step Cooking Method Main",
+      "type": "main",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 65,
+      "attributeRewards": {
+        "technique": 0.6,
+        "ingredients": 0.3,
+        "flavor": 0.4,
+        "management": 0.3
+      },
+      "materials": [
+        "Main protein or vegetable component",
+        "Secondary cooking equipment",
+        "Flavor enhancers",
+        "Side dish ingredients",
+        "Plating equipment"
+      ],
+      "objectives": [
+        "Master combination cooking techniques",
+        "Learn optimal cooking method sequencing",
+        "Create complete meal with complex methods"
+      ],
+      "instructions": [
+        "Select main component suitable for dual-method cooking:",
+        "- Meat for searing then roasting",
+        "- Poultry for browning then braising",
+        "- Vegetables for roasting then glazing",
+        "Prepare main component for first cooking method",
+        "Apply initial cooking technique properly:",
+        "- Searing for crust development",
+        "- Par-cooking for partial doneness",
+        "- Smoking for flavor addition",
+        "Prepare for second cooking method:",
+        "- Add liquid for braising",
+        "- Transfer to oven for roasting",
+        "- Prepare glaze for finishing",
+        "Monitor transition between methods carefully",
+        "Cook to proper doneness with optimal method sequence",
+        "Prepare complementary side dishes",
+        "Create sauce from cooking elements if appropriate",
+        "Plate complete dish with attention to presentation"
+      ],
+      "learningFocus": "Optimizing flavor and texture through multiple techniques",
+      "techniquesLearned": ["multi-method-cooking", "method-sequencing", "technique-transition"],
+      "category": "Multiple",
+      "prerequisites": ["T5-6", "T5-7", "S5-2"],
+      "unlocks": ["M6-2"]
+    },
+    {
+      "id": "M5-3",
+      "title": "Complete Brunch",
+      "type": "main",
+      "rank": {
+        "title": "Home Cook",
+        "level": 5
+      },
+      "timeRequired": 70,
+      "attributeRewards": {
+        "technique": 0.4,
+        "ingredients": 0.3,
+        "flavor": 0.4,
+        "management": 0.6
+      },
+      "materials": [
+        "Multiple brunch components",
+        "Various cookware",
+        "Serving dishes",
+        "Timing tools",
+        "Garnishes"
+      ],
+      "objectives": [
+        "Create multi-component brunch with timing coordination",
+        "Balance savory and sweet elements",
+        "Practice simultaneous cooking techniques"
+      ],
+      "instructions": [
+        "Plan complete brunch menu with balance:",
+        "- Protein component(s)",
+        "- Egg preparation",
+        "- Starch/grain element",
+        "- Fruit component",
+        "- Optional beverage",
+        "Create detailed preparation timeline",
+        "Prepare components that can be made ahead",
+        "Set up stations for different cooking methods",
+        "Coordinate timing for simultaneous cooking:",
+        "- Longer-cooking items first",
+        "- Quick items timed for completion with others",
+        "- Holding techniques for ready items",
+        "Apply appropriate cooking techniques for each component",
+        "Bring all elements together at proper temperatures",
+        "Plate attractively with attention to serving temperature",
+        "Review timing success and note improvements"
+      ],
+      "learningFocus": "Timing coordination for multiple components",
+      "techniquesLearned": ["timing-management", "multi-component-coordination", "temperature-staging"],
+      "category": "Multiple",
+      "prerequisites": ["T5-7", "T5-8", "S5-3"],
+      "unlocks": ["M6-3"]
+    },
+    {
+      "id": "T7-1",
+      "title": "Advanced Knife Techniques",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 7
+      },
+      "timeRequired": 40,
+      "attributeRewards": {
+        "technique": 0.9,
+        "ingredients": 0.2,
+        "flavor": 0,
+        "management": 0.1
+      },
+      "materials": [
+        "Various proteins and vegetables",
+        "Selection of knives (chef's, paring, boning, etc.)",
+        "Cutting board",
+        "Sharpening tools",
+        "Storage containers"
+      ],
+      "objectives": [
+        "Master more complex cutting methods",
+        "Learn specialized techniques for specific ingredients",
+        "Practice efficient and precise execution"
+      ],
+      "instructions": [
+        "Master advanced vegetable cutting techniques:",
+        "- Perfect tournage (seven-sided football shapes)",
+        "- Fluted mushroom caps",
+        "- Precision brunoise (1/16-inch dice)",
+        "- Decorative vegetable cuts (florets, roses, ribbons)",
+        "Practice specialized protein cutting:",
+        "- Precise portioning of meats",
+        "- Fish filleting techniques",
+        "- Proper breaking of joints",
+        "- Even slicing of cooked proteins",
+        "Learn specialty cuts for specific applications:",
+        "- Chiffonade for delicate herbs",
+        "- Supreme cuts for citrus",
+        "- Precise scoring techniques",
+        "- Decorative presentation cuts",
+        "Focus on knife maintenance and care:",
+        "- Proper honing technique",
+        "- Basic sharpening skills",
+        "- Edge assessment",
+        "- Safe storage practices",
+        "Practice speed without sacrificing precision",
+        "Document mastered techniques with visual references"
+      ],
+      "learningFocus": "Advanced knife skills and specialized cutting techniques",
+      "techniquesLearned": ["advanced-cutting", "tournage", "protein-fabrication-refinement"],
+      "category": "Knife Skills",
+      "prerequisites": ["T6-1", "T6-6"],
+      "unlocks": ["T7-6", "S7-1"]
+    },
+    {
+      "id": "T7-2",
+      "title": "Flavor Extraction Methods",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 7
+      },
+      "timeRequired": 50,
+      "attributeRewards": {
+        "technique": 0.5,
+        "ingredients": 0.2,
+        "flavor": 0.6,
+        "management": 0
+      },
+      "materials": [
+        "Various ingredients for extraction",
+        "Different extraction mediums (oil, alcohol, water, etc.)",
+        "Multiple vessels",
+        "Filtration equipment",
+        "Storage containers"
+      ],
+      "objectives": [
+        "Learn multiple ways to extract and concentrate flavors",
+        "Understand different mediums for extraction",
+        "Practice preservation techniques"
+      ],
+      "instructions": [
+        "Study different extraction principles:",
+        "- Solubility of flavor compounds",
+        "- Temperature effects on extraction",
+        "- Time factors in extraction processes",
+        "- Physical methods of extraction",
+        "Practice various extraction techniques:",
+        "- Oil infusions (hot and cold methods)",
+        "- Alcohol extractions (tinctures)",
+        "- Water-based infusions",
+        "- Pressure extraction (if equipment available)",
+        "- Vacuum extraction (if equipment available)",
+        "- Dry extractions (salts, sugars)",
+        "Compare extraction mediums for different ingredients:",
+        "- Herbs in various mediums",
+        "- Spices with different methods",
+        "- Aromatics extracted multiple ways",
+        "- Fruits and vegetables with varied techniques",
+        "Document extraction ratios, times, and temperatures",
+        "Test applications of extracted flavors in cooking",
+        "Develop storage protocols for different extractions"
+      ],
+      "learningFocus": "Understanding and mastering flavor extraction methods",
+      "techniquesLearned": ["flavor-extraction", "infusion-methods", "tincture-creation"],
+      "category": "Flavor Building",
+      "prerequisites": ["T6-3", "T6-5"],
+      "unlocks": ["T7-3", "S7-2"]
+    },
+    {
+      "id": "T7-3",
+      "title": "Complex Sauce Building",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 7
+      },
+      "timeRequired": 60,
+      "attributeRewards": {
+        "technique": 0.5,
+        "ingredients": 0.2,
+        "flavor": 0.7,
+        "management": 0.1
+      },
+      "materials": [
+        "Various sauce bases",
+        "Secondary flavor components",
+        "Multiple cooking vessels",
+        "Straining and emulsifying equipment",
+        "Stabilizers if needed"
+      ],
+      "objectives": [
+        "Create layered, multi-component sauces",
+        "Master advanced sauce techniques",
+        "Practice flavor harmony and balance"
+      ],
+      "instructions": [
+        "Study advanced sauce architecture:",
+        "- Multi-layer construction principles",
+        "- Component integration methods",
+        "- Visual and textural considerations",
+        "- Temperature and stability factors",
+        "Develop complex sauce bases:",
+        "- Deep-flavored reductions",
+        "- Multi-stage stock preparations",
+        "- Layered aromatic foundations",
+        "- Infused liquid components",
+        "Apply secondary flavor integration:",
+        "- Complementary flavor additions",
+        "- Textural component incorporation",
+        "- Acidic and bright notes",
+        "- Richness and depth elements",
+        "Master finishing techniques:",
+        "- Multiple straining methods",
+        "- Final seasoning adjustments",
+        "- Thickening and consistency refinement",
+        "- Stabilization for service",
+        "Test sauces with appropriate applications",
+        "Document formulas and methods for successful sauces"
+      ],
+      "learningFocus": "Creating professional-quality complex sauces",
+      "techniquesLearned": ["layered-sauce-building", "component-integration", "sauce-architecture"],
+      "category": "Flavor Building",
+      "prerequisites": ["T7-2"],
+      "unlocks": ["T7-8", "S7-3"]
+    },
+    {
+      "id": "T7-4",
+      "title": "Cooking for Dietary Needs",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 7
+      },
+      "timeRequired": 55,
+      "attributeRewards": {
+        "technique": 0.3,
+        "ingredients": 0.4,
+        "flavor": 0.4,
+        "management": 0.4
+      },
+      "materials": [
+        "Alternative ingredients for various diets",
+        "Specialized tools if needed",
+        "Recipe resources",
+        "Documentation system",
+        "Cooking equipment"
+      ],
+      "objectives": [
+        "Adapt cooking for various dietary restrictions",
+        "Learn substitution techniques",
+        "Practice flavor development with limitations"
+      ],
+      "instructions": [
+        "Research major dietary restriction categories:",
+        "- Gluten-free considerations",
+        "- Dairy-free adaptations",
+        "- Plant-based cooking",
+        "- Low-sodium approaches",
+        "- Low-sugar methods",
+        "- Common allergen alternatives",
+        "Learn key substitution principles:",
+        "- Functional replacements for structural elements",
+        "- Flavor mimicking techniques",
+        "- Texture replication methods",
+        "- Chemical property alternatives",
+        "Practice adaptation techniques:",
+        "- Convert standard recipes to specific dietary needs",
+        "- Develop from-scratch alternatives",
+        "- Create multi-option variations of dishes",
+        "- Focus on maximizing flavor within constraints",
+        "Build pantry knowledge for alternatives:",
+        "- Ingredient functions and replacements",
+        "- Cross-contamination prevention",
+        "- Label reading and identification",
+        "- Specialty product evaluation",
+        "Document successful adaptations for future reference",
+        "Test and evaluate adapted recipes"
+      ],
+      "learningFocus": "Adapting cooking techniques for special dietary requirements",
+      "techniquesLearned": ["dietary-adaptations", "substitution-methods", "allergen-management"],
+      "category": "Multiple",
+      "prerequisites": ["T6-3", "T6-10"],
+      "unlocks": ["T7-9", "S7-4"]
+    },
+    {
+      "id": "T7-5",
+      "title": "Flavor Intensification",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 7
+      },
+      "timeRequired": 45,
+      "attributeRewards": {
+        "technique": 0.3,
+        "ingredients": 0.2,
+        "flavor": 0.8,
+        "management": 0
+      },
+      "materials": [
+        "Various ingredients for intensification",
+        "Reduction and concentration tools",
+        "Cooking vessels",
+        "Flavor testing components",
+        "Storage containers"
+      ],
+      "objectives": [
+        "Master techniques for amplifying natural flavors",
+        "Learn concentration and intensification methods",
+        "Practice balanced flavor enhancement"
+      ],
+      "instructions": [
+        "Study flavor intensification principles:",
+        "- Concentration through moisture removal",
+        "- Enzymatic flavor development",
+        "- Maillard reaction enhancement",
+        "- Fermentation and aging",
+        "- Mechanical flavor release methods",
+        "Practice physical intensification techniques:",
+        "- Proper reduction methods",
+        "- Dehydration for concentrated flavors",
+        "- Pressure applications (if equipment available)",
+        "- Mechanical breakdown for flavor release",
+        "- Cold concentration techniques",
+        "Learn chemical intensification approaches:",
+        "- Salt as flavor amplifier",
+        "- Acid for flavor enhancement",
+        "- Enzyme utilization (natural and added)",
+        "- Fermentation basics for flavor development",
+        "Apply intensification selectively:",
+        "- Targeted flavor boosts",
+        "- Balanced enhancement approach",
+        "- Layering multiple intensification methods",
+        "- Preventing over-intensification",
+        "Document successful techniques with specific ingredients",
+        "Test applications in various dishes"
+      ],
+      "learningFocus": "Amplifying and concentrating natural flavors",
+      "techniquesLearned": ["flavor-intensification", "concentration-methods", "balanced-enhancement"],
+      "category": "Flavor Building",
+      "prerequisites": ["T6-5", "T6-8"],
+      "unlocks": ["T7-10", "M7-1"]
+    },
+    {
+      "id": "T7-6",
+      "title": "Protein Doneness Mastery",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 7
+      },
+      "timeRequired": 50,
+      "attributeRewards": {
+        "technique": 0.7,
+        "ingredients": 0.3,
+        "flavor": 0.2,
+        "management": 0.1
+      },
+      "materials": [
+        "Various protein types",
+        "Cooking thermometer",
+        "Different cooking vessels",
+        "Timing tools",
+        "Reference materials"
+      ],
+      "objectives": [
+        "Perfect cooking proteins to exact specifications",
+        "Learn visual and tactile doneness indicators",
+        "Practice temperature management"
+      ],
+      "instructions": [
+        "Study protein cooking science:",
+        "- Temperature effects on different proteins",
+        "- Moisture migration during cooking",
+        "- Carryover cooking principles",
+        "- Resting requirements and timing",
+        "Master doneness testing methods:",
+        "- Precise thermometer techniques",
+        "- Visual indicators for specific proteins",
+        "- Tactile pressure tests",
+        "- Timing methods for consistency",
+        "Practice with multiple protein types:",
+        "- Red meat doneness levels",
+        "- Poultry perfect doneness",
+        "- Fish and seafood precision",
+        "- Alternative protein cooking points",
+        "Learn temperature management techniques:",
+        "- Heat application control",
+        "- Rest time calculations",
+        "- Temperature gradients within proteins",
+        "- Recovery times for cooking surfaces",
+        "Document optimal temperatures for preferences",
+        "Create personal reference guide for various proteins"
+      ],
+      "learningFocus": "Precision protein cooking for perfect doneness",
+      "techniquesLearned": ["doneness-precision", "temperature-management", "protein-mastery"],
+      "category": "Technique",
+      "prerequisites": ["T7-1"],
+      "unlocks": ["M7-2", "M7-3"]
+    },
+    {
+      "id": "T7-7",
+      "title": "Specialty Equipment Use",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 7
+      },
+      "timeRequired": 55,
+      "attributeRewards": {
+        "technique": 0.6,
+        "ingredients": 0.1,
+        "flavor": 0.2,
+        "management": 0.3
+      },
+      "materials": [
+        "Specialty cooking equipment",
+        "Ingredients for testing",
+        "Documentation system",
+        "Measurement tools",
+        "Safety equipment if needed"
+      ],
+      "objectives": [
+        "Learn to use more advanced kitchen tools",
+        "Understand specialty equipment applications",
+        "Practice optimal technique with tools"
+      ],
+      "instructions": [
+        "Select specialty equipment to master (based on availability):",
+        "- Pressure cooker or Instant Pot",
+        "- Sous vide equipment",
+        "- Food processor or high-powered blender",
+        "- Stand mixer with attachments",
+        "- Specialty baking tools",
+        "- Other available specialty equipment",
+        "Study equipment functions and principles:",
+        "- Operating mechanisms",
+        "- Safety considerations",
+        "- Maintenance requirements",
+        "- Optimal applications",
+        "- Limitations and alternatives",
+        "Practice with equipment using test recipes:",
+        "- Follow standard recipes for equipment",
+        "- Test variable adjustments",
+        "- Compare results with conventional methods",
+        "- Document optimal settings and approaches",
+        "Develop efficient workflow with equipment:",
+        "- Prep requirements for optimal use",
+        "- Cleanup and maintenance protocols",
+        "- Storage considerations",
+        "- Integration with other techniques",
+        "Create reference guide for equipment applications"
+      ],
+      "learningFocus": "Mastering specialty kitchen equipment",
+      "techniquesLearned": ["equipment-mastery", "specialty-applications", "tool-optimization"],
+      "category": "Technique",
+      "prerequisites": ["T6-7", "T6-9"],
+      "unlocks": ["M7-4", "M7-5"]
+    },
+    {
+      "id": "T7-8",
+      "title": "Advanced Food Preservation",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 7
+      },
+      "timeRequired": 65,
+      "attributeRewards": {
+        "technique": 0.4,
+        "ingredients": 0.4,
+        "flavor": 0.3,
+        "management": 0.4
+      },
+      "materials": [
+        "Various preservation ingredients",
+        "Canning or preservation equipment",
+        "Storage containers",
+        "Documentation system",
+        "Safety equipment"
+      ],
+      "objectives": [
+        "Explore various preservation methods",
+        "Learn food safety for long-term storage",
+        "Practice traditional and modern techniques"
+      ],
+      "instructions": [
+        "Research food preservation principles:",
+        "- Microbial control methods",
+        "- pH considerations",
+        "- Water activity management",
+        "- Temperature effects",
+        "- Oxidation prevention",
+        "Practice multiple preservation techniques:",
+        "- Water bath canning (high-acid foods)",
+        "- Pressure canning (if equipment available)",
+        "- Fermentation (vegetables, dairy, etc.)",
+        "- Dehydration methods",
+        "- Salt preservation",
+        "- Sugar preservation",
+        "- Oil preservation (with safety considerations)",
+        "- Alcohol preservation",
+        "- Smoking or curing (if equipment available)",
+        "Learn safety protocols for each method:",
+        "- Critical control points",
+        "- Testing for safety",
+        "- Storage requirements",
+        "- Shelf-life determination",
+        "- Signs of spoilage",
+        "Document recipes and methods for successful preservation",
+        "Create usage guide for preserved items",
+        "Develop preservation plan for seasonal abundance"
+      ],
+      "learningFocus": "Safe and effective food preservation techniques",
+      "techniquesLearned": ["preservation-methods", "safe-canning", "fermentation-basics"],
+      "category": "Multiple",
+      "prerequisites": ["T7-3"],
+      "unlocks": ["E7-1", "E7-2"]
+    },
+    {
+      "id": "T7-9",
+      "title": "Cooking Workflow Optimization",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 7
+      },
+      "timeRequired": 45,
+      "attributeRewards": {
+        "technique": 0.2,
+        "ingredients": 0,
+        "flavor": 0,
+        "management": 0.9
+      },
+      "materials": [
+        "Kitchen space and equipment",
+        "Workflow planning materials",
+        "Timing tools",
+        "Documentation system",
+        "Test recipes"
+      ],
+      "objectives": [
+        "Perfect kitchen efficiency techniques",
+        "Learn professional workflow methods",
+        "Practice systematic cooking approach"
+      ],
+      "instructions": [
+        "Analyze current cooking workflow:",
+        "- Document typical cooking patterns",
+        "- Identify bottlenecks and inefficiencies",
+        "- Note wasted movements and time",
+        "- Assess equipment and tool placement",
+        "- Evaluate preparation methods",
+        "Study professional workflow principles:",
+        "- Station organization methods",
+        "- Movement efficiency techniques",
+        "- Time management strategies",
+        "- Task grouping approaches",
+        "- Preparation sequencing",
+        "Implement optimized workflow design:",
+        "- Create functional workstations",
+        "- Arrange tools and equipment for efficiency",
+        "- Establish consistent preparation routines",
+        "- Develop standard operating procedures",
+        "- Set up cleaning integration",
+        "Practice with test cooking projects:",
+        "- Execute complex recipes with new workflow",
+        "- Time and document improvements",
+        "- Refine based on results",
+        "- Compare to previous methods",
+        "Establish personal best practices for future cooking"
+      ],
+      "learningFocus": "Professional-level cooking workflow efficiency",
+      "techniquesLearned": ["workflow-optimization", "efficiency-systems", "movement-economy"],
+      "category": "Kitchen Management",
+      "prerequisites": ["T7-4"],
+      "unlocks": ["E7-3", "C7-1"]
+    },
+    {
+      "id": "T7-10",
+      "title": "Consistent Recipe Execution",
+      "type": "training",
+      "rank": {
+        "title": "Home Cook",
+        "level": 7
+      },
+      "timeRequired": 50,
+      "attributeRewards": {
+        "technique": 0.4,
+        "ingredients": 0.2,
+        "flavor": 0.3,
+        "management": 0.5
+      },
+      "materials": [
+        "Recipe testing ingredients",
+        "Standard measurement tools",
+        "Documentation system",
+        "Multiple batches of same recipe",
+        "Evaluation materials"
+      ],
+      "objectives": [
+        "Master reproducing dishes with precision",
+        "Learn standardization techniques",
+        "Practice systematic recipe execution"
+      ],
+      "instructions": [
+        "Select recipe for standardization practice:",
+        "- Choose moderate complexity recipe",
+        "- Ensure measurable outcomes",
+        "- Select recipe sensitive to technique",
+        "- Consider multiple component preparation",
+        "Develop precise recipe documentation:",
+        "- Convert volume to weight measurements",
+        "- Document exact temperatures and times",
+        "- Record visual and tactile indicators",
+        "- Note equipment specifications",
+        "- Create detailed procedure steps",
+        "Execute multiple test batches:",
+        "- Prepare identical batches with documented procedure",
+        "- Control all variables carefully",
+        "- Document each execution in detail",
+        "- Compare results across batches",
+        "- Identify inconsistency factors",
+        "Refine standardization approach:",
+        "- Adjust documentation for clarity",
+        "- Identify critical control points",
+        "- Create troubleshooting guide",
+        "- Develop quality checks throughout process",
+        "- Test with different equipment if available",
+        "Create personal standard recipe format for future use"
+      ],
+      "learningFocus": "Producing consistent, repeatable cooking results",
+      "techniquesLearned": ["recipe-standardization", "consistency-methods", "quality-control"],
+      "category": "Multiple",
+      "prerequisites": ["T7-5"],
+      "unlocks": ["C7-1"]
+    },
+    {
+      "id": "S7-1",
+      "title": "Elegant Side Dishes",
+      "type": "side",
+      "rank": {
+        "title": "Home Cook",
+        "level": 7
+      },
+      "timeRequired": 60,
+      "attributeRewards": {
+        "technique": 0.5,
+        "ingredients": 0.3,
+        "flavor": 0.4,
+        "management": 0.1
+      },
+      "materials": [
+        "Quality ingredients for refined sides",
+        "Specialty equipment if needed",
+        "Various cooking vessels",
+        "Garnishing elements",
+        "Plating components"
+      ],
+      "objectives": [
+        "Create refined accompaniments",
+        "Learn elevated preparation methods",
+        "Practice sophisticated presentation"
+      ],
+      "instructions": [
+        "Select elevated side dish concepts:",
+        "- Classic refined accompaniments",
+        "- Modern interpretations of traditional sides",
+        "- Technically complex vegetable preparations",
+        "- Elegant starch presentations",
+        "Apply advanced preparation techniques:",
+        "- Multi-step cooking processes",
+        "- Precise knife work for presentation",
+        "- Temperature control for optimal texture",
+        "- Component separation and reassembly",
+        "Develop depth of flavor:",
+        "- Layered seasoning approach",
+        "- Multiple flavor incorporation methods",
+        "- Balance of richness and brightness",
+        "- Texture contrasts within dishes",
+        "Create refined presentation:",
+        "- Elegant plating approaches",
+        "- Thoughtful garnishing",
+        "- Visual harmony considerations",
+        "- Serviceware selection",
+        "Document techniques for repeatability",
+        "Practice timing for service with main courses"
+      ],
+      "learningFocus": "Creating restaurant-quality refined side dishes",
+      "techniquesLearned": ["refined-sides", "elegant-presentation", "side-dish-elevation"],
+      "category": "Multiple",
+      "prerequisites": ["T7-1"],
+      "unlocks": ["M7-1"]
+    },
+    {
+      "id": "S7-2",
+      "title": "Quick Preservation Methods",
+      "type": "side",
+      "rank": {
+        "title": "Home Cook",
+        "level": 7
+      },
+      "timeRequired": 45,
+      "attributeRewards": {
+        "technique": 0.3,
+        "ingredients": 0.4,
+        "flavor": 0.3,
+        "management": 0.3
+      },
+      "materials": [
+        "Seasonal ingredients for preservation",
+        "Preservation mediums (vinegar, salt, sugar, etc.)",
+        "Storage containers",
+        "Basic equipment",
+        "Documentation system"
+      ],
+      "objectives": [
+        "Learn fast techniques for extending food life",
+        "Practice flavor development through preservation",
+        "Create pantry components for future cooking"
+      ],
+      "instructions": [
+        "Master quick pickling techniques:",
+        "- Hot pack method for short-term refrigerator pickles",
+        "- Cold pack approach for crisp textures",
+        "- Various vinegar and brine formulations",
+        "- Flavor infusion during pickling",
+        "Practice refrigerator preserves:",
+        "- Quick fruit preserves without canning",
+        "- Refrigerator jams and compotes",
+        "- Fruit butter techniques",
+        "- Savory preserve variations",
+        "Learn other rapid preservation approaches:",
+        "- Oil preserving with safety considerations",
+        "- Compound butter freezing",
+        "- Herb preservation techniques",
+        "- Salt preservation methods",
+        "- Freezer preparations with quality focus",
+        "Document effective recipes and methods",
+        "Create usage guide for preserved items",
+        "Test applications in various dishes"
+      ],
+      "learningFocus": "Fast preservation methods for seasonal abundance",
+      "techniquesLearned": ["quick-pickling", "refrigerator-preserving", "freezer-techniques"],
+      "category": "Multiple",
+      "prerequisites": ["T7-2"],
+      "unlocks": ["M7-2"]
+    },
+    {
+      "id": "S7-3",
+      "title": "Global Side Dish Techniques",
+      "type": "side",
+      "rank": {
+        "title": "Home Cook",
+        "level": 7
+      },
+      "timeRequired": 55,
+      "attributeRewards": {
+        "technique": 0.4,
+        "ingredients": 0.3,
+        "flavor": 0.5,
+        "management": 0.1
+      },
+      "materials": [
+        "Ingredients for international side dishes",
+        "Various cooking vessels",
+        "Specialty equipment if needed",
+        "Reference materials",
+        "Serving components"
+      ],
+      "objectives": [
+        "Explore side dishes from various cuisines",
+        "Learn cultural preparation techniques",
+        "Practice authentic flavor development"
+      ],
+      "instructions": [
+        "Research side dishes from diverse cuisines:",
+        "- Mediterranean mezze components",
+        "- East Asian banchan or dim sum items",
+        "- South Asian accompaniments",
+        "- African side preparations",
+        "- Latin American traditional sides",
+        "- Other regional specialties",
+        "Select diverse preparations to master:",
+        "- Choose contrasting techniques",
+        "- Select varied ingredient focuses",
+        "- Consider equipment and tool requirements",
+        "- Evaluate ingredient availability",
+        "Learn authentic preparation methods:",
+        "- Study traditional techniques",
+        "- Apply proper cooking approaches",
+        "- Develop authentic flavor profiles",
+        "- Respect cultural significance",
+        "Document successful preparations with notes",
+        "Create serving guide for international meal planning",
+        "Test accompaniments with appropriate main dishes"
+      ],
+      "learningFocus": "Mastering international side dish preparations",
+      "techniquesLearned": ["global-techniques", "authentic-preparations", "cultural-flavor-profiles"],
+      "category": "Multiple",
+      "prerequisites": ["T7-3"],
+      "unlocks": ["M7-3"]
+    },
+    {
+      "id": "S7-4",
+      "title": "Creative Vegetable Dishes",
+      "type": "side",
+      "rank": {
+        "title": "Home Cook",
+        "level": 7
+      },
+      "timeRequired": 50,
+      "attributeRewards": {
+        "technique": 0.4,
+        "ingredients": 0.5,
+        "flavor": 0.4,
+        "management": 0
+      },
+      "materials": [
+        "Variety of seasonal vegetables",
+        "Multiple cooking vessels",
+        "Flavor enhancing ingredients",
+        "Plating components",
+        "Specialty tools if needed"
+      ],
+      "objectives": [
+        "Develop innovative vegetable preparations",
+        "Learn creative techniques for produce",
+        "Practice visually striking presentations"
+      ],
+      "instructions": [
+        "Explore creative vegetable preparation concepts:",
+        "- Unexpected cooking techniques for specific vegetables",
+        "- Novel flavor combinations",
+        "- Textural transformations",
+        "- Multi-cooking method approaches",
+        "- Presentation innovations",
+        "Apply elevated preparation techniques:",
+        "- Precise cutting for visual impact",
+        "- Multi-stage cooking processes",
+        "- Temperature manipulation for texture",
+        "- Component preparation and reassembly",
+        "- Contrasting cooking methods for same vegetable",
+        "Focus on flavor development:",
+        "- Unexpected seasoning approaches",
+        "- Complementary flavor additions",
+        "- Balance of familiar and novel elements",
+        "- Concentration and intensification methods",
+        "Create artistic presentations:",
+        "- Thoughtful plating approaches",
+        "- Color and texture compositions",
+        "- Height and dimension considerations",
+        "- Garnishing for visual impact",
+        "Document techniques for successful preparations",
+        "Build repertoire of signature vegetable dishes"
+      ],
+      "learningFocus": "Creative innovation with vegetable preparations",
+      "techniquesLearned": ["vegetable-creativity", "innovative-techniques", "artistic-presentation"],
+      "category": "Multiple",
+      "prerequisites": ["T7-4"],
+      "unlocks": ["M7-4"]
+    },
+    {
+      "id": "M7-1",
+      "title": "Complete Dinner Party",
+      "type": "main",
+      "rank": {
+        "title": "Home Cook",
+        "level": 7
+      },
+      "timeRequired": 90,
+      "attributeRewards": {
+        "technique": 0.6,
+        "ingredients": 0.4,
+        "flavor": 0.5,
+        "management": 0.8
+      },
+      "materials": [
+        "Multiple course ingredients",
+        "Various cooking vessels",
+        "Serving equipment",
+        "Planning materials",
+        "Garnishing elements"
+      ],
+      "objectives": [
+        "Execute full meal for company with precision",
+        "Master entertaining preparation",
+        "Practice professional-level service"
+      ],
+      "instructions": [
+        "Plan comprehensive dinner party menu:",
+        "- Hors d'oeuvres or starter bites",
+        "- First course",
+        "- Main course with accompaniments",
+        "- Dessert",
+        "- Optional beverage pairings",
+        "Develop detailed preparation strategy:",
+        "- Create multi-day preparation timeline",
+        "- Identify make-ahead components",
+        "- Schedule day-of preparation sequence",
+        "- Plan final assembly and plating",
+        "- Create equipment and space usage plan",
+        "Execute with professional organization:",
+        "- Complete advance preparations according to schedule",
+        "- Prepare day-of components with proper timing",
+        "- Maintain clean and organized workspace",
+        "- Apply proper holding techniques for components",
+        "- Coordinate final cooking and plating timing",
+        "Practice service logistics:",
+        "- Plan efficient serving approach",
+        "- Consider temperature maintenance during service",
+        "- Prepare for course transitions",
+        "- Develop presentation for each course",
+        "Evaluate successes and areas for improvement",
+        "Document approach for future dinner parties"
+      ],
+      "learningFocus": "Professional-level dinner party execution",
+      "techniquesLearned": ["dinner-party-planning", "service-logistics", "entertaining-strategy"],
+      "category": "Multiple",
+      "prerequisites": ["T7-5", "S7-1"],
+      "unlocks": ["M8-1"]
+    }
 ]
