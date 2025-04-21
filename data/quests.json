@@ -1,7 +1,49 @@
 [
   {
     "id": "T1-1",
-    "title": "First Blade",
+    "title": "Kitchen Safety Basics",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 15,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0,
+      "flavor": 0,
+      "management": 0.4
+    },
+    "materials": [
+      "Kitchen with basic equipment",
+      "First aid kit",
+      "Kitchen towels",
+      "Oven mitts/hot pads"
+    ],
+    "objectives": [
+      "Learn basic kitchen safety practices",
+      "Understand fire prevention and management",
+      "Practice safe handling of hot items"
+    ],
+    "instructions": [
+      "Walk through kitchen identifying potential hazards",
+      "Practice proper hand washing technique",
+      "Locate fire extinguisher and understand its use",
+      "Identify appropriate pot handling techniques",
+      "Practice using kitchen towels and mitts safely",
+      "Learn proper techniques for carrying knives",
+      "Understand basic first aid for minor cuts and burns",
+      "Create a checklist for kitchen safety procedures"
+    ],
+    "learningFocus": "Kitchen safety fundamentals for injury prevention",
+    "techniquesLearned": ["kitchen-safety", "hazard-prevention"],
+    "category": "Kitchen Management",
+    "prerequisites": [],
+    "unlocks": ["T1-2"]
+  },
+  {
+    "id": "T1-2",
+    "title": "Knife Safety & Basic Cuts",
     "type": "training",
     "rank": {
       "title": "Home Cook",
@@ -10,37 +52,82 @@
     "timeRequired": 20,
     "attributeRewards": {
       "technique": 0.5,
-      "ingredients": 0,
+      "ingredients": 0.1,
       "flavor": 0,
-      "management": 0
+      "management": 0.1
     },
     "materials": [
       "Chef's knife",
       "Cutting board",
       "1 carrot",
-      "1 celery stalk"
+      "1 celery stalk",
+      "1 onion"
     ],
     "objectives": [
       "Learn proper knife grip and basic safety",
-      "Practice basic cross-cutting technique",
-      "Prepare vegetables for future use"
+      "Practice basic slicing technique",
+      "Understand cutting board safety"
     ],
     "instructions": [
-      "Set up your cutting board with a damp cloth underneath to prevent slipping",
-      "Hold the knife with your dominant hand, pinching the blade between your thumb and forefinger",
-      "Practice the \"claw\" technique with your non-dominant hand to protect your fingers",
-      "Cut the carrot into 1/4-inch rounds using a smooth slicing motion",
-      "Cut the celery into similar-sized pieces",
-      "Store cut vegetables in a container for future use in soups or stir-fries"
+      "Place cutting board on stable surface with damp towel underneath",
+      "Hold knife with proper pinch grip (thumb and forefinger on blade)",
+      "Practice the \"claw\" technique with non-cutting hand",
+      "Slice carrot into rounds using controlled motion",
+      "Cut celery into even pieces",
+      "Practice simple onion slices",
+      "Learn proper knife cleaning and storage",
+      "Practice safe knife handling and transfers"
     ],
-    "learningFocus": "Basic knife handling and safety fundamentals",
-    "techniquesLearned": ["basic-knife-grip", "cross-cutting"],
+    "learningFocus": "Safe knife handling and basic cutting techniques",
+    "techniquesLearned": ["knife-safety", "basic-slicing"],
     "category": "Knife Skills",
-    "prerequisites": [],
-    "unlocks": ["T2-1"]
+    "prerequisites": ["T1-1"],
+    "unlocks": ["T1-3", "S1-1"]
   },
   {
-    "id": "T1-3",
+    "id": "T1-3", 
+    "title": "Water Boiling Basics",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 15,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0,
+      "flavor": 0.1,
+      "management": 0.2
+    },
+    "materials": [
+      "Pot with lid",
+      "Water",
+      "Salt",
+      "Timer"
+    ],
+    "objectives": [
+      "Master proper water boiling technique",
+      "Learn about water salting principles",
+      "Understand heat management on stovetop"
+    ],
+    "instructions": [
+      "Select appropriate pot size for intended purpose",
+      "Fill pot with correct amount of water",
+      "Place on appropriate burner and set to high heat",
+      "Observe stages of heating (simmering vs. full boil)",
+      "Practice adding salt at the right time",
+      "Understand the effects of covering/uncovering the pot",
+      "Practice safely moving boiling water",
+      "Learn different approaches for different cooking needs"
+    ],
+    "learningFocus": "Fundamental heat control and water-based cooking",
+    "techniquesLearned": ["water-boiling", "basic-heat-management"],
+    "category": "Heat Management",
+    "prerequisites": ["T1-1"],
+    "unlocks": ["S1-2", "S1-3"]
+  },
+  {
+    "id": "T1-4",
     "title": "Salt Fundamentals",
     "type": "training",
     "rank": {
@@ -50,119 +137,125 @@
     "timeRequired": 10,
     "attributeRewards": {
       "technique": 0,
-      "ingredients": 0,
+      "ingredients": 0.2,
       "flavor": 0.5,
       "management": 0
     },
     "materials": [
-      "Salt",
+      "Different salts (table, kosher, sea salt)",
       "Slice of bread",
       "Cooked egg",
       "Steamed vegetable"
     ],
     "objectives": [
-      "Learn proper seasoning techniques using only salt",
-      "Understand how salt enhances flavors",
+      "Learn proper seasoning techniques using salt",
+      "Understand differences between salt types",
       "Practice tasting while seasoning"
     ],
     "instructions": [
+      "Compare different salt types visually and by taste",
       "Take a small piece of bread and taste it unseasoned",
-      "Add a tiny pinch of salt and taste again",
-      "Continue adding small amounts and tasting until it tastes 'better' but not 'salty'",
-      "Repeat the process with a cooked egg and steamed vegetable",
+      "Add small pinches of salt and taste again",
+      "Continue adding tiny amounts until flavor is enhanced but not salty",
+      "Repeat the process with egg and vegetable",
       "Note how different foods require different amounts of salt",
-      "Practice seasoning at different stages (before, during, after cooking)"
+      "Practice proper finger pinch technique for salt application",
+      "Learn to season from 10-12 inches above food for even distribution"
     ],
-    "learningFocus": "Understanding salt as a flavor enhancer rather than a 'flavor' itself",
-    "techniquesLearned": ["basic-seasoning", "taste-assessment"],
+    "learningFocus": "Understanding salt as a basic flavor enhancer",
+    "techniquesLearned": ["salt-seasoning", "taste-development"],
     "category": "Flavor Building",
     "prerequisites": [],
-    "unlocks": ["S1-2"]
+    "unlocks": ["T1-8", "S1-6"]
   },
   {
-    "id": "S1-1",
-    "title": "Rice Foundations",
-    "type": "side",
+    "id": "T1-5",
+    "title": "Kitchen Organization Basics",
+    "type": "training",
     "rank": {
       "title": "Home Cook",
       "level": 1
     },
     "timeRequired": 25,
     "attributeRewards": {
-      "technique": 0.3,
-      "ingredients": 0,
+      "technique": 0,
+      "ingredients": 0.1,
       "flavor": 0,
-      "management": 0.3
+      "management": 0.6
     },
     "materials": [
-      "1 cup rice",
-      "Measuring cup",
-      "Saucepan with lid"
+      "Basic kitchen tools",
+      "Cleaning supplies",
+      "Storage containers",
+      "Notebook"
     ],
     "objectives": [
-      "Properly measure rice and water ratios",
-      "Control heat for perfect rice cooking",
-      "Time the cooking process accurately"
+      "Organize kitchen workspace for efficiency",
+      "Learn basic cleaning techniques",
+      "Create simple organization system"
     ],
     "instructions": [
-      "Measure 1 cup of rice and rinse until water runs clear",
-      "Add rice to saucepan with 1.5-2 cups water (depending on rice type)",
-      "Bring to a boil uncovered",
-      "Once boiling, reduce heat to low and cover",
-      "Set timer according to rice type (white: 15-20 min, brown: 35-40 min)",
-      "When timer ends, remove from heat but keep covered for 5 minutes",
-      "Fluff with fork before serving"
+      "Clear and clean primary work surface",
+      "Identify and organize essential tools by frequency of use",
+      "Create zones for preparation, cooking, and cleaning",
+      "Practice efficient movement between zones",
+      "Learn proper cleaning techniques for different surfaces",
+      "Set up a simple mise en place system",
+      "Create habits for cleaning as you go",
+      "Establish a basic organization system for tools and ingredients"
     ],
-    "learningFocus": "Proper measurement, timing, and heat management",
-    "techniquesLearned": ["basic-heat-control", "timing-management"],
-    "category": "Heat Management",
+    "learningFocus": "Basic kitchen organization and workflow",
+    "techniquesLearned": ["workspace-organization", "kitchen-zones"],
+    "category": "Kitchen Management",
     "prerequisites": [],
-    "unlocks": ["S2-1"]
+    "unlocks": ["T1-9", "E1-2"]
   },
   {
-    "id": "T1-2",
-    "title": "Egg Essentials",
+    "id": "T1-6",
+    "title": "Egg Cooking Basics",
     "type": "training",
     "rank": {
       "title": "Home Cook",
       "level": 1
     },
-    "timeRequired": 15,
+    "timeRequired": 20,
     "attributeRewards": {
       "technique": 0.4,
-      "ingredients": 0,
-      "flavor": 0,
+      "ingredients": 0.1,
+      "flavor": 0.1,
       "management": 0.1
     },
     "materials": [
+      "Eggs",
       "Pan",
-      "2-3 eggs",
-      "Butter/oil",
-      "Spatula"
+      "Butter or oil",
+      "Spatula",
+      "Bowl"
     ],
     "objectives": [
-      "Learn to recognize proper pan temperature",
-      "Control heat for egg cooking",
-      "Practice basic egg preparation techniques"
+      "Learn fundamental egg cooking techniques",
+      "Practice basic pan heat control",
+      "Understand egg cooking stages"
     ],
     "instructions": [
-      "Place pan over medium heat and add a small amount of oil or butter",
-      "Wait until the fat is hot but not smoking (test with a drop of water - it should sizzle gently)",
-      "Crack eggs into a bowl first, then add to the pan",
-      "For sunny-side up: cook until whites are set but yolk is runny",
-      "For over-easy: flip gently when whites are set, cook 10-15 seconds more",
-      "For scrambled: whisk eggs, pour into pan, gently fold as they cook",
-      "Season with salt at the end of cooking"
+      "Heat pan to proper temperature (medium/medium-low)",
+      "Add small amount of butter or oil",
+      "For fried eggs: crack egg into bowl first, then slide into pan",
+      "Observe white setting process without browning",
+      "Practice flipping technique for over-easy (if desired)",
+      "For scrambled: whisk eggs in bowl with pinch of salt",
+      "Cook scrambled eggs slowly, stirring frequently",
+      "Learn to identify proper doneness (moist but cooked through)"
     ],
-    "learningFocus": "Understanding heat control and timing for egg doneness",
-    "techniquesLearned": ["heat-assessment", "egg-cooking"],
+    "learningFocus": "Basic protein cooking using eggs as learning tool",
+    "techniquesLearned": ["egg-cookery", "pan-heat-control"],
     "category": "Heat Management",
     "prerequisites": [],
-    "unlocks": ["M1-1"]
+    "unlocks": ["S1-4", "M1-1"]
   },
   {
-    "id": "T1-6",
-    "title": "Measuring Mastery",
+    "id": "T1-7",
+    "title": "Measuring Fundamentals",
     "type": "training",
     "rank": {
       "title": "Home Cook",
@@ -171,36 +264,82 @@
     "timeRequired": 15,
     "attributeRewards": {
       "technique": 0.2,
-      "ingredients": 0,
+      "ingredients": 0.2,
       "flavor": 0,
-      "management": 0.4
+      "management": 0.3
     },
     "materials": [
-      "Measuring cups",
+      "Measuring cups (liquid and dry)",
       "Measuring spoons",
-      "Various ingredients (flour, sugar, rice, water)"
+      "Various ingredients (flour, water, oil, etc.)",
+      "Kitchen scale (if available)"
     ],
     "objectives": [
-      "Learn proper measuring techniques for dry and wet ingredients",
-      "Understand volume vs. weight measurements",
-      "Practice consistent measuring for recipe accuracy"
+      "Learn proper measuring techniques",
+      "Understand difference between volume and weight",
+      "Practice consistent measuring"
     ],
     "instructions": [
-      "Set up measuring tools and ingredients on a clean counter",
-      "Practice measuring dry ingredients by spooning into the cup, then leveling with a knife",
-      "Practice measuring wet ingredients at eye level in a liquid measuring cup",
-      "Compare measurements across different tools to understand consistency",
-      "Practice converting between common measurements (tbsp to tsp, cups to oz)"
+      "Identify different types of measuring tools and their uses",
+      "Practice proper technique for measuring dry ingredients (spoon and level)",
+      "Learn correct way to read liquid measures (at eye level)",
+      "Understand difference between volume and weight measurement",
+      "Practice converting between common measurements",
+      "Learn the importance of consistent measuring",
+      "Understand when precision matters and when estimates are acceptable",
+      "Practice cleaning and storing measuring tools"
     ],
-    "learningFocus": "Consistent measurement techniques for recipe success",
-    "techniquesLearned": ["measurement-basics", "conversion-skills"],
+    "learningFocus": "Basic measurement techniques for recipe consistency",
+    "techniquesLearned": ["proper-measuring", "measurement-types"],
     "category": "Kitchen Management",
     "prerequisites": [],
-    "unlocks": []
+    "unlocks": ["S1-1", "S1-2"]
   },
   {
-    "id": "T1-7",
-    "title": "Pantry Organization",
+    "id": "T1-8",
+    "title": "Basic Flavor Understanding",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 20,
+    "attributeRewards": {
+      "technique": 0,
+      "ingredients": 0.2,
+      "flavor": 0.5,
+      "management": 0
+    },
+    "materials": [
+      "Salt",
+      "Lemon/vinegar",
+      "Sugar",
+      "Simple food items for testing"
+    ],
+    "objectives": [
+      "Understand basic flavor elements (salt, acid, sweet)",
+      "Learn to identify flavor imbalances",
+      "Practice simple flavor adjustments"
+    ],
+    "instructions": [
+      "Prepare small portions of plain, underseasoned food",
+      "Taste food before any seasoning and note observations",
+      "Add small amount of salt, taste again and note differences",
+      "Try a few drops of acid (lemon/vinegar), taste and observe",
+      "Experiment with small amount of sweetness if appropriate",
+      "Learn to identify when a dish needs salt, acid, or sweetness",
+      "Practice incremental additions and tasting",
+      "Create simple flavor balance reference for future cooking"
+    ],
+    "learningFocus": "Basic flavor balance principles",
+    "techniquesLearned": ["flavor-balancing", "taste-adjustment"],
+    "category": "Flavor Building",
+    "prerequisites": ["T1-4"],
+    "unlocks": ["T2-5", "S1-6"]
+  },
+  {
+    "id": "T1-9",
+    "title": "Ingredient Storage Basics",
     "type": "training",
     "rank": {
       "title": "Home Cook",
@@ -209,39 +348,171 @@
     "timeRequired": 30,
     "attributeRewards": {
       "technique": 0,
-      "ingredients": 0.3,
+      "ingredients": 0.4,
       "flavor": 0,
-      "management": 0.6
+      "management": 0.4
     },
     "materials": [
-      "Pantry items",
+      "Common ingredients (produce, pantry items)",
       "Storage containers",
-      "Labels"
+      "Labels",
+      "Refrigerator space"
     ],
     "objectives": [
-      "Organize pantry staples for efficient cooking",
-      "Learn proper storage for common ingredients",
-      "Create an inventory system"
+      "Learn proper storage techniques for common ingredients",
+      "Understand food safety for storage",
+      "Create basic ingredient management system"
     ],
     "instructions": [
-      "Remove items from your pantry space",
-      "Group similar items together (grains, canned goods, spices, etc.)",
-      "Check expiration dates and discard expired items",
-      "Transfer items to appropriate containers for freshness",
-      "Label containers with contents and date",
-      "Arrange items by frequency of use for easy access",
-      "Create a basic inventory list of staples"
+      "Learn appropriate storage locations for different ingredients",
+      "Understand which produce should be refrigerated vs. room temperature",
+      "Practice proper wrapping/container selection for ingredients",
+      "Learn about cross-contamination prevention",
+      "Create simple labeling system with dates",
+      "Understand basic shelf life of common ingredients",
+      "Learn to identify signs of spoilage",
+      "Organize refrigerator and pantry for food safety"
     ],
-    "learningFocus": "Kitchen management and ingredient preservation",
-    "techniquesLearned": ["storage-basics", "inventory-management"],
+    "learningFocus": "Food safety and quality through proper storage",
+    "techniquesLearned": ["ingredient-storage", "food-safety-basics"],
     "category": "Kitchen Management",
-    "prerequisites": [],
-    "unlocks": []
+    "prerequisites": ["T1-5"],
+    "unlocks": ["E1-1"]
   },
   {
-    "id": "T1-8",
-    "title": "Vegetable Cleaning",
+    "id": "T1-10",
+    "title": "Produce Cleaning",
     "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 15,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.4,
+      "flavor": 0,
+      "management": 0.1
+    },
+    "materials": [
+      "Assorted vegetables and fruits",
+      "Colander/strainer",
+      "Vegetable brush",
+      "Clean kitchen towels"
+    ],
+    "objectives": [
+      "Learn proper cleaning techniques for produce",
+      "Understand food safety for raw ingredients",
+      "Practice efficient preparation"
+    ],
+    "instructions": [
+      "Sort produce by type (leafy, root, fruit, etc.)",
+      "Learn appropriate cleaning method for each type:",
+      "- Leafy greens: cold water bath and gentle agitation",
+      "- Root vegetables: scrubbing with brush under running water",
+      "- Berries/delicate items: gentle rinse and careful drying",
+      "Practice removing inedible parts correctly",
+      "Learn to identify signs of spoilage during cleaning",
+      "Practice thorough drying of produce after washing",
+      "Understand when washing should happen (just before use vs. in advance)"
+    ],
+    "learningFocus": "Produce preparation and food safety",
+    "techniquesLearned": ["produce-cleaning", "vegetable-preparation"],
+    "category": "Ingredient Knowledge",
+    "prerequisites": [],
+    "unlocks": ["S1-1", "S1-5"]
+  },
+  {
+    "id": "S1-1",
+    "title": "Basic Dicing Practice",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 20,
+    "attributeRewards": {
+      "technique": 0.5,
+      "ingredients": 0.2,
+      "flavor": 0,
+      "management": 0
+    },
+    "materials": [
+      "Onion",
+      "Carrot",
+      "Celery",
+      "Chef's knife",
+      "Cutting board"
+    ],
+    "objectives": [
+      "Practice basic dicing technique",
+      "Learn vegetable structure and approach",
+      "Develop knife control and safety"
+    ],
+    "instructions": [
+      "Set up stable cutting board with damp towel underneath",
+      "Prepare vegetables by washing and removing inedible parts",
+      "For onion: cut in half, peel, then make parallel cuts without cutting through root end",
+      "Make perpendicular cuts to create dice",
+      "For carrots: create flat side, cut into planks, then sticks, then dice",
+      "For celery: slice stalks lengthwise then crosswise for dice",
+      "Focus on consistency rather than speed",
+      "Practice claw technique continuously for safety"
+    ],
+    "learningFocus": "Fundamental dicing technique for mirepoix basics",
+    "techniquesLearned": ["basic-dicing", "vegetable-preparation"],
+    "category": "Knife Skills",
+    "prerequisites": ["T1-2", "T1-10"],
+    "unlocks": ["S1-7", "M1-2"]
+  },
+  {
+    "id": "S1-2",
+    "title": "Perfect Rice",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 25,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.1,
+      "flavor": 0.1,
+      "management": 0.2
+    },
+    "materials": [
+      "Rice (white or brown)",
+      "Measuring cups",
+      "Pot with lid",
+      "Timer",
+      "Fork"
+    ],
+    "objectives": [
+      "Master basic rice cooking technique",
+      "Learn proper water ratio and timing",
+      "Practice heat management"
+    ],
+    "instructions": [
+      "Measure rice accurately using dry measuring cup",
+      "Rinse rice in cool water until water runs clear (if needed for variety)",
+      "Add appropriate water ratio (typically 1:2 for white rice)",
+      "Optional: add pinch of salt",
+      "Bring to full boil uncovered",
+      "Reduce to lowest simmer and cover tightly",
+      "Set timer according to rice type (15-20 mins for white)",
+      "Allow to rest covered for 5-10 minutes after cooking",
+      "Fluff gently with fork before serving"
+    ],
+    "learningFocus": "Basic grain cooking and heat management",
+    "techniquesLearned": ["rice-cooking", "water-ratio-management"],
+    "category": "Heat Management",
+    "prerequisites": ["T1-3", "T1-7"],
+    "unlocks": ["M1-2", "M1-5"]
+  },
+  {
+    "id": "S1-3",
+    "title": "Pasta Basics",
+    "type": "side",
     "rank": {
       "title": "Home Cook",
       "level": 1
@@ -249,38 +520,447 @@
     "timeRequired": 20,
     "attributeRewards": {
       "technique": 0.3,
-      "ingredients": 0.4,
-      "flavor": 0,
+      "ingredients": 0.1,
+      "flavor": 0.1,
+      "management": 0.2
+    },
+    "materials": [
+      "Dried pasta",
+      "Large pot",
+      "Salt",
+      "Colander",
+      "Timer"
+    ],
+    "objectives": [
+      "Learn proper pasta cooking technique",
+      "Understand doneness testing",
+      "Practice pasta water management"
+    ],
+    "instructions": [
+      "Fill large pot with water (at least 4 quarts for 1 pound pasta)",
+      "Bring to full rolling boil",
+      "Add generous amount of salt (1-2 tablespoons per gallon)",
+      "Add pasta and stir immediately to prevent sticking",
+      "Set timer for 1-2 minutes less than package directions",
+      "Test for doneness by tasting (should be 'al dente' - slight resistance)",
+      "Before draining, reserve some pasta water for sauce",
+      "Drain promptly when done, but do not rinse (except for pasta salad)",
+      "If not using immediately, toss with small amount of oil to prevent sticking"
+    ],
+    "learningFocus": "Pasta cooking fundamentals",
+    "techniquesLearned": ["pasta-cooking", "doneness-testing"],
+    "category": "Heat Management",
+    "prerequisites": ["T1-3"],
+    "unlocks": ["M1-4"]
+  },
+  {
+    "id": "S1-4",
+    "title": "Simple Scrambled Eggs",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 15,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.1,
+      "flavor": 0.2,
+      "management": 0.1
+    },
+    "materials": [
+      "2-3 eggs",
+      "Butter or oil",
+      "Salt and pepper",
+      "Non-stick pan",
+      "Spatula",
+      "Bowl",
+      "Fork or whisk"
+    ],
+    "objectives": [
+      "Master basic scrambled egg technique",
+      "Learn proper heat management for eggs",
+      "Practice seasoning timing"
+    ],
+    "instructions": [
+      "Crack eggs into bowl and check for shell fragments",
+      "Whisk eggs until white and yolk are fully incorporated",
+      "Season with small pinch of salt and pepper",
+      "Heat non-stick pan over medium-low heat",
+      "Add small amount of butter or oil",
+      "Pour in eggs when butter stops foaming",
+      "Allow eggs to set slightly before gently stirring",
+      "Continue stirring occasionally for large, soft curds",
+      "Remove from heat when eggs are still slightly wet (they will continue cooking)",
+      "Taste and adjust seasoning if needed"
+    ],
+    "learningFocus": "Basic protein cookery and gentle heat control",
+    "techniquesLearned": ["scrambled-eggs", "protein-cookery"],
+    "category": "Heat Management",
+    "prerequisites": ["T1-6"],
+    "unlocks": ["M1-1"]
+  },
+  {
+    "id": "S1-5",
+    "title": "Simple Salad",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 15,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.3,
+      "flavor": 0.2,
       "management": 0
     },
     "materials": [
-      "Assorted vegetables",
-      "Colander",
-      "Vegetable brush",
-      "Cutting board"
+      "Lettuce/greens",
+      "Vegetables for topping",
+      "Olive oil",
+      "Vinegar or lemon juice",
+      "Salt and pepper",
+      "Salad bowl",
+      "Knife and cutting board"
     ],
     "objectives": [
-      "Learn proper cleaning techniques for different vegetables",
-      "Understand which parts are edible and which should be discarded",
-      "Practice efficient preparation"
+      "Learn proper salad preparation",
+      "Practice simple knife cuts for salad",
+      "Create basic vinaigrette"
     ],
     "instructions": [
-      "Sort vegetables by type (root, leafy, fruit vegetables)",
-      "For leafy greens: remove damaged outer leaves, soak in cold water, drain thoroughly",
-      "For root vegetables: scrub with vegetable brush under running water",
-      "For delicate items like berries: gentle rinse and pat dry",
-      "Practice removing stems, seeds, and other inedible parts",
-      "Store cleaned vegetables properly for future use"
+      "Wash and thoroughly dry all greens and vegetables",
+      "Tear greens into bite-sized pieces (avoid cutting when possible)",
+      "Cut vegetables into appropriate sizes for salad",
+      "Make simple vinaigrette: 3 parts oil to 1 part vinegar/lemon",
+      "Add pinch of salt and pepper to vinaigrette",
+      "Toss greens with small amount of dressing just before serving",
+      "Add remaining ingredients and toss gently",
+      "Taste and adjust seasoning as needed"
     ],
-    "learningFocus": "Proper vegetable preparation and food safety",
-    "techniquesLearned": ["vegetable-cleaning", "produce-preparation"],
+    "learningFocus": "Fresh ingredient preparation and simple dressing",
+    "techniquesLearned": ["salad-preparation", "basic-vinaigrette"],
     "category": "Ingredient Knowledge",
-    "prerequisites": [],
-    "unlocks": []
-  },  
+    "prerequisites": ["T1-10"],
+    "unlocks": ["S1-8", "M1-3"]
+  },
+  {
+    "id": "S1-6",
+    "title": "Roasted Vegetables",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 35,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.2,
+      "flavor": 0.3,
+      "management": 0
+    },
+    "materials": [
+      "Root vegetables (potatoes, carrots, etc.)",
+      "Olive oil",
+      "Salt and herbs",
+      "Baking sheet",
+      "Knife and cutting board"
+    ],
+    "objectives": [
+      "Learn basic roasting technique",
+      "Understand cooking temperature principles",
+      "Practice vegetable preparation"
+    ],
+    "instructions": [
+      "Preheat oven to 425°F (220°C)",
+      "Wash and dry vegetables thoroughly",
+      "Cut vegetables into uniform pieces (approx. 1-inch)",
+      "Toss with olive oil to coat lightly",
+      "Season with salt and optional herbs",
+      "Arrange in single layer on baking sheet with space between pieces",
+      "Roast until tender and golden brown (about 25-30 minutes)",
+      "Turn vegetables halfway through cooking",
+      "Test doneness with fork (should pierce easily)",
+      "Taste and adjust seasoning if needed"
+    ],
+    "learningFocus": "Basic dry heat cooking method",
+    "techniquesLearned": ["vegetable-roasting", "oven-management"],
+    "category": "Heat Management",
+    "prerequisites": ["T1-4", "T1-8"],
+    "unlocks": ["M1-6"]
+  },
+  {
+    "id": "S1-7",
+    "title": "Simple Soup",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.2,
+      "flavor": 0.3,
+      "management": 0.1
+    },
+    "materials": [
+      "Mirepoix vegetables (onion, carrot, celery)",
+      "Broth or water",
+      "Olive oil",
+      "Seasonings",
+      "Pot with lid",
+      "Knife and cutting board"
+    ],
+    "objectives": [
+      "Create simple soup using basic techniques",
+      "Learn flavor building principles",
+      "Practice liquid cooking methods"
+    ],
+    "instructions": [
+      "Dice vegetables into small, even pieces",
+      "Heat pot over medium heat and add small amount of oil",
+      "Add diced vegetables and cook until just softened (3-5 minutes)",
+      "Add broth or water and bring to gentle simmer",
+      "Season with salt and any desired herbs",
+      "Simmer until vegetables are tender (about 15-20 minutes)",
+      "Taste and adjust seasonings as needed",
+      "Serve hot, adding any finishing touches (herbs, pepper, etc.)"
+    ],
+    "learningFocus": "Basic soup construction and gentle simmering",
+    "techniquesLearned": ["soup-making", "vegetable-sweating"],
+    "category": "Heat Management",
+    "prerequisites": ["S1-1"],
+    "unlocks": ["M1-2"]
+  },
+  {
+    "id": "S1-8",
+    "title": "Basic Vinaigrette",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 10,
+    "attributeRewards": {
+      "technique": 0.1,
+      "ingredients": 0.1,
+      "flavor": 0.4,
+      "management": 0.1
+    },
+    "materials": [
+      "Olive oil",
+      "Vinegar or lemon juice",
+      "Salt and pepper",
+      "Optional additions (mustard, honey, herbs)",
+      "Small jar with lid or bowl and whisk"
+    ],
+    "objectives": [
+      "Learn proper vinaigrette proportions",
+      "Understand emulsion principles",
+      "Practice flavor balancing"
+    ],
+    "instructions": [
+      "Combine 1 part vinegar/lemon juice with small pinch of salt in jar/bowl",
+      "Optional: add small amount of mustard (helps emulsification)",
+      "Add 3 parts oil slowly while whisking (or add to jar and shake vigorously)",
+      "Taste on a lettuce leaf or vegetable",
+      "Adjust acid, oil, or seasonings based on taste",
+      "Experiment with optional additions (herbs, honey, etc.)",
+      "Learn proper storage (refrigerate, bring to room temp before using)",
+      "Practice re-emulsifying separated dressing"
+    ],
+    "learningFocus": "Basic sauce creation and flavor balancing",
+    "techniquesLearned": ["vinaigrette-making", "emulsification-basics"],
+    "category": "Flavor Building",
+    "prerequisites": ["S1-5"],
+    "unlocks": ["M1-3"]
+  },
   {
     "id": "M1-1",
-    "title": "One-Pan Scramble",
+    "title": "Simple Breakfast",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 25,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.1,
+      "flavor": 0.2,
+      "management": 0.3
+    },
+    "materials": [
+      "Eggs",
+      "Toast ingredients",
+      "Simple sides (fruit, etc.)",
+      "Basic cookware and tools"
+    ],
+    "objectives": [
+      "Create a complete breakfast meal",
+      "Practice timing multiple components",
+      "Apply basic cooking techniques"
+    ],
+    "instructions": [
+      "Plan components of breakfast (eggs, toast, sides)",
+      "Gather and prepare all ingredients before cooking",
+      "Start longest-cooking component first",
+      "Coordinate timing to have all items ready together",
+      "Cook eggs using preferred method (scrambled, fried)",
+      "Prepare toast to coincide with egg completion",
+      "Arrange simple fruit or other side",
+      "Serve all components at appropriate temperatures",
+      "Clean workspace as you go"
+    ],
+    "learningFocus": "Simple meal coordination and timing",
+    "techniquesLearned": ["meal-timing", "multi-component-cooking"],
+    "category": "Multiple",
+    "prerequisites": ["T1-6", "S1-4"],
+    "unlocks": ["M1-7"]
+  },
+  {
+    "id": "M1-2",
+    "title": "Vegetable Soup",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 40,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.3,
+      "flavor": 0.3,
+      "management": 0.2
+    },
+    "materials": [
+      "Mirepoix vegetables (onion, carrot, celery)",
+      "Additional vegetables",
+      "Broth or water",
+      "Seasonings",
+      "Optional grains (rice, pasta)",
+      "Pot with lid"
+    ],
+    "objectives": [
+      "Create a complete soup meal",
+      "Learn vegetable preparation sequence",
+      "Practice flavor building"
+    ],
+    "instructions": [
+      "Dice mirepoix vegetables evenly",
+      "Prepare additional vegetables appropriately",
+      "Heat pot over medium heat and add small amount of oil",
+      "Cook mirepoix until softened (5-7 minutes)",
+      "Add any spices or aromatics and cook briefly",
+      "Add broth/water and bring to simmer",
+      "Add vegetables in order of cooking time (longest first)",
+      "If using, add pre-cooked grains toward end",
+      "Simmer until all components are properly cooked",
+      "Taste and adjust seasonings",
+      "Serve hot with any garnishes"
+    ],
+    "learningFocus": "Complete one-pot meal preparation",
+    "techniquesLearned": ["soup-building", "vegetable-sequencing"],
+    "category": "Multiple",
+    "prerequisites": ["S1-1", "S1-2", "S1-7"],
+    "unlocks": ["M2-1"]
+  },
+  {
+    "id": "M1-3",
+    "title": "Meal Salad",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 25,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.4,
+      "flavor": 0.3,
+      "management": 0.1
+    },
+    "materials": [
+      "Greens and vegetables",
+      "Protein component (beans, eggs, leftover meat, etc.)",
+      "Vinaigrette ingredients",
+      "Additional toppings (nuts, cheese, etc.)",
+      "Salad bowl and serving tools"
+    ],
+    "objectives": [
+      "Create a complete meal salad",
+      "Balance nutrition and textures",
+      "Practice ingredient preparation"
+    ],
+    "instructions": [
+      "Wash and thoroughly dry all produce",
+      "Prepare greens and vegetables in appropriate sizes",
+      "Prepare protein component if cooking is required",
+      "Make vinaigrette according to basic recipe",
+      "Toast any nuts or seeds if using",
+      "Assemble salad starting with greens as base",
+      "Layer vegetables and protein components",
+      "Add any additional toppings",
+      "Dress lightly just before serving",
+      "Toss gently to coat ingredients"
+    ],
+    "learningFocus": "Complete cold meal preparation and composition",
+    "techniquesLearned": ["meal-salad-composition", "ingredient-balance"],
+    "category": "Multiple",
+    "prerequisites": ["S1-5", "S1-8"],
+    "unlocks": ["M2-2"]
+  },
+  {
+    "id": "M1-4",
+    "title": "Simple Pasta Dinner",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.2,
+      "flavor": 0.3,
+      "management": 0.3
+    },
+    "materials": [
+      "Dried pasta",
+      "Jar of sauce or simple sauce ingredients",
+      "Optional vegetables or protein",
+      "Cooking pots and tools",
+      "Colander"
+    ],
+    "objectives": [
+      "Create complete pasta meal",
+      "Practice timing coordination",
+      "Learn sauce and pasta integration"
+    ],
+    "instructions": [
+      "Bring large pot of water to boil for pasta",
+      "Prepare any additional ingredients (vegetables, protein)",
+      "Begin heating sauce (or prepare simple sauce)",
+      "Salt pasta water generously when boiling",
+      "Cook pasta according to package directions",
+      "If adding vegetables, consider adding to pasta water in last minutes",
+      "Reserve small amount of pasta water before draining",
+      "Drain pasta when al dente",
+      "Combine pasta with sauce, adding splash of pasta water if needed",
+      "Add any cooked protein components",
+      "Adjust seasonings and serve immediately"
+    ],
+    "learningFocus": "Basic multi-component dinner preparation",
+    "techniquesLearned": ["pasta-dinner", "component-coordination"],
+    "category": "Multiple",
+    "prerequisites": ["S1-3"],
+    "unlocks": ["M2-3"]
+  },
+  {
+    "id": "M1-5",
+    "title": "Simple Stir Fry",
     "type": "main",
     "rank": {
       "title": "Home Cook",
@@ -289,130 +969,133 @@
     "timeRequired": 30,
     "attributeRewards": {
       "technique": 0.4,
-      "ingredients": 0,
-      "flavor": 0.3,
+      "ingredients": 0.3,
+      "flavor": 0.2,
       "management": 0.3
     },
     "materials": [
-      "Pan",
-      "Eggs",
-      "Vegetables from previous training quests",
+      "Protein (tofu, chicken, etc.)",
+      "Mixed vegetables",
       "Cooking oil",
-      "Salt",
-      "Pepper"
+      "Simple stir-fry sauce ingredients",
+      "Cooked rice",
+      "Wok or large pan"
     ],
     "objectives": [
-      "Combine ingredients for a complete meal",
-      "Apply proper cooking temperature",
-      "Season appropriately throughout cooking"
+      "Practice high-heat cooking technique",
+      "Learn ingredient sequencing",
+      "Create balanced complete meal"
     ],
     "instructions": [
-      "Heat pan to medium and add oil",
-      "Add firmest vegetables first (e.g., carrots)",
-      "Add remaining vegetables in order of cooking time",
-      "When vegetables are nearly done, add beaten eggs",
-      "Gently stir until eggs are set",
-      "Season throughout cooking process, tasting as you go",
-      "Serve as complete meal"
+      "Prepare rice in advance or start first",
+      "Cut all vegetables and protein into uniform, bite-sized pieces",
+      "Make simple stir-fry sauce (soy sauce, water, cornstarch)",
+      "Heat wok or pan until very hot",
+      "Add small amount of oil",
+      "Cook protein first until nearly done, then remove temporarily",
+      "Add vegetables in order of cooking time (longest first)",
+      "Return protein to pan when vegetables are nearly done",
+      "Add sauce and toss until thickened",
+      "Serve immediately over rice"
     ],
-    "learningFocus": "Combining learned skills into a complete dish",
-    "techniquesLearned": ["heat-control-basic", "ingredient-sequencing", "seasoning-timing"],
-    "category": "Heat Management",
-    "prerequisites": ["T1-1", "T1-2", "T1-3"],
-    "unlocks": ["M2-1"]
+    "learningFocus": "Quick-cooking technique and ingredient preparation",
+    "techniquesLearned": ["stir-frying", "high-heat-cooking"],
+    "category": "Multiple",
+    "prerequisites": ["S1-2"],
+    "unlocks": ["M2-4"]
   },
   {
-    "id": "M1-4",
-    "title": "Breakfast Toast Variations",
+    "id": "M1-6",
+    "title": "Sheet Pan Dinner",
     "type": "main",
     "rank": {
       "title": "Home Cook",
       "level": 1
     },
-    "timeRequired": 25,
+    "timeRequired": 45,
     "attributeRewards": {
       "technique": 0.3,
-      "ingredients": 0.2,
-      "flavor": 0.4,
-      "management": 0
-    },
-    "materials": [
-      "Bread",
-      "Eggs",
-      "Various toppings (avocado, cheese, tomato, etc.)",
-      "Seasonings"
-    ],
-    "objectives": [
-      "Create multiple variations of topped toast",
-      "Balance flavors and textures",
-      "Practice multi-element timing"
-    ],
-    "instructions": [
-      "Toast bread to perfection (using skills from Perfect Toast quest)",
-      "Prepare 2-3 different toppings:",
-      "- Mashed avocado with salt and lemon",
-      "- Egg (fried or scrambled using Egg Essentials skills)",
-      "- Cheese (melted under broiler or microwave)",
-      "Layer components in proper order for best results",
-      "Season each variation appropriately",
-      "Arrange for appealing presentation",
-      "Taste and evaluate each variation"
-    ],
-    "learningFocus": "Component combination and flavor layering",
-    "techniquesLearned": ["component-assembly", "flavor-balancing"],
-    "category": "Flavor Building",
-    "prerequisites": [],
-    "unlocks": []
-  },
-  {
-    "id": "M1-5",
-    "title": "Pantry Pasta",
-    "type": "main",
-    "rank": {
-      "title": "Home Cook",
-      "level": 1
-    },
-    "timeRequired": 30,
-    "attributeRewards": {
-      "technique": 0.3,
-      "ingredients": 0,
+      "ingredients": 0.3,
       "flavor": 0.3,
-      "management": 0.4
+      "management": 0.2
     },
     "materials": [
-      "Pasta",
-      "Olive oil",
-      "Garlic",
-      "Red pepper flakes",
-      "Parmesan cheese",
-      "Pantry items"
+      "Protein (chicken, tofu, fish, etc.)",
+      "Vegetables for roasting",
+      "Olive oil and seasonings",
+      "Baking sheet",
+      "Knife and cutting board"
     ],
     "objectives": [
-      "Create a complete meal using primarily pantry staples",
-      "Practice pasta cooking technique",
-      "Build a simple but flavorful sauce"
+      "Create complete one-pan meal",
+      "Learn timing for different ingredients",
+      "Practice oven management"
     ],
     "instructions": [
-      "Bring large pot of water to boil (apply proper salt amount)",
-      "Cook pasta according to package directions (testing for doneness)",
-      "While pasta cooks, prepare simple sauce using:",
-      "- Heat olive oil in pan",
-      "- Add minced garlic and red pepper flakes",
-      "- Cook until fragrant but not brown",
-      "Reserve some pasta water before draining",
-      "Combine pasta with sauce, adding pasta water as needed",
-      "Finish with grated cheese and any fresh herbs available",
-      "Adjust seasoning to taste"
+      "Preheat oven to 425°F (220°C)",
+      "Cut vegetables into uniform pieces (denser vegetables smaller)",
+      "Prepare protein in appropriate portions",
+      "Toss everything with oil and seasonings",
+      "Arrange on baking sheet with space between items",
+      "Consider timing - add quicker-cooking items later",
+      "For proteins with skin, place skin-side up",
+      "Roast until protein is safely cooked and vegetables tender",
+      "Check halfway through and rotate pan",
+      "Allow to rest briefly before serving"
     ],
-    "learningFocus": "Basic sauce building and pasta cooking technique",
-    "techniquesLearned": ["pasta-cooking", "simple-sauce-building"],
-    "category": "Heat Management",
-    "prerequisites": [],
-    "unlocks": []
+    "learningFocus": "Simple complete meal preparation with minimal cleanup",
+    "techniquesLearned": ["sheet-pan-cooking", "ingredient-timing"],
+    "category": "Multiple",
+    "prerequisites": ["S1-6"],
+    "unlocks": ["M2-5"]
+  },
+  {
+    "id": "M1-7",
+    "title": "Sandwich Meal",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 20,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.3,
+      "flavor": 0.3,
+      "management": 0.1
+    },
+    "materials": [
+      "Bread of choice",
+      "Protein component",
+      "Vegetables and spreads",
+      "Side items (chips, fruit, etc.)",
+      "Knife and cutting board"
+    ],
+    "objectives": [
+      "Create balanced sandwich meal",
+      "Learn ingredient layering",
+      "Practice knife skills for ingredients"
+    ],
+    "instructions": [
+      "Prepare any ingredients needing cooking (eggs, bacon, etc.)",
+      "Slice ingredients appropriately for sandwich construction",
+      "Prepare spreads if making from scratch",
+      "Toast bread if desired",
+      "Apply spreads to bread to protect from moisture",
+      "Layer ingredients strategically (moist ingredients separated by dry ones)",
+      "Add lettuce/greens last to prevent wilting",
+      "Cut sandwich if desired (diagonal for best presentation)",
+      "Arrange with side items for complete meal"
+    ],
+    "learningFocus": "Simple meal assembly and ingredient preparation",
+    "techniquesLearned": ["sandwich-construction", "meal-composition"],
+    "category": "Multiple",
+    "prerequisites": ["M1-1"],
+    "unlocks": ["M2-6"]
   },
   {
     "id": "E1-1",
-    "title": "Market Expedition",
+    "title": "Supermarket Exploration",
     "type": "explore",
     "rank": {
       "title": "Home Cook",
@@ -422,37 +1105,39 @@
     "attributeRewards": {
       "technique": 0,
       "ingredients": 0.7,
-      "flavor": 0,
-      "management": 0
+      "flavor": 0.1,
+      "management": 0.1
     },
     "materials": [
-      "Notebook",
+      "Notebook or note-taking app",
       "Shopping bag",
-      "Camera (optional)"
+      "Small budget for purchases"
     ],
     "objectives": [
-      "Visit local market or grocery store",
-      "Identify and research one unfamiliar vegetable",
-      "Purchase ingredient for future use"
+      "Explore grocery store organization",
+      "Learn to identify quality ingredients",
+      "Practice selection techniques"
     ],
     "instructions": [
-      "Visit local market or grocery produce section",
-      "Identify three vegetables you've never cooked with",
-      "For each, note appearance, texture, and label information",
-      "Ask store staff about one vegetable (preparation methods, flavor)",
-      "Purchase one new vegetable to experiment with",
-      "Research preparation methods at home",
-      "Plan which quest to incorporate it into"
+      "Visit local supermarket during non-peak hours",
+      "Navigate each department systematically",
+      "Study how produce is organized and displayed",
+      "Examine labels and pricing structures",
+      "Identify unfamiliar items and research on the spot",
+      "Practice selecting quality items (firm vegetables, ripe fruit)",
+      "Note differences between similar products",
+      "Purchase one unfamiliar ingredient to try at home",
+      "Document observations for future shopping"
     ],
-    "learningFocus": "Ingredient knowledge expansion and food curiosity",
-    "techniquesLearned": ["ingredient-selection", "produce-assessment"],
+    "learningFocus": "Ingredient knowledge and selection skills",
+    "techniquesLearned": ["grocery-navigation", "product-selection"],
     "category": "Ingredient Knowledge",
-    "prerequisites": [],
+    "prerequisites": ["T1-9"],
     "unlocks": ["E2-1"]
   },
   {
-    "id": "E1-3",
-    "title": "Taste Testing Experiment",
+    "id": "E1-2",
+    "title": "Kitchen Tool Inventory",
     "type": "explore",
     "rank": {
       "title": "Home Cook",
@@ -460,337 +1145,130 @@
     },
     "timeRequired": 30,
     "attributeRewards": {
-      "technique": 0,
+      "technique": 0.1,
       "ingredients": 0,
-      "flavor": 0.8,
-      "management": 0
+      "flavor": 0,
+      "management": 0.6
     },
     "materials": [
-      "Small samples of foods with different taste profiles",
+      "All kitchen tools and equipment",
       "Notebook",
-      "Water"
+      "Cleaning supplies"
     ],
     "objectives": [
-      "Identify the five basic tastes",
-      "Understand how tastes interact",
-      "Develop taste memory and vocabulary"
+      "Inventory all kitchen tools",
+      "Learn proper maintenance",
+      "Identify gaps in essential tools"
     ],
     "instructions": [
-      "Gather small samples representing the five basic tastes:",
-      "- Sweet (sugar, honey)",
-      "- Salty (salt, soy sauce)",
-      "- Sour (lemon, vinegar)",
-      "- Bitter (coffee, dark chocolate)",
-      "- Umami (parmesan, mushrooms, tomato)",
-      "Taste each sample individually, noting sensations and intensity",
-      "Cleanse palate with water between samples",
-      "Try combining tastes in pairs to observe interactions",
-      "Write down descriptions and reactions for future reference",
-      "Identify which tastes you're most sensitive to"
+      "Gather all kitchen tools and equipment",
+      "Clean each item properly",
+      "Sort by function (cutting, cooking, measuring, etc.)",
+      "Create inventory list with condition notes",
+      "Research proper use for unfamiliar tools",
+      "Identify missing essential tools",
+      "Create maintenance schedule for key items",
+      "Research proper storage methods",
+      "Reorganize based on frequency of use"
     ],
-    "learningFocus": "Flavor identification and sensory development",
-    "techniquesLearned": ["taste-identification", "flavor-memory"],
-    "category": "Flavor Building",
-    "prerequisites": [],
-    "unlocks": []
+    "learningFocus": "Kitchen tool knowledge and organization",
+    "techniquesLearned": ["tool-maintenance", "kitchen-inventory"],
+    "category": "Kitchen Management",
+    "prerequisites": ["T1-5"],
+    "unlocks": ["E2-2"]
   },
   {
-    "id": "E1-4",
-    "title": "Kitchen Equipment Survey",
+    "id": "E1-3",
+    "title": "Basic Flavor Exploration",
     "type": "explore",
     "rank": {
       "title": "Home Cook",
       "level": 1
     },
-    "timeRequired": 40,
-    "attributeRewards": {
-      "technique": 0,
-      "ingredients": 0,
-      "flavor": 0,
-      "management": 0.8
-    },
-    "materials": [
-      "All kitchen equipment",
-      "Notebook",
-      "Cleaning supplies"
-    ],
-    "objectives": [
-      "Create a complete inventory of kitchen equipment",
-      "Learn proper cleaning and maintenance",
-      "Identify gaps in essential tools"
-    ],
-    "instructions": [
-      "Remove all cooking tools and equipment from storage",
-      "Group items by function (cutting, cooking, measuring, etc.)",
-      "Clean each item properly according to its material",
-      "Note condition and functionality of each item",
-      "Create an inventory list with care instructions",
-      "Identify missing essential tools for future acquisition",
-      "Organize items for optimal workflow when returned to storage"
-    ],
-    "learningFocus": "Kitchen equipment knowledge and organization",
-    "techniquesLearned": ["equipment-knowledge", "kitchen-organization"],
-    "category": "Kitchen Management",
-    "prerequisites": [],
-    "unlocks": []
-  },
-  {
-    "id": "S1-5",
-    "title": "Perfect Toast",
-    "type": "side",
-    "rank": {
-      "title": "Home Cook",
-      "level": 1
-    },
-    "timeRequired": 15,
-    "attributeRewards": {
-      "technique": 0.3,
-      "ingredients": 0,
-      "flavor": 0,
-      "management": 0.2
-    },
-    "materials": [
-      "Bread",
-      "Toaster or pan",
-      "Butter or spreads"
-    ],
-    "objectives": [
-      "Master proper toasting technique using different methods",
-      "Learn to monitor doneness",
-      "Apply toppings at the right time"
-    ],
-    "instructions": [
-      "Slice bread evenly for consistent toasting",
-      "Try multiple toasting methods if available (toaster, pan, oven)",
-      "Monitor the toasting process - looking for golden brown color",
-      "Test different settings/times for your preferred level of doneness",
-      "Apply butter immediately after toasting for best melting",
-      "Try various simple toppings (jam, nut butter, avocado)"
-    ],
-    "learningFocus": "Heat monitoring and timing",
-    "techniquesLearned": ["toasting-basics", "doneness-monitoring"],
-    "category": "Heat Management",
-    "prerequisites": [],
-    "unlocks": []
-  },
-  {
-    "id": "S1-6",
-    "title": "Basic Herb Preparation",
-    "type": "side",
-    "rank": {
-      "title": "Home Cook",
-      "level": 1
-    },
-    "timeRequired": 15,
-    "attributeRewards": {
-      "technique": 0.2,
-      "ingredients": 0,
-      "flavor": 0.4,
-      "management": 0
-    },
-    "materials": [
-      "Fresh herbs (parsley, cilantro, or basil)",
-      "Knife",
-      "Cutting board",
-      "Storage containers"
-    ],
-    "objectives": [
-      "Learn to clean and dry herbs properly",
-      "Practice basic herb cutting techniques",
-      "Understand herb storage for maximum freshness"
-    ],
-    "instructions": [
-      "Remove herbs from packaging and inspect for quality",
-      "Rinse herbs under cold water and shake off excess moisture",
-      "Pat dry completely with paper towels or use a salad spinner",
-      "For leafy herbs, pick leaves from tough stems",
-      "Practice basic cutting techniques (rough chop vs. fine mince)",
-      "Store properly in paper towel and container or herb keeper",
-      "Freeze a portion with a simple method (ice cube tray with oil)"
-    ],
-    "learningFocus": "Herb preparation and flavor enhancement",
-    "techniquesLearned": ["herb-preparation", "flavor-preservation"],
-    "category": "Flavor Building",
-    "prerequisites": [],
-    "unlocks": []
-  },
-  {
-    "id": "S1-7",
-    "title": "Boiled Eggs Mastery",
-    "type": "side",
-    "rank": {
-      "title": "Home Cook",
-      "level": 1
-    },
-    "timeRequired": 20,
-    "attributeRewards": {
-      "technique": 0.3,
-      "ingredients": 0,
-      "flavor": 0,
-      "management": 0.3
-    },
-    "materials": [
-      "Eggs",
-      "Pot",
-      "Water",
-      "Timer",
-      "Bowl of ice water"
-    ],
-    "objectives": [
-      "Perfect the timing for different egg consistencies",
-      "Learn the ice bath technique",
-      "Practice easy peeling methods"
-    ],
-    "instructions": [
-      "Place eggs in a single layer in a pot",
-      "Cover with cold water by 1 inch",
-      "Bring to a rolling boil",
-      "Remove from heat, cover, and let stand for varying times:",
-      "- 4 minutes for very soft boiled",
-      "- 6 minutes for soft boiled",
-      "- 9 minutes for medium",
-      "- 12 minutes for hard boiled",
-      "Prepare ice bath while eggs cook",
-      "Transfer eggs immediately to ice bath after cooking time",
-      "Let cool for 5 minutes before peeling",
-      "Practice gentle tapping and peeling technique"
-    ],
-    "learningFocus": "Precision timing and temperature control",
-    "techniquesLearned": ["egg-cooking", "timing-precision"],
-    "category": "Heat Management",
-    "prerequisites": [],
-    "unlocks": []
-  },
-  {
-    "id": "T2-1",
-    "title": "Precision Dice",
-    "type": "training",
-    "rank": {
-      "title": "Home Cook",
-      "level": 2
-    },
-    "timeRequired": 20,
-    "attributeRewards": {
-      "technique": 0.6,
-      "ingredients": 0,
-      "flavor": 0,
-      "management": 0
-    },
-    "materials": [
-      "Onion",
-      "Carrot",
-      "Knife",
-      "Cutting board"
-    ],
-    "objectives": [
-      "Practice uniform dicing techniques for even cooking",
-      "Improve knife control and precision",
-      "Create consistently sized vegetable pieces"
-    ],
-    "instructions": [
-      "Position your cutting board on a stable surface",
-      "For the onion: Cut in half from root to stem",
-      "Peel the half",
-      "Make horizontal cuts parallel to the board (but not through the root)",
-      "Make vertical cuts from top to bottom",
-      "Cut across to create dice",
-      "For the carrot: Cut into 2-inch segments",
-      "Slice one side to create a flat surface",
-      "Cut into planks of equal thickness",
-      "Stack planks and cut into sticks",
-      "Cut sticks into cubes",
-      "Aim for all pieces to be approximately the same size (1/4 inch)"
-    ],
-    "learningFocus": "Precision cutting techniques and consistency",
-    "techniquesLearned": ["uniform-dicing", "precision-cutting"],
-    "category": "Knife Skills",
-    "prerequisites": ["T1-1"],
-    "unlocks": ["T4-1"]
-  },
-  {
-    "id": "S1-2",
-    "title": "Simple Vinaigrette",
-    "type": "side",
-    "rank": {
-      "title": "Home Cook",
-      "level": 2
-    },
-    "timeRequired": 10,
+    "timeRequired": 25,
     "attributeRewards": {
       "technique": 0,
       "ingredients": 0.2,
-      "flavor": 0.4,
+      "flavor": 0.6,
       "management": 0
     },
     "materials": [
-      "Olive oil",
-      "Vinegar",
-      "Small jar with lid",
-      "Salt",
-      "Mustard (optional)"
+      "Salt, acid (lemon/vinegar), sugar",
+      "Common herbs and spices",
+      "Small food samples for testing",
+      "Tasting spoons",
+      "Notebook"
     ],
     "objectives": [
-      "Understand basic flavor balancing",
-      "Create a versatile dressing for various uses",
-      "Learn proper emulsion technique"
+      "Explore basic flavor components",
+      "Learn how flavors interact",
+      "Develop personal tasting vocabulary"
     ],
     "instructions": [
-      "Add 1 tablespoon vinegar to jar",
-      "Add pinch of salt and optional 1/2 teaspoon mustard",
-      "Slowly add 3 tablespoons olive oil",
-      "Secure lid and shake vigorously until emulsified",
-      "Taste and adjust seasoning as needed",
-      "Use immediately or store in refrigerator"
+      "Prepare small samples of plain food (rice, vegetables, etc.)",
+      "Taste each item without seasoning and note observations",
+      "Add salt to one sample, taste and note differences",
+      "Try acid (lemon juice/vinegar) on another sample",
+      "Test small amount of sweetness on another sample",
+      "Try combinations of the basic elements",
+      "Sample common herbs and spices individually",
+      "Create simple combinations of herbs/spices",
+      "Document observations and preferences"
     ],
-    "learningFocus": "Basic flavor balance and simple sauce creation",
-    "techniquesLearned": ["emulsion-basics", "flavor-balancing"],
+    "learningFocus": "Sensory development and flavor understanding",
+    "techniquesLearned": ["flavor-identification", "taste-development"],
     "category": "Flavor Building",
-    "prerequisites": ["T1-3"],
-    "unlocks": ["S4-2"]
+    "prerequisites": [],
+    "unlocks": ["E2-3"]
   },
   {
-    "id": "T2-2",
-    "title": "Heat Tamer",
+    "id": "T2-1",
+    "title": "Intermediate Knife Skills",
     "type": "training",
     "rank": {
       "title": "Home Cook",
       "level": 2
     },
-    "timeRequired": 15,
+    "timeRequired": 25,
     "attributeRewards": {
-      "technique": 0.4,
-      "ingredients": 0,
+      "technique": 0.6,
+      "ingredients": 0.2,
       "flavor": 0,
-      "management": 0.2
+      "management": 0
     },
     "materials": [
-      "Pan",
-      "Cooking oil",
-      "Food items to cook"
+      "Onions",
+      "Carrots",
+      "Herbs",
+      "Chef's knife",
+      "Cutting board"
     ],
     "objectives": [
-      "Control heat levels on your stovetop",
-      "Recognize visual and auditory cues for proper cooking temperature",
-      "Apply appropriate heat for different cooking processes"
+      "Improve knife control and precision",
+      "Learn more efficient cutting techniques",
+      "Practice different cutting styles"
     ],
     "instructions": [
-      "Place pan on medium heat and add a small amount of oil",
-      "Observe how the oil moves (it should shimmer but not smoke)",
-      "Test temperature by adding a small piece of food",
-      "Listen for the proper sizzle sound (steady but not aggressive)",
-      "Practice adjusting heat up and down",
-      "Note how quickly food cooks at different temperature levels",
-      "Practice maintaining a consistent temperature"
+      "Review proper knife grip and safety",
+      "Practice fine dicing of onions (smaller, more uniform pieces)",
+      "Learn matchstick cuts for carrots (julienne)",
+      "Practice herb cutting techniques:",
+      "- Rough chop for sturdy herbs",
+      "- Chiffonade for leafy herbs",
+      "Focus on consistency of size and shape",
+      "Practice increasing speed while maintaining safety",
+      "Learn to maintain better posture while cutting",
+      "Clean and store knife properly"
     ],
-    "learningFocus": "Understanding heat control through sensory cues",
-    "techniquesLearned": ["heat-assessment", "heat-regulation"],
-    "category": "Heat Management",
-    "prerequisites": ["T1-2"],
-    "unlocks": ["T6-2"]
+    "learningFocus": "Refined cutting techniques for improved efficiency",
+    "techniquesLearned": ["fine-dicing", "basic-julienne", "herb-cutting"],
+    "category": "Knife Skills",
+    "prerequisites": ["T1-2", "S1-1"],
+    "unlocks": ["T2-6", "S2-1"]
   },
   {
-    "id": "T2-4",
-    "title": "Mise en Place",
+    "id": "T2-2",
+    "title": "Pan Temperature Control",
     "type": "training",
     "rank": {
       "title": "Home Cook",
@@ -798,40 +1276,307 @@
     },
     "timeRequired": 20,
     "attributeRewards": {
-      "technique": 0,
+      "technique": 0.5,
       "ingredients": 0,
+      "flavor": 0.1,
+      "management": 0.2
+    },
+    "materials": [
+      "Various pans (if available)",
+      "Cooking oil",
+      "Small food items for testing",
+      "Thermometer (if available)"
+    ],
+    "objectives": [
+      "Master stovetop heat management",
+      "Learn to identify proper cooking temperatures",
+      "Understand different pan materials"
+    ],
+    "instructions": [
+      "Test different heat settings on your stovetop",
+      "Learn visual cues for pan temperature:",
+      "- Shimmer vs. smoke with oil",
+      "- Water droplet behavior",
+      "Practice adjusting heat up and down quickly",
+      "Compare heating properties of different pans (if available)",
+      "Test cooking small items at different temperatures",
+      "Learn recovery time after adding food to hot pan",
+      "Practice temperature maintenance during cooking",
+      "Understand relationship between heat setting and pan temperature"
+    ],
+    "learningFocus": "Precise heat control for improved cooking results",
+    "techniquesLearned": ["temperature-control", "pan-heat-indicators"],
+    "category": "Heat Management",
+    "prerequisites": ["T1-6"],
+    "unlocks": ["T2-7", "S2-2"]
+  },
+  {
+    "id": "T2-3",
+    "title": "Vegetable Preparation Methods",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.5,
+      "flavor": 0.1,
+      "management": 0
+    },
+    "materials": [
+      "Variety of vegetables",
+      "Knife and cutting board",
+      "Peeler",
+      "Various kitchen tools"
+    ],
+    "objectives": [
+      "Learn proper preparation for different vegetables",
+      "Understand edible vs. inedible parts",
+      "Practice efficient preparation methods"
+    ],
+    "instructions": [
+      "Select 4-5 different vegetables with various preparation needs",
+      "Learn specific techniques for each type:",
+      "- Root vegetables: peeling, trimming, cutting",
+      "- Leafy vegetables: washing, stemming, cutting",
+      "- Cruciferous vegetables: coring, separating, cutting",
+      "- Squash/gourds: peeling, seeding, cutting",
+      "Practice identifying and removing inedible parts",
+      "Learn to minimize waste during preparation",
+      "Understand how preparation affects cooking time and texture",
+      "Practice safe and efficient techniques for each vegetable"
+    ],
+    "learningFocus": "Vegetable-specific preparation methods",
+    "techniquesLearned": ["vegetable-preparation", "produce-processing"],
+    "category": "Ingredient Knowledge",
+    "prerequisites": ["T1-10"],
+    "unlocks": ["T2-8", "S2-3"]
+  },
+  {
+    "id": "T2-4",
+    "title": "Basic Meal Planning",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 40,
+    "attributeRewards": {
+      "technique": 0,
+      "ingredients": 0.2,
       "flavor": 0,
       "management": 0.7
     },
     "materials": [
-      "Recipe ingredients",
-      "Prep bowls",
-      "Measuring tools"
+      "Calendar or planner",
+      "Recipe resources",
+      "Shopping list template",
+      "Inventory of pantry staples"
     ],
     "objectives": [
-      "Organize ingredients before cooking",
-      "Improve kitchen workflow",
-      "Reduce stress during cooking process"
+      "Create simple weekly meal plan",
+      "Learn efficient shopping strategies",
+      "Practice resource management"
     ],
     "instructions": [
-      "Select a simple recipe you plan to cook",
-      "Read the entire recipe before beginning",
-      "Gather all ingredients and tools",
-      "Measure and prep each ingredient before cooking begins",
-      "Arrange ingredients in order of use",
-      "Organize your workspace for efficient movement",
-      "Clean as you go when possible"
+      "Inventory current pantry, refrigerator and freezer items",
+      "Create framework for 3-5 days of meals",
+      "Consider time availability for each day",
+      "Plan meals with overlapping ingredients",
+      "Create detailed shopping list organized by store section",
+      "Identify prep work that can be batched",
+      "Plan for leftovers and ingredient repurposing",
+      "Create contingency plan for schedule changes",
+      "Estimate overall time and budget requirements"
     ],
-    "learningFocus": "Kitchen organization and preparation efficiency",
-    "techniquesLearned": ["mise-en-place", "workflow-management"],
+    "learningFocus": "Basic planning and organization for multiple meals",
+    "techniquesLearned": ["meal-planning", "shopping-strategy"],
     "category": "Kitchen Management",
     "prerequisites": [],
-    "unlocks": ["T4-4"]
+    "unlocks": ["T2-9", "E2-4"]
   },
   {
-    "id": "M1-3",
-    "title": "Salad Creation",
-    "type": "main",
+    "id": "T2-5",
+    "title": "Seasoning Methods",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 25,
+    "attributeRewards": {
+      "technique": 0.1,
+      "ingredients": 0.1,
+      "flavor": 0.7,
+      "management": 0
+    },
+    "materials": [
+      "Salt and pepper",
+      "Basic spices and herbs",
+      "Simple foods for seasoning practice",
+      "Tasting spoons"
+    ],
+    "objectives": [
+      "Learn proper seasoning techniques",
+      "Understand timing of seasoning",
+      "Develop systematic tasting approach"
+    ],
+    "instructions": [
+      "Practice different salt application methods:",
+      "- Pinch and sprinkle from height for even distribution",
+      "- Season in layers throughout cooking",
+      "- Adjust seasoning levels for different foods",
+      "Learn timing principles:",
+      "- When to add salt (before, during, after cooking)",
+      "- When to add herbs (woody herbs early, leafy herbs late)",
+      "- When to add spices (toasting vs. finishing)",
+      "Practice systematic tasting during cooking",
+      "Develop habit of tasting before and after seasoning",
+      "Learn to identify under-seasoning vs. over-seasoning"
+    ],
+    "learningFocus": "Deliberate seasoning practice and development",
+    "techniquesLearned": ["seasoning-technique", "flavor-timing"],
+    "category": "Flavor Building",
+    "prerequisites": ["T1-8"],
+    "unlocks": ["T2-10", "S2-4"]
+  },
+  {
+    "id": "T2-6",
+    "title": "Quick Vegetable Prep",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 20,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.3,
+      "flavor": 0,
+      "management": 0.2
+    },
+    "materials": [
+      "Various vegetables",
+      "Knife and cutting board",
+      "Storage containers",
+      "Timer"
+    ],
+    "objectives": [
+      "Improve speed of vegetable preparation",
+      "Learn efficient preparation methods",
+      "Practice consistent cutting under time pressure"
+    ],
+    "instructions": [
+      "Select 3-4 commonly used vegetables",
+      "Set up proper workspace with everything within reach",
+      "Practice more efficient cutting sequences:",
+      "- Minimize repositioning of food",
+      "- Use full length of knife blade",
+      "- Stack or group items when possible",
+      "Time your preparation and set goals for improvement",
+      "Focus on maintaining safety while increasing speed",
+      "Practice consistent sizes even when working faster",
+      "Learn to minimize waste and maximize yield",
+      "Properly store prepped vegetables for future use"
+    ],
+    "learningFocus": "Efficiency in vegetable preparation",
+    "techniquesLearned": ["speed-cutting", "efficient-processing"],
+    "category": "Knife Skills",
+    "prerequisites": ["T2-1"],
+    "unlocks": []
+  },
+  {
+    "id": "T2-7",
+    "title": "Basic Sautéing",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 25,
+    "attributeRewards": {
+      "technique": 0.5,
+      "ingredients": 0.1,
+      "flavor": 0.2,
+      "management": 0.1
+    },
+    "materials": [
+      "Sauté pan",
+      "Various ingredients for practice",
+      "Cooking oil",
+      "Spatula or tongs"
+    ],
+    "objectives": [
+      "Master basic sautéing technique",
+      "Learn proper food movement in pan",
+      "Understand browning principles"
+    ],
+    "instructions": [
+      "Heat pan to proper temperature before adding fat",
+      "Add appropriate amount of oil and heat until shimmering",
+      "Add food in appropriate quantities (don't overcrowd)",
+      "Learn proper tossing or stirring techniques",
+      "Understand when to keep food still vs. when to move it",
+      "Practice achieving proper browning without burning",
+      "Learn to identify doneness through visual cues",
+      "Practice removing food at proper time for desired doneness",
+      "Adjust heat as needed throughout cooking process"
+    ],
+    "learningFocus": "Pan cooking fundamentals",
+    "techniquesLearned": ["sautéing-technique", "browning-control"],
+    "category": "Heat Management",
+    "prerequisites": ["T2-2"],
+    "unlocks": []
+  },
+  {
+    "id": "T2-8",
+    "title": "Basic Protein Preparation",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.4,
+      "flavor": 0.1,
+      "management": 0
+    },
+    "materials": [
+      "Basic protein (chicken, tofu, fish, etc.)",
+      "Cutting board and knife",
+      "Kitchen thermometer (if available)",
+      "Basic seasonings"
+    ],
+    "objectives": [
+      "Learn proper handling of raw protein",
+      "Understand preparation methods",
+      "Practice safe cooking techniques"
+    ],
+    "instructions": [
+      "Learn food safety procedures for working with protein",
+      "Practice proper handling to avoid cross-contamination",
+      "Learn appropriate cutting techniques for selected protein",
+      "Understand appropriate portion sizes",
+      "Practice trimming and preparation methods",
+      "Learn visual cues for doneness",
+      "If available, use thermometer to verify safe cooking temperature",
+      "Practice resting protein after cooking when appropriate",
+      "Learn proper storage of leftover cooked protein"
+    ],
+    "learningFocus": "Safe protein handling and preparation",
+    "techniquesLearned": ["protein-preparation", "food-safety-protein"],
+    "category": "Ingredient Knowledge",
+    "prerequisites": ["T2-3"],
+    "unlocks": []
+  },
+  {
+    "id": "T2-9",
+    "title": "Mise en Place",
+    "type": "training",
     "rank": {
       "title": "Home Cook",
       "level": 2
@@ -839,39 +1584,684 @@
     "timeRequired": 25,
     "attributeRewards": {
       "technique": 0.2,
-      "ingredients": 0.4,
+      "ingredients": 0.1,
+      "flavor": 0,
+      "management": 0.6
+    },
+    "materials": [
+      "Recipe ingredients",
+      "Prep bowls/containers",
+      "Measuring tools",
+      "Knife and cutting board"
+    ],
+    "objectives": [
+      "Master preparation before cooking",
+      "Learn efficient organization",
+      "Practice workflow management"
+    ],
+    "instructions": [
+      "Select recipe that requires multiple ingredients and steps",
+      "Read entire recipe thoroughly before beginning",
+      "Gather all ingredients, tools, and equipment",
+      "Prepare each ingredient completely before starting to cook:",
+      "- Wash, peel, chop all vegetables",
+      "- Measure all liquids and dry goods",
+      "- Prepare any marinades or seasonings",
+      "Organize prepared ingredients in logical order of use",
+      "Ensure workspace is clean and organized",
+      "Mentally rehearse cooking process before beginning",
+      "Cook with all ingredients pre-prepared and accessible"
+    ],
+    "learningFocus": "Preparation organization and workflow",
+    "techniquesLearned": ["mise-en-place", "prep-organization"],
+    "category": "Kitchen Management",
+    "prerequisites": ["T2-4"],
+    "unlocks": []
+  },
+  {
+    "id": "T2-10",
+    "title": "Herb and Spice Basics",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.1,
+      "ingredients": 0.2,
+      "flavor": 0.6,
+      "management": 0
+    },
+    "materials": [
+      "Common dried herbs and spices",
+      "Fresh herbs if available",
+      "Small food samples for testing",
+      "Notebook"
+    ],
+    "objectives": [
+      "Learn basic herb and spice applications",
+      "Understand fresh vs. dried herbs",
+      "Practice using herbs and spices effectively"
+    ],
+    "instructions": [
+      "Examine common herbs and spices individually",
+      "Note aroma, appearance, and flavor of each",
+      "Learn appropriate pairings with different foods",
+      "Understand conversion between fresh and dried herbs",
+      "Learn timing for adding different herbs and spices:",
+      "- Whole spices early in cooking",
+      "- Ground spices at middle stages",
+      "- Dried herbs during middle cooking",
+      "- Fresh herbs near end or as garnish",
+      "Practice toasting whole spices to enhance flavor",
+      "Learn proper storage for maximum freshness",
+      "Create personal reference guide for future use"
+    ],
+    "learningFocus": "Herb and spice fundamentals",
+    "techniquesLearned": ["herb-spice-usage", "flavor-enhancement"],
+    "category": "Flavor Building",
+    "prerequisites": ["T2-5"],
+    "unlocks": []
+  },
+  {
+    "id": "S2-1",
+    "title": "Advanced Vegetable Preparation",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.5,
+      "ingredients": 0.3,
+      "flavor": 0.1,
+      "management": 0
+    },
+    "materials": [
+      "Various vegetables",
+      "Knife and cutting board",
+      "Prep bowls",
+      "Timer"
+    ],
+    "objectives": [
+      "Practice more precise vegetable cutting",
+      "Learn specialized preparation methods",
+      "Improve efficiency and consistency"
+    ],
+    "instructions": [
+      "Select 3-4 vegetables requiring different techniques",
+      "Practice more advanced cutting methods:",
+      "- Small dice (¼ inch uniform cubes)",
+      "- Julienne (matchstick cuts)",
+      "- Bias cuts (diagonal slices)",
+      "- Rough chop vs. fine mince for herbs",
+      "Focus on uniformity and precision",
+      "Practice preparing vegetables for specific cooking methods",
+      "Learn specialized techniques (removing corn from cob, etc.)",
+      "Practice minimizing waste during preparation",
+      "Time your work and try to improve efficiency"
+    ],
+    "learningFocus": "More precise vegetable cutting techniques",
+    "techniquesLearned": ["precise-cutting", "vegetable-techniques"],
+    "category": "Knife Skills",
+    "prerequisites": ["T2-1"],
+    "unlocks": ["M2-1"]
+  },
+  {
+    "id": "S2-2",
+    "title": "Pan-Roasted Vegetables",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.2,
       "flavor": 0.3,
       "management": 0
     },
     "materials": [
-      "Greens",
-      "Vegetables",
-      "Proteins (optional)",
-      "Vinaigrette from previous quest"
+      "Assorted vegetables",
+      "Heavy skillet/pan",
+      "Oil and seasonings",
+      "Tongs or spatula"
     ],
     "objectives": [
-      "Build a balanced salad with complementary components",
-      "Apply knife skills to various ingredients",
-      "Create a satisfying complete dish"
+      "Master stovetop roasting technique",
+      "Learn heat management for caramelization",
+      "Practice uniform cooking without burning"
     ],
     "instructions": [
-      "Wash and dry greens thoroughly",
-      "Prepare vegetables using appropriate cutting techniques",
-      "If using protein, prepare it properly (slice, dice, etc.)",
-      "Consider contrasting textures (crisp, soft, crunchy)",
-      "Layer ingredients attractively",
-      "Dress lightly just before serving (or serve dressing on the side)",
-      "Taste and adjust final seasoning"
+      "Select appropriate vegetables for pan-roasting",
+      "Cut vegetables into uniform pieces",
+      "Heat pan over medium-high heat",
+      "Add small amount of oil with high smoke point",
+      "Arrange vegetables in single layer with space between",
+      "Let cook undisturbed until browning begins",
+      "Turn pieces to brown on all sides",
+      "Adjust heat as needed to maintain caramelization without burning",
+      "Season throughout cooking process",
+      "Test for doneness - tender but not mushy",
+      "Finish with fresh herbs or acid if desired"
     ],
-    "learningFocus": "Ingredient balance and composition principles",
-    "techniquesLearned": ["ingredient-composition", "texture-balance"],
+    "learningFocus": "Stovetop roasting technique and caramelization",
+    "techniquesLearned": ["pan-roasting", "caramelization"],
+    "category": "Heat Management",
+    "prerequisites": ["T2-2"],
+    "unlocks": ["M2-2"]
+  },
+  {
+    "id": "S2-3",
+    "title": "Grain Variations",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 35,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.4,
+      "flavor": 0.2,
+      "management": 0.1
+    },
+    "materials": [
+      "Different grains (rice, quinoa, barley, etc.)",
+      "Cooking pots",
+      "Measuring tools",
+      "Basic seasonings"
+    ],
+    "objectives": [
+      "Learn to cook different grain types",
+      "Understand water ratios and timing",
+      "Practice simple grain enhancements"
+    ],
+    "instructions": [
+      "Select 2-3 different grain varieties",
+      "Learn appropriate preparation for each (rinsing, soaking, etc.)",
+      "Understand proper water-to-grain ratios for each type",
+      "Practice cooking method appropriate to each grain",
+      "Learn timing differences between grain types",
+      "Test for proper doneness for each grain",
+      "Practice simple flavor additions:",
+      "- Cooking in broth instead of water",
+      "- Adding aromatics during cooking",
+      "- Finishing with herbs or seasonings",
+      "Compare taste and texture of different grains"
+    ],
+    "learningFocus": "Grain cooking techniques and variations",
+    "techniquesLearned": ["grain-cooking", "grain-flavoring"],
     "category": "Ingredient Knowledge",
-    "prerequisites": ["T1-1", "S1-2"],
+    "prerequisites": ["T2-3"],
     "unlocks": ["M2-3"]
   },
   {
+    "id": "S2-4",
+    "title": "Simple Pan Sauce",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 20,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.1,
+      "flavor": 0.5,
+      "management": 0
+    },
+    "materials": [
+      "Pan with food fond (residue)",
+      "Liquid (broth, wine, water)",
+      "Butter or cream (optional)",
+      "Aromatics and seasonings",
+      "Whisk"
+    ],
+    "objectives": [
+      "Learn basic pan sauce technique",
+      "Understand flavor development",
+      "Practice quick sauce preparation"
+    ],
+    "instructions": [
+      "Cook protein in pan, then remove keeping drippings and fond",
+      "If needed, pour off excess fat leaving 1-2 teaspoons",
+      "Add aromatics (minced shallot, garlic) and cook briefly",
+      "Deglaze pan with liquid, scraping up brown bits",
+      "Simmer to reduce by about half",
+      "Season with salt and pepper",
+      "Optional: finish with small amount of cold butter or cream",
+      "Taste and adjust seasonings",
+      "Strain if desired for smooth sauce",
+      "Serve immediately with main dish"
+    ],
+    "learningFocus": "Basic sauce from pan drippings",
+    "techniquesLearned": ["pan-sauce", "deglazing"],
+    "category": "Flavor Building",
+    "prerequisites": ["T2-5"],
+    "unlocks": ["M2-4"]
+  },
+  {
+    "id": "M2-1",
+    "title": "Complete Breakfast",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 40,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.2,
+      "flavor": 0.3,
+      "management": 0.4
+    },
+    "materials": [
+      "Protein components (eggs, meat, etc.)",
+      "Starch components (toast, potatoes, etc.)",
+      "Fruit or vegetable sides",
+      "Appropriate cookware"
+    ],
+    "objectives": [
+      "Create multi-component breakfast meal",
+      "Practice timing coordination",
+      "Apply various cooking techniques"
+    ],
+    "instructions": [
+      "Plan 3+ component breakfast with complementary items",
+      "Create timeline working backward from serving time",
+      "Prepare mise en place for all components",
+      "Start longest-cooking item first (typically potatoes)",
+      "Prepare components in order of cooking time",
+      "Apply appropriate techniques for each item",
+      "Coordinate timing for all items to finish together",
+      "Season each component appropriately",
+      "Arrange attractively on plates",
+      "Serve hot items hot and cold items cold"
+    ],
+    "learningFocus": "Multi-component meal coordination",
+    "techniquesLearned": ["timing-coordination", "multi-item-cooking"],
+    "category": "Multiple",
+    "prerequisites": ["S2-1"],
+    "unlocks": []
+  },
+  {
+    "id": "M2-2",
+    "title": "Protein with Vegetable Side",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 45,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.3,
+      "flavor": 0.3,
+      "management": 0.3
+    },
+    "materials": [
+      "Protein of choice",
+      "Vegetables for side dish",
+      "Appropriate cookware",
+      "Basic seasonings"
+    ],
+    "objectives": [
+      "Create complete meal with distinct components",
+      "Practice protein and vegetable cookery",
+      "Learn component timing"
+    ],
+    "instructions": [
+      "Select appropriate cooking method for protein",
+      "Prepare complementary vegetable side dish",
+      "Create timeline for both components",
+      "Practice mise en place for entire meal",
+      "Cook protein to appropriate doneness",
+      "Prepare vegetable side with appropriate method",
+      "Season each component properly",
+      "Time components to complete together",
+      "Rest protein if appropriate",
+      "Plate attractively with consideration of presentation"
+    ],
+    "learningFocus": "Basic two-component meal preparation",
+    "techniquesLearned": ["protein-cookery", "meal-coordination"],
+    "category": "Multiple",
+    "prerequisites": ["S2-2"],
+    "unlocks": []
+  },
+  {
+    "id": "M2-3",
+    "title": "Grain Bowl",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 40,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.4,
+      "flavor": 0.4,
+      "management": 0.3
+    },
+    "materials": [
+      "Cooked grain of choice",
+      "Protein component",
+      "Various vegetables",
+      "Sauce or dressing",
+      "Toppings (nuts, seeds, herbs, etc.)"
+    ],
+    "objectives": [
+      "Create balanced grain-based meal",
+      "Practice component preparation",
+      "Learn flavor and texture balancing"
+    ],
+    "instructions": [
+      "Cook grain according to appropriate method",
+      "Prepare protein component (can be plant or animal-based)",
+      "Prepare vegetables in variety of ways (raw, roasted, etc.)",
+      "Create simple sauce or dressing",
+      "Prepare any additional toppings",
+      "Assemble bowl with grain base",
+      "Arrange components in sections over grain",
+      "Add sauce or dressing",
+      "Finish with appropriate toppings",
+      "Serve immediately or pack for later"
+    ],
+    "learningFocus": "Component-based meal with balance",
+    "techniquesLearned": ["bowl-assembly", "component-balance"],
+    "category": "Multiple",
+    "prerequisites": ["S2-3"],
+    "unlocks": []
+  },
+  {
+    "id": "M2-4",
+    "title": "Pan-Cooked Protein with Sauce",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 45,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.2,
+      "flavor": 0.4,
+      "management": 0.3
+    },
+    "materials": [
+      "Protein (chicken breast, fish fillet, etc.)",
+      "Pan sauce ingredients",
+      "Side dish components",
+      "Skillet or sauté pan"
+    ],
+    "objectives": [
+      "Cook protein with proper technique",
+      "Create complementary sauce",
+      "Coordinate complete meal timing"
+    ],
+    "instructions": [
+      "Prepare protein appropriately (seasoning, patting dry, etc.)",
+      "Heat pan to proper temperature",
+      "Cook protein using appropriate technique",
+      "Monitor temperature for proper cooking without burning",
+      "Test for doneness (visual cues, thermometer if appropriate)",
+      "Remove protein and rest if needed",
+      "Create pan sauce using fond from protein",
+      "Prepare simple side dish to accompany",
+      "Coordinate timing of all components",
+      "Plate with sauce appropriately applied"
+    ],
+    "learningFocus": "Pan cooking with sauce creation",
+    "techniquesLearned": ["protein-pan-cooking", "sauce-integration"],
+    "category": "Multiple",
+    "prerequisites": ["S2-4"],
+    "unlocks": []
+  },
+  {
+    "id": "M2-5",
+    "title": "Complete Stir-Fry Dinner",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 40,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.3,
+      "flavor": 0.3,
+      "management": 0.3
+    },
+    "materials": [
+      "Protein of choice",
+      "Variety of vegetables",
+      "Stir-fry sauce components",
+      "Cooked rice or noodles",
+      "Wok or large skillet"
+    ],
+    "objectives": [
+      "Create complete stir-fry meal",
+      "Master high-heat cooking technique",
+      "Practice precise ingredient preparation"
+    ],
+    "instructions": [
+      "Prepare all ingredients before heating pan (crucial):",
+      "- Cut protein into uniform, bite-sized pieces",
+      "- Cut vegetables into appropriate shapes for quick cooking",
+      "- Mix stir-fry sauce components",
+      "- Prepare rice or noodles in advance",
+      "Heat wok or pan until very hot",
+      "Stir-fry in proper sequence:",
+      "- Start with aromatic ingredients briefly",
+      "- Cook protein until nearly done, then remove",
+      "- Cook vegetables in order of density",
+      "- Return protein to pan",
+      "- Add sauce and toss until thickened",
+      "Serve immediately over rice or noodles"
+    ],
+    "learningFocus": "High-heat cooking technique and preparation",
+    "techniquesLearned": ["stir-fry-technique", "ingredient-sequencing"],
+    "category": "Multiple",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
+    "id": "M2-6",
+    "title": "Complete Roast Dinner",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 60,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.3,
+      "flavor": 0.4,
+      "management": 0.5
+    },
+    "materials": [
+      "Roastable protein (chicken, beef, etc.)",
+      "Vegetables for roasting",
+      "Additional side dishes",
+      "Roasting pan",
+      "Thermometer (if available)"
+    ],
+    "objectives": [
+      "Create complete roasted dinner",
+      "Master oven management",
+      "Practice timing multiple components"
+    ],
+    "instructions": [
+      "Preheat oven to appropriate temperature",
+      "Prepare protein for roasting (trimming, seasoning, etc.)",
+      "Prepare vegetables for roasting",
+      "Create timeline for all components",
+      "Begin roasting protein first",
+      "Add vegetables to roasting pan at appropriate time",
+      "Prepare any additional side dishes",
+      "Monitor temperature throughout cooking",
+      "Test protein for doneness using appropriate method",
+      "Allow protein to rest before carving",
+      "Finish any last-minute side dishes",
+      "Carve protein and serve with vegetables and sides"
+    ],
+    "learningFocus": "Oven roasting technique and timing",
+    "techniquesLearned": ["roasting", "component-timing"],
+    "category": "Multiple",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
     "id": "E2-1",
-    "title": "Tool Assessment",
+    "title": "Ingredient Substitution Exploration",
+    "type": "explore",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 35,
+    "attributeRewards": {
+      "technique": 0,
+      "ingredients": 0.5,
+      "flavor": 0.3,
+      "management": 0.1
+    },
+    "materials": [
+      "Recipe ingredients and potential substitutes",
+      "Notebook",
+      "Measuring tools"
+    ],
+    "objectives": [
+      "Learn about ingredient functions",
+      "Understand substitution principles",
+      "Practice adaptation techniques"
+    ],
+    "instructions": [
+      "Select recipe with 1-2 ingredients you want to substitute",
+      "Research potential substitutes",
+      "Understand the function of the original ingredient:",
+      "- Structure/texture",
+      "- Flavor contribution",
+      "- Chemical function (leavening, thickening, etc.)",
+      "Identify appropriate substitution with similar function",
+      "Adjust amounts as needed based on intensity",
+      "Make recipe with substitution",
+      "Document results and compare to original when possible",
+      "Note any unexpected effects of the substitution",
+      "Create reference for future substitution needs"
+    ],
+    "learningFocus": "Ingredient function and substitution principles",
+    "techniquesLearned": ["ingredient-substitution", "recipe-adaptation"],
+    "category": "Ingredient Knowledge",
+    "prerequisites": ["E1-1"],
+    "unlocks": []
+  },
+  {
+    "id": "E2-2",
+    "title": "Recipe Reading Analysis",
+    "type": "explore",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.1,
+      "ingredients": 0.1,
+      "flavor": 0.1,
+      "management": 0.5
+    },
+    "materials": [
+      "Several recipes in different formats",
+      "Notebook",
+      "Highlighters or note-taking tools"
+    ],
+    "objectives": [
+      "Learn to analyze recipes effectively",
+      "Identify common patterns and structures",
+      "Practice technique identification"
+    ],
+    "instructions": [
+      "Collect 3-5 recipes in different formats/sources",
+      "Read through each recipe completely",
+      "Identify key components:",
+      "- Ingredient list organization",
+      "- Preparation steps",
+      "- Cooking techniques",
+      "- Timing indicators",
+      "- Temperature guidance",
+      "- Serving information",
+      "Look for implied steps not explicitly stated",
+      "Compare organization and detail level between recipes",
+      "Identify terminology variations",
+      "Create personal system for recipe annotation",
+      "Practice rewriting a recipe in your own format"
+    ],
+    "learningFocus": "Recipe comprehension and analysis",
+    "techniquesLearned": ["recipe-analysis", "cooking-terminology"],
+    "category": "Kitchen Management",
+    "prerequisites": ["E1-2"],
+    "unlocks": []
+  },
+  {
+    "id": "E2-3",
+    "title": "Cooking Method Comparison",
+    "type": "explore",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 45,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.1,
+      "flavor": 0.3,
+      "management": 0.1
+    },
+    "materials": [
+      "Single ingredient (vegetable or protein)",
+      "Various cooking equipment",
+      "Basic seasonings",
+      "Notepad"
+    ],
+    "objectives": [
+      "Compare different cooking methods",
+      "Understand how method affects flavor/texture",
+      "Learn optimal methods for ingredients"
+    ],
+    "instructions": [
+      "Select one ingredient to test (e.g., chicken breast, carrots)",
+      "Prepare ingredient uniformly for all methods",
+      "Apply basic, consistent seasoning across all samples",
+      "Cook using 3-4 different methods:",
+      "- Boiling/simmering",
+      "- Roasting",
+      "- Sautéing",
+      "- Steaming",
+      "- Microwaving",
+      "Maintain consistent doneness across methods",
+      "Compare and analyze results:",
+      "- Texture differences",
+      "- Flavor development",
+      "- Moisture retention",
+      "- Color changes",
+      "- Time requirements",
+      "Document findings for future reference"
+    ],
+    "learningFocus": "Cooking method effects on food",
+    "techniquesLearned": ["cooking-method-selection", "technique-comparison"],
+    "category": "Multiple",
+    "prerequisites": ["E1-3"],
+    "unlocks": []
+  },
+  {
+    "id": "E2-4",
+    "title": "Leftover Transformation",
     "type": "explore",
     "rank": {
       "title": "Home Cook",
@@ -880,32 +2270,2475 @@
     "timeRequired": 30,
     "attributeRewards": {
       "technique": 0.2,
-      "ingredients": 0,
-      "flavor": 0,
+      "ingredients": 0.2,
+      "flavor": 0.2,
+      "management": 0.3
+    },
+    "materials": [
+      "Leftover prepared foods",
+      "Additional ingredients for transformation",
+      "Appropriate cookware",
+      "Storage containers"
+    ],
+    "objectives": [
+      "Learn to repurpose leftover food",
+      "Practice creative adaptation",
+      "Reduce food waste"
+    ],
+    "instructions": [
+      "Assess available leftover ingredients",
+      "Brainstorm potential transformations:",
+      "- Leftover protein into salad, sandwich, or pasta addition",
+      "- Leftover vegetables into soup, frittata, or stir-fry",
+      "- Leftover grains into fried rice, grain bowl, or porridge",
+      "Consider what additional ingredients are needed",
+      "Select appropriate cooking method for transformation",
+      "Execute transformation with appropriate food safety",
+      "Evaluate success of transformation",
+      "Document successful strategies for future use",
+      "Store any additional leftovers properly"
+    ],
+    "learningFocus": "Food repurposing and waste reduction",
+    "techniquesLearned": ["leftover-transformation", "creative-cooking"],
+    "category": "Kitchen Management",
+    "prerequisites": ["T2-4"],
+    "unlocks": []
+  },
+  {
+    "id": "C2-1",
+    "title": "Home Cook Level 2 Challenge",
+    "type": "challenge",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 60,
+    "attributeRewards": {
+      "technique": 0.5,
+      "ingredients": 0.5,
+      "flavor": 0.5,
       "management": 0.5
     },
     "materials": [
-      "Your kitchen tools",
+      "Protein of choice",
+      "Multiple vegetables",
+      "Starch component",
+      "Seasonings and flavor enhancers",
+      "All necessary cookware"
+    ],
+    "objectives": [
+      "Create complete balanced meal",
+      "Demonstrate multiple cooking techniques",
+      "Apply timing and organization skills"
+    ],
+    "instructions": [
+      "Plan complete meal with protein, starch, and vegetable components",
+      "Create detailed timeline for preparation and cooking",
+      "Set up mise en place for all components",
+      "Apply proper cutting techniques for all ingredients",
+      "Cook each component using appropriate method",
+      "Season each component properly",
+      "Coordinate timing for all elements to finish together",
+      "Plate attractively with consideration of presentation",
+      "Evaluate results for flavor, texture, and overall balance",
+      "Document strengths and areas for improvement"
+    ],
+    "learningFocus": "Comprehensive application of Home Cook level skills",
+    "techniquesLearned": ["meal-coordination", "comprehensive-cooking"],
+    "category": "Multiple",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
+    "id": "T3-1",
+    "title": "Herb Cutting Techniques",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 20,
+    "attributeRewards": {
+      "technique": 0.6,
+      "ingredients": 0.2,
+      "flavor": 0.1,
+      "management": 0
+    },
+    "materials": [
+      "Assorted fresh herbs (parsley, basil, mint, etc.)",
+      "Sharp knife",
+      "Cutting board",
+      "Storage containers"
+    ],
+    "objectives": [
+      "Master various herb cutting techniques",
+      "Learn appropriate methods for different herb types",
+      "Practice efficient herb preparation"
+    ],
+    "instructions": [
+      "Wash and thoroughly dry all herbs",
+      "Learn to properly remove leaves from woody stems",
+      "Practice different cutting techniques:",
+      "- Chiffonade (stack, roll, and slice) for larger leaf herbs like basil",
+      "- Fine mince for herbs like parsley and cilantro",
+      "- Rough chop for hardy herbs like rosemary and thyme",
+      "Practice proper hand positioning for safety",
+      "Focus on keeping knife skills fluid and efficient",
+      "Learn proper herb storage techniques to preserve freshness",
+      "Compare results of different techniques"
+    ],
+    "learningFocus": "Specialized cutting techniques for delicate ingredients",
+    "techniquesLearned": ["herb-chiffonade", "herb-mincing", "herb-storage"],
+    "category": "Knife Skills",
+    "prerequisites": ["T2-1", "T2-6"],
+    "unlocks": ["T3-6", "S3-1"]
+  },
+  {
+    "id": "T3-2",
+    "title": "Vegetable Blanching",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 25,
+    "attributeRewards": {
+      "technique": 0.5,
+      "ingredients": 0.2,
+      "flavor": 0.2,
+      "management": 0.1
+    },
+    "materials": [
+      "Various vegetables (green beans, broccoli, asparagus, etc.)",
+      "Large pot for boiling",
+      "Bowl of ice water",
+      "Timer",
+      "Slotted spoon or strainer"
+    ],
+    "objectives": [
+      "Learn blanching technique for vegetables",
+      "Understand proper timing for different vegetables",
+      "Master the ice bath process"
+    ],
+    "instructions": [
+      "Prepare vegetables by washing and trimming as needed",
+      "Bring large pot of water to rolling boil",
+      "Add generous amount of salt to water",
+      "Prepare ice bath in separate bowl",
+      "Add vegetables to boiling water in small batches",
+      "Time cooking precisely (typically 1-3 minutes depending on vegetable)",
+      "Remove at peak color when vegetables are crisp-tender",
+      "Transfer immediately to ice bath to stop cooking",
+      "Allow to cool completely (about 1-2 minutes)",
+      "Remove and thoroughly dry vegetables",
+      "Test for proper texture (should be tender but still have bite)"
+    ],
+    "learningFocus": "Quick-cooking technique for optimal texture and color",
+    "techniquesLearned": ["blanching", "ice-bath-cooling", "vegetable-timing"],
+    "category": "Heat Management",
+    "prerequisites": ["T2-2", "T2-7"],
+    "unlocks": ["T3-7", "S3-2"]
+  },
+  {
+    "id": "T3-3",
+    "title": "Caramelization Basics",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.1,
+      "flavor": 0.5,
+      "management": 0
+    },
+    "materials": [
+      "Onions",
+      "Sugar",
+      "Heavy-bottomed pan",
+      "Butter or oil",
+      "Wooden spoon",
+      "Timer"
+    ],
+    "objectives": [
+      "Learn caramelization principles",
+      "Practice slow cooking for flavor development",
+      "Understand Maillard reaction basics"
+    ],
+    "instructions": [
+      "Practice vegetable caramelization:",
+      "- Slice onions evenly",
+      "- Heat pan over medium-low heat",
+      "- Add small amount of fat",
+      "- Add onions and small pinch of salt",
+      "- Cook slowly, stirring occasionally (15-20 minutes)",
+      "- Observe color and texture changes",
+      "Practice sugar caramelization (if comfortable):",
+      "- Add small amount of sugar to clean pan",
+      "- Heat over medium until sugar melts",
+      "- Watch carefully for color changes",
+      "- Remove from heat when amber colored",
+      "Compare flavors before and after caramelization"
+    ],
+    "learningFocus": "Flavor development through controlled browning",
+    "techniquesLearned": ["caramelization", "slow-cooking", "flavor-development"],
+    "category": "Flavor Building",
+    "prerequisites": ["T2-5", "T2-10"],
+    "unlocks": ["T3-8", "S3-3"]
+  },
+  {
+    "id": "T3-4",
+    "title": "Basic Meal Prep",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 45,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.2,
+      "flavor": 0.1,
+      "management": 0.8
+    },
+    "materials": [
+      "Protein ingredients",
+      "Vegetables for prepping",
+      "Storage containers",
+      "Labels and markers",
+      "Basic cooking equipment"
+    ],
+    "objectives": [
+      "Learn efficient batch cooking principles",
+      "Understand food safety for storage",
+      "Practice component preparation"
+    ],
+    "instructions": [
+      "Plan 2-3 complete meals with overlapping ingredients",
+      "Create preparation checklist for all components",
+      "Batch prepare common ingredients",
+      "Cook components appropriately for storage:",
+      "- Slightly undercook vegetables that will be reheated",
+      "- Cook proteins to appropriate doneness",
+      "- Keep sauces separate when possible",
+      "Cool all food properly before storage",
+      "Package in appropriate portion sizes",
+      "Label all containers with contents and date",
+      "Organize refrigerator for food safety (ready-to-eat items on top)",
+      "Create reheating instructions for each component"
+    ],
+    "learningFocus": "Efficient preparation for multiple meals",
+    "techniquesLearned": ["batch-cooking", "meal-prepping", "food-storage-safety"],
+    "category": "Kitchen Management",
+    "prerequisites": ["T2-4", "T2-9"],
+    "unlocks": ["T3-9", "E3-1"]
+  },
+  {
+    "id": "T3-5",
+    "title": "Marinade Fundamentals",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 25,
+    "attributeRewards": {
+      "technique": 0.1,
+      "ingredients": 0.2,
+      "flavor": 0.6,
+      "management": 0.1
+    },
+    "materials": [
+      "Protein for marinating (chicken, tofu, etc.)",
+      "Various marinade ingredients",
+      "Measuring tools",
+      "Storage containers",
+      "Whisk"
+    ],
+    "objectives": [
+      "Learn marinade principles and proportions",
+      "Understand marination timing",
+      "Create balanced flavor profiles"
+    ],
+    "instructions": [
+      "Learn the core components of marinades:",
+      "- Acid (vinegar, citrus juice)",
+      "- Oil (olive, vegetable, sesame)",
+      "- Aromatics (garlic, herbs, spices)",
+      "- Salt and umami elements",
+      "Create basic marinade with balanced proportions",
+      "Prepare protein by patting dry and trimming if needed",
+      "Apply marinade to completely cover protein",
+      "Understand timing principles:",
+      "- Delicate proteins (fish): 15-30 minutes",
+      "- Poultry: 2-4 hours",
+      "- Sturdier proteins: 4-24 hours",
+      "Learn safe marination practices (refrigeration, container material)",
+      "Properly clean all tools that contacted raw protein"
+    ],
+    "learningFocus": "Flavor infusion and protein preparation",
+    "techniquesLearned": ["marinade-creation", "flavor-infusion", "marination-timing"],
+    "category": "Flavor Building",
+    "prerequisites": ["T2-5", "T2-8"],
+    "unlocks": ["T3-10", "S3-4"]
+  },
+  {
+    "id": "T3-6",
+    "title": "Basic Fruit Preparation",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 20,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.4,
+      "flavor": 0.1,
+      "management": 0
+    },
+    "materials": [
+      "Variety of fruits (apple, pineapple, melon, citrus, berries)",
+      "Sharp knife",
+      "Cutting board",
+      "Peeler",
+      "Melon baller (optional)"
+    ],
+    "objectives": [
+      "Learn proper fruit preparation techniques",
+      "Practice specialized cutting methods",
+      "Understand ripeness assessment"
+    ],
+    "instructions": [
+      "Learn ripeness indicators for different fruits",
+      "Practice specialized techniques for each fruit type:",
+      "- Apple: coring and slicing techniques",
+      "- Citrus: supreme cutting (removing segments without membrane)",
+      "- Pineapple: crown and skin removal, core extraction",
+      "- Melon: halving, seeding, and slicing methods",
+      "- Berries: gentle washing and handling",
+      "Practice minimizing waste during preparation",
+      "Learn proper storage methods for cut fruit",
+      "Understand enzymatic browning and prevention methods"
+    ],
+    "learningFocus": "Specialized fruit preparation techniques",
+    "techniquesLearned": ["fruit-preparation", "supreme-cutting", "enzymatic-browning-prevention"],
+    "category": "Knife Skills",
+    "prerequisites": ["T3-1"],
+    "unlocks": ["M3-1"]
+  },
+  {
+    "id": "T3-7",
+    "title": "Steaming Technique",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 25,
+    "attributeRewards": {
+      "technique": 0.5,
+      "ingredients": 0.1,
+      "flavor": 0.1,
+      "management": 0.2
+    },
+    "materials": [
+      "Pot with lid or steamer basket",
+      "Various vegetables or proteins for steaming",
+      "Timer",
+      "Tongs or slotted spoon"
+    ],
+    "objectives": [
+      "Master steaming as a cooking technique",
+      "Learn proper timing for different foods",
+      "Understand steam temperature management"
+    ],
+    "instructions": [
+      "Set up steaming apparatus (basket, rack, or improvised system)",
+      "Add appropriate amount of water (not touching food)",
+      "Bring water to boil before adding food to steamer",
+      "Arrange food in single layer for even cooking",
+      "Cover and maintain gentle simmer for steady steam",
+      "Time cooking according to food type:",
+      "- Leafy greens: 2-3 minutes",
+      "- Broccoli/cauliflower: 5-7 minutes",
+      "- Root vegetables: 10-15 minutes",
+      "- Fish fillets: 7-10 minutes",
+      "Test for doneness with knife or fork",
+      "Remove food promptly to prevent overcooking"
+    ],
+    "learningFocus": "Gentle moist-heat cooking method",
+    "techniquesLearned": ["steaming", "steam-temperature-control", "steaming-timing"],
+    "category": "Heat Management",
+    "prerequisites": ["T3-2"],
+    "unlocks": ["M3-2"]
+  },
+  {
+    "id": "T3-8",
+    "title": "Starch Cooking Methods",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 35,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.3,
+      "flavor": 0.1,
+      "management": 0.2
+    },
+    "materials": [
+      "Various starches (potatoes, sweet potatoes, corn, winter squash)",
+      "Cooking pots/pans",
+      "Basic seasonings",
+      "Timer"
+    ],
+    "objectives": [
+      "Learn various starch cooking methods",
+      "Understand starch characteristics",
+      "Practice doneness testing"
+    ],
+    "instructions": [
+      "Prepare various starchy vegetables for cooking",
+      "Learn optimal cooking method for each type:",
+      "- Potatoes: boiling, roasting, and steaming methods",
+      "- Sweet potatoes: roasting, steaming, or microwaving",
+      "- Winter squash: roasting or steaming techniques",
+      "- Corn: boiling, steaming, or roasting methods",
+      "Understand appropriate size cuts for even cooking",
+      "Practice testing for doneness using knife or fork",
+      "Learn seasoning approaches for each starch type",
+      "Understand storage methods for cooked starches"
+    ],
+    "learningFocus": "Preparing common starch components",
+    "techniquesLearned": ["starch-cooking", "doneness-testing", "potato-cookery"],
+    "category": "Ingredient Knowledge",
+    "prerequisites": ["T3-3"],
+    "unlocks": ["M3-3"]
+  },
+  {
+    "id": "T3-9",
+    "title": "Kitchen Economy Practices",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.1,
+      "ingredients": 0.2,
+      "flavor": 0.1,
+      "management": 0.6
+    },
+    "materials": [
+      "Food scraps from other cooking",
+      "Storage containers",
+      "Freezer bags",
+      "Label maker or markers"
+    ],
+    "objectives": [
+      "Learn waste reduction techniques",
+      "Understand ingredient maximization",
+      "Practice budget-conscious cooking"
+    ],
+    "instructions": [
+      "Collect vegetable scraps for stock (onion skins, carrot peels, etc.)",
+      "Learn proper freezing techniques for various ingredients",
+      "Identify multiple uses for common ingredients",
+      "Practice utilizing typically discarded parts:",
+      "- Herb stems for flavor infusion",
+      "- Bread ends for breadcrumbs",
+      "- Citrus peels for zest",
+      "- Cheese rinds for flavor in soups",
+      "Create storage system for usable scraps",
+      "Learn to plan meals to minimize waste",
+      "Practice portion control for less waste",
+      "Calculate cost savings of waste reduction methods"
+    ],
+    "learningFocus": "Economical and sustainable cooking practices",
+    "techniquesLearned": ["waste-reduction", "scrap-utilization", "freezer-storage"],
+    "category": "Kitchen Management",
+    "prerequisites": ["T3-4"],
+    "unlocks": ["M3-4"]
+  },
+  {
+    "id": "T3-10",
+    "title": "Aromatics and Flavor Bases",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.2,
+      "flavor": 0.6,
+      "management": 0
+    },
+    "materials": [
+      "Aromatics (onions, garlic, ginger, etc.)",
+      "Cooking fat (oil, butter)",
+      "Pan or pot",
+      "Knife and cutting board"
+    ],
+    "objectives": [
+      "Learn basic flavor base techniques",
+      "Understand aromatic cooking principles",
+      "Practice building layered flavors"
+    ],
+    "instructions": [
+      "Prepare various aromatic combinations:",
+      "- Mirepoix (onion, carrot, celery)",
+      "- Sofrito (onion, garlic, peppers, tomatoes)",
+      "- Asian base (garlic, ginger, scallions)",
+      "Practice proper cutting techniques for each ingredient",
+      "Learn appropriate cooking method for each base:",
+      "- Slow sweating for mirepoix",
+      "- Medium heat for sofrito",
+      "- Quick stir-fry for Asian aromatics",
+      "Understand cooking indicators (translucency, aroma development)",
+      "Practice building flavors by adding ingredients in proper sequence",
+      "Identify when aromatic base is properly cooked",
+      "Learn uses for different flavor bases in various cuisines"
+    ],
+    "learningFocus": "Flavor foundation techniques",
+    "techniquesLearned": ["aromatic-cooking", "flavor-base-creation", "mirepoix-technique"],
+    "category": "Flavor Building",
+    "prerequisites": ["T3-5"],
+    "unlocks": ["M3-5"]
+  },
+  {
+    "id": "S3-1",
+    "title": "Herb Oil and Vinegar",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.2,
+      "flavor": 0.5,
+      "management": 0
+    },
+    "materials": [
+      "Fresh herbs",
+      "Olive oil or vinegar",
+      "Bottles for storage",
+      "Strainer",
+      "Funnel"
+    ],
+    "objectives": [
+      "Create flavored oils and vinegars",
+      "Learn infusion techniques",
+      "Practice flavor pairing"
+    ],
+    "instructions": [
+      "For herb oil:",
+      "- Thoroughly wash and completely dry herbs",
+      "- Blanch herbs briefly if using leafy varieties",
+      "- Combine chopped herbs with oil",
+      "- Allow to infuse in refrigerator (2-3 days)",
+      "- Strain out solids completely",
+      "- Store properly with clear labeling",
+      "For herb vinegar:",
+      "- Clean and prepare herbs (no need to blanch)",
+      "- Warm vinegar slightly (do not boil)",
+      "- Combine herbs and vinegar in clean bottle",
+      "- Allow to steep for 1-2 weeks",
+      "- Strain if desired or leave herbs in bottle",
+      "- Label with date and contents"
+    ],
+    "learningFocus": "Flavor infusion techniques",
+    "techniquesLearned": ["herb-infusion", "flavored-oil-creation", "vinegar-infusion"],
+    "category": "Flavor Building",
+    "prerequisites": ["T3-1"],
+    "unlocks": ["M3-1"]
+  },
+  {
+    "id": "S3-2",
+    "title": "Vegetable Side Variations",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 35,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.3,
+      "flavor": 0.3,
+      "management": 0
+    },
+    "materials": [
+      "Same vegetable type in sufficient quantity",
+      "Various seasonings",
+      "Different cooking vessels",
+      "Basic tools"
+    ],
+    "objectives": [
+      "Learn multiple preparation methods for same vegetable",
+      "Understand how technique affects outcome",
+      "Create variety with basic ingredients"
+    ],
+    "instructions": [
+      "Select one vegetable to prepare multiple ways",
+      "Divide vegetable into equal portions",
+      "Prepare each portion using different method:",
+      "- Roasting with simple seasonings",
+      "- Steaming with light finishing touches",
+      "- Sautéing with aromatics",
+      "- Blanching with flavorful finish",
+      "Use consistent base seasoning (salt, pepper, oil)",
+      "Vary finishing elements for each method",
+      "Cook each portion to optimal doneness for method",
+      "Compare results for flavor, texture, and appearance",
+      "Note which method best highlights the vegetable's qualities"
+    ],
+    "learningFocus": "Technique variation for ingredient versatility",
+    "techniquesLearned": ["cooking-method-selection", "vegetable-versatility", "method-comparison"],
+    "category": "Heat Management",
+    "prerequisites": ["T3-2"],
+    "unlocks": ["M3-2"]
+  },
+  {
+    "id": "S3-3",
+    "title": "Homemade Stocks",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 60,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.3,
+      "flavor": 0.5,
+      "management": 0.2
+    },
+    "materials": [
+      "Vegetable scraps or bones",
+      "Aromatic vegetables",
+      "Herbs",
+      "Large pot",
+      "Strainer",
+      "Storage containers"
+    ],
+    "objectives": [
+      "Create flavorful homemade stock",
+      "Learn proper simmering technique",
+      "Understand flavor extraction principles"
+    ],
+    "instructions": [
+      "Gather appropriate ingredients:",
+      "- For vegetable stock: onion, carrot, celery, herbs, scraps",
+      "- For chicken stock: chicken bones, aromatics, herbs",
+      "Prepare ingredients (rough chop vegetables)",
+      "Optional: roast bones or vegetables for deeper flavor",
+      "Combine all ingredients in large pot",
+      "Cover with cold water (about 2 inches above ingredients)",
+      "Bring to bare simmer (not boiling)",
+      "Maintain gentle simmer for appropriate time:",
+      "- Vegetable stock: 1-2 hours",
+      "- Chicken stock: 3-4 hours",
+      "Skim any foam or impurities as they rise",
+      "Strain thoroughly",
+      "Cool properly before refrigerating or freezing",
+      "Label with date and type"
+    ],
+    "learningFocus": "Slow flavor extraction technique",
+    "techniquesLearned": ["stock-making", "flavor-extraction", "proper-simmering"],
+    "category": "Flavor Building",
+    "prerequisites": ["T3-3"],
+    "unlocks": ["M3-3"]
+  },
+  {
+    "id": "S3-4",
+    "title": "Grains and Legumes",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 45,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.5,
+      "flavor": 0.2,
+      "management": 0.2
+    },
+    "materials": [
+      "Various dried legumes (beans, lentils)",
+      "Assorted grains (barley, farro, etc.)",
+      "Cooking pots",
+      "Seasonings",
+      "Storage containers"
+    ],
+    "objectives": [
+      "Learn to cook dried legumes properly",
+      "Understand soaking techniques",
+      "Master alternative grain preparation"
+    ],
+    "instructions": [
+      "Learn sorting and cleaning techniques for dried legumes",
+      "Practice proper soaking methods:",
+      "- Overnight soak for beans",
+      "- Quick-soak method when time-limited",
+      "- Identifying which legumes require soaking",
+      "Cook legumes using appropriate method:",
+      "- Simmering with aromatics",
+      "- Pressure cooking if equipment available",
+      "- Adding salt at proper time (after softening)",
+      "Prepare alternative grains:",
+      "- Learn water ratios for various grains",
+      "- Understand cooking times for each type",
+      "- Practice proper testing for doneness",
+      "Create batch preparations for future use",
+      "Store properly with clear labeling"
+    ],
+    "learningFocus": "Preparing plant-based protein and nutritious grains",
+    "techniquesLearned": ["legume-preparation", "grain-cooking", "batch-preparation"],
+    "category": "Ingredient Knowledge",
+    "prerequisites": ["T3-5"],
+    "unlocks": ["M3-4"]
+  },
+  {
+    "id": "M3-1",
+    "title": "Salad with Homemade Dressing",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 40,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.4,
+      "flavor": 0.4,
+      "management": 0.1
+    },
+    "materials": [
+      "Variety of salad greens",
+      "Fresh vegetables",
+      "Protein component (optional)",
+      "Ingredients for homemade dressing",
+      "Herbs for garnish",
+      "Salad bowl and serving tools"
+    ],
+    "objectives": [
+      "Create complete meal salad with homemade dressing",
+      "Balance flavors and textures",
+      "Practice proper salad assembly"
+    ],
+    "instructions": [
+      "Create comprehensive salad plan with complementary components",
+      "Prepare all vegetables with appropriate cutting techniques",
+      "Cook any protein components as needed",
+      "Create homemade dressing using flavor principles:",
+      "- Balance fat, acid, salt, and optional sweetness",
+      "- Incorporate herb-infused oil for depth (from S3-1)",
+      "- Emulsify properly if using oil and vinegar base",
+      "Ensure all components are properly dried",
+      "Assemble in proper sequence (greens first, delicate items last)",
+      "Dress lightly immediately before serving",
+      "Garnish with fresh herbs or other accent ingredients",
+      "Serve with any additional dressing on the side"
+    ],
+    "learningFocus": "Complete meal composition with fresh components",
+    "techniquesLearned": ["composed-salad", "dressing-creation", "component-assembly"],
+    "category": "Multiple",
+    "prerequisites": ["T3-6", "S3-1"],
+    "unlocks": ["M3-6"]
+  },
+  {
+    "id": "M3-2",
+    "title": "Steamed Meal",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 50,
+    "attributeRewards": {
+      "technique": 0.5,
+      "ingredients": 0.3,
+      "flavor": 0.3,
+      "management": 0.3
+    },
+    "materials": [
+      "Protein suitable for steaming",
+      "Vegetables for steaming",
+      "Steamer equipment",
+      "Seasonings and sauce components",
+      "Side starch if desired"
+    ],
+    "objectives": [
+      "Create complete steamed meal",
+      "Practice gentle cooking technique",
+      "Learn steaming timing for multiple components"
+    ],
+    "instructions": [
+      "Select protein appropriate for steaming (fish, chicken, etc.)",
+      "Choose complementary vegetables for steaming",
+      "Prepare all components before beginning to cook:",
+      "- Cut vegetables to appropriate size for even cooking",
+      "- Season protein properly",
+      "- Prepare any sauce or garnish to accompany meal",
+      "Set up steaming equipment properly",
+      "Create cooking plan based on timing of components",
+      "Steam items in order of cooking time (longest first)",
+      "Test each component for doneness",
+      "Prepare any sauce or accompaniment while items steam",
+      "Serve immediately after steaming is complete"
+    ],
+    "learningFocus": "Gentle cooking method for complete meal",
+    "techniquesLearned": ["meal-steaming", "component-timing", "gentle-cooking"],
+    "category": "Multiple",
+    "prerequisites": ["T3-7", "S3-2"],
+    "unlocks": ["M3-7"]
+  },
+  {
+    "id": "M3-3",
+    "title": "Homemade Soup",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 60,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.3,
+      "flavor": 0.5,
+      "management": 0.2
+    },
+    "materials": [
+      "Homemade or store-bought stock",
+      "Aromatics and vegetables",
+      "Protein component (optional)",
+      "Starch component (optional)",
+      "Seasonings and herbs",
+      "Large pot with lid"
+    ],
+    "objectives": [
+      "Create flavorful complete soup",
+      "Practice layered cooking technique",
+      "Learn soup consistency adjustment"
+    ],
+    "instructions": [
+      "Plan soup style (clear broth, creamy, chunky, etc.)",
+      "Prepare all ingredients before beginning:",
+      "- Cut vegetables in appropriate sizes for soup type",
+      "- Prepare protein if using",
+      "- Measure seasonings and prepare herbs",
+      "Build flavor base with aromatics",
+      "Add ingredients in proper sequence:",
+      "- Start with aromatics and spices",
+      "- Add longest-cooking vegetables first",
+      "- Add protein at appropriate time",
+      "- Add quick-cooking items near end",
+      "Simmer gently to develop flavors",
+      "Adjust consistency if needed (reduce for thicker, add liquid for thinner)",
+      "Taste and adjust seasonings",
+      "Finish with appropriate garnishes (fresh herbs, acid, etc.)"
+    ],
+    "learningFocus": "Building complex flavors in one pot",
+    "techniquesLearned": ["soup-building", "layered-cooking", "consistency-adjustment"],
+    "category": "Multiple",
+    "prerequisites": ["T3-8", "S3-3"],
+    "unlocks": ["M4-1"]
+  },
+  {
+    "id": "M3-4",
+    "title": "Bean and Grain Bowl",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 45,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.4,
+      "flavor": 0.3,
+      "management": 0.4
+    },
+    "materials": [
+      "Cooked legumes from S3-4",
+      "Cooked grains from S3-4",
+      "Fresh vegetables",
+      "Sauce or dressing components",
+      "Garnishes and toppings"
+    ],
+    "objectives": [
+      "Create nutrient-dense meal bowl",
+      "Practice component assembly",
+      "Learn to balance plant-based meal"
+    ],
+    "instructions": [
+      "Plan bowl components for balanced meal:",
+      "- Cooked grains as base",
+      "- Legumes for protein",
+      "- Raw and/or cooked vegetables",
+      "- Flavorful sauce or dressing",
+      "- Textural components (seeds, nuts, crispy items)",
+      "Prepare any components not already made",
+      "Create flavorful sauce to tie components together",
+      "Heat any components that should be served warm",
+      "Assemble bowl in appealing arrangement",
+      "Layer components for both appearance and eating functionality",
+      "Add sauce and garnishes just before serving",
+      "Consider preparing additional components for future bowls"
+    ],
+    "learningFocus": "Versatile and nutritious meal assembly",
+    "techniquesLearned": ["bowl-composition", "plant-based-balance", "component-assembly"],
+    "category": "Multiple",
+    "prerequisites": ["T3-9", "S3-4"],
+    "unlocks": ["M4-2"]
+  },
+  {
+    "id": "M3-5",
+    "title": "Marinated Protein Dinner",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 55,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.3,
+      "flavor": 0.4,
+      "management": 0.3
+    },
+    "materials": [
+      "Protein for marinating",
+      "Marinade ingredients",
+      "Side dish components",
+      "Cooking equipment appropriate for protein",
+      "Instant-read thermometer (if available)"
+    ],
+    "objectives": [
+      "Create complete meal with marinated protein",
+      "Practice protein cooking technique",
+      "Learn timing for marinated items"
+    ],
+    "instructions": [
+      "Create flavorful marinade using principles from T3-5",
+      "Prepare protein and add to marinade",
+      "Marinate for appropriate time based on protein type",
+      "Plan complementary side dishes",
+      "Create timeline for complete meal preparation",
+      "Remove protein from marinade and dry surface if needed",
+      "Cook using appropriate method for protein type",
+      "Test for doneness properly (thermometer or other indicator)",
+      "Allow protein to rest appropriately before slicing",
+      "Complete side dishes while protein rests",
+      "Serve protein with sides in attractive arrangement"
+    ],
+    "learningFocus": "Flavor-infused protein with complete meal",
+    "techniquesLearned": ["protein-cookery", "marinade-application", "complete-meal-timing"],
+    "category": "Multiple",
+    "prerequisites": ["T3-10"],
+    "unlocks": ["M4-3"]
+  },
+  {
+    "id": "M3-6",
+    "title": "Fruit-Based Dessert",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 40,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.3,
+      "flavor": 0.4,
+      "management": 0.1
+    },
+    "materials": [
+      "Seasonal fruits",
+      "Sweetener (sugar, honey, etc.)",
+      "Complementary spices",
+      "Optional accompaniments (cream, yogurt, etc.)",
+      "Baking dish or pan"
+    ],
+    "objectives": [
+      "Create simple dessert highlighting fruit",
+      "Learn basic dessert techniques",
+      "Practice flavor balancing for sweets"
+    ],
+    "instructions": [
+      "Select appropriate fruits for cooking or serving fresh",
+      "Prepare fruits using techniques from T3-6",
+      "Choose appropriate cooking method if cooking:",
+      "- Baking (fruit crisp, crumble)",
+      "- Poaching (gently cooking in flavorful liquid)",
+      "- Sautéing (quick cooking in pan with butter/sugar)",
+      "Season with complementary spices and sweetener",
+      "Consider acid balance (lemon juice, etc.)",
+      "Prepare any accompaniments (whipped cream, etc.)",
+      "Cook until fruits are tender but not mushy",
+      "Adjust flavors before final serving",
+      "Serve at appropriate temperature (warm or chilled)"
+    ],
+    "learningFocus": "Basic dessert principles with fresh ingredients",
+    "techniquesLearned": ["fruit-dessert", "sweet-flavor-balance", "dessert-cooking"],
+    "category": "Multiple",
+    "prerequisites": ["M3-1"],
+    "unlocks": ["E3-3"]
+  },
+  {
+    "id": "E3-1",
+    "title": "Seasonal Food Research",
+    "type": "explore",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 40,
+    "attributeRewards": {
+      "technique": 0,
+      "ingredients": 0.6,
+      "flavor": 0.1,
+      "management": 0.3
+    },
+    "materials": [
+      "Notebook or digital note-taking app",
+      "Access to farmers market or seasonal guides",
+      "Camera (optional)",
+      "Small budget for sampling"
+    ],
+    "objectives": [
+      "Research seasonal food availability",
+      "Learn local growing patterns",
+      "Plan seasonal cooking approach"
+    ],
+    "instructions": [
+      "Research seasonal foods currently available in your location",
+      "Visit local farmers market if available",
+      "Document which fruits and vegetables are in peak season",
+      "Learn about typical growing seasons in your area",
+      "Ask vendors about optimal uses for seasonal items",
+      "Sample unfamiliar seasonal items if possible",
+      "Create reference guide organized by season",
+      "Plan several meals highlighting seasonal ingredients",
+      "Research storage methods for seasonal abundance",
+      "Develop seasonality awareness for future shopping"
+    ],
+    "learningFocus": "Seasonal cooking awareness and planning",
+    "techniquesLearned": ["seasonal-awareness", "ingredient-sourcing", "seasonal-planning"],
+    "category": "Ingredient Knowledge",
+    "prerequisites": ["T3-4"],
+    "unlocks": ["E3-4"]
+  },
+  {
+    "id": "E3-2",
+    "title": "Recipe Adaptation Workshop",
+    "type": "explore",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 35,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.2,
+      "flavor": 0.3,
+      "management": 0.4
+    },
+    "materials": [
+      "Several recipes to adapt",
+      "Reference materials",
+      "Notebook",
+      "Ingredient substitution guides"
+    ],
+    "objectives": [
+      "Learn to modify recipes for different needs",
+      "Understand scaling principles",
+      "Develop adaptation confidence"
+    ],
+    "instructions": [
+      "Select 2-3 recipes to practice adapting",
+      "Apply different adaptation challenges:",
+      "- Scaling (doubling, halving)",
+      "- Dietary restriction adaptation (gluten-free, vegan, etc.)",
+      "- Equipment limitation workaround",
+      "- Ingredient substitution due to availability",
+      "Research appropriate substitutions for each scenario",
+      "Rewrite recipes with adaptations",
+      "Consider how adaptations will affect:",
+      "- Cooking time and temperature",
+      "- Texture and structure",
+      "- Flavor profile",
+      "- Presentation",
+      "Document adaptation principles for future use",
+      "Optionally, test adapted recipes"
+    ],
+    "learningFocus": "Recipe flexibility and adaptation skills",
+    "techniquesLearned": ["recipe-adaptation", "substitution-principles", "recipe-scaling"],
+    "category": "Kitchen Management",
+    "prerequisites": [],
+    "unlocks": ["E3-5"]
+  },
+  {
+    "id": "E3-3",
+    "title": "Flavor Profile Exploration",
+    "type": "explore",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 45,
+    "attributeRewards": {
+      "technique": 0,
+      "ingredients": 0.2,
+      "flavor": 0.8,
+      "management": 0
+    },
+    "materials": [
+      "Various food samples with distinct profiles",
+      "Tasting notebook",
+      "Plain crackers or bread for palate cleansing",
+      "Water"
+    ],
+    "objectives": [
+      "Develop personal flavor vocabulary",
+      "Learn to identify flavor components",
+      "Understand flavor balancing principles"
+    ],
+    "instructions": [
+      "Assemble samples representing different flavor profiles:",
+      "- Sweet (honey, fruit, sugar)",
+      "- Sour (citrus, vinegar, fermented items)",
+      "- Salty (various salt types, soy sauce)",
+      "- Bitter (coffee, dark chocolate, certain vegetables)",
+      "- Umami (aged cheese, mushrooms, miso)",
+      "Taste each sample individually and note observations",
+      "Create simple combinations to observe interactions",
+      "Practice describing flavors with specific terminology",
+      "Identify personal preferences and sensitivities",
+      "Learn flavor balancing principles:",
+      "- How sweetness can balance acidity and bitterness",
+      "- How salt enhances other flavors",
+      "- How umami adds depth",
+      "Create personal flavor reference guide"
+    ],
+    "learningFocus": "Flavor perception and vocabulary development",
+    "techniquesLearned": ["flavor-identification", "tasting-technique", "flavor-vocabulary"],
+    "category": "Flavor Building",
+    "prerequisites": ["M3-6"],
+    "unlocks": ["E4-1"]
+  },
+  {
+    "id": "E3-4",
+    "title": "Food Storage Systems",
+    "type": "explore",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 50,
+    "attributeRewards": {
+      "technique": 0.1,
+      "ingredients": 0.3,
+      "flavor": 0,
+      "management": 0.7
+    },
+    "materials": [
+      "Variety of food storage containers",
+      "Labels and markers",
+      "Refrigerator and pantry space",
+      "Food items for organization"
+    ],
+    "objectives": [
+      "Create effective food storage system",
+      "Learn food preservation methods",
+      "Improve kitchen organization"
+    ],
+    "instructions": [
+      "Assess current storage methods and identify issues",
+      "Research optimal storage conditions for different foods",
+      "Create organization system for:",
+      "- Refrigerator (temperature zones, cross-contamination prevention)",
+      "- Freezer (organization, labeling, portion control)",
+      "- Pantry (humidity control, pest prevention, visibility)",
+      "Implement FIFO (First In, First Out) system",
+      "Create consistent labeling method with dates",
+      "Learn basic food preservation techniques:",
+      "- Freezing (blanching first for vegetables)",
+      "- Refrigerator storage optimization",
+      "- Dry storage best practices",
+      "Test system organization and make adjustments"
+    ],
+    "learningFocus": "Food safety and organization optimization",
+    "techniquesLearned": ["storage-optimization", "food-preservation", "kitchen-organization"],
+    "category": "Kitchen Management",
+    "prerequisites": ["E3-1"],
+    "unlocks": ["E4-2"]
+  },
+  {
+    "id": "E3-5",
+    "title": "Basic Nutrition Balance",
+    "type": "explore",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0,
+      "ingredients": 0.4,
+      "flavor": 0.1,
+      "management": 0.4
+    },
+    "materials": [
+      "Nutrition reference materials",
+      "Meal planning templates",
+      "Food item examples",
       "Notebook"
     ],
     "objectives": [
-      "Inventory current kitchen tools",
-      "Identify limitations and opportunities",
-      "Research one tool improvement"
+      "Learn basic nutrition principles",
+      "Understand balanced meal composition",
+      "Practice nutrition-conscious planning"
     ],
     "instructions": [
-      "List all current kitchen tools and equipment",
-      "Note condition of each item",
-      "Identify one tool that limits your cooking ability",
-      "Research potential replacements or upgrades",
-      "If possible, test a friend's version of the tool",
-      "Create plan for future tool acquisition",
-      "Organize current tools for better workflow"
+      "Research basic nutrition components:",
+      "- Macronutrients (protein, carbohydrates, fats)",
+      "- Micronutrients (vitamins, minerals)",
+      "- Fiber and other nutritional elements",
+      "Learn visual methods for balanced meals:",
+      "- Plate method (½ vegetables, ¼ protein, ¼ starch)",
+      "- Color diversity for nutrient variety",
+      "Analyze several recent meals for balance",
+      "Create template for balanced meal planning",
+      "Practice identifying nutrient-dense foods",
+      "Develop strategies for incorporating more vegetables",
+      "Create reference guide for nutrient-rich foods by category",
+      "Practice planning several balanced meals"
     ],
-    "learningFocus": "Kitchen management and tool knowledge",
-    "techniquesLearned": ["equipment-assessment", "kitchen-organization"],
-    "category": "Kitchen Management",
+    "learningFocus": "Nutritionally balanced cooking approach",
+    "techniquesLearned": ["nutrition-awareness", "balanced-meal-planning", "nutrient-density"],
+    "category": "Ingredient Knowledge",
+    "prerequisites": ["E3-2"],
+    "unlocks": ["E4-3"]
+  },
+  {
+    "id": "C3-1",
+    "title": "Home Cook Level 3 Challenge",
+    "type": "challenge",
+    "rank": {
+      "title": "Home Cook",
+      "level": 3
+    },
+    "timeRequired": 75,
+    "attributeRewards": {
+      "technique": 0.6,
+      "ingredients": 0.6,
+      "flavor": 0.6,
+      "management": 0.6
+    },
+    "materials": [
+      "Protein of choice",
+      "Multiple vegetable options",
+      "Grain or starch component",
+      "Seasonings and flavor enhancers",
+      "All necessary cookware"
+    ],
+    "objectives": [
+      "Create complete balanced meal",
+      "Apply multiple cooking techniques",
+      "Demonstrate flavor building skills"
+    ],
+    "instructions": [
+      "Plan complete meal with properly balanced components",
+      "Create detailed preparation timeline",
+      "Set up mise en place for all elements",
+      "Apply multiple cooking techniques learned so far",
+      "Demonstrate proper seasoning throughout cooking",
+      "Apply appropriate cooking methods for each component",
+      "Practice multi-tasking during preparation",
+      "Time components to finish together",
+      "Plate with attention to presentation and temperature",
+      "Evaluate results for technique, flavor, and balance",
+      "Document the process and results for future reference"
+    ],
+    "learningFocus": "Comprehensive application of Level 3 cooking skills",
+    "techniquesLearned": ["integrated-cooking", "multi-component-management", "meal-execution"],
+    "category": "Multiple",
     "prerequisites": [],
-    "unlocks": ["E2-2"]
+    "unlocks": []
+  },
+  {
+    "id": "T4-1",
+    "title": "Julienne and Batonnet",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 25,
+    "attributeRewards": {
+      "technique": 0.7,
+      "ingredients": 0.2,
+      "flavor": 0,
+      "management": 0
+    },
+    "materials": [
+      "Firm vegetables (carrots, zucchini, etc.)",
+      "Sharp chef's knife",
+      "Cutting board",
+      "Ruler (optional for checking size)"
+    ],
+    "objectives": [
+      "Master precision stick cutting techniques",
+      "Learn classic French cutting standards",
+      "Practice consistent sizing"
+    ],
+    "instructions": [
+      "Prepare vegetables by washing and creating flat surfaces",
+      "Practice julienne technique:",
+      "- Cut vegetables into 1/8-inch thick slices",
+      "- Stack slices and cut into 1/8-inch sticks (about 2 inches long)",
+      "- Focus on consistent dimensions",
+      "Practice batonnet technique:",
+      "- Cut vegetables into 1/4-inch thick slices",
+      "- Stack slices and cut into 1/4-inch sticks (about 2-3 inches long)",
+      "- Maintain straight, even cuts",
+      "Compare results to standard measurements",
+      "Practice increasing speed while maintaining precision",
+      "Store cut vegetables properly for future use",
+      "Learn appropriate culinary uses for each cut"
+    ],
+    "learningFocus": "Precision cutting techniques for presentation and cooking",
+    "techniquesLearned": ["julienne-cutting", "batonnet-cutting", "precision-knife-work"],
+    "category": "Knife Skills",
+    "prerequisites": ["T3-1", "T3-6"],
+    "unlocks": ["T4-6", "S4-1"]
+  },
+  {
+    "id": "T4-2",
+    "title": "Searing Technique",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.6,
+      "ingredients": 0.1,
+      "flavor": 0.3,
+      "management": 0
+    },
+    "materials": [
+      "Protein for searing (steak, chicken breast, firm fish)",
+      "Heavy-bottomed pan",
+      "High-heat cooking oil",
+      "Seasonings",
+      "Thermometer (optional)"
+    ],
+    "objectives": [
+      "Master high-heat searing technique",
+      "Learn proper pan preparation",
+      "Understand Maillard reaction development"
+    ],
+    "instructions": [
+      "Select appropriate protein for searing",
+      "Prepare protein properly:",
+      "- Bring to room temperature",
+      "- Pat completely dry with paper towels",
+      "- Season appropriately",
+      "Heat pan to proper temperature (very hot)",
+      "Add small amount of high smoke-point oil",
+      "Test temperature (oil should shimmer but not smoke heavily)",
+      "Add protein carefully away from yourself",
+      "Allow to cook undisturbed until proper crust forms",
+      "Turn only when protein releases easily from pan",
+      "Complete cooking with appropriate technique (oven, lower heat, etc.)",
+      "Rest protein before serving"
+    ],
+    "learningFocus": "High-heat technique for flavor development",
+    "techniquesLearned": ["protein-searing", "maillard-reaction", "crust-development"],
+    "category": "Heat Management",
+    "prerequisites": ["T3-3", "T3-7"],
+    "unlocks": ["T4-7", "S4-2"]
+  },
+  {
+    "id": "T4-3",
+    "title": "Sauce Thickening Methods",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 35,
+    "attributeRewards": {
+      "technique": 0.5,
+      "ingredients": 0.1,
+      "flavor": 0.4,
+      "management": 0
+    },
+    "materials": [
+      "Various thickening agents (flour, cornstarch, etc.)",
+      "Liquid base (stock, milk, etc.)",
+      "Whisk",
+      "Saucepan",
+      "Measuring tools"
+    ],
+    "objectives": [
+      "Learn different sauce thickening methods",
+      "Understand appropriate applications",
+      "Practice proper technique for each method"
+    ],
+    "instructions": [
+      "Practice several thickening methods:",
+      "- Roux (equal parts fat and flour, cooked then liquid added)",
+      "- Slurry (starch mixed with cold liquid, added to hot base)",
+      "- Beurre manié (equal parts soft butter and flour, added to hot liquid)",
+      "- Reduction (simmering to evaporate water content)",
+      "Understand proper cooking time for each method",
+      "Learn appropriate uses for different techniques:",
+      "- Roux for gravies and hearty sauces",
+      "- Slurry for clear sauces and Asian dishes",
+      "- Beurre manié for finishing and adjusting consistency",
+      "- Reduction for intensifying flavor",
+      "Practice achieving desired consistency with each method",
+      "Learn troubleshooting for common issues (lumps, too thick/thin)"
+    ],
+    "learningFocus": "Sauce consistency control techniques",
+    "techniquesLearned": ["roux-making", "slurry-thickening", "reduction-technique"],
+    "category": "Flavor Building",
+    "prerequisites": ["T3-3", "T3-10"],
+    "unlocks": ["T4-8", "S4-3"]
+  },
+  {
+    "id": "T4-4",
+    "title": "Basic Food Presentation",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.1,
+      "flavor": 0.1,
+      "management": 0.5
+    },
+    "materials": [
+      "Various plating ingredients",
+      "Selection of plates/serving dishes",
+      "Basic garnishing items",
+      "Serving utensils",
+      "Camera (optional)"
+    ],
+    "objectives": [
+      "Learn basic food presentation principles",
+      "Practice plating techniques",
+      "Understand visual appeal factors"
+    ],
+    "instructions": [
+      "Research basic food presentation principles:",
+      "- Balance and proportion",
+      "- Color and contrast",
+      "- Height and dimension",
+      "- Negative space utilization",
+      "Practice plating techniques with prepared foods:",
+      "- Using guides (clock positions, rule of thirds)",
+      "- Creating height and layers",
+      "- Sauce application methods (drizzling, pooling, dots)",
+      "Learn simple garnish techniques:",
+      "- Herb sprigs and leaves",
+      "- Microgreens or shoots",
+      "- Citrus zest or twists",
+      "Experiment with different plate colors and shapes",
+      "Document successful presentations for reference"
+    ],
+    "learningFocus": "Visual presentation for enhanced dining experience",
+    "techniquesLearned": ["food-presentation", "plating-techniques", "garnishing"],
+    "category": "Kitchen Management",
+    "prerequisites": ["T3-4", "T3-9"],
+    "unlocks": ["T4-9", "E4-1"]
+  },
+  {
+    "id": "T4-5",
+    "title": "Spice Toasting and Grinding",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 25,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.2,
+      "flavor": 0.6,
+      "management": 0
+    },
+    "materials": [
+      "Whole spices (cumin, coriander, etc.)",
+      "Dry skillet",
+      "Spice grinder or mortar and pestle",
+      "Storage containers"
+    ],
+    "objectives": [
+      "Learn spice toasting technique",
+      "Practice proper grinding methods",
+      "Understand flavor development"
+    ],
+    "instructions": [
+      "Select appropriate whole spices for toasting",
+      "Heat dry skillet over medium heat",
+      "Add whole spices in single layer",
+      "Toast with frequent movement to prevent burning",
+      "Learn proper indicators of doneness:",
+      "- Color change (slight darkening)",
+      "- Aroma development (becomes fragrant)",
+      "- Physical changes (slight expansion/popping)",
+      "Remove from heat immediately when toasted",
+      "Allow to cool briefly before grinding",
+      "Grind using appropriate tool for desired texture",
+      "Taste and compare to pre-toasted version",
+      "Store properly in airtight container",
+      "Label with date and contents"
+    ],
+    "learningFocus": "Spice flavor enhancement techniques",
+    "techniquesLearned": ["spice-toasting", "spice-grinding", "flavor-enhancement"],
+    "category": "Flavor Building",
+    "prerequisites": ["T3-5", "T3-10"],
+    "unlocks": ["T4-10", "S4-4"]
+  },
+  {
+    "id": "T4-6",
+    "title": "Vegetable Preparation Efficiency",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.5,
+      "ingredients": 0.2,
+      "flavor": 0,
+      "management": 0.3
+    },
+    "materials": [
+      "Variety of vegetables",
+      "Sharp knives",
+      "Cutting board",
+      "Timer",
+      "Storage containers"
+    ],
+    "objectives": [
+      "Improve vegetable preparation speed",
+      "Learn efficient workflow",
+      "Maintain quality with increased speed"
+    ],
+    "instructions": [
+      "Organize workspace for maximum efficiency",
+      "Select 4-5 vegetables commonly used in cooking",
+      "Plan preparation approach for each vegetable",
+      "Practice efficient cutting sequences:",
+      "- Minimizing repositioning of food",
+      "- Stacking similar items when possible",
+      "- Using full blade surface for cutting",
+      "Time preparation and set goals for improvement",
+      "Maintain focus on safety while increasing speed",
+      "Practice consistent sizing despite increased speed",
+      "Compare results to previous preparation times",
+      "Store prepared vegetables properly",
+      "Document efficiency techniques for future use"
+    ],
+    "learningFocus": "Workflow optimization for preparation efficiency",
+    "techniquesLearned": ["prep-efficiency", "workflow-optimization", "speed-cutting"],
+    "category": "Kitchen Management",
+    "prerequisites": ["T4-1"],
+    "unlocks": ["M4-1"]
+  },
+  {
+    "id": "T4-7",
+    "title": "Roasting Techniques",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 40,
+    "attributeRewards": {
+      "technique": 0.5,
+      "ingredients": 0.2,
+      "flavor": 0.3,
+      "management": 0
+    },
+    "materials": [
+      "Protein for roasting (chicken, beef, pork, etc.)",
+      "Vegetables if applicable",
+      "Roasting pan or sheet",
+      "Thermometer",
+      "Basic seasonings"
+    ],
+    "objectives": [
+      "Master oven roasting techniques",
+      "Learn temperature management",
+      "Understand doneness indicators"
+    ],
+    "instructions": [
+      "Prepare protein appropriately:",
+      "- Bring to room temperature if applicable",
+      "- Season thoroughly",
+      "- Truss or tie if needed for even cooking",
+      "Preheat oven to appropriate temperature",
+      "Understand roasting principles:",
+      "- High heat for browning, lower for cooking through",
+      "- Positioning in oven for even cooking",
+      "- When to cover vs. uncover",
+      "- Basting techniques if applicable",
+      "Monitor temperature throughout cooking",
+      "Use thermometer to verify doneness",
+      "Learn resting techniques for juiciness",
+      "Practice carving or serving methods"
+    ],
+    "learningFocus": "Dry heat cooking for proteins and vegetables",
+    "techniquesLearned": ["roasting", "temperature-management", "doneness-verification"],
+    "category": "Heat Management",
+    "prerequisites": ["T4-2"],
+    "unlocks": ["M4-2"]
+  },
+  {
+    "id": "T4-8",
+    "title": "Emulsion Techniques",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 35,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.1,
+      "flavor": 0.5,
+      "management": 0
+    },
+    "materials": [
+      "Oil and vinegar",
+      "Egg yolks (optional)",
+      "Emulsifying agents (mustard, honey)",
+      "Whisk and bowls",
+      "Blender (optional)"
+    ],
+    "objectives": [
+      "Learn emulsion principles",
+      "Practice temporary and stable emulsions",
+      "Understand emulsion troubleshooting"
+    ],
+    "instructions": [
+      "Learn emulsion theory (dispersion of one liquid in another)",
+      "Practice temporary emulsions:",
+      "- Vinaigrette using slow oil addition while whisking",
+      "- Using emulsifying agents like mustard for stability",
+      "For those comfortable with raw eggs, practice stable emulsions:",
+      "- Basic mayonnaise technique",
+      "- Adding oil in very slow stream while whisking constantly",
+      "Learn troubleshooting for broken emulsions:",
+      "- Starting fresh with new base",
+      "- Slowly incorporating broken mixture",
+      "Practice temperature management for emulsions",
+      "Understand storage requirements for different types",
+      "Learn flavor variations for basic emulsions"
+    ],
+    "learningFocus": "Creating stable mixtures of normally incompatible liquids",
+    "techniquesLearned": ["emulsion-creation", "emulsion-stabilization", "emulsion-troubleshooting"],
+    "category": "Flavor Building",
+    "prerequisites": ["T4-3"],
+    "unlocks": ["M4-3"]
+  },
+  {
+    "id": "T4-9",
+    "title": "Cooking for Others",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 40,
+    "attributeRewards": {
+      "technique": 0.1,
+      "ingredients": 0.1,
+      "flavor": 0.2,
+      "management": 0.8
+    },
+    "materials": [
+      "Planning materials",
+      "Recipe resources",
+      "Preparation timeline template",
+      "Shopping list template"
+    ],
+    "objectives": [
+      "Learn to plan meals for others",
+      "Develop guest-focused approach",
+      "Practice preparation timing"
+    ],
+    "instructions": [
+      "Plan complete meal suitable for sharing",
+      "Consider various planning aspects:",
+      "- Dietary restrictions and preferences",
+      "- Preparation that can be done ahead",
+      "- Last-minute components",
+      "- Serving logistics and timing",
+      "Create comprehensive shopping list",
+      "Develop detailed preparation timeline:",
+      "- Days ahead preparations",
+      "- Day-of timeline with specific times",
+      "- Final plating and serving plan",
+      "Plan table setting and presentation",
+      "Consider temperature management for serving",
+      "Prepare contingency plans for timing issues",
+      "Create serving strategy for smooth execution"
+    ],
+    "learningFocus": "Extended planning for cooking for others",
+    "techniquesLearned": ["guest-cooking", "event-planning", "execution-timing"],
+    "category": "Kitchen Management",
+    "prerequisites": ["T4-4"],
+    "unlocks": ["M4-4"]
+  },
+  {
+    "id": "T4-10",
+    "title": "Flavor Profile Creation",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 35,
+    "attributeRewards": {
+      "technique": 0.1,
+      "ingredients": 0.2,
+      "flavor": 0.7,
+      "management": 0
+    },
+    "materials": [
+      "Various herbs, spices, and aromatics",
+      "Basic cooking ingredients",
+      "Small pots or pans for testing",
+      "Tasting spoons",
+      "Notebook"
+    ],
+    "objectives": [
+      "Learn to create cohesive flavor profiles",
+      "Understand ingredient harmony",
+      "Develop personal flavor signatures"
+    ],
+    "instructions": [
+      "Research classic flavor profiles from different cuisines:",
+      "- Mediterranean (olive oil, lemon, herbs)",
+      "- Asian (soy, ginger, garlic, sesame)",
+      "- Latin American (lime, cilantro, chili)",
+      "- Others based on interest",
+      "Practice creating balanced profiles with key elements:",
+      "- Aromatic base",
+      "- Herb/spice components",
+      "- Acid element",
+      "- Fat component",
+      "- Salt/umami foundation",
+      "Test combinations in small batches",
+      "Record successful combinations and ratios",
+      "Learn to identify missing elements in profiles",
+      "Develop several signature combinations for future use"
+    ],
+    "learningFocus": "Creating harmonious and intentional flavor combinations",
+    "techniquesLearned": ["flavor-profiling", "taste-harmony", "seasoning-balance"],
+    "category": "Flavor Building",
+    "prerequisites": ["T4-5"],
+    "unlocks": ["M4-5"]
+  },
+  {
+    "id": "S4-1",
+    "title": "Vegetable Main Preparation",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 40,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.4,
+      "flavor": 0.3,
+      "management": 0
+    },
+    "materials": [
+      "Substantial vegetables (eggplant, cauliflower, etc.)",
+      "Supporting ingredients",
+      "Appropriate cookware",
+      "Seasonings and aromatics"
+    ],
+    "objectives": [
+      "Prepare vegetables as main dish components",
+      "Learn substantial vegetable cooking",
+      "Practice flavor development for vegetables"
+    ],
+    "instructions": [
+      "Select vegetables suitable as main dish focus",
+      "Prepare vegetables using appropriate technique:",
+      "- Cauliflower steaks or roasts",
+      "- Stuffed vegetables (peppers, eggplant, etc.)",
+      "- Vegetable patties or cakes",
+      "- Substantial vegetable bakes",
+      "Focus on creating satisfying texture and flavor",
+      "Apply seasoning principles for depth",
+      "Cook to proper doneness for optimal texture",
+      "Consider presentation for visual appeal",
+      "Balance flavors with appropriate sauce or garnish",
+      "Test for proper seasoning before serving"
+    ],
+    "learningFocus": "Vegetable-forward cooking techniques",
+    "techniquesLearned": ["vegetable-mains", "vegetable-optimization", "plant-based-cooking"],
+    "category": "Ingredient Knowledge",
+    "prerequisites": ["T4-1"],
+    "unlocks": ["M4-1"]
+  },
+  {
+    "id": "S4-2",
+    "title": "Pan Sauce Variations",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.1,
+      "flavor": 0.5,
+      "management": 0
+    },
+    "materials": [
+      "Pan with fond from cooking protein",
+      "Various liquids (wine, stock, juice)",
+      "Aromatics and herbs",
+      "Finishing ingredients (butter, cream, etc.)",
+      "Whisk"
+    ],
+    "objectives": [
+      "Create varied pan sauces from fond",
+      "Learn deglazing techniques",
+      "Practice sauce refinement"
+    ],
+    "instructions": [
+      "Cook protein with good fond development",
+      "Remove protein to rest, leaving drippings in pan",
+      "Add aromatics if desired and cook briefly",
+      "Deglaze pan with appropriate liquid:",
+      "- Wine for rich, complex sauces",
+      "- Stock for hearty sauces",
+      "- Juice for fruit-forward sauces",
+      "Scrape fond thoroughly from pan surface",
+      "Reduce liquid by at least half",
+      "Season appropriately",
+      "Finish sauce with technique of choice:",
+      "- Swirl of cold butter for richness",
+      "- Splash of cream for silkiness",
+      "- Herb addition for freshness",
+      "Strain if desired for refined texture",
+      "Adjust consistency and seasonings"
+    ],
+    "learningFocus": "Quick sauce creation from cooking fond",
+    "techniquesLearned": ["pan-sauce-variations", "fond-utilization", "sauce-finishing"],
+    "category": "Flavor Building",
+    "prerequisites": ["T4-2"],
+    "unlocks": ["M4-2"]
+  },
+  {
+    "id": "S4-3",
+    "title": "Basic Dough Preparation",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 45,
+    "attributeRewards": {
+      "technique": 0.5,
+      "ingredients": 0.2,
+      "flavor": 0.1,
+      "management": 0.2
+    },
+    "materials": [
+      "Flour",
+      "Leavening agents if needed",
+      "Fats (butter, oil, etc.)",
+      "Liquid ingredients",
+      "Mixing bowls and tools"
+    ],
+    "objectives": [
+      "Learn basic dough preparation",
+      "Understand mixing techniques",
+      "Practice proper handling"
+    ],
+    "instructions": [
+      "Choose basic dough type to prepare:",
+      "- Simple pasta dough",
+      "- Basic bread dough",
+      "- Pizza dough",
+      "- Biscuit or scone dough",
+      "Learn appropriate mixing method for chosen dough:",
+      "- Cutting in fat for biscuits",
+      "- Kneading for bread/pizza",
+      "- Minimal handling for pasta",
+      "Understand hydration levels and texture indicators",
+      "Practice proper kneading technique if applicable",
+      "Learn resting/rising requirements",
+      "Understand storage or make-ahead possibilities",
+      "Practice shaping appropriate to dough type",
+      "Cook using appropriate method for dough"
+    ],
+    "learningFocus": "Basic dough preparation techniques",
+    "techniquesLearned": ["dough-mixing", "dough-handling", "gluten-development"],
+    "category": "Technique",
+    "prerequisites": ["T4-3"],
+    "unlocks": ["M4-3"]
+  },
+  {
+    "id": "S4-4",
+    "title": "Ingredient Pairing Exploration",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 35,
+    "attributeRewards": {
+      "technique": 0.1,
+      "ingredients": 0.3,
+      "flavor": 0.6,
+      "management": 0
+    },
+    "materials": [
+      "Various ingredient pairing options",
+      "Small cooking vessels",
+      "Tasting plates",
+      "Notebook for recording",
+      "Reference materials"
+    ],
+    "objectives": [
+      "Learn complementary ingredient pairings",
+      "Understand flavor affinity principles",
+      "Develop pairing intuition"
+    ],
+    "instructions": [
+      "Research classic ingredient pairings:",
+      "- Tomato and basil",
+      "- Apple and cinnamon",
+      "- Lemon and fish",
+      "- Chocolate and orange",
+      "Choose several pairings to test",
+      "Prepare simple preparations of each pairing",
+      "Taste combinations carefully",
+      "Note observations about why pairings work:",
+      "- Complementary flavors",
+      "- Contrasting textures",
+      "- Balance of characteristics",
+      "Experiment with unusual combinations",
+      "Create personal pairing reference guide",
+      "Apply successful pairings to future cooking"
+    ],
+    "learningFocus": "Ingredient combination principles",
+    "techniquesLearned": ["flavor-pairing", "ingredient-combining", "taste-complementation"],
+    "category": "Flavor Building",
+    "prerequisites": ["T4-5"],
+    "unlocks": ["M4-4"]
+  },
+  {
+    "id": "M4-1",
+    "title": "Vegetable-Forward Main",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 50,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.4,
+      "flavor": 0.4,
+      "management": 0.3
+    },
+    "materials": [
+      "Main vegetable component",
+      "Supporting ingredients",
+      "Appropriate cookware",
+      "Seasonings and sauces",
+      "Garnishing elements"
+    ],
+    "objectives": [
+      "Create satisfying vegetable-centered meal",
+      "Apply multiple cooking techniques",
+      "Practice flavor layering"
+    ],
+    "instructions": [
+      "Plan complete meal with vegetable as star component",
+      "Prepare all ingredients with proper cutting techniques",
+      "Apply appropriate cooking method for main vegetable:",
+      "- Roasting for caramelization",
+      "- Stuffing for heartier presentation",
+      "- Layering for casserole-style dishes",
+      "Create complementary sauce or seasoning blend",
+      "Develop supporting components for complete meal",
+      "Consider contrasting textures and flavors",
+      "Apply garnishes for visual appeal",
+      "Ensure proper seasoning throughout cooking",
+      "Plate with attention to presentation",
+      "Evaluate balance and satisfaction"
+    ],
+    "learningFocus": "Creating satisfying vegetable-centered meals",
+    "techniquesLearned": ["vegetable-centering", "flavor-maximization", "texture-development"],
+    "category": "Multiple",
+    "prerequisites": ["T4-6", "S4-1"],
+    "unlocks": ["M5-1"]
+  },
+  {
+    "id": "M4-2",
+    "title": "Elevated Protein Dinner",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 60,
+    "attributeRewards": {
+      "technique": 0.5,
+      "ingredients": 0.3,
+      "flavor": 0.5,
+      "management": 0.3
+    },
+    "materials": [
+      "Quality protein of choice",
+      "Ingredients for pan sauce",
+      "Side dish components",
+      "Herbs and garnishes",
+      "Appropriate cookware"
+    ],
+    "objectives": [
+      "Create restaurant-quality protein main",
+      "Apply advanced cooking techniques",
+      "Develop complementary sauce"
+    ],
+    "instructions": [
+      "Select quality protein appropriate for techniques learned",
+      "Prepare protein using optimal method:",
+      "- Searing followed by oven-finishing",
+      "- Roasting with proper temperature management",
+      "- Other advanced technique as appropriate",
+      "Cook to proper doneness using reliable indicators",
+      "Create complementary pan sauce using fond",
+      "Prepare thoughtfully paired side dishes",
+      "Time all components for simultaneous completion",
+      "Apply proper resting technique for protein",
+      "Finish sauce while protein rests",
+      "Plate with attention to composition and temperature",
+      "Garnish appropriately for visual enhancement"
+    ],
+    "learningFocus": "Elevated protein preparation with complementary components",
+    "techniquesLearned": ["protein-cookery", "sauce-pairing", "complete-plating"],
+    "category": "Multiple",
+    "prerequisites": ["T4-7", "S4-2"],
+    "unlocks": ["M5-2"]
+  },
+  {
+    "id": "M4-3",
+    "title": "Homemade Pasta or Pizza",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 70,
+    "attributeRewards": {
+      "technique": 0.6,
+      "ingredients": 0.3,
+      "flavor": 0.4,
+      "management": 0.3
+    },
+    "materials": [
+      "Flour and other dough ingredients",
+      "Sauce components",
+      "Toppings or fillings",
+      "Rolling tools",
+      "Appropriate cookware"
+    ],
+    "objectives": [
+      "Create meal from scratch with handmade dough",
+      "Practice dough preparation and handling",
+      "Develop complementary sauce and toppings"
+    ],
+    "instructions": [
+      "Select project (pizza, pasta, etc.)",
+      "Prepare dough using techniques from S4-3:",
+      "- Measure ingredients accurately",
+      "- Mix using appropriate technique",
+      "- Knead to proper development",
+      "- Rest dough for required time",
+      "Prepare sauce and toppings/fillings while dough rests",
+      "Shape dough appropriately for chosen dish:",
+      "- Roll pizza dough to even thickness",
+      "- Roll and cut pasta to desired shape",
+      "- Form other shapes as appropriate",
+      "Apply sauce and toppings or fill pasta as needed",
+      "Cook using proper technique and temperature",
+      "Finish and garnish as appropriate",
+      "Serve at optimal temperature"
+    ],
+    "learningFocus": "Complete meal creation with handmade dough component",
+    "techniquesLearned": ["dough-based-cooking", "sauce-pairing", "from-scratch-preparation"],
+    "category": "Multiple",
+    "prerequisites": ["T4-8", "S4-3"],
+    "unlocks": ["M5-3"]
+  },
+  {
+    "id": "M4-4",
+    "title": "Themed Dinner",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 75,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.4,
+      "flavor": 0.5,
+      "management": 0.5
+    },
+    "materials": [
+      "Ingredients for themed menu",
+      "Appropriate cookware",
+      "Serving dishes",
+      "Garnishing elements",
+      "Menu planning materials"
+    ],
+    "objectives": [
+      "Create cohesive themed meal",
+      "Practice menu planning",
+      "Apply multiple cooking techniques"
+    ],
+    "instructions": [
+      "Select culinary theme (regional cuisine, seasonal, etc.)",
+      "Research authentic dishes and techniques for theme",
+      "Plan 2-3 course meal with cohesive elements",
+      "Create detailed preparation timeline",
+      "Shop for all ingredients with focus on theme",
+      "Prepare components in optimal order",
+      "Apply appropriate techniques for each dish",
+      "Ensure flavor harmony across courses",
+      "Time components for smooth flow between courses",
+      "Plate each course with theme-appropriate presentation",
+      "Consider beverage pairings if desired",
+      "Evaluate meal cohesion and theme representation"
+    ],
+    "learningFocus": "Cohesive menu planning and execution",
+    "techniquesLearned": ["themed-cooking", "menu-planning", "course-coordination"],
+    "category": "Multiple",
+    "prerequisites": ["T4-9", "S4-4"],
+    "unlocks": ["M5-4"]
+  },
+  {
+    "id": "M4-5",
+    "title": "Sauce and Protein Pairing",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 60,
+    "attributeRewards": {
+      "technique": 0.4,
+      "ingredients": 0.2,
+      "flavor": 0.6,
+      "management": 0.3
+    },
+    "materials": [
+      "Protein of choice",
+      "Sauce ingredients",
+      "Side dish components",
+      "Appropriate cookware",
+      "Serving dishes"
+    ],
+    "objectives": [
+      "Create harmonious protein and sauce pairing",
+      "Apply sauce techniques",
+      "Practice flavor balancing"
+    ],
+    "instructions": [
+      "Select protein and compatible sauce style",
+      "Plan preparation sequence for optimal timing",
+      "Prepare sauce base in advance if appropriate",
+      "Cook protein using optimal technique for chosen sauce:",
+      "- Generate fond for pan sauce",
+      "- Create appropriate surface for sauce adhesion",
+      "- Consider how protein will interact with sauce",
+      "Develop sauce with balanced flavors:",
+      "- Appropriate viscosity for protein",
+      "- Complementary but not overwhelming flavors",
+      "- Visual appeal with protein",
+      "Prepare simple sides that complement without competing",
+      "Finish and plate with attention to sauce application",
+      "Serve at proper temperature",
+      "Evaluate harmony between components"
+    ],
+    "learningFocus": "Creating balanced main dish with complementary sauce",
+    "techniquesLearned": ["sauce-pairing", "flavor-harmonizing", "protein-enhancement"],
+    "category": "Multiple",
+    "prerequisites": ["T4-10"],
+    "unlocks": ["M5-5"]
+  },
+  {
+    "id": "E4-1",
+    "title": "Plating and Photography",
+    "type": "explore",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 40,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0,
+      "flavor": 0.1,
+      "management": 0.6
+    },
+    "materials": [
+      "Various plating ingredients",
+      "Selection of plates and bowls",
+      "Garnishing elements",
+      "Camera or smartphone",
+      "Optional lighting"
+    ],
+    "objectives": [
+      "Learn basic food styling",
+      "Practice food photography",
+      "Develop plating techniques"
+    ],
+    "instructions": [
+      "Research food styling principles:",
+      "- Color and contrast",
+      "- Texture and height",
+      "- Balance and proportion",
+      "Practice plating same dish in different ways",
+      "Learn basic food photography techniques:",
+      "- Lighting considerations",
+      "- Angle selection",
+      "- Background choices",
+      "- Composition principles",
+      "Experiment with different plates and settings",
+      "Practice garnishing techniques",
+      "Document successful approaches",
+      "Create portfolio of plating styles",
+      "Analyze elements that create visual appeal"
+    ],
+    "learningFocus": "Visual presentation enhancement",
+    "techniquesLearned": ["food-styling", "plating-techniques", "food-photography"],
+    "category": "Kitchen Management",
+    "prerequisites": ["T4-4"],
+    "unlocks": ["E5-1"]
+  },
+  {
+    "id": "E4-2",
+    "title": "Culinary Research Project",
+    "type": "explore",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 50,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.4,
+      "flavor": 0.4,
+      "management": 0.1
+    },
+    "materials": [
+      "Research materials",
+      "Notebook",
+      "Ingredients for testing",
+      "Cooking equipment as needed",
+      "Documentation tools"
+    ],
+    "objectives": [
+      "Research specific culinary topic in depth",
+      "Understand cultural or technical aspects",
+      "Apply research to cooking"
+    ],
+    "instructions": [
+      "Select specific culinary topic to research:",
+      "- Regional cuisine (authentic techniques, history, ingredients)",
+      "- Specific ingredient (varieties, uses, preparation methods)",
+      "- Cooking technique (origins, variations, applications)",
+      "Conduct thorough research from multiple sources",
+      "Document key findings and principles",
+      "Develop practical application of research:",
+      "- Create recipe based on research",
+      "- Test technique variations",
+      "- Prepare authentic dish",
+      "Apply research to actual cooking",
+      "Compare results to research expectations",
+      "Document findings for future reference",
+      "Consider further exploration opportunities"
+    ],
+    "learningFocus": "Deep culinary understanding through research",
+    "techniquesLearned": ["culinary-research", "knowledge-application", "cooking-adaptation"],
+    "category": "Multiple",
+    "prerequisites": ["E3-4"],
+    "unlocks": ["E5-2"]
+  },
+  {
+    "id": "E4-3",
+    "title": "Market-to-Table Challenge",
+    "type": "explore",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 90,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.6,
+      "flavor": 0.3,
+      "management": 0.3
+    },
+    "materials": [
+      "Budget for market shopping",
+      "Shopping bag",
+      "Notebook",
+      "Basic pantry ingredients",
+      "Cooking equipment"
+    ],
+    "objectives": [
+      "Practice improvised cooking from fresh ingredients",
+      "Develop ingredient selection skills",
+      "Apply flexible cooking approach"
+    ],
+    "instructions": [
+      "Visit farmers market or quality grocery",
+      "Select ingredients based on freshness and appeal",
+      "Focus on seasonality and quality rather than specific recipe",
+      "Purchase diverse items without specific dish in mind",
+      "Return home and assess ingredients",
+      "Develop meal concept based on purchases",
+      "Apply appropriate techniques for selected ingredients",
+      "Improvise seasonings and flavor combinations",
+      "Create complete meal from market ingredients",
+      "Supplement with minimal pantry staples as needed",
+      "Document successful combinations",
+      "Evaluate adaptability and creativity"
+    ],
+    "learningFocus": "Ingredient-driven cooking approach",
+    "techniquesLearned": ["market-cooking", "improvisation-skills", "seasonal-adaptation"],
+    "category": "Ingredient Knowledge",
+    "prerequisites": ["E3-5"],
+    "unlocks": ["E5-3"]
+  },
+  {
+    "id": "C4-1",
+    "title": "Home Cook Level 4 Challenge",
+    "type": "challenge",
+    "rank": {
+      "title": "Home Cook",
+      "level": 4
+    },
+    "timeRequired": 90,
+    "attributeRewards": {
+      "technique": 0.7,
+      "ingredients": 0.7,
+      "flavor": 0.7,
+      "management": 0.7
+    },
+    "materials": [
+      "Multiple ingredients for complete meal",
+      "Various cookware",
+      "Serving dishes",
+      "Garnishing elements",
+      "Timing tools"
+    ],
+    "objectives": [
+      "Create complete multi-component meal",
+      "Apply advanced techniques learned",
+      "Demonstrate timing and organization skills"
+    ],
+    "instructions": [
+      "Plan complete meal with protein, sides, and sauce",
+      "Create detailed preparation timeline",
+      "Practice mise en place for all components",
+      "Apply at least three distinct cooking techniques",
+      "Demonstrate knife skills with precise cutting",
+      "Create sauce from scratch",
+      "Time all components to finish together",
+      "Apply presentation principles for plating",
+      "Balance flavors across all components",
+      "Demonstrate efficient workflow throughout",
+      "Document successes and areas for improvement"
+    ],
+    "learningFocus": "Comprehensive application of Home Cook level 4 skills",
+    "techniquesLearned": ["multi-component-cooking", "integrated-skills", "complete-meal-execution"],
+    "category": "Multiple",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
+    "id": "T5-1",
+    "title": "Chiffonade and Fine Herbs",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 5
+    },
+    "timeRequired": 25,
+    "attributeRewards": {
+      "technique": 0.7,
+      "ingredients": 0.2,
+      "flavor": 0.1,
+      "management": 0
+    },
+    "materials": [
+      "Various leafy herbs and greens",
+      "Sharp knife",
+      "Cutting board",
+      "Storage containers"
+    ],
+    "objectives": [
+      "Master chiffonade cutting technique",
+      "Learn fine herb preparation",
+      "Practice precision with delicate ingredients"
+    ],
+    "instructions": [
+      "Practice chiffonade technique:",
+      "- Stack leafy herbs or greens",
+      "- Roll tightly into cylinder",
+      "- Slice thinly across roll to create ribbons",
+      "Learn fine herb preparation:",
+      "- Precise mincing of herbs",
+      "- Even sizing for consistent flavor release",
+      "- Appropriate technique for different herb types",
+      "Practice brunoise (tiny dice) for certain herbs",
+      "Learn proper handling to prevent bruising",
+      "Practice increasing speed while maintaining precision",
+      "Learn appropriate storage for cut herbs",
+      "Understand applications for different cutting styles"
+    ],
+    "learningFocus": "Precision cutting for delicate ingredients",
+    "techniquesLearned": ["chiffonade", "fine-herb-cutting", "herb-storage"],
+    "category": "Knife Skills",
+    "prerequisites": ["T4-1", "T4-6"],
+    "unlocks": ["T5-6", "S5-1"]
   }
 ]
