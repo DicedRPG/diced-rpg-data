@@ -1222,6 +1222,46 @@
     "unlocks": ["E2-3"]
   },
   {
+    "id": "E1-4",
+    "title": "Kitchen Equipment Survey",
+    "type": "explore",
+    "rank": {
+      "title": "Home Cook",
+      "level": 1
+    },
+    "timeRequired": 40,
+    "attributeRewards": {
+      "technique": 0,
+      "ingredients": 0,
+      "flavor": 0,
+      "management": 0.8
+    },
+    "materials": [
+      "All kitchen equipment",
+      "Notebook",
+      "Cleaning supplies"
+    ],
+    "objectives": [
+      "Create a complete inventory of kitchen equipment",
+      "Learn proper cleaning and maintenance",
+      "Identify gaps in essential tools"
+    ],
+    "instructions": [
+      "Remove all cooking tools and equipment from storage",
+      "Group items by function (cutting, cooking, measuring, etc.)",
+      "Clean each item properly according to its material",
+      "Note condition and functionality of each item",
+      "Create an inventory list with care instructions",
+      "Identify missing essential tools for future acquisition",
+      "Organize items for optimal workflow when returned to storage"
+    ],
+    "learningFocus": "Kitchen equipment knowledge and organization",
+    "techniquesLearned": ["equipment-knowledge", "kitchen-organization"],
+    "category": "Kitchen Management",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
     "id": "T2-1",
     "title": "Intermediate Knife Skills",
     "type": "training",
