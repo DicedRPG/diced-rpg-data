@@ -1705,6 +1705,142 @@
     "unlocks": ["T3-3"]
   },
   {
+    "id": "T2-11",
+    "title": "Ingredient Inventory System",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.1,
+      "ingredients": 0.4,
+      "flavor": 0.0,
+      "management": 0.8
+    },
+    "materials": [
+      "Pantry ingredients",
+      "Refrigerator contents",
+      "Freezer items",
+      "Notebook or digital app",
+      "Labels or marker",
+      "Storage containers"
+    ],
+    "objectives": [
+      "Develop a personal system for tracking ingredients",
+      "Learn proper storage methods to extend shelf life",
+      "Create an efficient shopping and replenishment system"
+    ],
+    "instructions": [
+      "Take inventory of all ingredients in your kitchen",
+      "Organize ingredients by category (proteins, produce, grains, etc.)",
+      "Check all expiration dates and assess ingredient freshness",
+      "Create a standardized labeling system for stored items",
+      "Establish optimal storage locations for different ingredient types",
+      "Set up a tracking system for usage and replenishment",
+      "Create a template for regular inventory checks",
+      "Identify essential staples to always have on hand",
+      "Develop a shopping list format organized by store layout",
+      "Plan a system for managing seasonal ingredient availability"
+    ],
+    "learningFocus": "Kitchen organization and ingredient management",
+    "techniquesLearned": ["inventory-system", "freshness-assessment", "storage-optimization"],
+    "category": "Kitchen Management",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
+    "id": "T2-12",
+    "title": "Spice Organization and Usage",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 25,
+    "attributeRewards": {
+      "technique": 0.1,
+      "ingredients": 0.3,
+      "flavor": 0.6,
+      "management": 0.3
+    },
+    "materials": [
+      "Various dried herbs and spices",
+      "Storage containers or organization system",
+      "Labels",
+      "Small test dishes for tasting",
+      "Reference materials"
+    ],
+    "objectives": [
+      "Develop a functional spice organization system",
+      "Learn basic principles of spice use and combinations",
+      "Practice proper spice selection and application"
+    ],
+    "instructions": [
+      "Review all spices and herbs in your collection",
+      "Check for freshness and discard stale items",
+      "Organize spices by usage frequency and/or cuisine type",
+      "Create clear labeling system including purchase/expiration dates",
+      "Learn proper storage methods to maintain flavor",
+      "Create a basic spice reference chart for common uses",
+      "Practice smelling and tasting individual spices to develop familiarity",
+      "Experiment with simple spice combinations for different applications",
+      "Learn blooming techniques for enhancing spice flavors",
+      "Develop a system for tracking spice inventory and replenishment"
+    ],
+    "learningFocus": "Spice knowledge, organization and application",
+    "techniquesLearned": ["spice-organization", "freshness-assessment", "flavor-profiling"],
+    "category": "Flavor Building",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
+    "id": "T2X-3",
+    "title": "Kitchen Efficiency Systems",
+    "type": "training",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 35,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.0,
+      "flavor": 0.0,
+      "management": 0.9
+    },
+    "materials": [
+      "Kitchen space and equipment",
+      "Organization tools",
+      "Cleaning supplies",
+      "Timer",
+      "Notebook"
+    ],
+    "objectives": [
+      "Develop efficient kitchen workflow",
+      "Create personalized organization systems",
+      "Practice time-saving cooking strategies"
+    ],
+    "instructions": [
+      "Analyze current kitchen workflow and identify inefficiencies",
+      "Create logical zones for different cooking activities",
+      "Organize equipment and tools by frequency of use",
+      "Develop a standardized mise en place setup routine",
+      "Create a cleaning-as-you-go system with strategic pauses",
+      "Practice multi-tasking for compatible cooking processes",
+      "Implement a waste management system (compost, recycling, trash)",
+      "Develop standard operating procedures for common tasks",
+      "Time common cooking tasks and identify optimization opportunities",
+      "Test new efficiency systems with a complete meal preparation"
+    ],
+    "learningFocus": "Kitchen workflow optimization and efficiency",
+    "techniquesLearned": ["workflow-optimization", "workspace-organization", "time-management"],
+    "category": "Kitchen Management",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
     "id": "S2-1",
     "title": "Advanced Vegetable Preparation",
     "type": "side",
@@ -1883,6 +2019,152 @@
     "category": "Flavor Building",
     "prerequisites": ["T2-5"],
     "unlocks": ["M2-4"]
+  },
+  {
+    "id": "S2-5",
+    "title": "Flavor-Forward Vegetables",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 35,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.3,
+      "flavor": 0.7,
+      "management": 0.0
+    },
+    "materials": [
+      "Selection of seasonal vegetables",
+      "Various herbs and spices",
+      "Cooking oils or butter",
+      "Acids (vinegar, citrus)",
+      "Salt and other seasonings",
+      "Various cookware (roasting pan, sauté pan)"
+    ],
+    "objectives": [
+      "Master vegetable preparation techniques that maximize flavor",
+      "Learn flavor pairing principles for vegetables",
+      "Create crave-worthy vegetable sides with minimal ingredients"
+    ],
+    "instructions": [
+      "Select 2-3 seasonal vegetables for preparation",
+      "For each vegetable, determine optimal cutting method for flavor release",
+      "Research complementary herbs and spices for each vegetable",
+      "Prepare each vegetable using a different cooking method:",
+      "- Roasting for caramelization and sweetness",
+      "- Sautéing for texture contrast and quick flavor development",
+      "- Raw preparation with proper dressing for fresh intensity",
+      "Apply seasoning in stages to build depth of flavor",
+      "Experiment with aromatic infusions during cooking",
+      "Finish each preparation with appropriate acid balance",
+      "Compare results of different methods and document preferences",
+      "Create a personal vegetable flavor pairing guide for future use"
+    ],
+    "learningFocus": "Vegetable flavor optimization and seasoning principles",
+    "techniquesLearned": ["vegetable-flavor-development", "seasoning-layers", "cooking-method-selection"],
+    "category": "Flavor Building",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
+    "id": "S2-6",
+    "title": "Vegetable Preparation Techniques",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 40,
+    "attributeRewards": {
+      "technique": 0.5,
+      "ingredients": 0.5,
+      "flavor": 0.2,
+      "management": 0.1
+    },
+    "materials": [
+      "Variety of vegetables",
+      "Sharp knife and cutting board",
+      "Peeler and other preparation tools",
+      "Various cooking vessels",
+      "Storage containers"
+    ],
+    "objectives": [
+      "Master efficient preparation methods for various vegetables",
+      "Learn appropriate cutting techniques for different applications",
+      "Practice proper storage of prepped vegetables"
+    ],
+    "instructions": [
+      "Select 4-5 different vegetables with varied characteristics",
+      "For each vegetable, learn optimal preparation method:",
+      "- Root vegetables: proper peeling and cutting techniques",
+      "- Leafy greens: washing, drying, and storage methods",
+      "- Cruciferous vegetables: efficient breakdown methods",
+      "- Soft vegetables: minimal handling techniques",
+      "Practice appropriate knife cuts for different cooking methods:",
+      "- Uniform dicing for even cooking",
+      "- Slicing for quick-cooking methods",
+      "- Julienne for sautéing and stir-fries",
+      "Prepare and correctly store each vegetable type",
+      "Document preparation time and storage life of each vegetable",
+      "Create a quick-reference guide for future vegetable prep"
+    ],
+    "learningFocus": "Efficient vegetable preparation and storage techniques",
+    "techniquesLearned": ["vegetable-processing", "appropriate-cutting", "storage-optimization"],
+    "category": "Ingredient Knowledge",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
+    "id": "S2-7",
+    "title": "Aromatic Flavor Base",
+    "type": "side",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 30,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.2,
+      "flavor": 0.6,
+      "management": 0.1
+    },
+    "materials": [
+      "Aromatic vegetables (onions, carrots, celery, garlic, etc.)",
+      "Various cooking fats (butter, oils)",
+      "Herbs and spices",
+      "Cooking vessel (sauté pan or pot)",
+      "Storage containers"
+    ],
+    "objectives": [
+      "Master aromatic flavor base preparation",
+      "Learn variations for different cuisines",
+      "Practice proper cooking technique for flavor development"
+    ],
+    "instructions": [
+      "Learn about traditional aromatic bases from different cuisines:",
+      "- French mirepoix (onion, carrot, celery)",
+      "- Italian soffritto (onion, carrot, celery with garlic and herbs)",
+      "- Spanish sofrito (onion, garlic, peppers, tomato)",
+      "- Cajun holy trinity (onion, celery, bell pepper)",
+      "- Asian aromatics (ginger, garlic, scallion)",
+      "Practice proper cutting techniques for aromatic vegetables",
+      "Learn appropriate cooking method for each base type:",
+      "- Slow sweating for sweet, mellow flavor",
+      "- Medium-heat sautéing for more pronounced flavor",
+      "- Addition of herbs at proper timing",
+      "Perfect cooking indicators for each stage of development",
+      "Test aromatic bases in simple applications",
+      "Practice making larger batches for future use",
+      "Learn proper storage and usage of prepared bases"
+    ],
+    "learningFocus": "Flavor foundation development for various cuisines",
+    "techniquesLearned": ["aromatic-base-preparation", "flavor-development", "cross-cultural-techniques"],
+    "category": "Flavor Building",
+    "prerequisites": [],
+    "unlocks": []
   },
   {
     "id": "M2-1",
@@ -2157,6 +2439,103 @@
     "unlocks": []
   },
   {
+    "id": "M2-7",
+    "title": "One-Pot Family Meal",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 50,
+    "attributeRewards": {
+      "technique": 0.3,
+      "ingredients": 0.4,
+      "flavor": 0.4,
+      "management": 0.6
+    },
+    "materials": [
+      "Large pot or Dutch oven",
+      "Protein of choice",
+      "Assorted vegetables",
+      "Starch component (rice, pasta, potatoes)",
+      "Herbs and seasonings",
+      "Broth or cooking liquid"
+    ],
+    "objectives": [
+      "Create complete meal using single-pot technique",
+      "Learn efficient preparation sequence and timing",
+      "Develop satisfying flavors with minimal equipment"
+    ],
+    "instructions": [
+      "Plan a balanced one-pot meal with protein, vegetables, and starch",
+      "Prepare all ingredients before beginning cooking",
+      "Create proper ingredient addition sequence for optimal cooking:",
+      "- Start with aromatics for flavor foundation",
+      "- Add ingredients in order of cooking time",
+      "- Incorporate starch component at appropriate stage",
+      "- Add quick-cooking elements at the end",
+      "Maintain proper moisture level throughout cooking",
+      "Season in stages to develop layered flavor",
+      "Monitor doneness of multiple components simultaneously",
+      "Adjust seasoning and consistency before serving",
+      "Portion and serve as complete meal",
+      "Store any leftovers properly with clear labeling"
+    ],
+    "learningFocus": "Efficient meal preparation with simplified cleanup",
+    "techniquesLearned": ["one-pot-cooking", "ingredient-sequencing", "doneness-monitoring"],
+    "category": "Multiple",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
+    "id": "M2-8",
+    "title": "Weeknight Dinner Strategy",
+    "type": "main",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 55,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.3,
+      "flavor": 0.3,
+      "management": 0.8
+    },
+    "materials": [
+      "Basic pantry ingredients",
+      "Fresh components for quick cooking",
+      "Time-saving kitchen tools",
+      "Storage containers",
+      "Meal planning materials"
+    ],
+    "objectives": [
+      "Develop strategies for efficient weeknight cooking",
+      "Master time-saving preparation techniques",
+      "Learn to create complete meals in under 30 minutes"
+    ],
+    "instructions": [
+      "Identify common barriers to weeknight cooking (time, energy, ingredients)",
+      "Create personalized solutions for these challenges",
+      "Develop a repertoire of 5 quick-preparation meals",
+      "Practice advance preparation techniques:",
+      "- Weekend ingredient preparation for weekday use",
+      "- Strategic use of freezer components",
+      "- Batch cooking elements for multiple meals",
+      "Master at least two 30-minute complete dinner techniques",
+      "Create standardized grocery list for weeknight staples",
+      "Develop kitchen workflow to minimize prep and cleanup time",
+      "Practice a complete weeknight dinner execution",
+      "Document successful strategies and timing",
+      "Create weeknight dinner emergency backup plan"
+    ],
+    "learningFocus": "Practical weeknight cooking strategies and time management",
+    "techniquesLearned": ["time-optimization", "advance-preparation", "efficient-execution"],
+    "category": "Kitchen Management",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
     "id": "E2-1",
     "title": "Ingredient Substitution Exploration",
     "type": "explore",
@@ -2342,6 +2721,103 @@
     "techniquesLearned": ["leftover-transformation", "creative-cooking"],
     "category": "Kitchen Management",
     "prerequisites": ["T2-4"],
+    "unlocks": []
+  },
+  {
+    "id": "E2-5",
+    "title": "Seasonal Menu Planning",
+    "type": "explore",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 45,
+    "attributeRewards": {
+      "technique": 0.0,
+      "ingredients": 0.5,
+      "flavor": 0.2,
+      "management": 0.6
+    },
+    "materials": [
+      "Seasonal produce guide",
+      "Calendar or planner",
+      "Recipe resources",
+      "Meal planning template",
+      "Shopping list template"
+    ],
+    "objectives": [
+      "Learn to plan meals around seasonal ingredients",
+      "Develop efficient menu planning for a full week",
+      "Create shopping and preparation systems"
+    ],
+    "instructions": [
+      "Research what produce is currently in season in your region",
+      "Create a list of 5-7 seasonal ingredients to feature",
+      "Develop a week's worth of meal ideas highlighting these ingredients",
+      "Plan for ingredient overlap to minimize waste",
+      "Create a preparation schedule that includes:",
+      "- Advance prep tasks for busy days",
+      "- Cooking components that can be repurposed",
+      "- Strategies for using leftovers creatively",
+      "Design a detailed shopping list organized by store section",
+      "Calculate approximate food costs to stay within budget",
+      "Develop a meal rotation system for future planning",
+      "Create a template for ongoing seasonal planning"
+    ],
+    "learningFocus": "Sustainable, seasonal menu planning and organization",
+    "techniquesLearned": ["seasonal-selection", "meal-planning", "shopping-efficiency"],
+    "category": "Kitchen Management",
+    "prerequisites": [],
+    "unlocks": []
+  },
+  {
+    "id": "E2-6",
+    "title": "Ingredient Substitution Workshop",
+    "type": "explore",
+    "rank": {
+      "title": "Home Cook",
+      "level": 2
+    },
+    "timeRequired": 50,
+    "attributeRewards": {
+      "technique": 0.2,
+      "ingredients": 0.7,
+      "flavor": 0.3,
+      "management": 0.4
+    },
+    "materials": [
+      "Recipe selection for modification",
+      "Various substitute ingredients",
+      "Cooking equipment as needed",
+      "Reference materials",
+      "Tasting implements",
+      "Documentation materials"
+    ],
+    "objectives": [
+      "Learn principles of successful ingredient substitution",
+      "Develop confidence in recipe adaptation",
+      "Create a personal substitution reference guide"
+    ],
+    "instructions": [
+      "Select several recipes for substitution experiments",
+      "Research common substitutions and their principles",
+      "Categorize substitution types:",
+      "- Functional substitutions (leaveners, thickeners, etc.)",
+      "- Flavor substitutions (herbs, seasonings, aromatics)",
+      "- Dietary substitutions (allergens, preferences, restrictions)",
+      "- Availability substitutions (seasonal, regional, budget)",
+      "For each recipe, identify potential substitution opportunities",
+      "Execute recipes with different substitution approaches",
+      "Evaluate results for each substitution type",
+      "Document successful substitutions and failures",
+      "Develop general principles for successful substitution",
+      "Create emergency substitution reference chart",
+      "Practice improvisational cooking with available ingredients"
+    ],
+    "learningFocus": "Adaptation skills and ingredient flexibility",
+    "techniquesLearned": ["substitution-principles", "recipe-adaptation", "ingredient-functionality"],
+    "category": "Ingredient Knowledge",
+    "prerequisites": [],
     "unlocks": []
   },
   {
